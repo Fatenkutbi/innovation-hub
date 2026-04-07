@@ -1,20 +1,137 @@
-The MIT License (MIT)
+'use strict'
 
-Copyright 2014 Andrey Sitnik <andrey@sitnik.ru> and other contributors
+let MapGenerator = require('./map-generator')
+let parse = require('./parse')
+const Result = require('./result')
+let stringify = require('./stringify')
+let warnOnce = require('./warn-once')
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+class NoWorkResult {
+  get content() {
+    return this.result.css
+  }
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+  get css() {
+    return this.result.css
+  }
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  get map() {
+    return this.result.map
+  }
+
+  get messages() {
+    return []
+  }
+
+  get opts() {
+    return this.result.opts
+  }
+
+  get processor() {
+    return this.result.processor
+  }
+
+  get root() {
+    if (this._root) {
+      return this._root
+    }
+
+    let root
+    let parser = parse
+
+    try {
+      root = parser(this._css, this._opts)
+    } catch (error) {
+      this.error = error
+    }
+
+    if (this.error) {
+      throw this.error
+    } else {
+      this._root = root
+      return root
+    }
+  }
+
+  get [Symbol.toStringTag]() {
+    return 'NoWorkResult'
+  }
+
+  constructor(processor, css, opts) {
+    css = css.toString()
+    this.stringified = false
+
+    this._processor = processor
+    this._css = css
+    this._opts = opts
+    this._map = undefined
+
+    let str = stringify
+    this.result = new Result(this._processor, undefined, this._opts)
+    this.result.css = css
+
+    let self = this
+    Object.defineProperty(this.result, 'root', {
+      get() {
+        return self.root
+      }
+    })
+
+    let map = new MapGenerator(str, undefined, this._opts, css)
+    if (map.isMap()) {
+      let [generatedCSS, generatedMap] = map.generate()
+      if (generatedCSS) {
+        this.result.css = generatedCSS
+      }
+      if (generatedMap) {
+        this.result.map = generatedMap
+      }
+    } else {
+      map.clearAnnotation()
+      this.result.css = map.css
+    }
+  }
+
+  async() {
+    if (this.error) return Promise.reject(this.error)
+    return Promise.resolve(this.result)
+  }
+
+  catch(onRejected) {
+    return this.async().catch(onRejected)
+  }
+
+  finally(onFinally) {
+    return this.async().then(onFinally, onFinally)
+  }
+
+  sync() {
+    if (this.error) throw this.error
+    return this.result
+  }
+
+  then(onFulfilled, onRejected) {
+    if (process.env.NODE_ENV !== 'production') {
+      if (!('from' in this._opts)) {
+        warnOnce(
+          'Without `from` option PostCSS could generate wrong source map ' +
+            'and will not find Browserslist config. Set it to CSS file path ' +
+            'or to `undefined` to prevent this warning.'
+        )
+      }
+    }
+
+    return this.async().then(onFulfilled, onRejected)
+  }
+
+  toString() {
+    return this._css
+  }
+
+  warnings() {
+    return []
+  }
+}
+
+module.exports = NoWorkResult
+NoWorkResult.default = NoWorkResult

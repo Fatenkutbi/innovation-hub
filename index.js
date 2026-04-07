@@ -1,224 +1,91 @@
 /**
- * Return array of browsers by selection queries.
+ * Generate secure URL-friendly unique ID.
+ *
+ * By default, the ID will have 21 symbols to have a collision probability
+ * similar to UUID v4.
  *
  * ```js
- * browserslist('IE >= 10, IE 8') //=> ['ie 11', 'ie 10', 'ie 8']
+ * import { nanoid } from 'nanoid'
+ * model.id = nanoid() //=> "Uakgb_J5m9g-0JDMbcJqL"
  * ```
  *
- * @param queries Browser queries.
- * @param opts Options.
- * @returns Array with browser names in Can I Use.
+ * @param size Size of the ID. The default size is 21.
+ * @returns A random string.
  */
-declare function browserslist(
-  queries?: string | readonly string[] | null,
-  opts?: browserslist.Options
-): string[]
+export function nanoid(size?: number): string
 
-declare namespace browserslist {
-  interface Query {
-    compose: 'or' | 'and'
-    type: string
-    query: string
-    not?: true
-  }
+/**
+ * Generate secure unique ID with custom alphabet.
+ *
+ * Alphabet must contain 256 symbols or less. Otherwise, the generator
+ * will not be secure.
+ *
+ * @param alphabet Alphabet used to generate the ID.
+ * @param defaultSize Size of the ID. The default size is 21.
+ * @returns A random string generator.
+ *
+ * ```js
+ * const { customAlphabet } = require('nanoid')
+ * const nanoid = customAlphabet('0123456789абвгдеё', 5)
+ * nanoid() //=> "8ё56а"
+ * ```
+ */
+export function customAlphabet(
+  alphabet: string,
+  defaultSize?: number
+): (size?: number) => string
 
-  interface Options {
-    /**
-     * Path to processed file. It will be used to find config files.
-     */
-    path?: string | false
-    /**
-     * Processing environment. It will be used to take right queries
-     * from config file.
-     */
-    env?: string
-    /**
-     * Custom browser usage statistics for "> 1% in my stats" query.
-     */
-    stats?: Stats | string
-    /**
-     * Path to config file with queries.
-     */
-    config?: string
-    /**
-     * Do not throw on unknown version in direct query.
-     */
-    ignoreUnknownVersions?: boolean
-    /**
-     * Throw an error if env is not found.
-     */
-    throwOnMissing?: boolean
-    /**
-     * Disable security checks for extend query.
-     */
-    dangerousExtend?: boolean
-    /**
-     * Alias mobile browsers to the desktop version when Can I Use
-     * doesn’t have data about the specified version.
-     */
-    mobileToDesktop?: boolean
-  }
+/**
+ * Generate unique ID with custom random generator and alphabet.
+ *
+ * Alphabet must contain 256 symbols or less. Otherwise, the generator
+ * will not be secure.
+ *
+ * ```js
+ * import { customRandom } from 'nanoid/format'
+ *
+ * const nanoid = customRandom('abcdef', 5, size => {
+ *   const random = []
+ *   for (let i = 0; i < size; i++) {
+ *     random.push(randomByte())
+ *   }
+ *   return random
+ * })
+ *
+ * nanoid() //=> "fbaef"
+ * ```
+ *
+ * @param alphabet Alphabet used to generate a random string.
+ * @param size Size of the random string.
+ * @param random A random bytes generator.
+ * @returns A random string generator.
+ */
+export function customRandom(
+  alphabet: string,
+  size: number,
+  random: (bytes: number) => Uint8Array
+): () => string
 
-  type Config = {
-    defaults: string[]
-    [section: string]: string[] | undefined
-  }
+/**
+ * URL safe symbols.
+ *
+ * ```js
+ * import { urlAlphabet } from 'nanoid'
+ * const nanoid = customAlphabet(urlAlphabet, 10)
+ * nanoid() //=> "Uakgb_J5m9"
+ * ```
+ */
+export const urlAlphabet: string
 
-  interface Stats {
-    [browser: string]: {
-      [version: string]: number
-    }
-  }
-
-  /**
-   * Browser names aliases.
-   */
-  let aliases: {
-    [alias: string]: string | undefined
-  }
-
-  /**
-   * Aliases to work with joined versions like `ios_saf 7.0-7.1`.
-   */
-  let versionAliases: {
-    [browser: string]:
-      | {
-          [version: string]: string | undefined
-        }
-      | undefined
-  }
-
-  /**
-   * Can I Use only provides a few versions for some browsers (e.g. `and_chr`).
-   *
-   * Fallback to a similar browser for unknown versions.
-   */
-  let desktopNames: {
-    [browser: string]: string | undefined
-  }
-
-  let data: {
-    [browser: string]:
-      | {
-          name: string
-          versions: string[]
-          released: string[]
-          releaseDate: {
-            [version: string]: number | undefined | null
-          }
-        }
-      | undefined
-  }
-
-  let nodeVersions: string[]
-
-  interface Usage {
-    [version: string]: number
-  }
-
-  let usage: {
-    global?: Usage
-    custom?: Usage | null
-    [country: string]: Usage | undefined | null
-  }
-
-  let cache: {
-    [feature: string]: {
-      [name: string]: {
-        [version: string]: string
-      }
-    }
-  }
-
-  /**
-   * Default browsers query
-   */
-  let defaults: readonly string[]
-
-  /**
-   * Which statistics should be used. Country code or custom statistics.
-   * Pass `"my stats"` to load statistics from `Browserslist` files.
-   */
-  type StatsOptions = string | 'my stats' | Stats | { dataByBrowser: Stats }
-
-  /**
-   * Return browsers market coverage.
-   *
-   * ```js
-   * browserslist.coverage(browserslist('> 1% in US'), 'US') //=> 83.1
-   * ```
-   *
-   * @param browsers Browsers names in Can I Use.
-   * @param stats Which statistics should be used.
-   * @returns Total market coverage for all selected browsers.
-   */
-  function coverage(browsers: readonly string[], stats?: StatsOptions): number
-
-  /**
-   * Get queries AST to analyze the config content.
-   *
-   * @param queries Browser queries.
-   * @param opts Options.
-   * @returns An array of the data of each query in the config.
-   */
-  function parse(
-    queries?: string | readonly string[] | null,
-    opts?: browserslist.Options
-  ): Query[]
-
-  /**
-   * Return queries for specific file inside the project.
-   *
-   * ```js
-   * browserslist.loadConfig({
-   *   file: process.cwd()
-   * }) ?? browserslist.defaults
-   * ```
-   */
-  function loadConfig(options: LoadConfigOptions): string[] | undefined
-
-  function clearCaches(): void
-
-  function parseConfig(string: string): Config
-
-  function readConfig(file: string): Config
-
-  function findConfig(...pathSegments: string[]): Config | undefined
-
-  function findConfigFile(...pathSegments: string[]): string | undefined
-
-  interface LoadConfigOptions {
-    /**
-     * Path to config file
-     * */
-    config?: string
-
-    /**
-     * Path to file inside the project to find Browserslist config
-     * in closest folder
-     */
-    path?: string
-
-    /**
-     * Environment to choose part of config.
-     */
-    env?: string
-  }
-}
-
-declare global {
-  namespace NodeJS {
-    interface ProcessEnv {
-      BROWSERSLIST?: string
-      BROWSERSLIST_CONFIG?: string
-      BROWSERSLIST_DANGEROUS_EXTEND?: string
-      BROWSERSLIST_DISABLE_CACHE?: string
-      BROWSERSLIST_ENV?: string
-      BROWSERSLIST_IGNORE_OLD_DATA?: string
-      BROWSERSLIST_STATS?: string
-      BROWSERSLIST_ROOT_PATH?: string
-    }
-  }
-}
-
-export = browserslist
+/**
+ * Generate an array of random bytes collected from hardware noise.
+ *
+ * ```js
+ * import { customRandom, random } from 'nanoid'
+ * const nanoid = customRandom("abcdef", 5, random)
+ * ```
+ *
+ * @param bytes Size of the array.
+ * @returns An array of random bytes.
+ */
+export function random(bytes: number): Uint8Array

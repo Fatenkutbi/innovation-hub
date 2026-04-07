@@ -1,78 +1,88 @@
-var AND_REGEXP = /^\s+and\s+(.*)/i
-var OR_REGEXP = /^(?:,\s*|\s+or\s+)(.*)/i
-
-function flatten(array) {
-  if (!Array.isArray(array)) return [array]
-  return array.reduce(function (a, b) {
-    return a.concat(flatten(b))
-  }, [])
-}
-
-function find(string, predicate) {
-  for (var max = string.length, n = 1; n <= max; n++) {
-    var parsed = string.substr(-n, n)
-    if (predicate(parsed, n, max)) {
-      return string.slice(0, -n)
+{
+  "name": "postcss",
+  "version": "8.5.8",
+  "description": "Tool for transforming styles with JS plugins",
+  "engines": {
+    "node": "^10 || ^12 || >=14"
+  },
+  "exports": {
+    ".": {
+      "import": "./lib/postcss.mjs",
+      "require": "./lib/postcss.js"
+    },
+    "./lib/at-rule": "./lib/at-rule.js",
+    "./lib/comment": "./lib/comment.js",
+    "./lib/container": "./lib/container.js",
+    "./lib/css-syntax-error": "./lib/css-syntax-error.js",
+    "./lib/declaration": "./lib/declaration.js",
+    "./lib/fromJSON": "./lib/fromJSON.js",
+    "./lib/input": "./lib/input.js",
+    "./lib/lazy-result": "./lib/lazy-result.js",
+    "./lib/no-work-result": "./lib/no-work-result.js",
+    "./lib/list": "./lib/list.js",
+    "./lib/map-generator": "./lib/map-generator.js",
+    "./lib/node": "./lib/node.js",
+    "./lib/parse": "./lib/parse.js",
+    "./lib/parser": "./lib/parser.js",
+    "./lib/postcss": "./lib/postcss.js",
+    "./lib/previous-map": "./lib/previous-map.js",
+    "./lib/processor": "./lib/processor.js",
+    "./lib/result": "./lib/result.js",
+    "./lib/root": "./lib/root.js",
+    "./lib/rule": "./lib/rule.js",
+    "./lib/stringifier": "./lib/stringifier.js",
+    "./lib/stringify": "./lib/stringify.js",
+    "./lib/symbols": "./lib/symbols.js",
+    "./lib/terminal-highlight": "./lib/terminal-highlight.js",
+    "./lib/tokenize": "./lib/tokenize.js",
+    "./lib/warn-once": "./lib/warn-once.js",
+    "./lib/warning": "./lib/warning.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/postcss.js",
+  "types": "./lib/postcss.d.ts",
+  "keywords": [
+    "css",
+    "postcss",
+    "rework",
+    "preprocessor",
+    "parser",
+    "source map",
+    "transform",
+    "manipulation",
+    "transpiler"
+  ],
+  "funding": [
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/postcss/"
+    },
+    {
+      "type": "tidelift",
+      "url": "https://tidelift.com/funding/github/npm/postcss"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ai"
     }
+  ],
+  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "license": "MIT",
+  "homepage": "https://postcss.org/",
+  "repository": "postcss/postcss",
+  "bugs": {
+    "url": "https://github.com/postcss/postcss/issues"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "source-map-js": "^1.2.1"
+  },
+  "browser": {
+    "./lib/terminal-highlight": false,
+    "source-map-js": false,
+    "path": false,
+    "url": false,
+    "fs": false
   }
-  return ''
-}
-
-function matchQuery(all, query) {
-  var node = { query: query }
-  if (query.indexOf('not ') === 0) {
-    node.not = true
-    query = query.slice(4)
-  }
-
-  for (var name in all) {
-    var type = all[name]
-    var match = query.match(type.regexp)
-    if (match) {
-      node.type = name
-      for (var i = 0; i < type.matches.length; i++) {
-        node[type.matches[i]] = match[i + 1]
-      }
-      return node
-    }
-  }
-
-  node.type = 'unknown'
-  return node
-}
-
-function matchBlock(all, string, qs) {
-  var node
-  return find(string, function (parsed, n, max) {
-    if (AND_REGEXP.test(parsed)) {
-      node = matchQuery(all, parsed.match(AND_REGEXP)[1])
-      node.compose = 'and'
-      qs.unshift(node)
-      return true
-    } else if (OR_REGEXP.test(parsed)) {
-      node = matchQuery(all, parsed.match(OR_REGEXP)[1])
-      node.compose = 'or'
-      qs.unshift(node)
-      return true
-    } else if (n === max) {
-      node = matchQuery(all, parsed.trim())
-      node.compose = 'or'
-      qs.unshift(node)
-      return true
-    }
-    return false
-  })
-}
-
-module.exports = function parse(all, queries) {
-  if (!Array.isArray(queries)) queries = [queries]
-  return flatten(
-    queries.map(function (block) {
-      var qs = []
-      do {
-        block = matchBlock(all, block, qs)
-      } while (block)
-      return qs
-    })
-  )
 }
