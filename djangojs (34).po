@@ -1,76 +1,72 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Fulup <fulup.jakez@gmail.com>, 2012
-# Irriep Nala Novram <allannkorh@yahoo.fr>, 2018
+# Ḷḷumex03 <tornes@opmbx.org>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-16 20:42+0100\n"
-"PO-Revision-Date: 2019-01-18 00:36+0000\n"
-"Last-Translator: Ramiro Morales\n"
-"Language-Team: Breton (http://www.transifex.com/django/django/language/br/)\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
+"PO-Revision-Date: 2017-09-23 19:51+0000\n"
+"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
+"Language-Team: Asturian (http://www.transifex.com/django/django/language/"
+"ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: br\n"
-"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !"
-"=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n"
-"%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > "
-"19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 "
-"&& n % 1000000 == 0) ? 3 : 4);\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
-msgstr ""
+msgstr "desanciáu con ésitu %(count)d %(items)s."
 
 #, python-format
 msgid "Cannot delete %(name)s"
-msgstr ""
+msgstr "Nun pue desaniciase %(name)s"
 
 msgid "Are you sure?"
-msgstr "Ha sur oc'h?"
+msgstr "¿De xuru?"
 
 #, python-format
 msgid "Delete selected %(verbose_name_plural)s"
-msgstr "Dilemel %(verbose_name_plural)s diuzet"
+msgstr ""
 
 msgid "Administration"
-msgstr "Melestradurezh"
+msgstr ""
 
 msgid "All"
-msgstr "An holl"
+msgstr "Too"
 
 msgid "Yes"
-msgstr "Ya"
+msgstr "Sí"
 
 msgid "No"
-msgstr "Ket"
+msgstr "Non"
 
 msgid "Unknown"
-msgstr "Dianav"
+msgstr "Desconocíu"
 
 msgid "Any date"
-msgstr "Forzh pegoulz"
+msgstr "Cualaquier data"
 
 msgid "Today"
-msgstr "Hiziv"
+msgstr "Güei"
 
 msgid "Past 7 days"
-msgstr "Er 7 devezh diwezhañ"
+msgstr ""
 
 msgid "This month"
-msgstr "Ar miz-mañ"
+msgstr "Esti mes"
 
 msgid "This year"
-msgstr "Ar bloaz-mañ"
+msgstr "Esi añu"
 
 msgid "No date"
-msgstr "Deiziad ebet"
+msgstr ""
 
 msgid "Has date"
-msgstr "D'an deiziad"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -79,46 +75,37 @@ msgid ""
 msgstr ""
 
 msgid "Action:"
-msgstr "Ober:"
+msgstr "Aición:"
 
 #, python-format
 msgid "Add another %(verbose_name)s"
-msgstr "Ouzhpennañ %(verbose_name)s all"
+msgstr ""
 
 msgid "Remove"
-msgstr "Lemel kuit"
-
-msgid "Addition"
-msgstr "Sammañ"
-
-msgid "Change"
-msgstr "Cheñch"
-
-msgid "Deletion"
-msgstr "Diverkadur"
+msgstr ""
 
 msgid "action time"
-msgstr "eur an ober"
+msgstr ""
 
 msgid "user"
-msgstr "implijer"
+msgstr ""
 
 msgid "content type"
-msgstr "doare endalc'had"
+msgstr ""
 
 msgid "object id"
-msgstr "id an objed"
+msgstr ""
 
 #. Translators: 'repr' means representation
-#. (https://docs.python.org/library/functions.html#repr)
+#. (https://docs.python.org/3/library/functions.html#repr)
 msgid "object repr"
 msgstr ""
 
 msgid "action flag"
-msgstr "ober banniel"
+msgstr ""
 
 msgid "change message"
-msgstr "Kemennadenn cheñchamant"
+msgstr ""
 
 msgid "log entry"
 msgstr ""
@@ -128,57 +115,55 @@ msgstr ""
 
 #, python-format
 msgid "Added \"%(object)s\"."
-msgstr "Ouzhpennet \"%(object)s\"."
+msgstr "Amestáu \"%(object)s\"."
 
 #, python-format
 msgid "Changed \"%(object)s\" - %(changes)s"
-msgstr "Cheñchet \"%(object)s\" - %(changes)s"
+msgstr ""
 
 #, python-format
 msgid "Deleted \"%(object)s.\""
-msgstr "Dilamet \"%(object)s.\""
+msgstr ""
 
 msgid "LogEntry Object"
 msgstr ""
 
 #, python-brace-format
 msgid "Added {name} \"{object}\"."
-msgstr "Ouzhpennet {name} \"{object}\"."
+msgstr ""
 
 msgid "Added."
-msgstr "Ouzhpennet."
+msgstr ""
 
 msgid "and"
-msgstr "ha"
+msgstr "y"
 
 #, python-brace-format
 msgid "Changed {fields} for {name} \"{object}\"."
-msgstr "Cheñchet {fields} evit {name} \"{object}\"."
+msgstr ""
 
 #, python-brace-format
 msgid "Changed {fields}."
-msgstr "Cheñchet {fields}."
+msgstr ""
 
 #, python-brace-format
 msgid "Deleted {name} \"{object}\"."
-msgstr "Dilamet {name} \"{object}\"."
+msgstr ""
 
 msgid "No fields changed."
-msgstr "Maezienn ebet cheñchet."
+msgstr ""
 
 msgid "None"
-msgstr "Hini ebet"
+msgstr ""
 
 msgid ""
 "Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
 msgstr ""
 
 #, python-brace-format
-msgid "The {name} \"{obj}\" was added successfully."
+msgid ""
+"The {name} \"{obj}\" was added successfully. You may edit it again below."
 msgstr ""
-
-msgid "You may edit it again below."
-msgstr "Rankout a rit ec'h aozañ adarre dindan."
 
 #, python-brace-format
 msgid ""
@@ -187,13 +172,12 @@ msgid ""
 msgstr ""
 
 #, python-brace-format
-msgid ""
-"The {name} \"{obj}\" was changed successfully. You may edit it again below."
+msgid "The {name} \"{obj}\" was added successfully."
 msgstr ""
 
 #, python-brace-format
 msgid ""
-"The {name} \"{obj}\" was added successfully. You may edit it again below."
+"The {name} \"{obj}\" was changed successfully. You may edit it again below."
 msgstr ""
 
 #, python-brace-format
@@ -210,9 +194,11 @@ msgid ""
 "Items must be selected in order to perform actions on them. No items have "
 "been changed."
 msgstr ""
+"Los oxetos tienen d'usase pa faer aiciones con ellos. Nun se camudó dengún "
+"oxetu."
 
 msgid "No action selected."
-msgstr "Ober ebet diuzet."
+msgstr "Nun s'esbilló denguna aición."
 
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was deleted successfully."
@@ -224,50 +210,40 @@ msgstr ""
 
 #, python-format
 msgid "Add %s"
-msgstr "Ouzhpennañ %s"
+msgstr "Amestar %s"
 
 #, python-format
 msgid "Change %s"
-msgstr "Cheñch %s"
-
-#, python-format
-msgid "View %s"
-msgstr "Gwelet %s"
+msgstr ""
 
 msgid "Database error"
-msgstr "Fazi diaz-roadennoù"
+msgstr ""
 
 #, python-format
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
-msgstr[0] "%(count)s %(name)s  a zo bet cheñchet mat."
-msgstr[1] "%(count)s %(name)s a zo bet cheñchet mat. "
-msgstr[2] "%(count)s %(name)s a zo bet cheñchet mat. "
-msgstr[3] "%(count)s %(name)s a zo bet cheñchet mat."
-msgstr[4] "%(count)s %(name)s a zo bet cheñchet mat."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%(total_count)s selected"
 msgid_plural "All %(total_count)s selected"
-msgstr[0] "%(total_count)s diuzet"
-msgstr[1] "%(total_count)s diuzet"
-msgstr[2] "%(total_count)s diuzet"
-msgstr[3] "%(total_count)s diuzet"
-msgstr[4] "Pep %(total_count)s diuzet"
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "0 of %(cnt)s selected"
-msgstr "0 diwar %(cnt)s diuzet"
+msgstr "Esbillaos 0 de %(cnt)s"
 
 #, python-format
 msgid "Change history: %s"
-msgstr "Istor ar cheñchadurioù: %s"
+msgstr ""
 
 #. Translators: Model verbose name and instance representation,
 #. suitable to be an item in a list.
 #, python-format
 msgid "%(class_name)s %(instance)s"
-msgstr "%(class_name)s %(instance)s"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -276,59 +252,61 @@ msgid ""
 msgstr ""
 
 msgid "Django site admin"
-msgstr "Lec'hienn verañ Django"
+msgstr ""
 
 msgid "Django administration"
-msgstr "Merañ Django"
+msgstr ""
 
 msgid "Site administration"
-msgstr "Merañ al lec'hienn"
+msgstr ""
 
 msgid "Log in"
-msgstr "Kevreañ"
+msgstr "Aniciar sesión"
 
 #, python-format
 msgid "%(app)s administration"
 msgstr ""
 
 msgid "Page not found"
-msgstr "N'eo ket bet kavet ar bajenn"
+msgstr "Nun s'alcontró la páxina"
 
 msgid "We're sorry, but the requested page could not be found."
-msgstr ""
+msgstr "Sentímoslo, pero nun s'alcuentra la páxina solicitada."
 
 msgid "Home"
-msgstr "Degemer"
+msgstr ""
 
 msgid "Server error"
-msgstr "Fazi servijer"
+msgstr ""
 
 msgid "Server error (500)"
-msgstr "Fazi servijer (500)"
+msgstr ""
 
 msgid "Server Error <em>(500)</em>"
-msgstr "Fazi servijer <em>(500)</em>"
+msgstr ""
 
 msgid ""
 "There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
 msgstr ""
+"Hebo un erru. Repotóse al sitiu d'alministradores per corréu y debería "
+"d'iguase en pocu tiempu. Gracies pola to paciencia."
 
 msgid "Run the selected action"
-msgstr ""
+msgstr "Executar l'aición esbillada"
 
 msgid "Go"
-msgstr "Mont"
+msgstr "Dir"
 
 msgid "Click here to select the objects across all pages"
 msgstr ""
 
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr ""
+msgstr "Esbillar too %(total_count)s %(module_name)s"
 
 msgid "Clear selection"
-msgstr "Riñsañ an diuzadenn"
+msgstr "Llimpiar esbilla"
 
 msgid ""
 "First, enter a username and password. Then, you'll be able to edit more user "
@@ -336,10 +314,10 @@ msgid ""
 msgstr ""
 
 msgid "Enter a username and password."
-msgstr "Merkit un anv implijer hag ur ger-tremen."
+msgstr ""
 
 msgid "Change password"
-msgstr "Cheñch ger-tremen"
+msgstr ""
 
 msgid "Please correct the error below."
 msgstr ""
@@ -352,29 +330,29 @@ msgid "Enter a new password for the user <strong>%(username)s</strong>."
 msgstr ""
 
 msgid "Welcome,"
-msgstr "Degemer mat,"
+msgstr "Bienllegáu/ada,"
 
 msgid "View site"
 msgstr ""
 
 msgid "Documentation"
-msgstr "Teulioù"
+msgstr "Documentación"
 
 msgid "Log out"
-msgstr "Digevreañ"
+msgstr ""
 
 #, python-format
 msgid "Add %(name)s"
-msgstr "Ouzhpennañ %(name)s"
+msgstr ""
 
 msgid "History"
-msgstr "Istor"
+msgstr ""
 
 msgid "View on site"
-msgstr "Gwelet war al lec'hienn"
+msgstr ""
 
 msgid "Filter"
-msgstr "Sil"
+msgstr ""
 
 msgid "Remove from sorting"
 msgstr ""
@@ -384,10 +362,10 @@ msgid "Sorting priority: %(priority_number)s"
 msgstr ""
 
 msgid "Toggle sorting"
-msgstr "Eilpennañ an diuzadenn"
+msgstr ""
 
 msgid "Delete"
-msgstr "Diverkañ"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -412,7 +390,7 @@ msgid "Objects"
 msgstr ""
 
 msgid "Yes, I'm sure"
-msgstr "Ya, sur on"
+msgstr ""
 
 msgid "No, take me back"
 msgstr ""
@@ -439,15 +417,15 @@ msgid ""
 "following objects and their related items will be deleted:"
 msgstr ""
 
-msgid "View"
+msgid "Change"
 msgstr ""
 
 msgid "Delete?"
-msgstr "Diverkañ ?"
+msgstr ""
 
 #, python-format
 msgid " By %(filter_title)s "
-msgstr " dre %(filter_title)s "
+msgstr ""
 
 msgid "Summary"
 msgstr ""
@@ -457,9 +435,9 @@ msgid "Models in the %(name)s application"
 msgstr ""
 
 msgid "Add"
-msgstr "Ouzhpennañ"
+msgstr ""
 
-msgid "You don't have permission to view or edit anything."
+msgid "You don't have permission to edit anything."
 msgstr ""
 
 msgid "Recent actions"
@@ -472,7 +450,7 @@ msgid "None available"
 msgstr ""
 
 msgid "Unknown content"
-msgstr "Endalc'had dianav"
+msgstr ""
 
 msgid ""
 "Something's wrong with your database installation. Make sure the appropriate "
@@ -487,16 +465,16 @@ msgid ""
 msgstr ""
 
 msgid "Forgotten your password or username?"
-msgstr "Disoñjet ho ker-tremen pe hoc'h anv implijer ganeoc'h ?"
+msgstr ""
 
 msgid "Date/time"
-msgstr "Deiziad/eur"
+msgstr ""
 
 msgid "User"
-msgstr "Implijer"
+msgstr ""
 
 msgid "Action"
-msgstr "Ober"
+msgstr ""
 
 msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
@@ -504,43 +482,12 @@ msgid ""
 msgstr ""
 
 msgid "Show all"
-msgstr "Diskouez pep tra"
+msgstr ""
 
 msgid "Save"
-msgstr "Enrollañ"
-
-msgid "Popup closing…"
 msgstr ""
 
-msgid "Search"
-msgstr "Klask"
-
-#, python-format
-msgid "%(counter)s result"
-msgid_plural "%(counter)s results"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-
-#, python-format
-msgid "%(full_result_count)s total"
-msgstr ""
-
-msgid "Save as new"
-msgstr "Enrollañ evel nevez"
-
-msgid "Save and add another"
-msgstr "Enrollañ hag ouzhpennañ unan all"
-
-msgid "Save and continue editing"
-msgstr "Enrollañ ha derc'hel da gemmañ"
-
-msgid "Save and view"
-msgstr ""
-
-msgid "Close"
+msgid "Popup closing..."
 msgstr ""
 
 #, python-format
@@ -555,17 +502,39 @@ msgstr ""
 msgid "Delete selected %(model)s"
 msgstr ""
 
+msgid "Search"
+msgstr ""
+
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr ""
+
+msgid "Save as new"
+msgstr ""
+
+msgid "Save and add another"
+msgstr ""
+
+msgid "Save and continue editing"
+msgstr ""
+
 msgid "Thanks for spending some quality time with the Web site today."
 msgstr ""
 
 msgid "Log in again"
-msgstr "Kevreañ en-dro"
+msgstr ""
 
 msgid "Password change"
-msgstr "Cheñch ho ker-tremen"
+msgstr ""
 
 msgid "Your password was changed."
-msgstr "Cheñchet eo bet ho ker-tremen."
+msgstr ""
 
 msgid ""
 "Please enter your old password, for security's sake, and then enter your new "
@@ -573,16 +542,16 @@ msgid ""
 msgstr ""
 
 msgid "Change my password"
-msgstr "Cheñch ma ger-tremen"
+msgstr ""
 
 msgid "Password reset"
-msgstr "Adderaouekaat ar ger-tremen"
+msgstr ""
 
 msgid "Your password has been set.  You may go ahead and log in now."
 msgstr ""
 
 msgid "Password reset confirmation"
-msgstr "Kadarnaat eo bet cheñchet ar ger-tremen"
+msgstr ""
 
 msgid ""
 "Please enter your new password twice so we can verify you typed it in "
@@ -590,10 +559,10 @@ msgid ""
 msgstr ""
 
 msgid "New password:"
-msgstr "Ger-tremen nevez :"
+msgstr ""
 
 msgid "Confirm password:"
-msgstr "Kadarnaat ar ger-tremen :"
+msgstr ""
 
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
@@ -623,7 +592,7 @@ msgid "Your username, in case you've forgotten:"
 msgstr ""
 
 msgid "Thanks for using our site!"
-msgstr "Ho trugarekaat da ober gant hol lec'hienn !"
+msgstr ""
 
 #, python-format
 msgid "The %(site_name)s team"
@@ -641,31 +610,27 @@ msgid "Reset my password"
 msgstr ""
 
 msgid "All dates"
-msgstr "An holl zeiziadoù"
+msgstr ""
 
 #, python-format
 msgid "Select %s"
-msgstr "Diuzañ %s"
+msgstr ""
 
 #, python-format
 msgid "Select %s to change"
 msgstr ""
 
-#, python-format
-msgid "Select %s to view"
-msgstr ""
-
 msgid "Date:"
-msgstr "Deiziad :"
+msgstr "Data:"
 
 msgid "Time:"
-msgstr "Eur :"
+msgstr "Hora:"
 
 msgid "Lookup"
-msgstr "Klask"
+msgstr ""
 
 msgid "Currently:"
-msgstr ""
+msgstr "Anguaño:"
 
 msgid "Change:"
 msgstr ""

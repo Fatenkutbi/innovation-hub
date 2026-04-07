@@ -1,1340 +1,797 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# 534b44a19bf18d20b71ecc4eb77c572f_db336e9 <f8268c65f822ec11a3a2e5d482cd7ead_175>, 2011-2012
-# Jannis Leidel <jannis@leidel.info>, 2011
-# Meir Kriheli <mkriheli@gmail.com>, 2011-2015,2017,2019-2020,2023,2025
-# Menachem G., 2021
-# Menachem G., 2021
-# אורי רודברג <uri@speedy.net>, 2021
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2021
-# אורי רודברג <uri@speedy.net>, 2020,2022-2023
+# Emin Mastizada <emin@linux.com>, 2018,2020
+# Emin Mastizada <emin@linux.com>, 2016
+# Konul Allahverdiyeva <english.koni@gmail.com>, 2016
+# Nicat Məmmədov <n1c4t97@gmail.com>, 2022
+# Nijat Mammadov, 2024-2025
+# Sevdimali <sevdimaliisayev@mail.ru>, 2024
+# Zulfugar Ismayilzadeh <zulfuqar.ismayilzada@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 11:30-0500\n"
-"PO-Revision-Date: 2025-04-01 15:04-0500\n"
-"Last-Translator: Meir Kriheli <mkriheli@gmail.com>, "
-"2011-2015,2017,2019-2020,2023,2025\n"
-"Language-Team: Hebrew (http://app.transifex.com/django/django/language/he/)\n"
+"POT-Creation-Date: 2025-09-17 18:23-0300\n"
+"PO-Revision-Date: 2025-12-03 07:05+0000\n"
+"Last-Translator: Nijat Mammadov, 2024-2025\n"
+"Language-Team: Azerbaijani (http://app.transifex.com/django/django/language/"
+"az/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: he\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
-"1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
-
-msgid "Afrikaans"
-msgstr "אפריקאנס"
-
-msgid "Arabic"
-msgstr "ערבית"
-
-msgid "Algerian Arabic"
-msgstr "ערבית אלג'ירית"
-
-msgid "Asturian"
-msgstr "אסטורית"
-
-msgid "Azerbaijani"
-msgstr "אזרית"
-
-msgid "Bulgarian"
-msgstr "בולגרית"
-
-msgid "Belarusian"
-msgstr "בֶּלָרוּסִית"
-
-msgid "Bengali"
-msgstr "בנגאלית"
-
-msgid "Breton"
-msgstr "בְּרֶטוֹנִית"
-
-msgid "Bosnian"
-msgstr "בוסנית"
-
-msgid "Catalan"
-msgstr "קאטלונית"
-
-msgid "Central Kurdish (Sorani)"
-msgstr "כורדית מרכזית (סוראני)"
-
-msgid "Czech"
-msgstr "צ'כית"
-
-msgid "Welsh"
-msgstr "וולשית"
-
-msgid "Danish"
-msgstr "דנית"
-
-msgid "German"
-msgstr "גרמנית"
-
-msgid "Lower Sorbian"
-msgstr "סורבית תחתונה"
-
-msgid "Greek"
-msgstr "יוונית"
-
-msgid "English"
-msgstr "אנגלית"
-
-msgid "Australian English"
-msgstr "אנגלית אוסטרלית"
-
-msgid "British English"
-msgstr "אנגלית בריטית"
-
-msgid "Esperanto"
-msgstr "אספרנטו"
-
-msgid "Spanish"
-msgstr "ספרדית"
-
-msgid "Argentinian Spanish"
-msgstr "ספרדית ארגנטינית"
-
-msgid "Colombian Spanish"
-msgstr "ספרדית קולומביאנית"
-
-msgid "Mexican Spanish"
-msgstr "ספרדית מקסיקנית"
-
-msgid "Nicaraguan Spanish"
-msgstr "ספרדית ניקרגואה"
-
-msgid "Venezuelan Spanish"
-msgstr "ספרדית ונצואלית"
-
-msgid "Estonian"
-msgstr "אסטונית"
-
-msgid "Basque"
-msgstr "בסקית"
-
-msgid "Persian"
-msgstr "פרסית"
-
-msgid "Finnish"
-msgstr "פינית"
-
-msgid "French"
-msgstr "צרפתית"
-
-msgid "Frisian"
-msgstr "פריזית"
-
-msgid "Irish"
-msgstr "אירית"
-
-msgid "Scottish Gaelic"
-msgstr "גאלית סקוטית"
-
-msgid "Galician"
-msgstr "גאליציאנית"
-
-msgid "Hebrew"
-msgstr "עברית"
-
-msgid "Hindi"
-msgstr "הינדי"
-
-msgid "Croatian"
-msgstr "קרואטית"
-
-msgid "Upper Sorbian"
-msgstr "סורבית עילית"
-
-msgid "Hungarian"
-msgstr "הונגרית"
-
-msgid "Armenian"
-msgstr "ארמנית"
-
-msgid "Interlingua"
-msgstr "אינטרלינגואה"
-
-msgid "Indonesian"
-msgstr "אינדונזית"
-
-msgid "Igbo"
-msgstr "איגבו"
-
-msgid "Ido"
-msgstr "אידו"
-
-msgid "Icelandic"
-msgstr "איסלנדית"
-
-msgid "Italian"
-msgstr "איטלקית"
-
-msgid "Japanese"
-msgstr "יפנית"
-
-msgid "Georgian"
-msgstr "גיאורגית"
-
-msgid "Kabyle"
-msgstr "קבילה"
-
-msgid "Kazakh"
-msgstr "קזחית"
-
-msgid "Khmer"
-msgstr "חמר"
-
-msgid "Kannada"
-msgstr "קאנאדה"
-
-msgid "Korean"
-msgstr "קוריאנית"
-
-msgid "Kyrgyz"
-msgstr "קירגיזית"
-
-msgid "Luxembourgish"
-msgstr "לוקסמבורגית"
-
-msgid "Lithuanian"
-msgstr "ליטאית"
-
-msgid "Latvian"
-msgstr "לטבית"
-
-msgid "Macedonian"
-msgstr "מקדונית"
-
-msgid "Malayalam"
-msgstr "מלאיאלאם"
-
-msgid "Mongolian"
-msgstr "מונגולי"
-
-msgid "Marathi"
-msgstr "מראטהי"
-
-msgid "Malay"
-msgstr "מלאית"
-
-msgid "Burmese"
-msgstr "בּוּרְמֶזִית"
-
-msgid "Norwegian Bokmål"
-msgstr "נורבגית ספרותית"
-
-msgid "Nepali"
-msgstr "נפאלית"
-
-msgid "Dutch"
-msgstr "הולנדית"
-
-msgid "Norwegian Nynorsk"
-msgstr "נורבגית חדשה"
-
-msgid "Ossetic"
-msgstr "אוסטית"
-
-msgid "Punjabi"
-msgstr "פנג'אבי"
-
-msgid "Polish"
-msgstr "פולנית"
-
-msgid "Portuguese"
-msgstr "פורטוגזית"
-
-msgid "Brazilian Portuguese"
-msgstr "פורטוגזית ברזילאית"
-
-msgid "Romanian"
-msgstr "רומנית"
-
-msgid "Russian"
-msgstr "רוסית"
-
-msgid "Slovak"
-msgstr "סלובקית"
-
-msgid "Slovenian"
-msgstr "סלובנית"
-
-msgid "Albanian"
-msgstr "אלבנית"
-
-msgid "Serbian"
-msgstr "סרבית"
-
-msgid "Serbian Latin"
-msgstr "סרבית לטינית"
-
-msgid "Swedish"
-msgstr "שוודית"
-
-msgid "Swahili"
-msgstr "סווהילי"
-
-msgid "Tamil"
-msgstr "טמילית"
-
-msgid "Telugu"
-msgstr "טלגו"
-
-msgid "Tajik"
-msgstr "טג'יקית"
-
-msgid "Thai"
-msgstr "תאילנדית"
-
-msgid "Turkmen"
-msgstr "טורקמנית"
-
-msgid "Turkish"
-msgstr "טורקית"
-
-msgid "Tatar"
-msgstr "טטרית"
-
-msgid "Udmurt"
-msgstr "אודמורטית"
-
-msgid "Uyghur"
-msgstr "אויגורית"
-
-msgid "Ukrainian"
-msgstr "אוקראינית"
-
-msgid "Urdu"
-msgstr "אורדו"
-
-msgid "Uzbek"
-msgstr "אוזבקית"
-
-msgid "Vietnamese"
-msgstr "וייטנאמית"
-
-msgid "Simplified Chinese"
-msgstr "סינית פשוטה"
-
-msgid "Traditional Chinese"
-msgstr "סינית מסורתית"
-
-msgid "Messages"
-msgstr "הודעות"
-
-msgid "Site Maps"
-msgstr "מפות אתר"
-
-msgid "Static Files"
-msgstr "קבצים סטטיים"
-
-msgid "Syndication"
-msgstr "הפצת תכנים"
-
-#. Translators: String used to replace omitted page numbers in elided page
-#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
-msgid "…"
-msgstr "..."
-
-msgid "That page number is not an integer"
-msgstr "מספר העמוד אינו מספר שלם"
-
-msgid "That page number is less than 1"
-msgstr "מספר העמוד קטן מ־1"
-
-msgid "That page contains no results"
-msgstr "עמוד זה אינו מכיל תוצאות"
-
-msgid "Enter a valid value."
-msgstr "יש להזין ערך חוקי."
-
-msgid "Enter a valid domain name."
-msgstr "יש להזין שם מתחם חוקי."
-
-msgid "Enter a valid URL."
-msgstr "יש להזין URL חוקי."
-
-msgid "Enter a valid integer."
-msgstr "יש להזין מספר שלם חוקי."
-
-msgid "Enter a valid email address."
-msgstr "נא להזין כתובת דוא\"ל חוקית"
-
-#. Translators: "letters" means latin letters: a-z and A-Z.
-msgid ""
-"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
-msgstr ""
-"יש להזין 'slug' חוקי המכיל אותיות לטיניות, ספרות, קווים תחתונים או מקפים."
-
-msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
-msgstr ""
-"יש להזין 'slug' חוקי המכיל אותיות יוניקוד, ספרות, קווים תחתונים או מקפים."
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, python-format
-msgid "Enter a valid %(protocol)s address."
-msgstr "יש להזין כתובת %(protocol)s חוקית."
-
-msgid "IPv4"
-msgstr "IPv4"
-
-msgid "IPv6"
-msgstr "IPv6"
-
-msgid "IPv4 or IPv6"
-msgstr "IPv4 או IPv6"
-
-msgid "Enter only digits separated by commas."
-msgstr "יש להזין רק ספרות מופרדות בפסיקים."
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr "Seçilmiş \"%(verbose_name_plural)s\" obyektlərini sil"
 
 #, python-format
-msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "יש לוודא שערך זה הינו %(limit_value)s (כרגע %(show_value)s)."
+msgid "Successfully deleted %(count)d %(items)s."
+msgstr "%(count)d %(items)s uğurla silindi."
 
 #, python-format
-msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "יש לוודא שערך זה פחות מ או שווה ל־%(limit_value)s."
+msgid "Cannot delete %(name)s"
+msgstr "%(name)s silinə bilməz"
 
-#, python-format
-msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "יש לוודא שערך זה גדול מ או שווה ל־%(limit_value)s."
+msgid "Delete multiple objects"
+msgstr "Birdən çox obyekt sil"
 
-#, python-format
-msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr "יש לוודא שערך זה מהווה מכפלה של %(limit_value)s."
+msgid "Administration"
+msgstr "Administrasiya"
 
-#, python-format
-msgid ""
-"Ensure this value is a multiple of step size %(limit_value)s, starting from "
-"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
-msgstr ""
-"יש לוודא שערך זה מהווה מכפלה של צעד בגודל %(limit_value)s, החל מ־%(offset)s, "
-"לדוגמה: %(offset)s, %(valid_value1)s, %(valid_value2)s וכו'."
-
-#, python-format
-msgid ""
-"Ensure this value has at least %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-"נא לוודא שערך זה מכיל תו %(limit_value)d לכל הפחות (מכיל %(show_value)d)."
-msgstr[1] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל הפחות (מכיל %(show_value)d)."
-msgstr[2] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל הפחות (מכיל %(show_value)d)."
-
-#, python-format
-msgid ""
-"Ensure this value has at most %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at most %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-"נא לוודא שערך זה מכיל תו %(limit_value)d לכל היותר (מכיל %(show_value)d)."
-msgstr[1] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל היותר (מכיל %(show_value)d)."
-msgstr[2] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל היותר (מכיל %(show_value)d)."
-
-msgid "Enter a number."
-msgstr "נא להזין מספר."
-
-#, python-format
-msgid "Ensure that there are no more than %(max)s digit in total."
-msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "נא לוודא שאין יותר מספרה %(max)s בסה\"כ."
-msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות בסה\"כ."
-msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות בסה\"כ."
-
-#, python-format
-msgid "Ensure that there are no more than %(max)s decimal place."
-msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "נא לוודא שאין יותר מספרה %(max)s אחרי הנקודה."
-msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות אחרי הנקודה."
-msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות אחרי הנקודה."
-
-#, python-format
-msgid ""
-"Ensure that there are no more than %(max)s digit before the decimal point."
-msgid_plural ""
-"Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] "נא לוודא שאין יותר מספרה %(max)s לפני הנקודה העשרונית"
-msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות לפני הנקודה העשרונית"
-msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות לפני הנקודה העשרונית"
-
-#, python-format
-msgid ""
-"File extension “%(extension)s” is not allowed. Allowed extensions are: "
-"%(allowed_extensions)s."
-msgstr ""
-"סיומת הקובץ \"%(extension)s\" אסורה. הסיומות המותרות הן: "
-"%(allowed_extensions)s."
-
-msgid "Null characters are not allowed."
-msgstr "תווי NULL אינם מותרים. "
-
-msgid "and"
-msgstr "ו"
-
-#, python-format
-msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "%(model_name)s·עם·%(field_labels)s·אלו קיימים כבר."
-
-#, python-format
-msgid "Constraint “%(name)s” is violated."
-msgstr "המגבלה \"%(name)s\" הופרה."
-
-#, python-format
-msgid "Value %(value)r is not a valid choice."
-msgstr "ערך %(value)r אינו אפשרות חוקית."
-
-msgid "This field cannot be null."
-msgstr "שדה זה אינו יכול להיות ריק."
-
-msgid "This field cannot be blank."
-msgstr "שדה זה אינו יכול להיות ריק."
-
-#, python-format
-msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "%(model_name)s·עם·%(field_label)s·זה קיימת כבר."
-
-#. Translators: The 'lookup_type' is one of 'date', 'year' or
-#. 'month'. Eg: "Title must be unique for pub_date year"
-#, python-format
-msgid ""
-"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr ""
-"%(field_label)s חייב להיות ייחודי עבור %(date_field_label)s %(lookup_type)s."
-
-#, python-format
-msgid "Field of type: %(field_type)s"
-msgstr "שדה מסוג: %(field_type)s"
-
-#, python-format
-msgid "“%(value)s” value must be either True or False."
-msgstr "הערך \"%(value)s\" חייב להיות True או False."
-
-#, python-format
-msgid "“%(value)s” value must be either True, False, or None."
-msgstr "\"%(value)s\" חייב להיות אחד מ־True‏, False, או None."
-
-msgid "Boolean (Either True or False)"
-msgstr "בוליאני (אמת או שקר)"
-
-#, python-format
-msgid "String (up to %(max_length)s)"
-msgstr "מחרוזת (עד %(max_length)s תווים)"
-
-msgid "String (unlimited)"
-msgstr "מחרוזת (ללא הגבלה)."
-
-msgid "Comma-separated integers"
-msgstr "מספרים שלמים מופרדים בפסיקים"
-
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
-"format."
-msgstr ""
-"הערך \"%(value)s\" מכיל פורמט תאריך לא חוקי. חייב להיות בפורמט YYYY-MM-DD."
-
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
-"date."
-msgstr "הערך \"%(value)s\" בפורמט הנכון (YYYY-MM-DD), אך אינו תאריך חוקי."
-
-msgid "Date (without time)"
-msgstr "תאריך (ללא שעה)"
-
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
-msgstr ""
-"הערך \"%(value)s\" מכיל פורמט לא חוקי. הוא חייב להיות בפורמטYYYY-MM-DD HH:"
-"MM[:ss[.uuuuuu]][TZ]."
-
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
-msgstr ""
-"הערך \"%(value)s\" בפורמט הנכון (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) אך אינו "
-"מהווה תאריך/שעה חוקיים."
-
-msgid "Date (with time)"
-msgstr "תאריך (כולל שעה)"
-
-#, python-format
-msgid "“%(value)s” value must be a decimal number."
-msgstr "הערך \"%(value)s\" חייב להיות מספר עשרוני."
-
-msgid "Decimal number"
-msgstr "מספר עשרוני"
-
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
-msgstr ""
-"הערך \"%(value)s\" מכיל פורמט לא חוקי. הוא חייב להיות בפורמט  [DD] "
-"[[HH:]MM:]ss[.uuuuuu]."
-
-msgid "Duration"
-msgstr "משך"
-
-msgid "Email address"
-msgstr "כתובת דוא\"ל"
-
-msgid "File path"
-msgstr "נתיב קובץ"
-
-#, python-format
-msgid "“%(value)s” value must be a float."
-msgstr "“%(value)s” חייב להיות מספר נקודה צפה."
-
-msgid "Floating point number"
-msgstr "מספר עשרוני"
-
-#, python-format
-msgid "“%(value)s” value must be an integer."
-msgstr "הערך '%(value)s' חייב להיות מספר שלם."
-
-msgid "Integer"
-msgstr "מספר שלם"
-
-msgid "Big (8 byte) integer"
-msgstr "מספר שלם גדול (8 בתים)"
-
-msgid "Small integer"
-msgstr "מספר שלם קטן"
-
-msgid "IPv4 address"
-msgstr "כתובת IPv4"
-
-msgid "IP address"
-msgstr "כתובת IP"
-
-#, python-format
-msgid "“%(value)s” value must be either None, True or False."
-msgstr "\"%(value)s\" חייב להיות אחד מ־None‏, True, או False."
-
-msgid "Boolean (Either True, False or None)"
-msgstr "בוליאני (אמת, שקר או כלום)"
-
-msgid "Positive big integer"
-msgstr "מספר שלם גדול וחיובי"
-
-msgid "Positive integer"
-msgstr "מספר שלם חיובי"
-
-msgid "Positive small integer"
-msgstr "מספר שלם חיובי קטן"
-
-#, python-format
-msgid "Slug (up to %(max_length)s)"
-msgstr "Slug (עד %(max_length)s תווים)"
-
-msgid "Text"
-msgstr "טקסט"
-
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
-"format."
-msgstr ""
-"הערך “%(value)s” מכיל פורמט לא חוקי. הוא חייב להיות בפורמט HH:MM[:ss[."
-"uuuuuu]]."
-
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
-"invalid time."
-msgstr ""
-"הערך “%(value)s” בפורמט הנכון (HH:MM[:ss[.uuuuuu]]) אך אינו מהווה שעה חוקית."
-
-msgid "Time"
-msgstr "זמן"
-
-msgid "URL"
-msgstr "URL"
-
-msgid "Raw binary data"
-msgstr "מידע בינארי גולמי"
-
-#, python-format
-msgid "“%(value)s” is not a valid UUID."
-msgstr "\"%(value)s\" אינו UUID חוקי."
-
-msgid "Universally unique identifier"
-msgstr "מזהה ייחודי אוניברסלי"
-
-msgid "File"
-msgstr "קובץ"
-
-msgid "Image"
-msgstr "תמונה"
-
-msgid "A JSON object"
-msgstr "אובייקט JSON"
-
-msgid "Value must be valid JSON."
-msgstr "הערך חייב להיות JSON חוקי."
-
-#, python-format
-msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
-msgstr ""
-
-msgid "Foreign Key (type determined by related field)"
-msgstr "Foreign Key (הסוג נקבע לפי השדה המקושר)"
-
-msgid "One-to-one relationship"
-msgstr "יחס של אחד לאחד"
-
-#, python-format
-msgid "%(from)s-%(to)s relationship"
-msgstr "קשר %(from)s-%(to)s"
-
-#, python-format
-msgid "%(from)s-%(to)s relationships"
-msgstr "קשרי %(from)s-%(to)s"
-
-msgid "Many-to-many relationship"
-msgstr "יחס של רבים לרבים"
-
-#. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the
-#. label
-msgid ":?.!"
-msgstr ":?.!"
-
-msgid "This field is required."
-msgstr "יש להזין תוכן בשדה זה."
-
-msgid "Enter a whole number."
-msgstr "נא להזין מספר שלם."
-
-msgid "Enter a valid date."
-msgstr "יש להזין תאריך חוקי."
-
-msgid "Enter a valid time."
-msgstr "יש להזין שעה חוקית."
-
-msgid "Enter a valid date/time."
-msgstr "יש להזין תאריך ושעה חוקיים."
-
-msgid "Enter a valid duration."
-msgstr "יש להזין משך חוקי."
-
-#, python-brace-format
-msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "מספר הימים חייב להיות בין {min_days} ל־{max_days}."
-
-msgid "No file was submitted. Check the encoding type on the form."
-msgstr "לא נשלח שום קובץ. נא לבדוק את סוג הקידוד של הטופס."
-
-msgid "No file was submitted."
-msgstr "לא נשלח שום קובץ"
-
-msgid "The submitted file is empty."
-msgstr "הקובץ שנשלח ריק."
-
-#, python-format
-msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
-msgid_plural ""
-"Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] "נא לוודא ששם קובץ זה מכיל תו %(max)d לכל היותר (מכיל %(length)d)."
-msgstr[1] ""
-"נא לוודא ששם קובץ זה מכיל %(max)d תווים לכל היותר (מכיל %(length)d)."
-msgstr[2] ""
-"נא לוודא ששם קובץ זה מכיל %(max)d תווים לכל היותר (מכיל %(length)d)."
-
-msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "נא לשים קובץ או סימן את התיבה לניקוי, לא שניהם."
-
-msgid ""
-"Upload a valid image. The file you uploaded was either not an image or a "
-"corrupted image."
-msgstr "נא להעלות תמונה חוקית. הקובץ שהעלת אינו תמונה או מכיל תמונה מקולקלת."
-
-#, python-format
-msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "יש לבחור אפשרות חוקית. %(value)s אינו בין האפשרויות הזמינות."
-
-msgid "Enter a list of values."
-msgstr "יש להזין רשימת ערכים"
-
-msgid "Enter a complete value."
-msgstr "יש להזין ערך שלם."
-
-msgid "Enter a valid UUID."
-msgstr "יש להזין UUID חוקי."
-
-msgid "Enter a valid JSON."
-msgstr "נא להזין JSON חוקי."
-
-#. Translators: This is the default suffix added to form field labels
-msgid ":"
-msgstr ":"
-
-#, python-format
-msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(שדה מוסתר %(name)s) %(error)s"
-
-#, python-format
-msgid ""
-"ManagementForm data is missing or has been tampered with. Missing fields: "
-"%(field_names)s. You may need to file a bug report if the issue persists."
-msgstr ""
-"המידע של ManagementForm חסר או שובש. שדות חסרים: %(field_names)s. יתכן "
-"שתצטרך להגיש דיווח באג אם הבעיה נמשכת."
-
-#, python-format
-msgid "Please submit at most %(num)d form."
-msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] "נא לשלוח טופס %(num)d לכל היותר."
-msgstr[1] "נא לשלוח %(num)d טפסים לכל היותר."
-msgstr[2] "נא לשלוח %(num)d טפסים לכל היותר."
-
-#, python-format
-msgid "Please submit at least %(num)d form."
-msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] "נא לשלוח טופס %(num)dאו יותר."
-msgstr[1] "נא לשלוח %(num)d טפסים או יותר."
-msgstr[2] "נא לשלוח %(num)d טפסים או יותר."
-
-msgid "Order"
-msgstr "מיון"
-
-msgid "Delete"
-msgstr "מחיקה"
-
-#, python-format
-msgid "Please correct the duplicate data for %(field)s."
-msgstr "נא לתקן את הערכים הכפולים ל%(field)s."
-
-#, python-format
-msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr "נא לתקן את הערכים הכפולים ל%(field)s, שערכים בו חייבים להיות ייחודיים."
-
-#, python-format
-msgid ""
-"Please correct the duplicate data for %(field_name)s which must be unique "
-"for the %(lookup)s in %(date_field)s."
-msgstr ""
-"נא לתקן את הערכים הכפולים %(field_name)s, שחייבים להיות ייחודיים ל%(lookup)s "
-"של %(date_field)s."
-
-msgid "Please correct the duplicate values below."
-msgstr "נא לתקן את הערכים הכפולים למטה."
-
-msgid "The inline value did not match the parent instance."
-msgstr "הערך הפנימי אינו תואם לאב."
-
-msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "יש לבחור אפשרות חוקית; אפשרות זו אינה אחת מהזמינות."
-
-#, python-format
-msgid "“%(pk)s” is not a valid value."
-msgstr "\"%(pk)s\" אינו ערך חוקי."
-
-#, python-format
-msgid ""
-"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
-"may be ambiguous or it may not exist."
-msgstr ""
-"לא ניתן לפרש את %(datetime)s באזור הזמן %(current_timezone)s; הוא עשוי להיות "
-"דו־משמעי או לא קיים."
-
-msgid "Clear"
-msgstr "לסלק"
-
-msgid "Currently"
-msgstr "עכשיו"
-
-msgid "Change"
-msgstr "שינוי"
-
-msgid "Unknown"
-msgstr "לא ידוע"
+msgid "All"
+msgstr "Hamısı"
 
 msgid "Yes"
-msgstr "כן"
+msgstr "Hə"
 
 msgid "No"
-msgstr "לא"
+msgstr "Yox"
 
-#. Translators: Please do not add spaces around commas.
-msgid "yes,no,maybe"
-msgstr "כן,לא,אולי"
+msgid "Unknown"
+msgstr "Naməlum"
 
-#, python-format
-msgid "%(size)d byte"
-msgid_plural "%(size)d bytes"
-msgstr[0] "בית %(size)d "
-msgstr[1] "%(size)d בתים"
-msgstr[2] "%(size)d בתים"
+msgid "Any date"
+msgstr "İstənilən tarix"
 
-#, python-format
-msgid "%s KB"
-msgstr "%s ק\"ב"
+msgid "Today"
+msgstr "Bu gün"
 
-#, python-format
-msgid "%s MB"
-msgstr "%s מ\"ב"
+msgid "Past 7 days"
+msgstr "Son 7 gündə"
 
-#, python-format
-msgid "%s GB"
-msgstr "%s ג\"ב"
+msgid "This month"
+msgstr "Bu ay"
 
-#, python-format
-msgid "%s TB"
-msgstr "%s ט\"ב"
+msgid "This year"
+msgstr "Bu il"
 
-#, python-format
-msgid "%s PB"
-msgstr "%s פ\"ב"
+msgid "No date"
+msgstr "Tarixi yoxdur"
 
-msgid "p.m."
-msgstr "אחר הצהריים"
+msgid "Has date"
+msgstr "Tarixi mövcuddur"
 
-msgid "a.m."
-msgstr "בבוקר"
+msgid "Empty"
+msgstr "Boş"
 
-msgid "PM"
-msgstr "אחר הצהריים"
-
-msgid "AM"
-msgstr "בבוקר"
-
-msgid "midnight"
-msgstr "חצות"
-
-msgid "noon"
-msgstr "12 בצהריים"
-
-msgid "Monday"
-msgstr "שני"
-
-msgid "Tuesday"
-msgstr "שלישי"
-
-msgid "Wednesday"
-msgstr "רביעי"
-
-msgid "Thursday"
-msgstr "חמישי"
-
-msgid "Friday"
-msgstr "שישי"
-
-msgid "Saturday"
-msgstr "שבת"
-
-msgid "Sunday"
-msgstr "ראשון"
-
-msgid "Mon"
-msgstr "שני"
-
-msgid "Tue"
-msgstr "שלישי"
-
-msgid "Wed"
-msgstr "רביעי"
-
-msgid "Thu"
-msgstr "חמישי"
-
-msgid "Fri"
-msgstr "שישי"
-
-msgid "Sat"
-msgstr "שבת"
-
-msgid "Sun"
-msgstr "ראשון"
-
-msgid "January"
-msgstr "ינואר"
-
-msgid "February"
-msgstr "פברואר"
-
-msgid "March"
-msgstr "מרץ"
-
-msgid "April"
-msgstr "אפריל"
-
-msgid "May"
-msgstr "מאי"
-
-msgid "June"
-msgstr "יוני"
-
-msgid "July"
-msgstr "יולי"
-
-msgid "August"
-msgstr "אוגוסט"
-
-msgid "September"
-msgstr "ספטמבר"
-
-msgid "October"
-msgstr "אוקטובר"
-
-msgid "November"
-msgstr "נובמבר"
-
-msgid "December"
-msgstr "דצמבר"
-
-msgid "jan"
-msgstr "ינו"
-
-msgid "feb"
-msgstr "פבר"
-
-msgid "mar"
-msgstr "מרץ"
-
-msgid "apr"
-msgstr "אפר"
-
-msgid "may"
-msgstr "מאי"
-
-msgid "jun"
-msgstr "יונ"
-
-msgid "jul"
-msgstr "יול"
-
-msgid "aug"
-msgstr "אוג"
-
-msgid "sep"
-msgstr "ספט"
-
-msgid "oct"
-msgstr "אוק"
-
-msgid "nov"
-msgstr "נוב"
-
-msgid "dec"
-msgstr "דצמ"
-
-msgctxt "abbrev. month"
-msgid "Jan."
-msgstr "יאנ'"
-
-msgctxt "abbrev. month"
-msgid "Feb."
-msgstr "פבר'"
-
-msgctxt "abbrev. month"
-msgid "March"
-msgstr "מרץ"
-
-msgctxt "abbrev. month"
-msgid "April"
-msgstr "אפריל"
-
-msgctxt "abbrev. month"
-msgid "May"
-msgstr "מאי"
-
-msgctxt "abbrev. month"
-msgid "June"
-msgstr "יוני"
-
-msgctxt "abbrev. month"
-msgid "July"
-msgstr "יולי"
-
-msgctxt "abbrev. month"
-msgid "Aug."
-msgstr "אוג'"
-
-msgctxt "abbrev. month"
-msgid "Sept."
-msgstr "ספט'"
-
-msgctxt "abbrev. month"
-msgid "Oct."
-msgstr "אוק'"
-
-msgctxt "abbrev. month"
-msgid "Nov."
-msgstr "נוב'"
-
-msgctxt "abbrev. month"
-msgid "Dec."
-msgstr "דצמ'"
-
-msgctxt "alt. month"
-msgid "January"
-msgstr "ינואר"
-
-msgctxt "alt. month"
-msgid "February"
-msgstr "פברואר"
-
-msgctxt "alt. month"
-msgid "March"
-msgstr "מרץ"
-
-msgctxt "alt. month"
-msgid "April"
-msgstr "אפריל"
-
-msgctxt "alt. month"
-msgid "May"
-msgstr "מאי"
-
-msgctxt "alt. month"
-msgid "June"
-msgstr "יוני"
-
-msgctxt "alt. month"
-msgid "July"
-msgstr "יולי"
-
-msgctxt "alt. month"
-msgid "August"
-msgstr "אוגוסט"
-
-msgctxt "alt. month"
-msgid "September"
-msgstr "ספטמבר"
-
-msgctxt "alt. month"
-msgid "October"
-msgstr "אוקטובר"
-
-msgctxt "alt. month"
-msgid "November"
-msgstr "נובמבר"
-
-msgctxt "alt. month"
-msgid "December"
-msgstr "דצמבר"
-
-msgid "This is not a valid IPv6 address."
-msgstr "זו אינה כתובת IPv6 חוקית."
-
-#, python-format
-msgctxt "String to return when truncating text"
-msgid "%(truncated_text)s…"
-msgstr "%(truncated_text)s‮…"
-
-msgid "or"
-msgstr "או"
-
-#. Translators: This string is used as a separator between list elements
-msgid ", "
-msgstr ", "
-
-#, python-format
-msgid "%(num)d year"
-msgid_plural "%(num)d years"
-msgstr[0] "שנה"
-msgstr[1] "שנתיים"
-msgstr[2] "%(num)d שנים"
-
-#, python-format
-msgid "%(num)d month"
-msgid_plural "%(num)d months"
-msgstr[0] "חודש"
-msgstr[1] "חודשיים"
-msgstr[2] "%(num)d חודשים"
-
-#, python-format
-msgid "%(num)d week"
-msgid_plural "%(num)d weeks"
-msgstr[0] "שבוע"
-msgstr[1] "שבועיים"
-msgstr[2] "%(num)d שבועות"
-
-#, python-format
-msgid "%(num)d day"
-msgid_plural "%(num)d days"
-msgstr[0] "יום"
-msgstr[1] "יומיים"
-msgstr[2] "%(num)d ימים"
-
-#, python-format
-msgid "%(num)d hour"
-msgid_plural "%(num)d hours"
-msgstr[0] "שעה"
-msgstr[1] "שעתיים"
-msgstr[2] "%(num)d שעות"
-
-#, python-format
-msgid "%(num)d minute"
-msgid_plural "%(num)d minutes"
-msgstr[0] "דקה"
-msgstr[1] "%(num)d דקות"
-msgstr[2] "%(num)d דקות"
-
-msgid "Forbidden"
-msgstr "אסור"
-
-msgid "CSRF verification failed. Request aborted."
-msgstr "אימות CSRF נכשל. הבקשה בוטלה."
-
-msgid ""
-"You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your web browser, but none was sent. This header is "
-"required for security reasons, to ensure that your browser is not being "
-"hijacked by third parties."
-msgstr ""
-"הודעה זו מופיעה מאחר ואתר ה־HTTPS הזה דורש מהדפדפן שלך לשלוח \"Referer "
-"header\", אך הוא לא נשלח. זה נדרש מסיבות אבטחה, כדי להבטיח שהדפדפן שלך לא "
-"נחטף ע\"י צד שלישי."
-
-msgid ""
-"If you have configured your browser to disable “Referer” headers, please re-"
-"enable them, at least for this site, or for HTTPS connections, or for “same-"
-"origin” requests."
-msgstr ""
-"אם ביטלת \"Referer\" headers בדפדפן שלך, נא לאפשר אותם מחדש, לפחות עבור אתר "
-"זה, חיבורי HTTPS או בקשות \"same-origin\"."
-
-msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
-msgstr ""
-"אם השתמשת בתג<meta name=\"referrer\" content=\"no-referrer\">או הוספת header "
-"של “Referrer-Policy: no-referrer”, נא להסיר אותם. הגנת ה־CSRF דורשת "
-"‎“Referer” header לבדיקת ה־referer. אם פרטיות מדאיגה אותך, ניתן להשתמש "
-"בתחליפים כמו <a rel=\"noreferrer\" …> לקישור אל אתרי צד שלישי."
-
-msgid ""
-"You are seeing this message because this site requires a CSRF cookie when "
-"submitting forms. This cookie is required for security reasons, to ensure "
-"that your browser is not being hijacked by third parties."
-msgstr ""
-"הודעה זו מופיעה מאחר ואתר זה דורש עוגיית CSRF כאשר שולחים טפסים. עוגיה זו "
-"נדרשת מסיבות אבטחה, כדי לוודא שהדפדפן שלך לא נחטף על ידי אחרים."
-
-msgid ""
-"If you have configured your browser to disable cookies, please re-enable "
-"them, at least for this site, or for “same-origin” requests."
-msgstr ""
-"אם ביטלת עוגיות בדפדפן שלך, נא לאפשר אותם מחדש לפחות עבור אתר זה או בקשות "
-"“same-origin”."
-
-msgid "More information is available with DEBUG=True."
-msgstr "מידע נוסף זמין עם "
-
-msgid "No year specified"
-msgstr "לא צוינה שנה"
-
-msgid "Date out of range"
-msgstr "תאריך מחוץ לטווח"
-
-msgid "No month specified"
-msgstr "לא צוין חודש"
-
-msgid "No day specified"
-msgstr "לא צוין יום"
-
-msgid "No week specified"
-msgstr "לא צוין שבוע"
-
-#, python-format
-msgid "No %(verbose_name_plural)s available"
-msgstr "לא נמצאו %(verbose_name_plural)s"
+msgid "Not empty"
+msgstr "Boş deyil"
 
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
+"Please enter the correct %(username)s and password for a staff account. Note "
+"that both fields may be case-sensitive."
 msgstr ""
-"לא נמצאו %(verbose_name_plural)s בזמן עתיד מאחר ש-%(class_name)s."
-"allow_future מוגדר False."
+"Lütfən, istifadəçi hesabı üçün doğru %(username)s və şifrə daxil edin. "
+"Nəzərə alın ki, hər iki xana böyük-kiçik hərflərə həssasdırlar."
+
+msgid "Action:"
+msgstr "Əməliyyat:"
 
 #, python-format
-msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr "מחרוזת תאריך %(datestr)s אינה חוקית בפורמט %(format)s."
+msgid "Add another %(verbose_name)s"
+msgstr "Daha bir %(verbose_name)s əlavə et"
+
+msgid "Remove"
+msgstr "Yığışdırılma"
+
+msgid "Addition"
+msgstr "Əlavə olunma"
+
+msgid "Change"
+msgstr "Düzəliş et"
+
+msgid "Deletion"
+msgstr "Silinmə"
+
+msgid "action time"
+msgstr "əməliyyat vaxtı"
+
+msgid "user"
+msgstr "istifadəçi"
+
+msgid "content type"
+msgstr "məzmun növü"
+
+msgid "object id"
+msgstr "obyekt id"
+
+#. Translators: 'repr' means representation
+#. (https://docs.python.org/library/functions.html#repr)
+msgid "object repr"
+msgstr "obyekt repr"
+
+msgid "action flag"
+msgstr "əməliyyat bayrağı"
+
+msgid "change message"
+msgstr "dəyişmə mesajı"
+
+msgid "log entry"
+msgstr "loq yazısı"
+
+msgid "log entries"
+msgstr "loq yazıları"
 
 #, python-format
-msgid "No %(verbose_name)s found matching the query"
-msgstr "לא נמצא/ה %(verbose_name)s התואם/ת לשאילתה"
-
-msgid "Page is not “last”, nor can it be converted to an int."
-msgstr "העמוד אינו \"last\" או לא ניתן להמרה למספר שם."
+msgid "Added “%(object)s”."
+msgstr "“%(object)s” əlavə edildi."
 
 #, python-format
-msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "עמוד לא חוקי (%(page_number)s): %(message)s"
+msgid "Changed “%(object)s” — %(changes)s"
+msgstr "“%(object)s” dəyişdirildi — %(changes)s"
 
 #, python-format
-msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr "רשימה ריקה ו־“%(class_name)s.allow_empty” הוא False."
+msgid "Deleted “%(object)s.”"
+msgstr "“%(object)s” silindi."
 
-msgid "Directory indexes are not allowed here."
-msgstr "אינדקסים על תיקיה אסורים כאן."
+msgid "LogEntry Object"
+msgstr "LogEntry obyekti"
+
+#, python-brace-format
+msgid "Added {name} “{object}”."
+msgstr "{name} “{object}” əlavə edildi."
+
+msgid "Added."
+msgstr "Əlavə edildi."
+
+msgid "and"
+msgstr "və"
+
+#, python-brace-format
+msgid "Changed {fields} for {name} “{object}”."
+msgstr "{name} “{object}” üçün {fields} dəyişdirildi."
+
+#, python-brace-format
+msgid "Changed {fields}."
+msgstr "{fields} dəyişdirildi."
+
+#, python-brace-format
+msgid "Deleted {name} “{object}”."
+msgstr "{name} “{object}” silindi."
+
+msgid "No fields changed."
+msgstr "Heç bir sahə dəyişdirilmədi."
+
+msgid "None"
+msgstr "Heç biri"
+
+msgid "Hold down “Control”, or “Command” on a Mac, to select more than one."
+msgstr ""
+"Birdən çox seçmək üçün “Control” və ya Mac üçün “Command” düyməsini basılı "
+"tutun."
+
+msgid "Select this object for an action - {}"
+msgstr "Əməliyyat üçün bu obyekti seçin - {}"
+
+#, python-brace-format
+msgid "The {name} “{obj}” was added successfully."
+msgstr "{name} “{obj}” uğurla əlavə edildi."
+
+msgid "You may edit it again below."
+msgstr "Bunu aşağıda təkrar redaktə edə bilərsiz."
+
+#, python-brace-format
+msgid ""
+"The {name} “{obj}” was added successfully. You may add another {name} below."
+msgstr ""
+"{name} “{obj}” uğurla əlavə edildi. Aşağıdan başqa bir {name} əlavə edə "
+"bilərsiz."
+
+#, python-brace-format
+msgid ""
+"The {name} “{obj}” was changed successfully. You may edit it again below."
+msgstr ""
+"{name} “{obj}” uğurla dəyişdirildi. Təkrar aşağıdan dəyişdirə bilərsiz."
+
+#, python-brace-format
+msgid ""
+"The {name} “{obj}” was changed successfully. You may add another {name} "
+"below."
+msgstr ""
+"{name} “{obj}” uğurla dəyişdirildi. Aşağıdan başqa bir {name} əlavə edə "
+"bilərsiz."
+
+#, python-brace-format
+msgid "The {name} “{obj}” was changed successfully."
+msgstr "{name} “{obj}” uğurla dəyişdirildi."
+
+msgid ""
+"Items must be selected in order to perform actions on them. No items have "
+"been changed."
+msgstr ""
+"Elementlər üzərində əməliyyat aparmaq üçün onları seçməlisiniz. Heç bir "
+"element dəyişdirilmədi."
+
+msgid "No action selected."
+msgstr "Heç bir əməliyyat seçilməyib."
 
 #, python-format
-msgid "“%(path)s” does not exist"
-msgstr "\"%(path)s\" אינו קיים"
+msgid "The %(name)s “%(obj)s” was deleted successfully."
+msgstr "%(name)s “%(obj)s” uğurla silindi."
 
 #, python-format
-msgid "Index of %(directory)s"
-msgstr "אינדקס של %(directory)s"
+msgid "%(name)s with ID “%(key)s” doesn’t exist. Perhaps it was deleted?"
+msgstr "“%(key)s” ID nömrəli %(name)s mövcud deyil. Bəlkə silinib?"
 
-msgid "The install worked successfully! Congratulations!"
-msgstr "ההתקנה עברה בהצלחה! מזל טוב!"
+#, python-format
+msgid "Add %s"
+msgstr "%s əlavə et"
+
+#, python-format
+msgid "Change %s"
+msgstr "%s obyektini dəyiş"
+
+#, python-format
+msgid "View %s"
+msgstr "%s obyektinə bax"
+
+msgid "Database error"
+msgstr "Verilənlər bazası xətası"
+
+#, python-format
+msgid "%(count)s %(name)s was changed successfully."
+msgid_plural "%(count)s %(name)s were changed successfully."
+msgstr[0] "%(count)s %(name)s uğurlu dəyişdirildi."
+msgstr[1] "%(count)s %(name)s uğurla dəyişdirildi."
+
+#, python-format
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] "%(total_count)s element seçildi"
+msgstr[1] "%(total_count)s elementin hamısı seçildi"
+
+#, python-format
+msgid "0 of %(cnt)s selected"
+msgstr "%(cnt)s-dan/dən 0 seçilib"
+
+msgid "Delete"
+msgstr "Sil"
+
+#, python-format
+msgid "Change history: %s"
+msgstr "Dəyişmə tarixi: %s"
+
+#. Translators: Model verbose name and instance
+#. representation, suitable to be an item in a
+#. list.
+#, python-format
+msgid "%(class_name)s %(instance)s"
+msgstr "%(class_name)s %(instance)s"
 
 #, python-format
 msgid ""
-"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+"Deleting %(class_name)s %(instance)s would require deleting the following "
+"protected related objects: %(related_objects)s"
 msgstr ""
-"ראו <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">הערות השחרור</a> עבור Django %(version)s"
+"%(class_name)s %(instance)s silinməsi %(related_objects)s obyektlərinin də "
+"silinməsinə gətirib çıxaracaq"
+
+msgid "Django site admin"
+msgstr "Django sayt administratoru"
+
+msgid "Django administration"
+msgstr "Django administrasiya"
+
+msgid "Site administration"
+msgstr "Sayt administrasiyası"
+
+msgid "Log in"
+msgstr "Daxil ol"
+
+#, python-format
+msgid "%(app)s administration"
+msgstr "%(app)s administrasiyası"
+
+msgid "Page not found"
+msgstr "Səhifə tapılmadı"
+
+msgid "We’re sorry, but the requested page could not be found."
+msgstr "Üzr istəyirik, amma sorğulanan səhifə tapılmadı."
+
+msgid "Home"
+msgstr "Ana səhifə"
+
+msgid "Server error"
+msgstr "Server xətası"
+
+msgid "Server error (500)"
+msgstr "Server xətası (500)"
+
+msgid "Server Error <em>(500)</em>"
+msgstr "Serverdə xəta <em>(500)</em>"
+
+msgid ""
+"There’s been an error. It’s been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"Xəta baş verdi. Problem sayt administratorlarına e-poçt vasitəsi ilə  "
+"bildirildi və qısa bir zamanda həll olunacaq. Anlayışınız üçün təşəkkür "
+"edirik."
+
+msgid "Run"
+msgstr ""
+
+msgid "Click here to select the objects across all pages"
+msgstr "Bütün səhifələr üzrə obyektləri seçmək üçün bura klikləyin"
+
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "Hamısını seç (%(total_count)s %(module_name)s)"
+
+msgid "Clear selection"
+msgstr "Seçimi təmizlə"
+
+msgid "Breadcrumbs"
+msgstr "Menyu sətri"
+
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr "%(name)s tətbiqetməsindəki modellər"
+
+msgid "Model name"
+msgstr "Model adı"
+
+msgid "Add link"
+msgstr "Keçid əlavə et"
+
+msgid "Change or view list link"
+msgstr "Siyahı keçidini dəyişdir və ya bax"
+
+msgid "Add"
+msgstr "Əlavə et"
+
+msgid "View"
+msgstr "Bax"
+
+msgid "You don’t have permission to view or edit anything."
+msgstr "Heç nəyə baxmağa və ya dəyişməyə icazəniz yoxdur."
+
+msgid "After you’ve created a user, you’ll be able to edit more user options."
+msgstr ""
+"Hesab yaratdıqdan sonra daha çox istifadəçi seçimlərini redaktə edə "
+"biləcəksiniz."
+
+msgid "Error:"
+msgstr "Xəta:"
+
+msgid "Change password"
+msgstr "Şifrəni dəyiş"
+
+msgid "Set password"
+msgstr "Şifrə təyin et"
+
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Lütfən, aşağıdakı xətanı düzəldin."
+msgstr[1] "Lütfən, aşağıdakı xətaları düzəldin."
+
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr "<strong>%(username)s</strong> istifadəçisi üçün yeni şifrə daxil edin."
+
+msgid ""
+"This action will <strong>enable</strong> password-based authentication for "
+"this user."
+msgstr ""
+"Bu əməliyyat bu istifadəçi üçün şifrə əsaslı autentifikasiyanı <strong>aktiv "
+"edəcək</strong>."
+
+msgid "Disable password-based authentication"
+msgstr "Şifrə əsaslı autentifikasiyanı ləğv et"
+
+msgid "Enable password-based authentication"
+msgstr "Şifrə əsaslı autentifikasiyanı aktivləşdir"
+
+msgid "Skip to main content"
+msgstr "Əsas məzmuna keç"
+
+msgid "Welcome,"
+msgstr "Xoş gördük,"
+
+msgid "View site"
+msgstr "Sayta bax"
+
+msgid "Documentation"
+msgstr "Sənədləşmə"
+
+msgid "Log out"
+msgstr "Çıx"
+
+#, python-format
+msgid "Add %(name)s"
+msgstr "%(name)s əlavə et"
+
+msgid "History"
+msgstr "Tarix"
+
+msgid "View on site"
+msgstr "Saytda bax"
+
+msgid "Filter"
+msgstr "Süzgəc"
+
+msgid "Hide counts"
+msgstr "Sayı gizlət"
+
+msgid "Show counts"
+msgstr "Sayı göstər"
+
+msgid "Clear all filters"
+msgstr "Bütün süzgəcləri təmizlə"
+
+msgid "Save"
+msgstr "Yadda saxla"
+
+msgid "Remove from sorting"
+msgstr "Sıralamadan çıxar"
+
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr "Sıralama prioriteti: %(priority_number)s"
+
+msgid "Toggle sorting"
+msgstr "Sıralamanı çevir"
+
+msgid "Toggle theme (current theme: auto)"
+msgstr "Görünüşü dəyiş (halhazırkı: avtomatik)"
+
+msgid "Toggle theme (current theme: light)"
+msgstr "Görünüşü dəyiş (halhazırkı: aydın)"
+
+msgid "Toggle theme (current theme: dark)"
+msgstr "Görünüşü dəyiş (halhazırkı: qaranlıq)"
 
 #, python-format
 msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
+"Deleting the %(object_name)s “%(escaped_object)s” would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
 msgstr ""
-"עמוד זה מופיע בעקבות המצאות <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> בקובץ ההגדרות שלך ולא הגדרת שום URLs."
 
-msgid "Django Documentation"
-msgstr "תיעוד Django"
+#, python-format
+msgid ""
+"Deleting the %(object_name)s “%(escaped_object)s” would require deleting the "
+"following protected related objects:"
+msgstr ""
 
-msgid "Topics, references, &amp; how-to’s"
-msgstr "נושאים, הפניות ומדריכים לביצוע"
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s “%(escaped_object)s”? "
+"All of the following related items will be deleted:"
+msgstr ""
 
-msgid "Tutorial: A Polling App"
-msgstr "מדריך ללומד: יישום לסקרים."
+msgid "Objects"
+msgstr "Obyektlər"
 
-msgid "Get started with Django"
-msgstr "התחילו לעבוד עם Django"
+msgid "Yes, I’m sure"
+msgstr "Bəli, əminəm"
 
-msgid "Django Community"
-msgstr "קהילת Django"
+msgid "No, take me back"
+msgstr "Xeyr, geri qayıt"
 
-msgid "Connect, get help, or contribute"
-msgstr "יצירת קשר, קבלת עזרה או השתתפות"
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+"%(objects_name)s obyektini silmək üçün ona bağlı obyektlər də silinməlidir. "
+"Ancaq sizin hesabınızın aşağıdakı tip obyektləri silmək səlahiyyətinə malik "
+"deyil:"
+
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+"%(objects_name)s obyektini silmək üçün aşağıdakı qorunan obyektlər də "
+"silinməlidir:"
+
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+"Seçdiyiniz %(objects_name)s obyektini silməkdə əminsiniz? Aşağıdakı bütün "
+"obyektlər və ona bağlı digər obyektlər də silinəcək:"
+
+msgid "Delete?"
+msgstr "Silinsin?"
+
+#, python-format
+msgid " By %(filter_title)s "
+msgstr "\"%(filter_title)s\" dəyərinə görə"
+
+msgid "Summary"
+msgstr "İcmal"
+
+msgid "Recent actions"
+msgstr "Son əməliyyatlar"
+
+msgid "My actions"
+msgstr "Mənim əməliyyatlarım"
+
+msgid "None available"
+msgstr "Heç nə yoxdur"
+
+msgid "Added:"
+msgstr "Əlavə olunub:"
+
+msgid "Changed:"
+msgstr "Dəyişdirilib:"
+
+msgid "Deleted:"
+msgstr "Silinib:"
+
+msgid "Unknown content"
+msgstr "Naməlum məzmun"
+
+msgid ""
+"Something’s wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+"Verilənlər bazanızın quraşdırılması ilə bağlı problem var. Müvafiq "
+"cədvəllərinin yaradıldığından və verilənlər bazasının müvafiq istifadəçi "
+"tərəfindən oxuna biləcəyindən əmin olun."
+
+#, python-format
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
+msgstr ""
+"%(username)s olaraq daxil olmusunuz, amma bu səhifəyə icazəniz yoxdur. Başqa "
+"bir hesaba daxil olmaq istərdiniz?"
+
+msgid "Forgotten your login credentials?"
+msgstr "Giriş məlumatlarınızı unutmusunuz?"
+
+msgid "Toggle navigation"
+msgstr "Naviqasiyanı dəyiş"
+
+msgid "Sidebar"
+msgstr "Yan panel"
+
+msgid "Start typing to filter…"
+msgstr "Süzmək üçün yazın..."
+
+msgid "Filter navigation items"
+msgstr "Naviqasiya elementlərini süz"
+
+msgid "Date/time"
+msgstr "Tarix/vaxt"
+
+msgid "User"
+msgstr "İstifadəçi"
+
+msgid "Action"
+msgstr "Əməliyyat"
+
+#, python-format
+msgid "Pagination %(name)s entries"
+msgstr ""
+
+msgid "entry"
+msgid_plural "entries"
+msgstr[0] "daxiletmə"
+msgstr[1] "daxiletmələr"
+
+msgid ""
+"This object doesn’t have a change history. It probably wasn’t added via this "
+"admin site."
+msgstr ""
+"Bu obyektin dəyişiklik tarixçəsi yoxdur. Yəqin ki, bu admin saytı vasitəsilə "
+"əlavə olunmayıb."
+
+#, python-format
+msgid "Pagination %(name)s"
+msgstr ""
+
+msgid "Show all"
+msgstr "Hamısını göstər"
+
+msgid "Popup closing…"
+msgstr "Qəfil pəncərə qapadılır…"
+
+#, python-format
+msgid "Search %(name)s"
+msgstr ""
+
+msgid "Search"
+msgstr "Axtar"
+
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s nəticə"
+msgstr[1] "%(counter)s nəticə"
+
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr "Hamısı birlikdə %(full_result_count)s"
+
+msgid "Save as new"
+msgstr "Yenisi kimi yadda saxla"
+
+msgid "Save and add another"
+msgstr "Yadda saxla və yenisini əlavə et"
+
+msgid "Save and continue editing"
+msgstr "Yadda saxla və redaktəyə davam et"
+
+msgid "Save and view"
+msgstr "Yadda saxla və bax"
+
+msgid "Close"
+msgstr "Bağla"
+
+#, python-format
+msgid "Change selected %(model)s"
+msgstr "Seçilmiş %(model)s dəyişdir"
+
+#, python-format
+msgid "Add another %(model)s"
+msgstr "Başqa %(model)s əlavə et"
+
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr "Seçilmiş %(model)s sil"
+
+#, python-format
+msgid "View selected %(model)s"
+msgstr "Bax: seçilmiş %(model)s "
+
+msgid "Thanks for spending some quality time with the web site today."
+msgstr "Bu gün veb saytla keyfiyyətli vaxt keçirdiyiniz üçün təşəkkür edirik."
+
+msgid "Log in again"
+msgstr "Yenidən daxil ol"
+
+msgid "Password change"
+msgstr "Şifrəni dəyiş"
+
+msgid "Your password was changed."
+msgstr "Şifrəniz dəyişdirildi."
+
+msgid ""
+"Please enter your old password, for security’s sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"Zəhmət olmasa, təhlükəsizlik naminə köhnə şifrənizi daxil edin və sonra yeni "
+"şifrənizi iki dəfə daxil edin ki, düzgün daxil yazdığınızı yoxlaya bilək."
+
+msgid "Change my password"
+msgstr "Şifrəmi dəyiş"
+
+msgid "Password reset"
+msgstr "Şifrənin sıfırlanması"
+
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Yeni şifrə artıq qüvvədədir. Yenidən daxil ola bilərsiniz."
+
+msgid "Password reset confirmation"
+msgstr "Şifrə sıfırlanmasının təsdiqi"
+
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr "Yeni şifrəni iki dəfə daxil edin ki, səhv etmədiyinizə əmin olaq."
+
+msgid "New password:"
+msgstr "Yeni şifrə:"
+
+msgid "Confirm password:"
+msgstr "Yeni şifrə (bir daha):"
+
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Şifrənin sıfırlanması üçün olan keçid, yəqin ki, artıq istifadə olunub.  "
+"Şifrəni sıfırlamaq üçün yenə müraciət edin."
+
+msgid ""
+"We’ve emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"Şifrəni təyin etmək üçün lazım olan addımlar sizə göndərildi (əgər bu e-poçt "
+"ünvanı ilə hesab varsa təbii ki). Elektron məktub qısa bir müddət ərzində "
+"sizə çatacaq."
+
+msgid ""
+"If you don’t receive an email, please make sure you’ve entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"E-poçt gəlməsə, qeydiyyatdan keçdiyiniz e-poçt ünvanını doğru daxil "
+"etdiyinizə əmin olun və spam qovluğunuzu yoxlayın."
+
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+"%(site_name)s saytında şifrəni yeniləmək istədiyinizə görə bu məktubu "
+"göndərdik."
+
+msgid "Please go to the following page and choose a new password:"
+msgstr "Növbəti səhifəyə keçid alın və yeni şifrəni seçin:"
+
+msgid "In case you’ve forgotten, you are:"
+msgstr "Əgər unutmusunuzsa, siz:"
+
+msgid "Thanks for using our site!"
+msgstr "Bizim saytdan istifadə etdiyiniz üçün təşəkkür edirik!"
+
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "%(site_name)s komandası"
+
+msgid ""
+"Forgotten your password? Enter your email address below, and we’ll email "
+"instructions for setting a new one."
+msgstr ""
+"Şifrəni unutmusuz? Epoçt ünvanınızı daxil edin və biz sizə yeni şifrə təyin "
+"etmək üçün nə etmək lazım olduğunu göndərəcəyik."
+
+msgid "Email address:"
+msgstr "E-poçt:"
+
+msgid "Reset my password"
+msgstr "Şifrəmi sıfırla"
+
+msgid "Select all objects on this page for an action"
+msgstr "Əməliyyat üçün bu səhifədəki bütün obyektləri seçin"
+
+msgid "All dates"
+msgstr "Bütün tarixlər"
+
+#, python-format
+msgid "Select %s"
+msgstr "%s seç"
+
+#, python-format
+msgid "Select %s to change"
+msgstr "%s dəyişmək üçün seç"
+
+#, python-format
+msgid "Select %s to view"
+msgstr "Baxmaq üçün %s seçin"
+
+msgid "Date:"
+msgstr "Tarix:"
+
+msgid "Time:"
+msgstr "Vaxt:"
+
+msgid "Lookup"
+msgstr "Sorğu"
+
+msgid "Currently:"
+msgstr "Hazırda:"
+
+msgid "Change:"
+msgstr "Dəyişdir:"
