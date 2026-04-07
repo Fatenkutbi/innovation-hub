@@ -1,77 +1,17 @@
-from django.db import models
+from django.urls import path
+from . import views
 
-class Submission(models.Model):  # تأكدي من سبيرنج الكلمة هنا
-    TYPE_CHOICES = [
-        ('challenge', 'Challenge'),
-        ('initiative', 'Initiative'),
-        ('innovation', 'Innovation'),
-    ]
-    STATUS_CHOICES = [
-        ('new', 'New'),
-        ('review', 'Under Review'),
-        ('progress', 'In Progress'),
-        ('done', 'Completed'),
-        ('archived', 'Archived'),
-    ]
-    type = models.CharField(max_length=20, choices=TYPE_CHOICES)
-    title = models.CharField(max_length=255)
-    description = models.TextField()
-    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='new')
-    created_at = models.DateTimeField(auto_now_add=True)
+app_name = 'platform2' # هذا الاسم هو الذي سنستخدمه في الأزرار
 
-    def __str__(self):
-        return self.title
-
-class BoardItem(models.Model):
-    COLUMN_CHOICES = [
-        ('define', 'Define'),
-        ('ideate', 'Ideate'),
-        ('prototype', 'Prototype'),
-    ]
-    title = models.CharField(max_length=200)
-    content = models.TextField()
-    column = models.CharField(max_length=20, choices=COLUMN_CHOICES, default='define')
-    created_at = models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        return self.title
-    
-
-    from django.db import models
-
-class Submission(models.Model):
-    TYPE_CHOICES = [('challenge', 'Challenge'), ('initiative', 'Initiative')]
-    
-    # قائمة الإدارات التي طلبتِها
-    DEPT_CHOICES = [
-        ('sandbox', 'إدارة الساندبوكس'),
-        ('ai', 'إدارة الذكاء الاصطناعي'),
-        ('consulting', 'الإدارة العامة للاستشارات الطبية'),
-        ('cardiology', 'قسم القلب'),
-        ('radiology', 'قسم الأشعة'),
-        ('strokes', 'قسم الجلطات'),
-        ('icu', 'قسم العناية المركزة'),
-        ('hr', 'إدارة الموارد البشرية'),
-        ('quality', 'إدارة الجودة'),
-        ('shared_services', 'إدارة الخدمات المشتركة'),
-        ('digital_empowerment', 'إدارة التمكين الرقمي'),
-        ('data', 'إدارة البيانات'),
-        ('finance', 'الإدارة المالية'),
-        ('insurance', 'إدارة التأمين الصحي'),
-    ]
-
-    type = models.CharField(max_length=20, choices=TYPE_CHOICES)
-    department = models.CharField(max_length=50, choices=DEPT_CHOICES, default='sandbox') # الحقل الجديد
-    title = models.CharField(max_length=255)
-    description = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        return self.title
-
-class BoardItem(models.Model):
-    COLUMN_CHOICES = [('define', 'Define'), ('ideate', 'Ideate'), ('prototype', 'Prototype')]
-    title = models.CharField(max_length=200)
-    content = models.TextField()
-    column = models.CharField(max_length=20, choices=COLUMN_CHOICES)
-    created_at = models.DateTimeField(auto_now_add=True)
+urlpatterns = [
+    path("", views.home, name="home"), 
+    path("submit/", views.submit, name="submit"),
+    path("room/", views.room_join, name="room_join"),
+    path("board/", views.board, name="board"),
+    path("board/add/challenge/", views.board_add_challenge, name="board_add_challenge"),
+    path("board/add/idea/", views.board_add_idea, name="board_add_idea"),
+    path("board/layout/<int:pk>/", views.update_layout, name="update_layout"),
+    path("board/check/<int:pk>/", views.toggle_check, name="toggle_check"),
+    path("board/delete/<int:pk>/", views.board_delete, name="board_delete"),
+    path("board/approve/<int:pk>/", views.board_approve, name="board_approve"),
+]
