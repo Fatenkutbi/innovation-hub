@@ -1,330 +1,355 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Jannis Leidel <jannis@leidel.info>, 2011
-# M Nasimul Haque <nasim.haque@gmail.com>, 2013
-# Tahmid Rafi <rafi.tahmid@gmail.com>, 2012-2013
-# Tahmid Rafi <rafi.tahmid@gmail.com>, 2013
+# Claude Paroz <claude@2xlibre.net>, 2020
+# Ewen <ewenak@gmx.com>, 2021
+# Fulup <fulup.jakez@gmail.com>, 2012,2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-27 22:40+0200\n"
-"PO-Revision-Date: 2019-11-05 00:38+0000\n"
-"Last-Translator: Ramiro Morales\n"
-"Language-Team: Bengali (http://www.transifex.com/django/django/language/"
-"bn/)\n"
+"POT-Creation-Date: 2021-09-21 10:22+0200\n"
+"PO-Revision-Date: 2021-11-18 21:19+0000\n"
+"Last-Translator: Transifex Bot <>\n"
+"Language-Team: Breton (http://www.transifex.com/django/django/language/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: br\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !"
+"=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n"
+"%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > "
+"19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 "
+"&& n % 1000000 == 0) ? 3 : 4);\n"
 
 msgid "Afrikaans"
-msgstr "আফ্রিকার অন্যতম সরকারি ভাষা"
+msgstr "Afrikaneg"
 
 msgid "Arabic"
-msgstr "আরবী"
+msgstr "Arabeg"
 
-msgid "Asturian"
+msgid "Algerian Arabic"
 msgstr ""
 
+msgid "Asturian"
+msgstr "Astureg"
+
 msgid "Azerbaijani"
-msgstr "আজারবাইজানি"
+msgstr "Azeri"
 
 msgid "Bulgarian"
-msgstr "বুলগেরিয়ান"
+msgstr "Bulgareg"
 
 msgid "Belarusian"
-msgstr "বেলারুশীয়"
+msgstr "Belaruseg"
 
 msgid "Bengali"
-msgstr "বাংলা"
+msgstr "Bengaleg"
 
 msgid "Breton"
-msgstr "ব্রেটন"
+msgstr "Brezhoneg"
 
 msgid "Bosnian"
-msgstr "বসনিয়ান"
+msgstr "Bosneg"
 
 msgid "Catalan"
-msgstr "ক্যাটালান"
+msgstr "Katalaneg"
 
 msgid "Czech"
-msgstr "চেক"
+msgstr "Tchekeg"
 
 msgid "Welsh"
-msgstr "ওয়েল্স"
+msgstr "Kembraeg"
 
 msgid "Danish"
-msgstr "ড্যানিশ"
+msgstr "Daneg"
 
 msgid "German"
-msgstr "জার্মান"
+msgstr "Alamaneg"
 
 msgid "Lower Sorbian"
 msgstr ""
 
 msgid "Greek"
-msgstr "গ্রিক"
+msgstr "Gresianeg"
 
 msgid "English"
-msgstr "ইংলিশ"
+msgstr "Saozneg"
 
 msgid "Australian English"
-msgstr ""
+msgstr "Saozneg Aostralia"
 
 msgid "British English"
-msgstr "বৃটিশ ইংলিশ"
+msgstr "Saozneg Breizh-Veur"
 
 msgid "Esperanto"
-msgstr "আন্তর্জাতিক ভাষা"
+msgstr "Esperanteg"
 
 msgid "Spanish"
-msgstr "স্প্যানিশ"
+msgstr "Spagnoleg"
 
 msgid "Argentinian Spanish"
-msgstr "আর্জেন্টিনিয়ান স্প্যানিশ"
+msgstr "Spagnoleg Arc'hantina"
 
 msgid "Colombian Spanish"
-msgstr ""
+msgstr "Spagnoleg Kolombia"
 
 msgid "Mexican Spanish"
-msgstr "মেক্সিকান স্প্যানিশ"
+msgstr "Spagnoleg Mec'hiko"
 
 msgid "Nicaraguan Spanish"
-msgstr "নিকারাগুয়ান স্প্যানিশ"
+msgstr "Spagnoleg Nicaragua"
 
 msgid "Venezuelan Spanish"
-msgstr "ভেনেজুয়েলার স্প্যানিশ"
+msgstr "Spagnoleg Venezuela"
 
 msgid "Estonian"
-msgstr "এস্তোনিয়ান"
+msgstr "Estoneg"
 
 msgid "Basque"
-msgstr "বাস্ক"
+msgstr "Euskareg"
 
 msgid "Persian"
-msgstr "ফারসি"
+msgstr "Perseg"
 
 msgid "Finnish"
-msgstr "ফিনিশ"
+msgstr "Finneg"
 
 msgid "French"
-msgstr "ফ্রেঞ্চ"
+msgstr "Galleg"
 
 msgid "Frisian"
-msgstr "ফ্রিজ্ল্যানডের ভাষা"
+msgstr "Frizeg"
 
 msgid "Irish"
-msgstr "আইরিশ"
+msgstr "Iwerzhoneg"
 
 msgid "Scottish Gaelic"
 msgstr ""
 
 msgid "Galician"
-msgstr "গ্যালিসিয়ান"
+msgstr "Galizeg"
 
 msgid "Hebrew"
-msgstr "হিব্রু"
+msgstr "Hebraeg"
 
 msgid "Hindi"
-msgstr "হিন্দী"
+msgstr "Hindi"
 
 msgid "Croatian"
-msgstr "ক্রোয়েশিয়ান"
+msgstr "Kroateg"
 
 msgid "Upper Sorbian"
 msgstr ""
 
 msgid "Hungarian"
-msgstr "হাঙ্গেরিয়ান"
+msgstr "Hungareg"
 
 msgid "Armenian"
 msgstr ""
 
 msgid "Interlingua"
-msgstr ""
+msgstr "Interlingua"
 
 msgid "Indonesian"
-msgstr "ইন্দোনেশিয়ান"
+msgstr "Indonezeg"
 
-msgid "Ido"
+msgid "Igbo"
 msgstr ""
 
+msgid "Ido"
+msgstr "Ido"
+
 msgid "Icelandic"
-msgstr "আইসল্যান্ডিক"
+msgstr "Islandeg"
 
 msgid "Italian"
-msgstr "ইটালিয়ান"
+msgstr "Italianeg"
 
 msgid "Japanese"
-msgstr "জাপানিজ"
+msgstr "Japaneg"
 
 msgid "Georgian"
-msgstr "জর্জিয়ান"
+msgstr "Jorjianeg"
 
 msgid "Kabyle"
 msgstr ""
 
 msgid "Kazakh"
-msgstr "কাজাখ"
+msgstr "kazak"
 
 msgid "Khmer"
-msgstr "খমার"
+msgstr "Khmer"
 
 msgid "Kannada"
-msgstr "কান্নাড়া"
+msgstr "Kannata"
 
 msgid "Korean"
-msgstr "কোরিয়ান"
+msgstr "Koreaneg"
+
+msgid "Kyrgyz"
+msgstr ""
 
 msgid "Luxembourgish"
-msgstr "লুক্সেমবার্গীয়"
+msgstr "Luksembourgeg"
 
 msgid "Lithuanian"
-msgstr "লিথুয়ানিয়ান"
+msgstr "Lituaneg"
 
 msgid "Latvian"
-msgstr "লাটভিয়ান"
+msgstr "Latveg"
 
 msgid "Macedonian"
-msgstr "ম্যাসাডোনিয়ান"
+msgstr "Makedoneg"
 
 msgid "Malayalam"
-msgstr "মালায়ালম"
+msgstr "Malayalam"
 
 msgid "Mongolian"
-msgstr "মঙ্গোলিয়ান"
+msgstr "Mongoleg"
 
 msgid "Marathi"
+msgstr "Marathi"
+
+msgid "Malay"
 msgstr ""
 
 msgid "Burmese"
-msgstr "বার্মিজ"
+msgstr "Burmeg"
 
 msgid "Norwegian Bokmål"
 msgstr ""
 
 msgid "Nepali"
-msgstr "নেপালি"
+msgstr "nepaleg"
 
 msgid "Dutch"
-msgstr "ডাচ"
+msgstr "Nederlandeg"
 
 msgid "Norwegian Nynorsk"
-msgstr "নরওয়েজীয়ান নিনর্স্ক"
+msgstr "Norvegeg Nynorsk"
 
 msgid "Ossetic"
-msgstr "অসেটিক"
+msgstr "Oseteg"
 
 msgid "Punjabi"
-msgstr "পাঞ্জাবী"
+msgstr "Punjabeg"
 
 msgid "Polish"
-msgstr "পোলিশ"
+msgstr "Poloneg"
 
 msgid "Portuguese"
-msgstr "পর্তুগীজ"
+msgstr "Portugaleg"
 
 msgid "Brazilian Portuguese"
-msgstr "ব্রাজিলিয়ান পর্তুগীজ"
+msgstr "Portugaleg Brazil"
 
 msgid "Romanian"
-msgstr "রোমানিয়ান"
+msgstr "Roumaneg"
 
 msgid "Russian"
-msgstr "রাশান"
+msgstr "Rusianeg"
 
 msgid "Slovak"
-msgstr "স্লোভাক"
+msgstr "Slovakeg"
 
 msgid "Slovenian"
-msgstr "স্লোভেনিয়ান"
+msgstr "Sloveneg"
 
 msgid "Albanian"
-msgstr "আলবেনীয়ান"
+msgstr "Albaneg"
 
 msgid "Serbian"
-msgstr "সার্বিয়ান"
+msgstr "Serbeg"
 
 msgid "Serbian Latin"
-msgstr "সার্বিয়ান ল্যাটিন"
+msgstr "Serbeg e lizherennoù latin"
 
 msgid "Swedish"
-msgstr "সুইডিশ"
+msgstr "Svedeg"
 
 msgid "Swahili"
-msgstr "সোয়াহিলি"
+msgstr "swahileg"
 
 msgid "Tamil"
-msgstr "তামিল"
+msgstr "Tamileg"
 
 msgid "Telugu"
-msgstr "তেলেগু"
+msgstr "Telougou"
 
-msgid "Thai"
-msgstr "থাই"
-
-msgid "Turkish"
-msgstr "তুর্কি"
-
-msgid "Tatar"
-msgstr "তাতারদেশীয়"
-
-msgid "Udmurt"
+msgid "Tajik"
 msgstr ""
 
+msgid "Thai"
+msgstr "Thai"
+
+msgid "Turkmen"
+msgstr ""
+
+msgid "Turkish"
+msgstr "Turkeg"
+
+msgid "Tatar"
+msgstr "tatar"
+
+msgid "Udmurt"
+msgstr "Oudmourteg"
+
 msgid "Ukrainian"
-msgstr "ইউক্রেনিয়ান"
+msgstr "Ukraineg"
 
 msgid "Urdu"
-msgstr "উর্দু"
+msgstr "Ourdou"
 
 msgid "Uzbek"
 msgstr ""
 
 msgid "Vietnamese"
-msgstr "ভিয়েতনামিজ"
+msgstr "Vietnameg"
 
 msgid "Simplified Chinese"
-msgstr "সরলীকৃত চাইনীজ"
+msgstr "Sinaeg eeunaet"
 
 msgid "Traditional Chinese"
-msgstr "প্রচলিত চাইনীজ"
+msgstr "Sinaeg hengounel"
 
 msgid "Messages"
-msgstr ""
+msgstr "Kemennadenn"
 
 msgid "Site Maps"
-msgstr ""
+msgstr "Tresoù al lec'hienn"
 
 msgid "Static Files"
-msgstr ""
+msgstr "Restroù statek"
 
 msgid "Syndication"
-msgstr ""
+msgstr "Sindikadur"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+msgid "…"
+msgstr "..."
 
 msgid "That page number is not an integer"
 msgstr ""
 
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "An niver a bajenn mañ a zo bihanoc'h eget 1."
 
 msgid "That page contains no results"
-msgstr ""
+msgstr "N'eus disoc'h er pajenn-mañ."
 
 msgid "Enter a valid value."
-msgstr "একটি বৈধ মান দিন।"
+msgstr "Merkit un talvoud reizh"
 
 msgid "Enter a valid URL."
-msgstr "বৈধ URL দিন"
+msgstr "Merkit un URL reizh"
 
 msgid "Enter a valid integer."
-msgstr ""
+msgstr "Merkit un niver anterin reizh."
 
 msgid "Enter a valid email address."
-msgstr "একটি বৈধ ইমেইল ঠিকানা লিখুন."
+msgstr "Merkit ur chomlec'h postel reizh"
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
@@ -337,28 +362,30 @@ msgid ""
 msgstr ""
 
 msgid "Enter a valid IPv4 address."
-msgstr "একটি বৈধ IPv4 ঠিকানা দিন।"
+msgstr "Merkit ur chomlec'h IPv4 reizh."
 
 msgid "Enter a valid IPv6 address."
-msgstr "একটি বৈধ IPv6 ঠিকানা টাইপ করুন।"
+msgstr "Merkit ur chomlec'h IPv6 reizh."
 
 msgid "Enter a valid IPv4 or IPv6 address."
-msgstr "একটি বৈধ IPv4 অথবা IPv6 ঠিকানা টাইপ করুন।"
+msgstr "Merkit ur chomlec'h IPv4 pe IPv6 reizh."
 
 msgid "Enter only digits separated by commas."
-msgstr "শুধুমাত্র কমা দিয়ে সংখ্যা দিন।"
+msgstr "Merkañ hepken sifroù dispartiet dre skejoù."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "সংখ্যাটির মান %(limit_value)s হতে হবে (এটা এখন %(show_value)s আছে)।"
+msgstr ""
+"Bezit sur ez eo an talvoud-mañ %(limit_value)s (evit ar mare ez eo "
+"%(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "সংখ্যাটির মান %(limit_value)s এর চেয়ে ছোট বা সমান হতে হবে।"
+msgstr "Gwiriit mat emañ an talvoud-mañ a-is pe par da %(limit_value)s."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "সংখ্যাটির মান %(limit_value)s এর চেয়ে বড় বা সমান হতে হবে।"
+msgstr "Gwiriit mat emañ an talvoud-mañ a-us pe par da %(limit_value)s."
 
 #, python-format
 msgid ""
@@ -369,6 +396,9 @@ msgid_plural ""
 "%(show_value)d)."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
 msgid ""
@@ -379,21 +409,30 @@ msgid_plural ""
 "%(show_value)d)."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 msgid "Enter a number."
-msgstr "একটি সংখ্যা প্রবেশ করান।"
+msgstr "Merkit un niver."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
 msgid ""
@@ -402,6 +441,9 @@ msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
 msgid ""
@@ -413,7 +455,7 @@ msgid "Null characters are not allowed."
 msgstr ""
 
 msgid "and"
-msgstr "এবং"
+msgstr "ha"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
@@ -424,14 +466,14 @@ msgid "Value %(value)r is not a valid choice."
 msgstr ""
 
 msgid "This field cannot be null."
-msgstr "এর মান null হতে পারবে না।"
+msgstr "N'hall ket ar vaezienn chom goullo"
 
 msgid "This field cannot be blank."
-msgstr "এই ফিল্ডের মান ফাঁকা হতে পারে না"
+msgstr "N'hall ket ar vaezienn chom goullo"
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "%(field_label)s সহ %(model_name)s আরেকটি রয়েছে।"
+msgstr "Bez' ez eus c'hoazh eus ur %(model_name)s gant ar %(field_label)s-mañ."
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
 #. Eg: "Title must be unique for pub_date year"
@@ -442,7 +484,7 @@ msgstr ""
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "ফিল্ডের ধরণ: %(field_type)s"
+msgstr "Seurt maezienn : %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
@@ -453,14 +495,14 @@ msgid "“%(value)s” value must be either True, False, or None."
 msgstr ""
 
 msgid "Boolean (Either True or False)"
-msgstr "বুলিয়ান (হয় True অথবা False)"
+msgstr "Boulean (gwir pe gaou)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "স্ট্রিং (সর্বোচ্চ %(max_length)s)"
+msgstr "neudennad arouezennoù (betek %(max_length)s)"
 
 msgid "Comma-separated integers"
-msgstr "কমা দিয়ে আলাদা করা ইন্টিজার"
+msgstr "Niveroù anterin dispartiet dre ur skej"
 
 #, python-format
 msgid ""
@@ -475,7 +517,7 @@ msgid ""
 msgstr ""
 
 msgid "Date (without time)"
-msgstr "তারিখ (সময় বাদে)"
+msgstr "Deizad (hep eur)"
 
 #, python-format
 msgid ""
@@ -490,14 +532,14 @@ msgid ""
 msgstr ""
 
 msgid "Date (with time)"
-msgstr "তারিখ (সময় সহ)"
+msgstr "Deizad (gant an eur)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
 msgstr ""
 
 msgid "Decimal number"
-msgstr "দশমিক সংখ্যা"
+msgstr "Niver dekvedennel"
 
 #, python-format
 msgid ""
@@ -509,56 +551,59 @@ msgid "Duration"
 msgstr ""
 
 msgid "Email address"
-msgstr "ইমেইল ঠিকানা"
+msgstr "Chomlec'h postel"
 
 msgid "File path"
-msgstr "ফাইল পথ"
+msgstr "Treug war-du ar restr"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
 msgstr ""
 
 msgid "Floating point number"
-msgstr "ফ্লোটিং পয়েন্ট সংখ্যা"
+msgstr "Niver gant skej nij"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
 msgstr ""
 
 msgid "Integer"
-msgstr "ইন্টিজার"
+msgstr "Anterin"
 
 msgid "Big (8 byte) integer"
-msgstr "বিগ (৮ বাইট) ইন্টিজার"
+msgstr "Anterin bras (8 okted)"
+
+msgid "Small integer"
+msgstr "Niver anterin bihan"
 
 msgid "IPv4 address"
-msgstr "IPv4 ঠিকানা"
+msgstr "Chomlec'h IPv4"
 
 msgid "IP address"
-msgstr "আইপি ঠিকানা"
+msgstr "Chomlec'h IP"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
 msgstr ""
 
 msgid "Boolean (Either True, False or None)"
-msgstr "বুলিয়ান (হয়  True, False অথবা None)"
+msgstr "Boulean (gwir pe gaou pe netra)"
+
+msgid "Positive big integer"
+msgstr ""
 
 msgid "Positive integer"
-msgstr "পজিটিভ ইন্টিজার"
+msgstr "Niver anterin pozitivel"
 
 msgid "Positive small integer"
-msgstr "পজিটিভ স্মল ইন্টিজার"
+msgstr "Niver anterin bihan pozitivel"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "স্লাগ (সর্বোচ্চ %(max_length)s)"
-
-msgid "Small integer"
-msgstr "স্মল ইন্টিজার"
+msgstr "Slug (betek %(max_length)s arouez.)"
 
 msgid "Text"
-msgstr "টেক্সট"
+msgstr "Testenn"
 
 #, python-format
 msgid ""
@@ -573,13 +618,13 @@ msgid ""
 msgstr ""
 
 msgid "Time"
-msgstr "সময়"
+msgstr "Eur"
 
 msgid "URL"
-msgstr "ইউআরএল (URL)"
+msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "র বাইনারি ডাটা"
+msgstr ""
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
@@ -589,20 +634,26 @@ msgid "Universally unique identifier"
 msgstr ""
 
 msgid "File"
-msgstr "ফাইল"
+msgstr "Restr"
 
 msgid "Image"
-msgstr "ইমেজ"
+msgstr "Skeudenn"
+
+msgid "A JSON object"
+msgstr ""
+
+msgid "Value must be valid JSON."
+msgstr ""
 
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
 msgstr ""
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "ফরেন কি (টাইপ রিলেটেড ফিল্ড দ্বারা নির্ণীত হবে)"
+msgstr "Alc'hwez estren (seurt termenet dre ar vaezienn liammet)"
 
 msgid "One-to-one relationship"
-msgstr "ওয়ান-টু-ওয়ান রিলেশানশিপ"
+msgstr "Darempred unan-ouzh-unan"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
@@ -613,7 +664,7 @@ msgid "%(from)s-%(to)s relationships"
 msgstr ""
 
 msgid "Many-to-many relationship"
-msgstr "ম্যানি-টু-ম্যানি রিলেশানশিপ"
+msgstr "Darempred lies-ouzh-lies"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
@@ -622,19 +673,19 @@ msgid ":?.!"
 msgstr ""
 
 msgid "This field is required."
-msgstr "এটি আবশ্যক।"
+msgstr "Rekis eo leuniañ ar vaezienn."
 
 msgid "Enter a whole number."
-msgstr "একটি পূর্ণসংখ্যা দিন"
+msgstr "Merkit un niver anterin."
 
 msgid "Enter a valid date."
-msgstr "বৈধ তারিখ দিন।"
+msgstr "Merkit un deiziad reizh"
 
 msgid "Enter a valid time."
-msgstr "বৈধ সময় দিন।"
+msgstr "Merkit un eur reizh"
 
 msgid "Enter a valid date/time."
-msgstr "বৈধ তারিখ/সময় দিন।"
+msgstr "Merkit un eur/deiziad reizh"
 
 msgid "Enter a valid duration."
 msgstr ""
@@ -644,13 +695,13 @@ msgid "The number of days must be between {min_days} and {max_days}."
 msgstr ""
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "কোন ফাইল দেয়া হয়নি। ফর্মের এনকোডিং ঠিক আছে কিনা দেখুন।"
+msgstr "N'eus ket kaset restr ebet. Gwiriit ar seurt enkodañ evit ar restr"
 
 msgid "No file was submitted."
-msgstr "কোন ফাইল দেয়া হয়নি।"
+msgstr "N'eus bet kaset restr ebet."
 
 msgid "The submitted file is empty."
-msgstr "ফাইলটি খালি।"
+msgstr "Goullo eo ar restr kaset."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
@@ -658,29 +709,34 @@ msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr ""
-"একটি ফাইল সাবমিট করুন অথবা ক্লিয়ার চেকবক্সটি চেক করে দিন, যে কোন একটি করুন।"
+msgstr "Kasit ur restr pe askit al log riñsañ; an eil pe egile"
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
-"সঠিক ছবি আপলোড করুন। যে ফাইলটি আপলোড করা হয়েছে তা হয় ছবি নয় অথবা নষ্ট হয়ে "
-"যাওয়া ছবি।"
+"Enpozhiit ur skeudenn reizh. Ar seurt bet enporzhiet ganeoc'h a oa foeltret "
+"pe ne oa ket ur skeudenn"
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "%(value)s বৈধ নয়। অনুগ্রহ করে আরেকটি সিলেক্ট করুন।"
+msgstr "Dizuit un dibab reizh. %(value)s n'emañ ket e-touez an dibaboù posupl."
 
 msgid "Enter a list of values."
-msgstr "কয়েকটি মানের তালিকা দিন।"
+msgstr "Merkit ur roll talvoudoù"
 
 msgid "Enter a complete value."
-msgstr ""
+msgstr "Merkañ un talvoud klok"
 
 msgid "Enter a valid UUID."
+msgstr ""
+
+msgid "Enter a valid JSON."
 msgstr ""
 
 #. Translators: This is the default suffix added to form field labels
@@ -691,49 +747,62 @@ msgstr ""
 msgid "(Hidden field %(name)s) %(error)s"
 msgstr ""
 
-msgid "ManagementForm data is missing or has been tampered with"
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
 msgstr ""
 
 #, python-format
-msgid "Please submit %d or fewer forms."
-msgid_plural "Please submit %d or fewer forms."
+msgid "Please submit at most %d form."
+msgid_plural "Please submit at most %d forms."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
-msgid "Please submit %d or more forms."
-msgid_plural "Please submit %d or more forms."
+msgid "Please submit at least %d form."
+msgid_plural "Please submit at least %d forms."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 msgid "Order"
-msgstr "ক্রম"
+msgstr "Urzh"
 
 msgid "Delete"
-msgstr "মুছুন"
+msgstr "Diverkañ"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr ""
+msgstr "Reizhit ar roadennoù e doubl e %(field)s."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
 msgstr ""
+"Reizhit ar roadennoù e doubl e %(field)s, na zle bezañ enni nemet talvoudoù "
+"dzho o-unan."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
+"Reizhit ar roadennoù e doubl e %(field_name)s a rank bezañ ennañ talvodoù en "
+"o-unan evit lodenn %(lookup)s %(date_field)s."
 
 msgid "Please correct the duplicate values below."
-msgstr ""
+msgstr "Reizhañ ar roadennoù e doubl zo a-is"
 
 msgid "The inline value did not match the parent instance."
 msgstr ""
 
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "এটি বৈধ নয়। অনুগ্রহ করে আরেকটি সিলেক্ট করুন।"
+msgstr "Diuzit un dibab reizh. N'emañ ket an dibab-mañ e-touez ar re bosupl."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
@@ -746,288 +815,283 @@ msgid ""
 msgstr ""
 
 msgid "Clear"
-msgstr "পরিষ্কার করুন"
+msgstr "Riñsañ"
 
 msgid "Currently"
-msgstr "এই মুহুর্তে"
+msgstr "Evit ar mare"
 
 msgid "Change"
-msgstr "পরিবর্তন"
+msgstr "Kemmañ"
 
 msgid "Unknown"
-msgstr "অজানা"
+msgstr "Dianav"
 
 msgid "Yes"
-msgstr "হ্যাঁ"
+msgstr "Ya"
 
 msgid "No"
-msgstr "না"
+msgstr "Ket"
 
-msgid "Year"
-msgstr ""
-
-msgid "Month"
-msgstr ""
-
-msgid "Day"
-msgstr ""
-
+#. Translators: Please do not add spaces around commas.
 msgid "yes,no,maybe"
-msgstr "হ্যাঁ,না,হয়তো"
+msgstr "ya,ket,marteze"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d বাইট"
-msgstr[1] "%(size)d বাইট"
+msgstr[0] "%(size)d okted"
+msgstr[1] "%(size)d okted"
+msgstr[2] "%(size)d okted"
+msgstr[3] "%(size)d okted"
+msgstr[4] "%(size)d okted"
 
 #, python-format
 msgid "%s KB"
-msgstr "%s কিলোবাইট"
+msgstr "%s KB"
 
 #, python-format
 msgid "%s MB"
-msgstr "%s মেগাবাইট"
+msgstr "%s MB"
 
 #, python-format
 msgid "%s GB"
-msgstr "%s গিগাবাইট"
+msgstr "%s GB"
 
 #, python-format
 msgid "%s TB"
-msgstr "%s টেরাবাইট"
+msgstr "%s TB"
 
 #, python-format
 msgid "%s PB"
-msgstr "%s পেটাবাইট"
+msgstr "%s PB"
 
 msgid "p.m."
-msgstr "অপরাহ্ন"
+msgstr "g.m."
 
 msgid "a.m."
-msgstr "পূর্বাহ্ন"
+msgstr "mintin"
 
 msgid "PM"
-msgstr "অপরাহ্ন"
+msgstr "G.M."
 
 msgid "AM"
-msgstr "পূর্বাহ্ন"
+msgstr "Mintin"
 
 msgid "midnight"
-msgstr "মধ্যরাত"
+msgstr "hanternoz"
 
 msgid "noon"
-msgstr "দুপুর"
+msgstr "kreisteiz"
 
 msgid "Monday"
-msgstr "সোমবার"
+msgstr "Lun"
 
 msgid "Tuesday"
-msgstr "মঙ্গলবার"
+msgstr "Meurzh"
 
 msgid "Wednesday"
-msgstr "বুধবার"
+msgstr "Merc'her"
 
 msgid "Thursday"
-msgstr "বৃহস্পতিবার"
+msgstr "Yaou"
 
 msgid "Friday"
-msgstr "শুক্রবার"
+msgstr "Gwener"
 
 msgid "Saturday"
-msgstr "শনিবার"
+msgstr "Sadorn"
 
 msgid "Sunday"
-msgstr "রবিবার"
+msgstr "Sul"
 
 msgid "Mon"
-msgstr "সোম"
+msgstr "Lun"
 
 msgid "Tue"
-msgstr "মঙ্গল"
+msgstr "Meu"
 
 msgid "Wed"
-msgstr "বুধ"
+msgstr "Mer"
 
 msgid "Thu"
-msgstr "বৃহঃ"
+msgstr "Yao"
 
 msgid "Fri"
-msgstr "শুক্র"
+msgstr "Gwe"
 
 msgid "Sat"
-msgstr "শনি"
+msgstr "Sad"
 
 msgid "Sun"
-msgstr "রবি"
+msgstr "Sul"
 
 msgid "January"
-msgstr "জানুয়ারি"
+msgstr "Genver"
 
 msgid "February"
-msgstr "ফেব্রুয়ারি"
+msgstr "C'hwevrer"
 
 msgid "March"
-msgstr "মার্চ"
+msgstr "Meurzh"
 
 msgid "April"
-msgstr "এপ্রিল"
+msgstr "Ebrel"
 
 msgid "May"
-msgstr "মে"
+msgstr "Mae"
 
 msgid "June"
-msgstr "জুন"
+msgstr "Mezheven"
 
 msgid "July"
-msgstr "জুলাই"
+msgstr "Gouere"
 
 msgid "August"
-msgstr "আগস্ট"
+msgstr "Eost"
 
 msgid "September"
-msgstr "সেপ্টেম্বর"
+msgstr "Gwengolo"
 
 msgid "October"
-msgstr "অক্টোবর"
+msgstr "Here"
 
 msgid "November"
-msgstr "নভেম্বর"
+msgstr "Du"
 
 msgid "December"
-msgstr "ডিসেম্বর"
+msgstr "Kerzu"
 
 msgid "jan"
-msgstr "জান."
+msgstr "Gen"
 
 msgid "feb"
-msgstr "ফেব."
+msgstr "C'hwe"
 
 msgid "mar"
-msgstr "মার্চ"
+msgstr "Meu"
 
 msgid "apr"
-msgstr "এপ্রি."
+msgstr "Ebr"
 
 msgid "may"
-msgstr "মে"
+msgstr "Mae"
 
 msgid "jun"
-msgstr "জুন"
+msgstr "Mez"
 
 msgid "jul"
-msgstr "জুল."
+msgstr "Gou"
 
 msgid "aug"
-msgstr "আগ."
+msgstr "Eos"
 
 msgid "sep"
-msgstr "সেপ্টে."
+msgstr "Gwe"
 
 msgid "oct"
-msgstr "অক্টো."
+msgstr "Her"
 
 msgid "nov"
-msgstr "নভে."
+msgstr "Du"
 
 msgid "dec"
-msgstr "ডিসে."
+msgstr "Kzu"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "জানু."
+msgstr "Gen."
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "ফেব্রু."
+msgstr "C'hwe."
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "মার্চ"
+msgstr "Meu."
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "এপ্রিল"
+msgstr "Ebr."
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "মে"
+msgstr "Mae"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "জুন"
+msgstr "Mez."
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "জুলাই"
+msgstr "Gou."
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "আগ."
+msgstr "Eos."
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "সেপ্ট."
+msgstr "Gwe."
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "অক্টো."
+msgstr "Her."
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "নভে."
+msgstr "Du"
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "ডিসে."
+msgstr "Kzu"
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "জানুয়ারি"
+msgstr "Genver"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "ফেব্রুয়ারি"
+msgstr "C'hwevrer"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "মার্চ"
+msgstr "Meurzh"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "এপ্রিল"
+msgstr "Ebrel"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "মে"
+msgstr "Mae"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "জুন"
+msgstr "Mezheven"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "জুলাই"
+msgstr "Gouere"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "আগস্ট"
+msgstr "Eost"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "সেপ্টেম্বর"
+msgstr "Gwengolo"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "অক্টোবর"
+msgstr "Here"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "নভেম্বর"
+msgstr "Du"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "ডিসেম্বর"
+msgstr "Kerzu"
 
 msgid "This is not a valid IPv6 address."
 msgstr ""
@@ -1038,60 +1102,75 @@ msgid "%(truncated_text)s…"
 msgstr ""
 
 msgid "or"
-msgstr "অথবা"
+msgstr "pe"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
 msgstr ","
 
 #, python-format
-msgid "%d year"
-msgid_plural "%d years"
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
-msgid "%d month"
-msgid_plural "%d months"
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
-msgid "%d week"
-msgid_plural "%d weeks"
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
-msgid "%d day"
-msgid_plural "%d days"
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
-msgid "%d hour"
-msgid_plural "%d hours"
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #, python-format
-msgid "%d minute"
-msgid_plural "%d minutes"
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
 msgstr[0] ""
 msgstr[1] ""
-
-msgid "0 minutes"
-msgstr "0 মিনিট"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 msgid "Forbidden"
-msgstr ""
+msgstr "Difennet"
 
 msgid "CSRF verification failed. Request aborted."
 msgstr ""
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your Web browser, but none was sent. This header is "
+"header” to be sent by your web browser, but none was sent. This header is "
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
@@ -1125,29 +1204,31 @@ msgid "More information is available with DEBUG=True."
 msgstr ""
 
 msgid "No year specified"
-msgstr "কোন বছর উল্লেখ করা হয়নি"
+msgstr "N'eus bet resisaet bloavezh ebet"
 
 msgid "Date out of range"
 msgstr ""
 
 msgid "No month specified"
-msgstr "কোন মাস উল্লেখ করা হয়নি"
+msgstr "N'eus bet resisaet miz ebet"
 
 msgid "No day specified"
-msgstr "কোন দিন উল্লেখ করা হয়নি"
+msgstr "N'eus bet resisaet deiz ebet"
 
 msgid "No week specified"
-msgstr "কোন সপ্তাহ উল্লেখ করা হয়নি"
+msgstr "N'eus bet resisaet sizhun ebet"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "কোন %(verbose_name_plural)s নেই"
+msgstr "N'eus %(verbose_name_plural)s ebet da gaout."
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
+"En dazont ne vo ket a %(verbose_name_plural)s rak faos eo %(class_name)s."
+"allow_future."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
@@ -1155,7 +1236,8 @@ msgstr ""
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "কুয়েরি ম্যাচ করে এমন কোন %(verbose_name)s পাওয়া যায় নি"
+msgstr ""
+"N'eus bet kavet traezenn %(verbose_name)s ebet o klotaén gant ar goulenn"
 
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
@@ -1169,7 +1251,7 @@ msgid "Empty list and “%(class_name)s.allow_empty” is False."
 msgstr ""
 
 msgid "Directory indexes are not allowed here."
-msgstr "ডিরেক্টরি ইনডেক্স অনুমোদিত নয়"
+msgstr "N'haller ket diskwel endalc'had ar c'havlec'h-mañ."
 
 #, python-format
 msgid "“%(path)s” does not exist"
@@ -1177,18 +1259,15 @@ msgstr ""
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "%(directory)s এর ইনডেক্স"
+msgstr "Meneger %(directory)s"
 
-msgid "Django: the Web framework for perfectionists with deadlines."
+msgid "The install worked successfully! Congratulations!"
 msgstr ""
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
-msgstr ""
-
-msgid "The install worked successfully! Congratulations!"
 msgstr ""
 
 #, python-format
