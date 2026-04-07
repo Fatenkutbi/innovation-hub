@@ -1,80 +1,77 @@
-from django import forms
-from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth.models import User
-from innovation_platformlu.models import Submission
+from django.db import models
 
+class Submission(models.Model):  # تأكدي من سبيرنج الكلمة هنا
+    TYPE_CHOICES = [
+        ('challenge', 'Challenge'),
+        ('initiative', 'Initiative'),
+        ('innovation', 'Innovation'),
+    ]
+    STATUS_CHOICES = [
+        ('new', 'New'),
+        ('review', 'Under Review'),
+        ('progress', 'In Progress'),
+        ('done', 'Completed'),
+        ('archived', 'Archived'),
+    ]
+    type = models.CharField(max_length=20, choices=TYPE_CHOICES)
+    title = models.CharField(max_length=255)
+    description = models.TextField()
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='new')
+    created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return self.title
 
-BASE = "w-full border rounded-xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sky-100 bg-white"
+class BoardItem(models.Model):
+    COLUMN_CHOICES = [
+        ('define', 'Define'),
+        ('ideate', 'Ideate'),
+        ('prototype', 'Prototype'),
+    ]
+    title = models.CharField(max_length=200)
+    content = models.TextField()
+    column = models.CharField(max_length=20, choices=COLUMN_CHOICES, default='define')
+    created_at = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        return self.title
+    
 
+    from django.db import models
 
-class SubmissionForm(forms.ModelForm):
-    class Meta:
-        model = Submission
-        fields = [
-            "submission_type",
-            "administration_department",
-            "department",
-            "domain",
-            "impact",
-            "status",  # نخليه موجود لكن نتحكم بمتى يصير required
+class Submission(models.Model):
+    TYPE_CHOICES = [('challenge', 'Challenge'), ('initiative', 'Initiative')]
+    
+    # قائمة الإدارات التي طلبتِها
+    DEPT_CHOICES = [
+        ('sandbox', 'إدارة الساندبوكس'),
+        ('ai', 'إدارة الذكاء الاصطناعي'),
+        ('consulting', 'الإدارة العامة للاستشارات الطبية'),
+        ('cardiology', 'قسم القلب'),
+        ('radiology', 'قسم الأشعة'),
+        ('strokes', 'قسم الجلطات'),
+        ('icu', 'قسم العناية المركزة'),
+        ('hr', 'إدارة الموارد البشرية'),
+        ('quality', 'إدارة الجودة'),
+        ('shared_services', 'إدارة الخدمات المشتركة'),
+        ('digital_empowerment', 'إدارة التمكين الرقمي'),
+        ('data', 'إدارة البيانات'),
+        ('finance', 'الإدارة المالية'),
+        ('insurance', 'إدارة التأمين الصحي'),
+    ]
 
-            "challenge_date",
-            "challenge_title",
-            "challenge_description",
-            "has_suggested_solution",
-            "suggested_solution",
-            "challenge_notes",
+    type = models.CharField(max_length=20, choices=TYPE_CHOICES)
+    department = models.CharField(max_length=50, choices=DEPT_CHOICES, default='sandbox') # الحقل الجديد
+    title = models.CharField(max_length=255)
+    description = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
 
-            "idea_name",
-            "idea_launch_date",
-            "idea_leader_or_team",
-            "idea_description",
-            "idea_type",
-            "idea_stage",
-            "stage",
-            "technologies_used",
-            "idea_notes",
-        ]
+    def __str__(self):
+        return self.title
 
-        widgets = {
-            "submission_type": forms.Select(attrs={"class": BASE}),
-            "administration_department": forms.Select(attrs={"class": BASE}),
-            "department": forms.Select(attrs={"class": BASE}),
-            "domain": forms.Select(attrs={"class": BASE}),
-            "impact": forms.Select(attrs={"class": BASE}),
-            "status": forms.Select(attrs={"class": BASE}),  # مهم
-
-            "challenge_date": forms.DateInput(attrs={"type": "date", "class": BASE}),
-            "challenge_title": forms.TextInput(attrs={"class": BASE}),
-            "challenge_description": forms.Textarea(attrs={"class": BASE, "rows": 4}),
-            "has_suggested_solution": forms.CheckboxInput(attrs={"class": "form-check-input"}),
-            "suggested_solution": forms.Textarea(attrs={"class": BASE, "rows": 3}),
-            "challenge_notes": forms.Textarea(attrs={"class": BASE, "rows": 3}),
-
-            "idea_name": forms.TextInput(attrs={"class": BASE}),
-            "idea_launch_date": forms.DateInput(attrs={"type": "date", "class": BASE}),
-            "idea_leader_or_team": forms.TextInput(attrs={"class": BASE}),
-            "idea_description": forms.Textarea(attrs={"class": BASE, "rows": 4}),
-            "idea_type": forms.Select(attrs={"class": BASE}),
-            "idea_stage": forms.Select(attrs={"class": BASE}),
-            "stage": forms.TextInput(attrs={"class": BASE}),
-            "technologies_used": forms.TextInput(attrs={"class": BASE}),
-            "idea_notes": forms.Textarea(attrs={"class": BASE, "rows": 3}),
-        }
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.fields["submission_type"].required = False
-
-        st = (self.data.get("submission_type")
-              or getattr(self.instance, "submission_type", None)
-              or self.initial.get("submission_type"))
-
-        # الافتراضي: status مو مطلوب (مفيد للتحدي)
-        self.fields["status"].required = False
-
-        # إذا "فكرة/حل" نخليه مطلوب
-        if st == "idea":
-            self.fields["status"].required = True
+class BoardItem(models.Model):
+    COLUMN_CHOICES = [('define', 'Define'), ('ideate', 'Ideate'), ('prototype', 'Prototype')]
+    title = models.CharField(max_length=200)
+    content = models.TextField()
+    column = models.CharField(max_length=20, choices=COLUMN_CHOICES)
+    created_at = models.DateTimeField(auto_now_add=True)
