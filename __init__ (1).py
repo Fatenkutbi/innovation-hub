@@ -1,416 +1,274 @@
-# -*- coding: utf-8 -*-
-"""
-This module offers a parser for ISO-8601 strings
+import inspect
+import os
+from importlib import import_module
 
-It is intended to support all valid date, time and datetime formats per the
-ISO-8601 specification.
+from django.core.exceptions import ImproperlyConfigured
+from django.utils.functional import cached_property
+from django.utils.module_loading import import_string, module_has_submodule
 
-..versionadded:: 2.7.0
-"""
-from datetime import datetime, timedelta, time, date
-import calendar
-from dateutil import tz
-
-from functools import wraps
-
-import re
-import six
-
-__all__ = ["isoparse", "isoparser"]
+APPS_MODULE_NAME = "apps"
+MODELS_MODULE_NAME = "models"
 
 
-def _takes_ascii(f):
-    @wraps(f)
-    def func(self, str_in, *args, **kwargs):
-        # If it's a stream, read the whole thing
-        str_in = getattr(str_in, 'read', lambda: str_in)()
+class AppConfig:
+    """Class representing a Django application and its configuration."""
 
-        # If it's unicode, turn it into bytes, since ISO-8601 only covers ASCII
-        if isinstance(str_in, six.text_type):
-            # ASCII is the same in UTF-8
-            try:
-                str_in = str_in.encode('ascii')
-            except UnicodeEncodeError as e:
-                msg = 'ISO-8601 strings should contain only ASCII characters'
-                six.raise_from(ValueError(msg), e)
+    def __init__(self, app_name, app_module):
+        # Full Python path to the application e.g. 'django.contrib.admin'.
+        self.name = app_name
 
-        return f(self, str_in, *args, **kwargs)
+        # Root module for the application e.g. <module 'django.contrib.admin'
+        # from 'django/contrib/admin/__init__.py'>.
+        self.module = app_module
 
-    return func
+        # Reference to the Apps registry that holds this AppConfig. Set by the
+        # registry when it registers the AppConfig instance.
+        self.apps = None
 
+        # The following attributes could be defined at the class level in a
+        # subclass, hence the test-and-set pattern.
 
-class isoparser(object):
-    def __init__(self, sep=None):
-        """
-        :param sep:
-            A single character that separates date and time portions. If
-            ``None``, the parser will accept any single character.
-            For strict ISO-8601 adherence, pass ``'T'``.
-        """
-        if sep is not None:
-            if (len(sep) != 1 or ord(sep) >= 128 or sep in '0123456789'):
-                raise ValueError('Separator must be a single, non-numeric ' +
-                                 'ASCII character')
+        # Last component of the Python path to the application e.g. 'admin'.
+        # This value must be unique across a Django project.
+        if not hasattr(self, "label"):
+            self.label = app_name.rpartition(".")[2]
+        if not self.label.isidentifier():
+            raise ImproperlyConfigured(
+                "The app label '%s' is not a valid Python identifier." % self.label
+            )
 
-            sep = sep.encode('ascii')
+        # Human-readable name for the application e.g. "Admin".
+        if not hasattr(self, "verbose_name"):
+            self.verbose_name = self.label.title()
 
-        self._sep = sep
+        # Filesystem path to the application directory e.g.
+        # '/path/to/django/contrib/admin'.
+        if not hasattr(self, "path"):
+            self.path = self._path_from_module(app_module)
 
-    @_takes_ascii
-    def isoparse(self, dt_str):
-        """
-        Parse an ISO-8601 datetime string into a :class:`datetime.datetime`.
+        # Module containing models e.g. <module 'django.contrib.admin.models'
+        # from 'django/contrib/admin/models.py'>. Set by import_models().
+        # None if the application doesn't have a models module.
+        self.models_module = None
 
-        An ISO-8601 datetime string consists of a date portion, followed
-        optionally by a time portion - the date and time portions are separated
-        by a single character separator, which is ``T`` in the official
-        standard. Incomplete date formats (such as ``YYYY-MM``) may *not* be
-        combined with a time portion.
+        # Mapping of lowercase model names to model classes. Initially set to
+        # None to prevent accidental access before import_models() runs.
+        self.models = None
 
-        Supported date formats are:
+    def __repr__(self):
+        return "<%s: %s>" % (self.__class__.__name__, self.label)
 
-        Common:
+    @cached_property
+    def default_auto_field(self):
+        from django.conf import settings
 
-        - ``YYYY``
-        - ``YYYY-MM``
-        - ``YYYY-MM-DD`` or ``YYYYMMDD``
+        return settings.DEFAULT_AUTO_FIELD
 
-        Uncommon:
+    @property
+    def _is_default_auto_field_overridden(self):
+        return self.__class__.default_auto_field is not AppConfig.default_auto_field
 
-        - ``YYYY-Www`` or ``YYYYWww`` - ISO week (day defaults to 0)
-        - ``YYYY-Www-D`` or ``YYYYWwwD`` - ISO week and day
-
-        The ISO week and day numbering follows the same logic as
-        :func:`datetime.date.isocalendar`.
-
-        Supported time formats are:
-
-        - ``hh``
-        - ``hh:mm`` or ``hhmm``
-        - ``hh:mm:ss`` or ``hhmmss``
-        - ``hh:mm:ss.ssssss`` (Up to 6 sub-second digits)
-
-        Midnight is a special case for `hh`, as the standard supports both
-        00:00 and 24:00 as a representation. The decimal separator can be
-        either a dot or a comma.
-
-
-        .. caution::
-
-            Support for fractional components other than seconds is part of the
-            ISO-8601 standard, but is not currently implemented in this parser.
-
-        Supported time zone offset formats are:
-
-        - `Z` (UTC)
-        - `±HH:MM`
-        - `±HHMM`
-        - `±HH`
-
-        Offsets will be represented as :class:`dateutil.tz.tzoffset` objects,
-        with the exception of UTC, which will be represented as
-        :class:`dateutil.tz.tzutc`. Time zone offsets equivalent to UTC (such
-        as `+00:00`) will also be represented as :class:`dateutil.tz.tzutc`.
-
-        :param dt_str:
-            A string or stream containing only an ISO-8601 datetime string
-
-        :return:
-            Returns a :class:`datetime.datetime` representing the string.
-            Unspecified components default to their lowest value.
-
-        .. warning::
-
-            As of version 2.7.0, the strictness of the parser should not be
-            considered a stable part of the contract. Any valid ISO-8601 string
-            that parses correctly with the default settings will continue to
-            parse correctly in future versions, but invalid strings that
-            currently fail (e.g. ``2017-01-01T00:00+00:00:00``) are not
-            guaranteed to continue failing in future versions if they encode
-            a valid date.
-
-        .. versionadded:: 2.7.0
-        """
-        components, pos = self._parse_isodate(dt_str)
-
-        if len(dt_str) > pos:
-            if self._sep is None or dt_str[pos:pos + 1] == self._sep:
-                components += self._parse_isotime(dt_str[pos + 1:])
+    def _path_from_module(self, module):
+        """Attempt to determine app's filesystem path from its module."""
+        # See #21874 for extended discussion of the behavior of this method in
+        # various cases.
+        # Convert to list because __path__ may not support indexing.
+        paths = list(getattr(module, "__path__", []))
+        if len(paths) != 1:
+            filename = getattr(module, "__file__", None)
+            if filename is not None:
+                paths = [os.path.dirname(filename)]
             else:
-                raise ValueError('String contains unknown ISO components')
+                # For unknown reasons, sometimes the list returned by __path__
+                # contains duplicates that must be removed (#25246).
+                paths = list(set(paths))
+        if len(paths) > 1:
+            raise ImproperlyConfigured(
+                "The app module %r has multiple filesystem locations (%r); "
+                "you must configure this app with an AppConfig subclass "
+                "with a 'path' class attribute." % (module, paths)
+            )
+        elif not paths:
+            raise ImproperlyConfigured(
+                "The app module %r has no filesystem location, "
+                "you must configure this app with an AppConfig subclass "
+                "with a 'path' class attribute." % module
+            )
+        return paths[0]
 
-        if len(components) > 3 and components[3] == 24:
-            components[3] = 0
-            return datetime(*components) + timedelta(days=1)
-
-        return datetime(*components)
-
-    @_takes_ascii
-    def parse_isodate(self, datestr):
+    @classmethod
+    def create(cls, entry):
         """
-        Parse the date portion of an ISO string.
-
-        :param datestr:
-            The string portion of an ISO string, without a separator
-
-        :return:
-            Returns a :class:`datetime.date` object
+        Factory that creates an app config from an entry in INSTALLED_APPS.
         """
-        components, pos = self._parse_isodate(datestr)
-        if pos < len(datestr):
-            raise ValueError('String contains unknown ISO ' +
-                             'components: {!r}'.format(datestr.decode('ascii')))
-        return date(*components)
+        # create() eventually returns app_config_class(app_name, app_module).
+        app_config_class = None
+        app_name = None
+        app_module = None
 
-    @_takes_ascii
-    def parse_isotime(self, timestr):
-        """
-        Parse the time portion of an ISO string.
-
-        :param timestr:
-            The time portion of an ISO string, without a separator
-
-        :return:
-            Returns a :class:`datetime.time` object
-        """
-        components = self._parse_isotime(timestr)
-        if components[0] == 24:
-            components[0] = 0
-        return time(*components)
-
-    @_takes_ascii
-    def parse_tzstr(self, tzstr, zero_as_utc=True):
-        """
-        Parse a valid ISO time zone string.
-
-        See :func:`isoparser.isoparse` for details on supported formats.
-
-        :param tzstr:
-            A string representing an ISO time zone offset
-
-        :param zero_as_utc:
-            Whether to return :class:`dateutil.tz.tzutc` for zero-offset zones
-
-        :return:
-            Returns :class:`dateutil.tz.tzoffset` for offsets and
-            :class:`dateutil.tz.tzutc` for ``Z`` and (if ``zero_as_utc`` is
-            specified) offsets equivalent to UTC.
-        """
-        return self._parse_tzstr(tzstr, zero_as_utc=zero_as_utc)
-
-    # Constants
-    _DATE_SEP = b'-'
-    _TIME_SEP = b':'
-    _FRACTION_REGEX = re.compile(b'[\\.,]([0-9]+)')
-
-    def _parse_isodate(self, dt_str):
+        # If import_module succeeds, entry points to the app module.
         try:
-            return self._parse_isodate_common(dt_str)
-        except ValueError:
-            return self._parse_isodate_uncommon(dt_str)
+            app_module = import_module(entry)
+        except Exception:
+            pass
+        else:
+            # If app_module has an apps submodule that defines a single
+            # AppConfig subclass, use it automatically.
+            # To prevent this, an AppConfig subclass can declare a class
+            # variable default = False.
+            # If the apps module defines more than one AppConfig subclass,
+            # the default one can declare default = True.
+            if module_has_submodule(app_module, APPS_MODULE_NAME):
+                mod_path = "%s.%s" % (entry, APPS_MODULE_NAME)
+                mod = import_module(mod_path)
+                # Check if there's exactly one AppConfig candidate,
+                # excluding those that explicitly define default = False.
+                app_configs = [
+                    (name, candidate)
+                    for name, candidate in inspect.getmembers(mod, inspect.isclass)
+                    if (
+                        issubclass(candidate, cls)
+                        and candidate is not cls
+                        and getattr(candidate, "default", True)
+                    )
+                ]
+                if len(app_configs) == 1:
+                    app_config_class = app_configs[0][1]
+                else:
+                    # Check if there's exactly one AppConfig subclass,
+                    # among those that explicitly define default = True.
+                    app_configs = [
+                        (name, candidate)
+                        for name, candidate in app_configs
+                        if getattr(candidate, "default", False)
+                    ]
+                    if len(app_configs) > 1:
+                        candidates = [repr(name) for name, _ in app_configs]
+                        raise RuntimeError(
+                            "%r declares more than one default AppConfig: "
+                            "%s." % (mod_path, ", ".join(candidates))
+                        )
+                    elif len(app_configs) == 1:
+                        app_config_class = app_configs[0][1]
 
-    def _parse_isodate_common(self, dt_str):
-        len_str = len(dt_str)
-        components = [1, 1, 1]
+            # Use the default app config class if we didn't find anything.
+            if app_config_class is None:
+                app_config_class = cls
+                app_name = entry
 
-        if len_str < 4:
-            raise ValueError('ISO string too short')
-
-        # Year
-        components[0] = int(dt_str[0:4])
-        pos = 4
-        if pos >= len_str:
-            return components, pos
-
-        has_sep = dt_str[pos:pos + 1] == self._DATE_SEP
-        if has_sep:
-            pos += 1
-
-        # Month
-        if len_str - pos < 2:
-            raise ValueError('Invalid common month')
-
-        components[1] = int(dt_str[pos:pos + 2])
-        pos += 2
-
-        if pos >= len_str:
-            if has_sep:
-                return components, pos
+        # If import_string succeeds, entry is an app config class.
+        if app_config_class is None:
+            try:
+                app_config_class = import_string(entry)
+            except Exception:
+                pass
+        # If both import_module and import_string failed, it means that entry
+        # doesn't have a valid value.
+        if app_module is None and app_config_class is None:
+            # If the last component of entry starts with an uppercase letter,
+            # then it was likely intended to be an app config class; if not,
+            # an app module. Provide a nice error message in both cases.
+            mod_path, _, cls_name = entry.rpartition(".")
+            if mod_path and cls_name[0].isupper():
+                # We could simply re-trigger the string import exception, but
+                # we're going the extra mile and providing a better error
+                # message for typos in INSTALLED_APPS.
+                # This may raise ImportError, which is the best exception
+                # possible if the module at mod_path cannot be imported.
+                mod = import_module(mod_path)
+                candidates = [
+                    repr(name)
+                    for name, candidate in inspect.getmembers(mod, inspect.isclass)
+                    if issubclass(candidate, cls) and candidate is not cls
+                ]
+                msg = "Module '%s' does not contain a '%s' class." % (
+                    mod_path,
+                    cls_name,
+                )
+                if candidates:
+                    msg += " Choices are: %s." % ", ".join(candidates)
+                raise ImportError(msg)
             else:
-                raise ValueError('Invalid ISO format')
+                # Re-trigger the module import exception.
+                import_module(entry)
 
-        if has_sep:
-            if dt_str[pos:pos + 1] != self._DATE_SEP:
-                raise ValueError('Invalid separator in ISO string')
-            pos += 1
+        # Check for obvious errors. (This check prevents duck typing, but
+        # it could be removed if it became a problem in practice.)
+        if not issubclass(app_config_class, AppConfig):
+            raise ImproperlyConfigured("'%s' isn't a subclass of AppConfig." % entry)
 
-        # Day
-        if len_str - pos < 2:
-            raise ValueError('Invalid common day')
-        components[2] = int(dt_str[pos:pos + 2])
-        return components, pos + 2
+        # Obtain app name here rather than in AppClass.__init__ to keep
+        # all error checking for entries in INSTALLED_APPS in one place.
+        if app_name is None:
+            try:
+                app_name = app_config_class.name
+            except AttributeError:
+                raise ImproperlyConfigured("'%s' must supply a name attribute." % entry)
 
-    def _parse_isodate_uncommon(self, dt_str):
-        if len(dt_str) < 4:
-            raise ValueError('ISO string too short')
+        # Ensure app_name points to a valid module.
+        try:
+            app_module = import_module(app_name)
+        except ImportError:
+            raise ImproperlyConfigured(
+                "Cannot import '%s'. Check that '%s.%s.name' is correct."
+                % (
+                    app_name,
+                    app_config_class.__module__,
+                    app_config_class.__qualname__,
+                )
+            )
 
-        # All ISO formats start with the year
-        year = int(dt_str[0:4])
+        # Entry is a path to an app config class.
+        return app_config_class(app_name, app_module)
 
-        has_sep = dt_str[4:5] == self._DATE_SEP
-
-        pos = 4 + has_sep       # Skip '-' if it's there
-        if dt_str[pos:pos + 1] == b'W':
-            # YYYY-?Www-?D?
-            pos += 1
-            weekno = int(dt_str[pos:pos + 2])
-            pos += 2
-
-            dayno = 1
-            if len(dt_str) > pos:
-                if (dt_str[pos:pos + 1] == self._DATE_SEP) != has_sep:
-                    raise ValueError('Inconsistent use of dash separator')
-
-                pos += has_sep
-
-                dayno = int(dt_str[pos:pos + 1])
-                pos += 1
-
-            base_date = self._calculate_weekdate(year, weekno, dayno)
-        else:
-            # YYYYDDD or YYYY-DDD
-            if len(dt_str) - pos < 3:
-                raise ValueError('Invalid ordinal day')
-
-            ordinal_day = int(dt_str[pos:pos + 3])
-            pos += 3
-
-            if ordinal_day < 1 or ordinal_day > (365 + calendar.isleap(year)):
-                raise ValueError('Invalid ordinal day' +
-                                 ' {} for year {}'.format(ordinal_day, year))
-
-            base_date = date(year, 1, 1) + timedelta(days=ordinal_day - 1)
-
-        components = [base_date.year, base_date.month, base_date.day]
-        return components, pos
-
-    def _calculate_weekdate(self, year, week, day):
+    def get_model(self, model_name, require_ready=True):
         """
-        Calculate the day of corresponding to the ISO year-week-day calendar.
+        Return the model with the given case-insensitive model_name.
 
-        This function is effectively the inverse of
-        :func:`datetime.date.isocalendar`.
-
-        :param year:
-            The year in the ISO calendar
-
-        :param week:
-            The week in the ISO calendar - range is [1, 53]
-
-        :param day:
-            The day in the ISO calendar - range is [1 (MON), 7 (SUN)]
-
-        :return:
-            Returns a :class:`datetime.date`
+        Raise LookupError if no model exists with this name.
         """
-        if not 0 < week < 54:
-            raise ValueError('Invalid week: {}'.format(week))
-
-        if not 0 < day < 8:     # Range is 1-7
-            raise ValueError('Invalid weekday: {}'.format(day))
-
-        # Get week 1 for the specific year:
-        jan_4 = date(year, 1, 4)   # Week 1 always has January 4th in it
-        week_1 = jan_4 - timedelta(days=jan_4.isocalendar()[2] - 1)
-
-        # Now add the specific number of weeks and days to get what we want
-        week_offset = (week - 1) * 7 + (day - 1)
-        return week_1 + timedelta(days=week_offset)
-
-    def _parse_isotime(self, timestr):
-        len_str = len(timestr)
-        components = [0, 0, 0, 0, None]
-        pos = 0
-        comp = -1
-
-        if len_str < 2:
-            raise ValueError('ISO time too short')
-
-        has_sep = False
-
-        while pos < len_str and comp < 5:
-            comp += 1
-
-            if timestr[pos:pos + 1] in b'-+Zz':
-                # Detect time zone boundary
-                components[-1] = self._parse_tzstr(timestr[pos:])
-                pos = len_str
-                break
-
-            if comp == 1 and timestr[pos:pos+1] == self._TIME_SEP:
-                has_sep = True
-                pos += 1
-            elif comp == 2 and has_sep:
-                if timestr[pos:pos+1] != self._TIME_SEP:
-                    raise ValueError('Inconsistent use of colon separator')
-                pos += 1
-
-            if comp < 3:
-                # Hour, minute, second
-                components[comp] = int(timestr[pos:pos + 2])
-                pos += 2
-
-            if comp == 3:
-                # Fraction of a second
-                frac = self._FRACTION_REGEX.match(timestr[pos:])
-                if not frac:
-                    continue
-
-                us_str = frac.group(1)[:6]  # Truncate to microseconds
-                components[comp] = int(us_str) * 10**(6 - len(us_str))
-                pos += len(frac.group())
-
-        if pos < len_str:
-            raise ValueError('Unused components in ISO string')
-
-        if components[0] == 24:
-            # Standard supports 00:00 and 24:00 as representations of midnight
-            if any(component != 0 for component in components[1:4]):
-                raise ValueError('Hour may only be 24 at 24:00:00.000')
-
-        return components
-
-    def _parse_tzstr(self, tzstr, zero_as_utc=True):
-        if tzstr == b'Z' or tzstr == b'z':
-            return tz.UTC
-
-        if len(tzstr) not in {3, 5, 6}:
-            raise ValueError('Time zone offset must be 1, 3, 5 or 6 characters')
-
-        if tzstr[0:1] == b'-':
-            mult = -1
-        elif tzstr[0:1] == b'+':
-            mult = 1
+        if require_ready:
+            self.apps.check_models_ready()
         else:
-            raise ValueError('Time zone offset requires sign')
+            self.apps.check_apps_ready()
+        try:
+            return self.models[model_name.lower()]
+        except KeyError:
+            raise LookupError(
+                "App '%s' doesn't have a '%s' model." % (self.label, model_name)
+            )
 
-        hours = int(tzstr[1:3])
-        if len(tzstr) == 3:
-            minutes = 0
-        else:
-            minutes = int(tzstr[(4 if tzstr[3:4] == self._TIME_SEP else 3):])
+    def get_models(self, include_auto_created=False, include_swapped=False):
+        """
+        Return an iterable of models.
 
-        if zero_as_utc and hours == 0 and minutes == 0:
-            return tz.UTC
-        else:
-            if minutes > 59:
-                raise ValueError('Invalid minutes in time zone offset')
+        By default, the following models aren't included:
 
-            if hours > 23:
-                raise ValueError('Invalid hours in time zone offset')
+        - auto-created models for many-to-many relations without
+          an explicit intermediate table,
+        - models that have been swapped out.
 
-            return tz.tzoffset(None, mult * (hours * 60 + minutes) * 60)
+        Set the corresponding keyword argument to True to include such models.
+        Keyword arguments aren't documented; they're a private API.
+        """
+        self.apps.check_models_ready()
+        for model in self.models.values():
+            if model._meta.auto_created and not include_auto_created:
+                continue
+            if model._meta.swapped and not include_swapped:
+                continue
+            yield model
 
+    def import_models(self):
+        # Dictionary of models for this app, primarily maintained in the
+        # 'all_models' attribute of the Apps this AppConfig is attached to.
+        self.models = self.apps.all_models[self.label]
 
-DEFAULT_ISOPARSER = isoparser()
-isoparse = DEFAULT_ISOPARSER.isoparse
+        if module_has_submodule(self.module, MODELS_MODULE_NAME):
+            models_module_name = "%s.%s" % (self.name, MODELS_MODULE_NAME)
+            self.models_module = import_module(models_module_name)
+
+    def ready(self):
+        """
+        Override this method in subclasses to run code when Django starts.
+        """
