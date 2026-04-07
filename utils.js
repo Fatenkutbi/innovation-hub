@@ -1,97 +1,30 @@
-let FractionJs = require('fraction.js')
+# Update Browserslist DB
 
-let Prefixer = require('./prefixer')
-let utils = require('./utils')
+<img width="120" height="120" alt="Browserslist logo by Anton Popov"
+     src="https://browsersl.ist/logo.svg" align="right">
 
-const REGEXP = /(min|max)-resolution\s*:\s*\d*\.?\d+(dppx|dpcm|dpi|x)/gi
-const SPLIT = /(min|max)-resolution(\s*:\s*)(\d*\.?\d+)(dppx|dpcm|dpi|x)/i
+CLI tool to update `caniuse-lite` with browsers DB
+from [Browserslist](https://github.com/browserslist/browserslist/) config.
 
-class Resolution extends Prefixer {
-  /**
-   * Remove prefixed queries
-   */
-  clean(rule) {
-    if (!this.bad) {
-      this.bad = []
-      for (let prefix of this.prefixes) {
-        this.bad.push(this.prefixName(prefix, 'min'))
-        this.bad.push(this.prefixName(prefix, 'max'))
-      }
-    }
+Some queries like `last 2 versions` or `>1%` depend on actual data
+from `caniuse-lite`.
 
-    rule.params = utils.editList(rule.params, queries => {
-      return queries.filter(query => this.bad.every(i => !query.includes(i)))
-    })
-  }
+```sh
+npx update-browserslist-db@latest
+```
+Or if using `pnpm`:
+```sh
+pnpm exec update-browserslist-db latest
+```
+Or if using `yarn`:
+```sh
+yarn dlx update-browserslist-db@latest
+```
 
-  /**
-   * Return prefixed query name
-   */
-  prefixName(prefix, name) {
-    if (prefix === '-moz-') {
-      return name + '--moz-device-pixel-ratio'
-    } else {
-      return prefix + name + '-device-pixel-ratio'
-    }
-  }
+<a href="https://evilmartians.com/?utm_source=update-browserslist-db">
+  <img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg"
+       alt="Sponsored by Evil Martians" width="236" height="54">
+</a>
 
-  /**
-   * Return prefixed query
-   */
-  prefixQuery(prefix, name, colon, value, units) {
-    value = new FractionJs(value)
-
-    // 1dpcm = 2.54dpi
-    // 1dppx = 96dpi
-    if (units === 'dpi') {
-      value = value.div(96)
-    } else if (units === 'dpcm') {
-      value = value.mul(2.54).div(96)
-    }
-    value = value.simplify()
-
-    if (prefix === '-o-') {
-      value = value.n + '/' + value.d
-    }
-    return this.prefixName(prefix, name) + colon + value
-  }
-
-  /**
-   * Add prefixed queries
-   */
-  process(rule) {
-    let parent = this.parentPrefix(rule)
-    let prefixes = parent ? [parent] : this.prefixes
-
-    rule.params = utils.editList(rule.params, (origin, prefixed) => {
-      for (let query of origin) {
-        if (
-          !query.includes('min-resolution') &&
-          !query.includes('max-resolution')
-        ) {
-          prefixed.push(query)
-          continue
-        }
-
-        for (let prefix of prefixes) {
-          let processed = query.replace(REGEXP, str => {
-            let parts = str.match(SPLIT)
-            return this.prefixQuery(
-              prefix,
-              parts[1],
-              parts[2],
-              parts[3],
-              parts[4]
-            )
-          })
-          prefixed.push(processed)
-        }
-        prefixed.push(query)
-      }
-
-      return utils.uniq(prefixed)
-    })
-  }
-}
-
-module.exports = Resolution
+## Docs
+Read full docs **[here](https://github.com/browserslist/update-db#readme)**.
