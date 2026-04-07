@@ -1,368 +1,434 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Bas Peschier <bas.peschier@gmail.com>, 2011,2013
+# Blue <alexandervanratingen@gmail.com>, 2011-2012
+# Bouke Haarsma <bouke@haarsma.eu>, 2013
+# Claude Paroz <claude@2xlibre.net>, 2014
+# Erik Romijn <transifex@solidlinks.nl>, 2013
+# Evelijn Saaltink <evelijnsaaltink@gmail.com>, 2016
+# Harro van der Klauw <hvdklauw@gmail.com>, 2011-2012
+# Ilja Maas <iljamaas@dreamsolution.nl>, 2015
+# jaap3 <jaap.roes@gmail.com>, 2024
 # Jannis Leidel <jannis@leidel.info>, 2011
-# karthikbgl <karthikbgl@gmail.com>, 2011-2012
-# Ramakrishna Yekulla <ramkrsna@gmail.com>, 2011
+# 6a27f10aef159701c7a5ff07f0fb0a78_05545ed <bc5d401a7ecd9343dd5afac265ed8ab3_4845>, 2011-2012,2014
+# Michiel Overtoom <motoom@xs4all.nl>, 2014
+# Meteor0id, 2019-2020
+# 8de006b1b0894aab6aef71979dcd8bd6_5c6b207 <ff2658a8d8dbebbd9cc240b8c133a515_234097>, 2014-2015
+# Tino de Bruijn <tinodb@gmail.com>, 2013
+# Tonnes <tonnes.mb@gmail.com>, 2017,2019-2020,2022-2025
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-27 22:40+0200\n"
-"PO-Revision-Date: 2019-11-05 00:38+0000\n"
-"Last-Translator: Ramiro Morales\n"
-"Language-Team: Kannada (http://www.transifex.com/django/django/language/"
-"kn/)\n"
+"POT-Creation-Date: 2025-09-17 18:23-0300\n"
+"PO-Revision-Date: 2025-12-03 06:49+0000\n"
+"Last-Translator: Tonnes <tonnes.mb@gmail.com>, 2017,2019-2020,2022-2025\n"
+"Language-Team: Dutch (http://app.transifex.com/django/django/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Afrikaans"
-msgstr ""
+msgstr "Afrikaans"
 
 msgid "Arabic"
-msgstr "ಅರೇಬಿಕ್"
+msgstr "Arabisch"
+
+msgid "Algerian Arabic"
+msgstr "Algerijns Arabisch"
 
 msgid "Asturian"
-msgstr ""
+msgstr "Asturisch"
 
 msgid "Azerbaijani"
-msgstr "ಆಜೆರ್ಬೈಜನಿ"
+msgstr "Azerbeidzjaans"
 
 msgid "Bulgarian"
-msgstr "ಬಲ್ಗೇರಿಯನ್"
+msgstr "Bulgaars"
 
 msgid "Belarusian"
-msgstr ""
+msgstr "Wit-Russisch"
 
 msgid "Bengali"
-msgstr "ಬೆಂಗಾಲಿ"
+msgstr "Bengaals"
 
 msgid "Breton"
-msgstr ""
+msgstr "Bretons"
 
 msgid "Bosnian"
-msgstr "ಬೋಸ್ನಿಯನ್"
+msgstr "Bosnisch"
 
 msgid "Catalan"
-msgstr "ಕೆಟಲಾನ್"
+msgstr "Catalaans"
+
+msgid "Central Kurdish (Sorani)"
+msgstr "Centraal-Koerdisch (Sorani)"
 
 msgid "Czech"
-msgstr "ಝೆಕ್"
+msgstr "Tsjechisch"
 
 msgid "Welsh"
-msgstr "ವೆಲ್ಷ್"
+msgstr "Welsh"
 
 msgid "Danish"
-msgstr "ಡ್ಯಾನಿಷ್"
+msgstr "Deens"
 
 msgid "German"
-msgstr "ಜರ್ಮನ್"
+msgstr "Duits"
 
 msgid "Lower Sorbian"
-msgstr ""
+msgstr "Nedersorbisch"
 
 msgid "Greek"
-msgstr "ಗ್ರೀಕ್"
+msgstr "Grieks"
 
 msgid "English"
-msgstr "ಇಂಗ್ಲಿಷ್"
+msgstr "Engels"
 
 msgid "Australian English"
-msgstr ""
+msgstr "Australisch-Engels"
 
 msgid "British English"
-msgstr "ಬ್ರಿಟೀಶ್ ಇಂಗ್ಲಿಷ್"
+msgstr "Brits-Engels"
 
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 msgid "Spanish"
-msgstr "ಸ್ಪ್ಯಾನಿಷ್"
+msgstr "Spaans"
 
 msgid "Argentinian Spanish"
-msgstr "ಅರ್ಜೆಂಟಿನಿಯನ್ ಸ್ಪಾನಿಷ್"
+msgstr "Argentijns Spaans"
 
 msgid "Colombian Spanish"
-msgstr ""
+msgstr "Colombiaans Spaans"
 
 msgid "Mexican Spanish"
-msgstr "ಮೆಕ್ಸಿಕನ್ ಸ್ಪಾನಿಷ್"
+msgstr "Mexicaans Spaans"
 
 msgid "Nicaraguan Spanish"
-msgstr "nicarguan ಸ್ಪಾನಿಷ್"
+msgstr "Nicaraguaans Spaans"
 
 msgid "Venezuelan Spanish"
-msgstr ""
+msgstr "Venezolaans Spaans"
 
 msgid "Estonian"
-msgstr "ಎಷ್ಟೋನಿಯನ್"
+msgstr "Ests"
 
 msgid "Basque"
-msgstr "ಬಾಸ್ಕ್‍"
+msgstr "Baskisch"
 
 msgid "Persian"
-msgstr "ಪರ್ಶಿಯನ್"
+msgstr "Perzisch"
 
 msgid "Finnish"
-msgstr "ಫಿನ್ನಿಶ್"
+msgstr "Fins"
 
 msgid "French"
-msgstr "ಫ್ರೆಂಚ್"
+msgstr "Frans"
 
 msgid "Frisian"
-msgstr "ಫ್ರಿಸಿಯನ್"
+msgstr "Fries"
 
 msgid "Irish"
-msgstr "ಐರಿಶ್"
+msgstr "Iers"
 
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "Schots-Gaelisch"
 
 msgid "Galician"
-msgstr "ಗೆಲಿಶಿಯನ್"
+msgstr "Galicisch"
 
 msgid "Hebrew"
-msgstr "ಹೀಬ್ರೂ"
+msgstr "Hebreeuws"
 
 msgid "Hindi"
-msgstr "ಹಿಂದಿ"
+msgstr "Hindi"
 
 msgid "Croatian"
-msgstr "ಕ್ರೊಯೇಶಿಯನ್"
+msgstr "Kroatisch"
 
 msgid "Upper Sorbian"
-msgstr ""
+msgstr "Oppersorbisch"
+
+msgid "Haitian Creole"
+msgstr "Haïtiaans Creools"
 
 msgid "Hungarian"
-msgstr "ಹಂಗೇರಿಯನ್"
+msgstr "Hongaars"
 
 msgid "Armenian"
-msgstr ""
+msgstr "Armeens"
 
 msgid "Interlingua"
-msgstr ""
+msgstr "Interlingua"
 
 msgid "Indonesian"
-msgstr "ಇಂಡೋನಿಶಿಯನ್"
+msgstr "Indonesisch"
+
+msgid "Igbo"
+msgstr "Igbo"
 
 msgid "Ido"
-msgstr ""
+msgstr "Ido"
 
 msgid "Icelandic"
-msgstr "ಐಸ್‌ಲ್ಯಾಂಡಿಕ್"
+msgstr "IJslands"
 
 msgid "Italian"
-msgstr "ಇಟಾಲಿಯನ್"
+msgstr "Italiaans"
 
 msgid "Japanese"
-msgstr "ಜಾಪನೀಸ್"
+msgstr "Japans"
 
 msgid "Georgian"
-msgstr "ಜಾರ್ಜೆಯನ್ "
+msgstr "Georgisch"
 
 msgid "Kabyle"
-msgstr ""
+msgstr "Kabylisch"
 
 msgid "Kazakh"
-msgstr ""
+msgstr "Kazachs"
 
 msgid "Khmer"
-msgstr "ಖಮೇರ್"
+msgstr "Khmer"
 
 msgid "Kannada"
-msgstr "ಕನ್ನಡ"
+msgstr "Kannada"
 
 msgid "Korean"
-msgstr "ಕೊರಿಯನ್"
+msgstr "Koreaans"
+
+msgid "Kyrgyz"
+msgstr "Kirgizisch"
 
 msgid "Luxembourgish"
-msgstr ""
+msgstr "Luxemburgs"
 
 msgid "Lithuanian"
-msgstr "ಲಿತುವಾನಿಯನ್ "
+msgstr "Litouws"
 
 msgid "Latvian"
-msgstr "ಲಾಟ್ವಿಯನ್"
+msgstr "Lets"
 
 msgid "Macedonian"
-msgstr "ಮೆಸಡೊನಿಯನ್"
+msgstr "Macedonisch"
 
 msgid "Malayalam"
-msgstr "ಮಲಯಾಳಂ"
+msgstr "Malayalam"
 
 msgid "Mongolian"
-msgstr "ಮಂಗೊಲಿಯನ್"
+msgstr "Mongools"
 
 msgid "Marathi"
-msgstr ""
+msgstr "Marathi"
+
+msgid "Malay"
+msgstr "Maleis"
 
 msgid "Burmese"
-msgstr ""
+msgstr "Birmaans"
 
 msgid "Norwegian Bokmål"
-msgstr ""
+msgstr "Noors Bokmål"
 
 msgid "Nepali"
-msgstr ""
+msgstr "Nepalees"
 
 msgid "Dutch"
-msgstr "ಡಚ್"
+msgstr "Nederlands"
 
 msgid "Norwegian Nynorsk"
-msgstr "ನಾರ್ವೇಜಿಯನ್ ನಿನೋರ್ಕ್"
+msgstr "Noors Nynorsk"
 
 msgid "Ossetic"
-msgstr ""
+msgstr "Ossetisch"
 
 msgid "Punjabi"
-msgstr "ಪಂಜಾಬಿ"
+msgstr "Punjabi"
 
 msgid "Polish"
-msgstr "ಪೋಲಿಷ್"
+msgstr "Pools"
 
 msgid "Portuguese"
-msgstr "ಪೋರ್ಚುಗೀಸ್"
+msgstr "Portugees"
 
 msgid "Brazilian Portuguese"
-msgstr "ಬ್ರಜೀಲಿಯನ್ ಪೋರ್ಚುಗೀಸ್"
+msgstr "Braziliaans Portugees"
 
 msgid "Romanian"
-msgstr "ರೋಮೇನಿಯನ್"
+msgstr "Roemeens"
 
 msgid "Russian"
-msgstr "ರಶಿಯನ್"
+msgstr "Russisch"
 
 msgid "Slovak"
-msgstr "ಸ್ಲೋವಾಕ್"
+msgstr "Slovaaks"
 
 msgid "Slovenian"
-msgstr "ಸ್ಲೋವೇನಿಯನ್"
+msgstr "Sloveens"
 
 msgid "Albanian"
-msgstr "ಅಲ್ಬೆನಿಯನ್ "
+msgstr "Albanisch"
 
 msgid "Serbian"
-msgstr "ಸರ್ಬಿಯನ್"
+msgstr "Servisch"
 
 msgid "Serbian Latin"
-msgstr "ಸರ್ಬಿಯನ್ ಲ್ಯಾಟಿನ್"
+msgstr "Servisch Latijn"
 
 msgid "Swedish"
-msgstr "ಸ್ವೀಡಿಷ್"
+msgstr "Zweeds"
 
 msgid "Swahili"
-msgstr ""
+msgstr "Swahili"
 
 msgid "Tamil"
-msgstr "ತಮಿಳು"
+msgstr "Tamil"
 
 msgid "Telugu"
-msgstr "ತೆಲುಗು"
+msgstr "Telegu"
+
+msgid "Tajik"
+msgstr "Tadzjieks"
 
 msgid "Thai"
-msgstr "ಥಾಯ್"
+msgstr "Thai"
+
+msgid "Turkmen"
+msgstr "Turkmeens"
 
 msgid "Turkish"
-msgstr "ಟರ್ಕಿಶ್"
+msgstr "Turks"
 
 msgid "Tatar"
-msgstr ""
+msgstr "Tataars"
 
 msgid "Udmurt"
-msgstr ""
+msgstr "Oedmoerts"
+
+msgid "Uyghur"
+msgstr "Oeigoers"
 
 msgid "Ukrainian"
-msgstr "ಉಕ್ರೇನಿಯನ್"
+msgstr "Oekraïens"
 
 msgid "Urdu"
-msgstr "ಉರ್ದು"
+msgstr "Urdu"
 
 msgid "Uzbek"
-msgstr ""
+msgstr "Oezbeeks"
 
 msgid "Vietnamese"
-msgstr "ವಿಯೆತ್ನಾಮೀಸ್"
+msgstr "Vietnamees"
 
 msgid "Simplified Chinese"
-msgstr "ಸರಳೀಕೃತ ಚೈನೀಸ್"
+msgstr "Vereenvoudigd Chinees"
 
 msgid "Traditional Chinese"
-msgstr "ಸಂಪ್ರದಾಯಿಕ ಚೈನೀಸ್ "
+msgstr "Traditioneel Chinees"
 
 msgid "Messages"
-msgstr ""
+msgstr "Berichten"
 
 msgid "Site Maps"
-msgstr ""
+msgstr "Sitemaps"
 
 msgid "Static Files"
-msgstr ""
+msgstr "Statische bestanden"
 
 msgid "Syndication"
-msgstr ""
+msgstr "Syndicatie"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+msgid "…"
+msgstr "…"
 
 msgid "That page number is not an integer"
-msgstr ""
+msgstr "Dat paginanummer is geen geheel getal"
 
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "Dat paginanummer is kleiner dan 1"
 
 msgid "That page contains no results"
-msgstr ""
+msgstr "Die pagina bevat geen resultaten"
 
 msgid "Enter a valid value."
-msgstr "ಸಿಂಧುವಾದ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
+msgstr "Voer een geldige waarde in."
+
+msgid "Enter a valid domain name."
+msgstr "Voer een geldige domeinnaam in."
 
 msgid "Enter a valid URL."
-msgstr "ಸರಿಯಾದ ಒಂದು URL ಅನ್ನು ನಮೂದಿಸಿ."
+msgstr "Voer een geldige URL in."
 
 msgid "Enter a valid integer."
-msgstr ""
+msgstr "Voer een geldig geheel getal in."
 
 msgid "Enter a valid email address."
-msgstr ""
+msgstr "Voer een geldig e-mailadres in."
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
+"Voer een geldige ‘slug’ in, bestaande uit letters, cijfers, liggende "
+"streepjes en verbindingsstreepjes."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
+"Voer een geldige ‘slug’ in, bestaande uit Unicode-letters, cijfers, liggende "
+"streepjes en verbindingsstreepjes."
 
-msgid "Enter a valid IPv4 address."
-msgstr "ಒಂದು ಸರಿಯಾದ IPv4 ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ."
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr "Voer een geldig %(protocol)s-adres in."
 
-msgid "Enter a valid IPv6 address."
-msgstr "ಮಾನ್ಯವಾದ IPv6 ವಿಳಾಸ ದಾಖಲಿಸಿ"
+msgid "IPv4"
+msgstr "IPv4"
 
-msgid "Enter a valid IPv4 or IPv6 address."
-msgstr "ಮಾನ್ಯವಾದ IPv4 ಅಥವಾ IPv6 ವಿಳಾಸ ದಾಖಲಿಸಿ"
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4- of IPv6"
 
 msgid "Enter only digits separated by commas."
-msgstr "ಅಲ್ಪವಿರಾಮ(,)ಗಳಿಂದ ಬೇರ್ಪಟ್ಟ ಅಂಕೆಗಳನ್ನು ಮಾತ್ರ ಬರೆಯಿರಿ."
+msgstr "Voer alleen cijfers in, gescheiden door komma's."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
 msgstr ""
-"ಈ ಮೌಲ್ಯವು %(limit_value)s ಆಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ (ಇದು %(show_value)s ಆಗಿದೆ)."
+"Zorg ervoor dat deze waarde gelijk is aan %(limit_value)s (het is nu "
+"%(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr ""
-"ಈ ಮೌಲ್ಯವು %(limit_value)s ಕ್ಕಿಂತ ಕಡಿಮೆಯ ಅಥವ ಸಮನಾದ ಮೌಲ್ಯವಾಗಿದೆ ಎಂದು ಖಾತ್ರಿ "
-"ಮಾಡಿಕೊಳ್ಳಿ."
+msgstr "Zorg ervoor dat deze waarde hoogstens %(limit_value)s is."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "Zorg ervoor dat deze waarde minstens %(limit_value)s is."
+
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
 msgstr ""
-"ಈ ಮೌಲ್ಯವು %(limit_value)s ಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಅಥವ ಸಮನಾದ ಮೌಲ್ಯವಾಗಿದೆ ಎಂದು ಖಾತ್ರಿ "
-"ಮಾಡಿಕೊಳ್ಳಿ."
+"Zorg ervoor dat deze waarde een veelvoud is van stapgrootte %(limit_value)s."
+
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+"Zorg dat deze waarde een veelvoud is van stapgrootte %(limit_value)s, "
+"beginnend bij %(offset)s, bv. %(offset)s, %(valid_value1)s, "
+"%(valid_value2)s, enzovoort."
 
 #, python-format
 msgid ""
@@ -372,7 +438,11 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
+"Zorg dat deze waarde ten minste %(limit_value)d teken bevat (het zijn er nu "
+"%(show_value)d)."
 msgstr[1] ""
+"Zorg dat deze waarde ten minste %(limit_value)d tekens bevat (het zijn er nu "
+"%(show_value)d)."
 
 #, python-format
 msgid ""
@@ -382,416 +452,470 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
+"Zorg dat deze waarde niet meer dan %(limit_value)d teken bevat (het zijn er "
+"nu %(show_value)d)."
 msgstr[1] ""
+"Zorg dat deze waarde niet meer dan %(limit_value)d tekens bevat (het zijn er "
+"nu %(show_value)d)."
 
 msgid "Enter a number."
-msgstr "ಒಂದು ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ."
+msgstr "Voer een getal in."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Zorg dat er niet meer dan %(max)s cijfer is."
+msgstr[1] "Zorg dat er niet meer dan %(max)s cijfers zijn."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Zorg dat er niet meer dan %(max)s cijfer achter de komma staat."
+msgstr[1] "Zorg dat er niet meer dan %(max)s cijfers achter de komma staan."
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Zorg dat er niet meer dan %(max)s cijfer voor de komma staat."
+msgstr[1] "Zorg dat er niet meer dan %(max)s cijfers voor de komma staan."
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
+"Bestandsextensie ‘%(extension)s’ is niet toegestaan. Toegestane extensies "
+"zijn: ‘%(allowed_extensions)s’."
 
 msgid "Null characters are not allowed."
-msgstr ""
+msgstr "Null-tekens zijn niet toegestaan."
 
 msgid "and"
-msgstr "ಮತ್ತು"
+msgstr "en"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr ""
+msgstr "%(model_name)s met deze %(field_labels)s bestaat al."
+
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr "Beperking ‘%(name)s’ is geschonden."
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr ""
+msgstr "Waarde %(value)r is geen geldige keuze."
 
 msgid "This field cannot be null."
-msgstr "ಈ ಅಂಶವನ್ನು ಖಾಲಿ ಬಿಡುವಂತಿಲ್ಲ."
+msgstr "Dit veld mag niet leeg zijn."
 
 msgid "This field cannot be blank."
-msgstr "ಈ ಸ್ಥಳವು ಖಾಲಿ ಇರುವಂತಿಲ್ಲ."
+msgstr "Dit veld kan niet leeg zijn"
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
-"ಈ %(field_label)s ಅನ್ನು ಹೊಂದಿರುವ ಒಂದು %(model_name)s ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
+msgstr "Er bestaat al een %(model_name)s met eenzelfde %(field_label)s."
 
-#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
-#. Eg: "Title must be unique for pub_date year"
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
+"%(field_label)s moet uniek zijn voor %(date_field_label)s %(lookup_type)s."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "ಕ್ಷೇತ್ರದ ಬಗೆ: %(field_type)s"
+msgstr "Veld van type: %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr ""
+msgstr "Waarde van ‘%(value)s’ moet True of False zijn."
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
+msgstr "Waarde van ‘%(value)s’ moet True, False of None zijn."
 
 msgid "Boolean (Either True or False)"
-msgstr "ಬೂಲಿಯನ್ (ಹೌದು ಅಥವ ಅಲ್ಲ)"
+msgstr "Boolean (True of False)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "ಪದಪುಂಜ (%(max_length)s ವರೆಗೆ)"
+msgstr "Tekenreeks (hooguit %(max_length)s)"
+
+msgid "String (unlimited)"
+msgstr "Tekenreeks (onbeperkt)"
 
 msgid "Comma-separated integers"
-msgstr "ಅಲ್ಪವಿರಾಮ(,) ದಿಂದ ಬೇರ್ಪಟ್ಟ ಪೂರ್ಣಸಂಖ್ಯೆಗಳು"
+msgstr "Komma-gescheiden gehele getallen"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
+"Waarde van ‘%(value)s’ heeft een ongeldige datumnotatie. De juiste notatie "
+"is YYYY-MM-DD."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
+"Waarde van ‘%(value)s’ heeft de juiste notatie (YYYY-MM-DD), maar het is een "
+"ongeldige datum."
 
 msgid "Date (without time)"
-msgstr "ದಿನಾಂಕ (ಸಮಯವಿಲ್ಲದೆ)"
+msgstr "Datum (zonder tijd)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
+"Waarde van ‘%(value)s’ heeft een ongeldige notatie. De juiste notatie is "
+"YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
+"Waarde van ‘%(value)s’ heeft de juiste notatie (YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ]), maar het is een ongeldige datum/tijd."
 
 msgid "Date (with time)"
-msgstr "ದಿನಾಂಕ (ಸಮಯದೊಂದಿಗೆ)"
+msgstr "Datum (met tijd)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr ""
+msgstr "Waarde van ‘%(value)s’ moet een decimaal getal zijn."
 
 msgid "Decimal number"
-msgstr "ದಶಮಾನ ಸಂಖ್ಯೆ"
+msgstr "Decimaal getal"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
+"Waarde van ‘%(value)s’ heeft een ongeldige notatie. De juiste notatie is "
+"[DD] [[HH:]MM:]ss[.uuuuuu]."
 
 msgid "Duration"
-msgstr ""
+msgstr "Tijdsduur"
 
 msgid "Email address"
-msgstr ""
+msgstr "E-mailadres"
 
 msgid "File path"
-msgstr "ಕಡತದ ಸ್ಥಾನಪಥ"
+msgstr "Bestandspad"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr ""
+msgstr "Waarde van ‘%(value)s’ moet een drijvende-kommagetal zijn."
 
 msgid "Floating point number"
-msgstr "ತೇಲುವ-ಬಿಂದು ಸಂಖ್ಯೆ"
+msgstr "Drijvende-kommagetal"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr ""
+msgstr "Waarde van ‘%(value)s’ moet een geheel getal zijn."
 
 msgid "Integer"
-msgstr "ಪೂರ್ಣಾಂಕ"
+msgstr "Geheel getal"
 
 msgid "Big (8 byte) integer"
-msgstr "ಬೃಹತ್ (೮ ಬೈಟ್) ಪೂರ್ಣ ಸಂಖ್ಯೆ"
+msgstr "Groot (8 byte) geheel getal"
+
+msgid "Small integer"
+msgstr "Klein geheel getal"
 
 msgid "IPv4 address"
-msgstr "IPv4 ವಿಳಾಸ"
+msgstr "IPv4-adres"
 
 msgid "IP address"
-msgstr "IP ವಿಳಾಸ"
+msgstr "IP-adres"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr ""
+msgstr "Waarde van ‘%(value)s’ moet None, True of False zijn."
 
 msgid "Boolean (Either True, False or None)"
-msgstr "ಬೂಲಿಯನ್ (ನಿಜ, ಸುಳ್ಳು ಅಥವ ಯಾವುದೂ ಅಲ್ಲ ಇವುಗಳಲ್ಲಿ ಒಂದು)"
+msgstr "Boolean (True, False of None)"
+
+msgid "Positive big integer"
+msgstr "Positief groot geheel getal"
 
 msgid "Positive integer"
-msgstr ""
+msgstr "Positief geheel getal"
 
 msgid "Positive small integer"
-msgstr ""
+msgstr "Positief klein geheel getal"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr ""
-
-msgid "Small integer"
-msgstr ""
+msgstr "Slug (max. lengte %(max_length)s)"
 
 msgid "Text"
-msgstr "ಪಠ್ಯ"
+msgstr "Tekst"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
+"Waarde van ‘%(value)s’ heeft een ongeldige notatie. De juiste notatie is HH:"
+"MM[:ss[.uuuuuu]]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
+"Waarde van ‘%(value)s’ heeft de juiste notatie (HH:MM[:ss[.uuuuuu]]), maar "
+"het is een ongeldige tijd."
 
 msgid "Time"
-msgstr "ಸಮಯ"
+msgstr "Tijd"
 
 msgid "URL"
 msgstr "URL"
 
 msgid "Raw binary data"
-msgstr ""
+msgstr "Onbewerkte binaire gegevens"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr ""
+msgstr "‘%(value)s’ is geen geldige UUID."
 
 msgid "Universally unique identifier"
-msgstr ""
+msgstr "Universally unique identifier"
 
 msgid "File"
-msgstr ""
+msgstr "Bestand"
 
 msgid "Image"
-msgstr ""
+msgstr "Afbeelding"
+
+msgid "A JSON object"
+msgstr "Een JSON-object"
+
+msgid "Value must be valid JSON."
+msgstr "Waarde moet geldige JSON zijn."
 
 #, python-format
-msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr ""
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr "Instantie %(model)s met %(field)s %(value)r is geen geldige keuze."
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "ಬಾಹ್ಯ ಕೀಲಿ (ಸಂಬಂಧಿತ ಸ್ಥಳದಿಂದ ಪ್ರಕಾರವನ್ನು ನಿರ್ಧರಿಸಲಾಗುತ್ತದೆ)"
+msgstr "Refererende sleutel (type wordt bepaald door gerelateerde veld)"
 
 msgid "One-to-one relationship"
-msgstr "ಒನ್-ಟು-ಒನ್ (ಪರಸ್ಪರ) ಸಂಬಂಧ"
+msgstr "Een-op-een-relatie"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr ""
+msgstr "%(from)s-%(to)s-relatie"
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr ""
+msgstr "%(from)s-%(to)s-relaties"
 
 msgid "Many-to-many relationship"
-msgstr "ಮೆನಿ-ಟು-ಮೆನಿ (ಸಾರ್ವಜನಿಕ) ಸಂಬಂಧ"
+msgstr "Veel-op-veel-relatie"
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the
-#. label
+#. characters will prevent the default label_suffix to be appended to
+#. the label
 msgid ":?.!"
-msgstr ""
+msgstr ":?.!"
 
 msgid "This field is required."
-msgstr "ಈ ಸ್ಥಳವು ಅಗತ್ಯವಿರುತ್ತದೆ."
+msgstr "Dit veld is verplicht."
 
 msgid "Enter a whole number."
-msgstr "ಪೂರ್ಣಾಂಕವೊಂದನ್ನು ನಮೂದಿಸಿ."
+msgstr "Voer een geheel getal in."
 
 msgid "Enter a valid date."
-msgstr "ಸರಿಯಾದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ."
+msgstr "Voer een geldige datum in."
 
 msgid "Enter a valid time."
-msgstr "ಸರಿಯಾದ ಸಮಯವನ್ನು ನಮೂದಿಸಿ."
+msgstr "Voer een geldige tijd in."
 
 msgid "Enter a valid date/time."
-msgstr "ಸರಿಯಾದ ದಿನಾಂಕ/ಸಮಯವನ್ನು ನಮೂದಿಸಿ."
+msgstr "Voer een geldige datum/tijd in."
 
 msgid "Enter a valid duration."
-msgstr ""
+msgstr "Voer een geldige tijdsduur in."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr ""
+msgstr "Het aantal dagen moet tussen {min_days} en {max_days} liggen."
 
 msgid "No file was submitted. Check the encoding type on the form."
 msgstr ""
-"ಯಾವದೇ ಕಡತವನ್ನೂ ಸಲ್ಲಿಸಲಾಗಿಲ್ಲ. ನಮೂನೆಯ ಮೇಲಿನ ಸಂಕೇತೀಕರಣ (ಎನ್ಕೋಡಿಂಗ್) ಬಗೆಯನ್ನು "
-"ಪರೀಕ್ಷಿಸಿ."
+"Er is geen bestand verstuurd. Controleer het coderingstype op het formulier."
 
 msgid "No file was submitted."
-msgstr "ಯಾವದೇ ಕಡತವನ್ನೂ ಸಲ್ಲಿಸಲಾಗಿಲ್ಲ."
+msgstr "Er is geen bestand verstuurd."
 
 msgid "The submitted file is empty."
-msgstr "ಸಲ್ಲಿಸಲಾದ ಕಡತ ಖಾಲಿ ಇದೆ."
+msgstr "Het verstuurde bestand is leeg."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
+"Zorg dat deze bestandsnaam niet meer dan %(max)d teken bevat (het zijn er nu "
+"%(length)d)."
 msgstr[1] ""
+"Zorg dat deze bestandsnaam niet meer dan %(max)d tekens bevat (het zijn er "
+"nu %(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr ""
-"ದಯವಿಟ್ಟು ಕಡತವನ್ನು ಸಲ್ಲಿಸಿ ಅಥವ ಅಳಿಸುವ ಗುರುತುಚೌಕವನ್ನು ಗುರುತು ಹಾಕಿ, ಎರಡನ್ನೂ ಒಟ್ಟಿಗೆ "
-"ಮಾಡಬೇಡಿ."
+msgstr "Upload een bestand of vink het vakje Wissen aan, niet allebei."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
-"ಸರಿಯಾದ ಚಿತ್ರವನ್ನು ಸೇರಿಸಿ. ನೀವು ಸೇರಿಸಿದ ಕಡತವು ಚಿತ್ರವೇ ಅಲ್ಲ ಅಥವಾ ಅದು ಒಂದು ಹಾಳಾದ "
-"ಚಿತ್ರವಾಗಿದೆ. "
+"Upload een geldige afbeelding. Het geüploade bestand is geen of een "
+"beschadigde afbeelding."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "ಸರಿಯಾದ ಒಂದು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ. %(value)s ಎನ್ನುವುದು ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳಲ್ಲಿ ಇಲ್ಲ."
+msgstr "Selecteer een geldige keuze. %(value)s is geen beschikbare keuze."
 
 msgid "Enter a list of values."
-msgstr "ಮೌಲ್ಯಗಳ ಒಂದು ಪಟ್ಟಿಯನ್ನು ನಮೂದಿಸಿ."
+msgstr "Voer een lijst met waarden in."
 
 msgid "Enter a complete value."
-msgstr ""
+msgstr "Voer een volledige waarde in."
 
 msgid "Enter a valid UUID."
-msgstr ""
+msgstr "Voer een geldige UUID in."
+
+msgid "Enter a valid JSON."
+msgstr "Voer een geldige JSON in."
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr ""
-
-msgid "ManagementForm data is missing or has been tampered with"
-msgstr ""
+msgstr "(Verborgen veld %(name)s) %(error)s"
 
 #, python-format
-msgid "Please submit %d or fewer forms."
-msgid_plural "Please submit %d or fewer forms."
-msgstr[0] ""
-msgstr[1] ""
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+"ManagementForm-gegevens ontbreken of er is mee geknoeid. Ontbrekende velden: "
+"%(field_names)s. Mogelijk dient u een bug te melden als het probleem "
+"aanhoudt."
 
 #, python-format
-msgid "Please submit %d or more forms."
-msgid_plural "Please submit %d or more forms."
-msgstr[0] ""
-msgstr[1] ""
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] "Verstuur maximaal %(num)d formulier."
+msgstr[1] "Verstuur maximaal %(num)d formulieren."
+
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] "Verstuur minimaal %(num)d formulier."
+msgstr[1] "Verstuur minimaal %(num)d formulieren."
 
 msgid "Order"
-msgstr "ಕ್ರಮ"
+msgstr "Volgorde"
 
 msgid "Delete"
-msgstr "ಅಳಿಸಿಹಾಕಿ"
+msgstr "Verwijderen"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "%(field)s ಗಾಗಿ ಎರಡು ಬಾರಿ ನಮೂದಿಸಲಾದ ಮಾಹಿತಿಯನ್ನು ಸರಿಪಡಿಸಿ."
+msgstr "Corrigeer de dubbele gegevens voor %(field)s."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
-"%(field)s ಗಾಗಿ ಎರಡು ಬಾರಿ ನಮೂದಿಸಲಾದ ಮಾಹಿತಿಯನ್ನು ಸರಿಪಡಿಸಿ, ಇದರ ಮೌಲ್ಯವು "
-"ವಿಶಿಷ್ಟವಾಗಿರಬೇಕು."
+msgstr "Corrigeer de dubbele gegevens voor %(field)s, dat uniek moet zijn."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"%(field_name)s ಗಾಗಿ ಎರಡು ಬಾರಿ ನಮೂದಿಸಲಾದ ಮಾಹಿತಿಯನ್ನು ಸರಿಪಡಿಸಿ, %(date_field)s "
-"ನಲ್ಲಿನ %(lookup)s ಗಾಗಿ ಇದರ ಮೌಲ್ಯವು ವಿಶಿಷ್ಟವಾಗಿರಬೇಕು."
+"Corrigeer de dubbele gegevens voor %(field_name)s, dat uniek moet zijn voor "
+"de %(lookup)s in %(date_field)s."
 
 msgid "Please correct the duplicate values below."
-msgstr "ದಯವಿಟ್ಟು ಈ ಕೆಳಗೆ ಎರಡು ಬಾರಿ ನಮೂದಿಸಲಾದ ಮೌಲ್ಯವನ್ನು ಸರಿಪಡಿಸಿ."
+msgstr "Corrigeer de dubbele waarden hieronder."
 
 msgid "The inline value did not match the parent instance."
-msgstr ""
+msgstr "De inline waarde komt niet overeen met de bovenliggende instantie."
 
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "ಸರಿಯಾದ ಒಂದು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ. ಆ ಆಯ್ಕೆಯು ಲಭ್ಯವಿರುವ ಆಯ್ಕೆಗಳಲ್ಲಿ ಇಲ್ಲ."
+msgstr "Selecteer een geldige keuze. Deze keuze is niet beschikbaar."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr ""
+msgstr "‘%(pk)s’ is geen geldige waarde."
 
 #, python-format
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
+"%(datetime)s kon niet worden geïnterpreteerd in tijdzone "
+"%(current_timezone)s; mogelijk is deze dubbelzinnig of bestaat deze niet."
 
 msgid "Clear"
-msgstr "ಮುಕ್ತಗೊಳಿಸು"
+msgstr "Wissen"
 
 msgid "Currently"
-msgstr "ಪ್ರಸಕ್ತ"
+msgstr "Huidige"
 
 msgid "Change"
-msgstr "ಬದಲಾವಣೆ"
+msgstr "Wijzigen"
 
 msgid "Unknown"
-msgstr "ಗೊತ್ತಿರದ"
+msgstr "Onbekend"
 
 msgid "Yes"
-msgstr "ಹೌದು"
+msgstr "Ja"
 
 msgid "No"
-msgstr "ಇಲ್ಲ"
+msgstr "Nee"
 
-msgid "Year"
-msgstr ""
+msgctxt "Task"
+msgid "Ready"
+msgstr "Gereed"
 
-msgid "Month"
-msgstr ""
+msgctxt "Task"
+msgid "Running"
+msgstr "Actief"
 
-msgid "Day"
-msgstr ""
+msgctxt "Task"
+msgid "Failed"
+msgstr "Mislukt"
 
+msgctxt "Task"
+msgid "Successful"
+msgstr "Gelukt"
+
+#. Translators: Please do not add spaces around commas.
 msgid "yes,no,maybe"
-msgstr "ಹೌದು,ಇಲ್ಲ,ಇರಬಹುದು"
+msgstr "ja,nee,misschien"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d ಬೈಟ್‌ಗಳು"
-msgstr[1] "%(size)d ಬೈಟ್‌ಗಳು"
+msgstr[0] "%(size)d byte"
+msgstr[1] "%(size)d bytes"
 
 #, python-format
 msgid "%s KB"
@@ -814,419 +938,439 @@ msgid "%s PB"
 msgstr "%s PB"
 
 msgid "p.m."
-msgstr "ಅಪರಾಹ್ನ"
+msgstr "p.m."
 
 msgid "a.m."
-msgstr "ಪೂರ್ವಾಹ್ನ"
+msgstr "a.m."
 
 msgid "PM"
-msgstr "ಅಪರಾಹ್ನ"
+msgstr "PM"
 
 msgid "AM"
-msgstr "ಪೂರ್ವಾಹ್ನ"
+msgstr "AM"
 
 msgid "midnight"
-msgstr "ಮಧ್ಯರಾತ್ರಿ"
+msgstr "middernacht"
 
 msgid "noon"
-msgstr "ಮಧ್ಯಾಹ್ನ"
+msgstr "middag"
 
 msgid "Monday"
-msgstr "ಸೋಮವಾರ"
+msgstr "maandag"
 
 msgid "Tuesday"
-msgstr "ಮಂಗಳವಾರ"
+msgstr "dinsdag"
 
 msgid "Wednesday"
-msgstr "ಬುಧವಾರ"
+msgstr "woensdag"
 
 msgid "Thursday"
-msgstr "ಗುರುವಾರ"
+msgstr "donderdag"
 
 msgid "Friday"
-msgstr "ಶುಕ್ರವಾರ"
+msgstr "vrijdag"
 
 msgid "Saturday"
-msgstr "ಶನಿವಾರ"
+msgstr "zaterdag"
 
 msgid "Sunday"
-msgstr "ರವಿವಾರ"
+msgstr "zondag"
 
 msgid "Mon"
-msgstr "ಸೋಮ"
+msgstr "ma"
 
 msgid "Tue"
-msgstr "ಮಂಗಳ"
+msgstr "di"
 
 msgid "Wed"
-msgstr "ಬುಧ"
+msgstr "wo"
 
 msgid "Thu"
-msgstr "ಗುರು"
+msgstr "do"
 
 msgid "Fri"
-msgstr "ಶುಕ್ರ"
+msgstr "vr"
 
 msgid "Sat"
-msgstr "ಶನಿ"
+msgstr "za"
 
 msgid "Sun"
-msgstr "ರವಿ"
+msgstr "zo"
 
 msgid "January"
-msgstr "ಜನವರಿ"
+msgstr "januari"
 
 msgid "February"
-msgstr "ಫೆಬ್ರುವರಿ"
+msgstr "februari"
 
 msgid "March"
-msgstr "ಮಾರ್ಚ್"
+msgstr "maart"
 
 msgid "April"
-msgstr "ಎಪ್ರಿಲ್"
+msgstr "april"
 
 msgid "May"
-msgstr "ಮೇ"
+msgstr "mei"
 
 msgid "June"
-msgstr "ಜೂನ್"
+msgstr "juni"
 
 msgid "July"
-msgstr "ಜುಲೈ"
+msgstr "juli"
 
 msgid "August"
-msgstr "ಆಗಸ್ಟ್"
+msgstr "augustus"
 
 msgid "September"
-msgstr "ಸೆಪ್ಟೆಂಬರ್"
+msgstr "september"
 
 msgid "October"
-msgstr "ಅಕ್ಟೋಬರ್"
+msgstr "oktober"
 
 msgid "November"
-msgstr "ನವೆಂಬರ್"
+msgstr "november"
 
 msgid "December"
-msgstr "ಡಿಸೆಂಬರ್"
+msgstr "december"
 
 msgid "jan"
-msgstr "ಜನವರಿ"
+msgstr "jan"
 
 msgid "feb"
-msgstr "ಫೆಬ್ರವರಿ"
+msgstr "feb"
 
 msgid "mar"
-msgstr "ಮಾರ್ಚ್"
+msgstr "mrt"
 
 msgid "apr"
-msgstr "ಏಪ್ರಿಲ್"
+msgstr "apr"
 
 msgid "may"
-msgstr "ಮೇ"
+msgstr "mei"
 
 msgid "jun"
-msgstr "ಜೂನ್"
+msgstr "jun"
 
 msgid "jul"
-msgstr "ಜುಲೈ"
+msgstr "jul"
 
 msgid "aug"
-msgstr "ಆಗಸ್ಟ್‍"
+msgstr "aug"
 
 msgid "sep"
-msgstr "ಸೆಪ್ಟೆಂಬರ್"
+msgstr "sep"
 
 msgid "oct"
-msgstr "ಅಕ್ಟೋಬರ್"
+msgstr "okt"
 
 msgid "nov"
-msgstr "ನವೆಂಬರ್"
+msgstr "nov"
 
 msgid "dec"
-msgstr "ಡಿಸೆಂಬರ್"
+msgstr "dec"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "ಜನ."
+msgstr "jan"
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "ಫೆಬ್ರ."
+msgstr "feb"
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "ಮಾರ್ಚ್"
+msgstr "mrt"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "ಏಪ್ರಿಲ್"
+msgstr "apr"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "ಮೇ"
+msgstr "mei"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "ಜೂನ್"
+msgstr "jun"
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "ಜುಲೈ"
+msgstr "jul"
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "ಆಗ."
+msgstr "aug"
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "ಸೆಪ್ಟೆ."
+msgstr "sep"
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "ಅಕ್ಟೋ."
+msgstr "okt"
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "ನವೆಂ."
+msgstr "nov"
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "ಡಿಸೆಂ."
+msgstr "dec"
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "ಜನವರಿ"
+msgstr "januari"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "ಫೆಬ್ರವರಿ"
+msgstr "februari"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "ಮಾರ್ಚ್"
+msgstr "maart"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "ಏಪ್ರಿಲ್"
+msgstr "april"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "ಮೇ"
+msgstr "mei"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "ಜೂನ್"
+msgstr "juni"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "ಜುಲೈ"
+msgstr "juli"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "ಆಗಸ್ಟ್‍"
+msgstr "augustus"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "ಸಪ್ಟೆಂಬರ್"
+msgstr "september"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "ಅಕ್ಟೋಬರ್"
+msgstr "oktober"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "ನವೆಂಬರ್"
+msgstr "november"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "ಡಿಸೆಂಬರ್"
+msgstr "december"
 
 msgid "This is not a valid IPv6 address."
-msgstr ""
+msgstr "Dit is geen geldig IPv6-adres."
 
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
-msgstr ""
+msgstr "%(truncated_text)s…"
 
 msgid "or"
-msgstr "ಅಥವ"
+msgstr "of"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
 msgstr ", "
 
 #, python-format
-msgid "%d year"
-msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] "%(num)d jaar"
+msgstr[1] "%(num)d jaar"
 
 #, python-format
-msgid "%d month"
-msgid_plural "%d months"
-msgstr[0] ""
-msgstr[1] ""
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] "%(num)d maand"
+msgstr[1] "%(num)d maanden"
 
 #, python-format
-msgid "%d week"
-msgid_plural "%d weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] "%(num)d week"
+msgstr[1] "%(num)d weken"
 
 #, python-format
-msgid "%d day"
-msgid_plural "%d days"
-msgstr[0] ""
-msgstr[1] ""
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] "%(num)d dag"
+msgstr[1] "%(num)d dagen"
 
 #, python-format
-msgid "%d hour"
-msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] "%(num)d uur"
+msgstr[1] "%(num)d uur"
 
 #, python-format
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-msgid "0 minutes"
-msgstr ""
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] "%(num)d minuut"
+msgstr[1] "%(num)d minuten"
 
 msgid "Forbidden"
-msgstr ""
+msgstr "Verboden"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr ""
+msgstr "CSRF-verificatie mislukt. Aanvraag afgebroken."
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your Web browser, but none was sent. This header is "
+"header” to be sent by your web browser, but none was sent. This header is "
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
+"U ziet deze melding, omdat deze HTTPS-website vereist dat uw webbrowser een "
+"‘Referer header’ meestuurt, maar deze ontbreekt. Deze header is om "
+"veiligheidsredenen vereist om er zeker van te zijn dat uw browser niet door "
+"derden wordt gekaapt."
 
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
+"Als u ‘Referer’-headers in uw browser hebt uitgeschakeld, schakel deze dan "
+"weer in, op zijn minst voor deze website, of voor HTTPS-verbindingen, of "
+"voor ‘same-origin’-aanvragen."
 
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
 "including the “Referrer-Policy: no-referrer” header, please remove them. The "
 "CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
-"\" …> for links to third-party sites."
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
+"Als u de tag <meta name=\"referrer\" content=\"no-referrer\"> gebruikt of de "
+"header ‘Referrer-Policy: no-referrer’ opneemt, verwijder deze dan. De CSRF-"
+"bescherming vereist de ‘Referer’-header voor strenge referer-controle. Als u "
+"bezorgd bent om privacy, gebruik dan alternatieven zoals <a "
+"rel=\"noreferrer\" …> voor koppelingen naar websites van derden."
 
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
+"U ziet deze melding, omdat deze website vereist dat een CSRF-cookie wordt "
+"meegestuurd bij het verzenden van formulieren. Dit cookie is om "
+"veiligheidsredenen vereist om er zeker van te zijn dat uw browser niet door "
+"derden wordt gekaapt."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
+"Als u cookies in uw webbrowser hebt uitgeschakeld, schakel deze dan weer in, "
+"op zijn minst voor deze website, of voor ‘same-origin’-aanvragen."
 
 msgid "More information is available with DEBUG=True."
-msgstr ""
+msgstr "Meer informatie is beschikbaar met DEBUG=True."
 
 msgid "No year specified"
-msgstr "ಯಾವುದೆ ವರ್ಷವನ್ನು ಸೂಚಿಲಾಗಿಲ್ಲ"
+msgstr "Geen jaar opgegeven"
 
 msgid "Date out of range"
-msgstr ""
+msgstr "Datum buiten bereik"
 
 msgid "No month specified"
-msgstr "ಯಾವುದೆ ತಿಂಗಳನ್ನು ಸೂಚಿಸಲಾಗಿಲ್ಲ"
+msgstr "Geen maand opgegeven"
 
 msgid "No day specified"
-msgstr "ಯಾವುದೆ ದಿನವನ್ನು ಸೂಚಿಸಲಾಗಿಲ್ಲ"
+msgstr "Geen dag opgegeven"
 
 msgid "No week specified"
-msgstr "ಯಾವುದೆ ವಾರವನ್ನು ಸೂಚಿಸಲಾಗಿಲ್ಲ"
+msgstr "Geen week opgegeven"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "ಯಾವುದೆ %(verbose_name_plural)s ಲಭ್ಯವಿಲ್ಲ"
+msgstr "Geen %(verbose_name_plural)s beschikbaar"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"ಭವಿಷ್ಯದ %(verbose_name_plural)s ಲಭ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ %(class_name)s.allow_future "
-"ಎನ್ನುವುದು ಅಸತ್ಯವಾಗಿದೆ (ಫಾಲ್ಸ್‍) ಆಗಿದೆ."
+"Geen toekomstige %(verbose_name_plural)s beschikbaar, omdat %(class_name)s."
+"allow_future de waarde False (Onwaar) heeft."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr ""
+msgstr "Ongeldige datumtekst ‘%(datestr)s’ op basis van notatie ‘%(format)s’"
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "ಮನವಿಗೆ ತಾಳೆಯಾಗುವ ಯಾವುದೆ %(verbose_name)s ಕಂಡುಬಂದಿಲ್ಲ"
+msgstr "Geen %(verbose_name)s gevonden die voldoet aan de query"
 
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
+"Pagina is niet ‘last’ en kan ook niet naar een geheel getal worden "
+"geconverteerd."
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr ""
+msgstr "Ongeldige pagina (%(page_number)s): %(message)s"
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr ""
+msgstr "Lege lijst en ‘%(class_name)s.allow_empty’ is False."
 
 msgid "Directory indexes are not allowed here."
-msgstr ""
+msgstr "Directoryindexen zijn hier niet toegestaan."
 
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr ""
+msgstr "‘%(path)s’ bestaat niet"
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr ""
+msgstr "Index van %(directory)s"
 
-msgid "Django: the Web framework for perfectionists with deadlines."
-msgstr ""
+msgid "The install worked successfully! Congratulations!"
+msgstr "De installatie is gelukt! Gefeliciteerd!"
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-
-msgid "The install worked successfully! Congratulations!"
-msgstr ""
+"<a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">Uitgaveopmerkingen</a> voor Django "
+"%(version)s weergeven"
 
 #, python-format
 msgid ""
 "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> is in your settings file and you have not configured any "
-"URLs."
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
 msgstr ""
+"U ziet deze pagina, omdat uw instellingenbestand <a href=\"https://docs."
+"djangoproject.com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> bevat en u geen URL's hebt geconfigureerd."
 
 msgid "Django Documentation"
-msgstr ""
+msgstr "Django-documentatie"
 
 msgid "Topics, references, &amp; how-to’s"
-msgstr ""
+msgstr "Onderwerpen, referenties en instructies"
 
 msgid "Tutorial: A Polling App"
-msgstr ""
+msgstr "Handleiding: een app voor peilingen"
 
 msgid "Get started with Django"
-msgstr ""
+msgstr "Aan de slag met Django"
 
 msgid "Django Community"
-msgstr ""
+msgstr "Django-gemeenschap"
 
 msgid "Connect, get help, or contribute"
-msgstr ""
+msgstr "Contact met anderen, hulp verkrijgen of bijdragen"

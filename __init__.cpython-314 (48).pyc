@@ -1,219 +1,219 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Abel Radac <abelradac@gmail.com>, 2017
-# Bogdan Mateescu, 2018-2019,2021
-# mihneasim <contact@mesimian.com>, 2011
-# Daniel Ursache-Dogariu, 2011
-# Denis Darii <denis.darii@gmail.com>, 2011,2014
-# Ionel Cristian Mărieș <ionel.mc@gmail.com>, 2012
+# Raúl Pedro Fernandes Santos, 2014
+# Bruno Miguel Custódio <bruno@brunomcustodio.com>, 2012
+# Claudio Fernandes <squeral@gmail.com>, 2015
 # Jannis Leidel <jannis@leidel.info>, 2011
-# razvan ionescu <ionescu77@gmail.com>, 2015
-# Razvan Stefanescu <razvan.stefanescu@gmail.com>, 2016-2017
+# José Durães <jdmduraes@gmail.com>, 2014
+# jorgecarleitao <jorgecarleitao@gmail.com>, 2014-2015
+# Manuela Silva <mmsrs@sky.com>, 2025
+# Nuno Mariz <nmariz@gmail.com>, 2011-2013,2015-2018
+# 12574c6d66324e145c1d19e02acecb73_84badd8 <4e8d94859927eab3b50486d21249c068_5346>, 2011
+# Raúl Pedro Fernandes Santos, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 02:13-0600\n"
-"PO-Revision-Date: 2023-04-25 06:49+0000\n"
-"Last-Translator: Bogdan Mateescu, 2018-2019,2021\n"
-"Language-Team: Romanian (http://www.transifex.com/django/django/language/"
-"ro/)\n"
+"POT-Creation-Date: 2025-03-19 11:30-0500\n"
+"PO-Revision-Date: 2025-09-17 06:49+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>, 2025\n"
+"Language-Team: Portuguese (http://app.transifex.com/django/django/language/"
+"pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
-"2:1));\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Afrikaans"
-msgstr "Afrikaans"
+msgstr "Africâner"
 
 msgid "Arabic"
-msgstr "Arabă"
+msgstr "Árabe"
 
 msgid "Algerian Arabic"
-msgstr ""
+msgstr "Árabe Argelino"
 
 msgid "Asturian"
-msgstr "Asturiană"
+msgstr "Asturiano"
 
 msgid "Azerbaijani"
-msgstr "Azeră"
+msgstr "Azerbaijano"
 
 msgid "Bulgarian"
-msgstr "Bulgară"
+msgstr "Búlgaro"
 
 msgid "Belarusian"
-msgstr "Bielorusă"
+msgstr "Bielorusso"
 
 msgid "Bengali"
-msgstr "Bengaleză"
+msgstr "Bengalês"
 
 msgid "Breton"
-msgstr "Bretonă"
+msgstr "Bretão"
 
 msgid "Bosnian"
-msgstr "Bosniacă"
+msgstr "Bósnio"
 
 msgid "Catalan"
-msgstr "Catalană"
+msgstr "Catalão"
 
 msgid "Central Kurdish (Sorani)"
-msgstr ""
+msgstr "Curdo Central (Sorani)"
 
 msgid "Czech"
-msgstr "Cehă"
+msgstr "Checo"
 
 msgid "Welsh"
-msgstr "Galeză"
+msgstr "Galês"
 
 msgid "Danish"
-msgstr "Daneză"
+msgstr "Dinamarquês"
 
 msgid "German"
-msgstr "Germană"
+msgstr "Alemão"
 
 msgid "Lower Sorbian"
-msgstr "Soraba Inferioară"
+msgstr "Sorbedo inferior"
 
 msgid "Greek"
-msgstr "Greacă"
+msgstr "Grego"
 
 msgid "English"
-msgstr "Engleză"
+msgstr "Inglês"
 
 msgid "Australian English"
-msgstr "Engleză australiană"
+msgstr "Inglês da Austrália"
 
 msgid "British English"
-msgstr "Engleză britanică"
+msgstr "Inglês Britânico"
 
 msgid "Esperanto"
 msgstr "Esperanto"
 
 msgid "Spanish"
-msgstr "Spaniolă"
+msgstr "Espanhol"
 
 msgid "Argentinian Spanish"
-msgstr "Spaniolă Argentiniană"
+msgstr "Espanhol Argentino"
 
 msgid "Colombian Spanish"
-msgstr "Spaniolă Columbiană"
+msgstr "Espanhol Colombiano"
 
 msgid "Mexican Spanish"
-msgstr "Spaniolă Mexicană"
+msgstr "Espanhol mexicano"
 
 msgid "Nicaraguan Spanish"
-msgstr "Spaniolă Nicaragua"
+msgstr "Nicarágua Espanhol"
 
 msgid "Venezuelan Spanish"
-msgstr "Spaniolă venezueleană"
+msgstr "Espanhol Venezuelano"
 
 msgid "Estonian"
-msgstr "Estonă"
+msgstr "Estónio"
 
 msgid "Basque"
-msgstr "Bască"
+msgstr "Basco"
 
 msgid "Persian"
-msgstr "Persană"
+msgstr "Persa"
 
 msgid "Finnish"
-msgstr "Finlandeză"
+msgstr "Filandês"
 
 msgid "French"
-msgstr "Franceză"
+msgstr "Francês"
 
 msgid "Frisian"
-msgstr "Frizian"
+msgstr "Frisão"
 
 msgid "Irish"
-msgstr "Irlandeză"
+msgstr "Irlandês"
 
 msgid "Scottish Gaelic"
-msgstr "Galeză Scoțiană"
+msgstr "Escocês Gaélico"
 
 msgid "Galician"
-msgstr "Galiciană"
+msgstr "Galaciano"
 
 msgid "Hebrew"
-msgstr "Ebraică"
+msgstr "Hebraico"
 
 msgid "Hindi"
 msgstr "Hindi"
 
 msgid "Croatian"
-msgstr "Croată"
+msgstr "Croata"
 
 msgid "Upper Sorbian"
-msgstr "Soraba Superioară"
+msgstr "Sorbedo superior"
 
 msgid "Hungarian"
-msgstr "Ungară"
+msgstr "Húngaro"
 
 msgid "Armenian"
-msgstr "Armeană"
+msgstr "Arménio"
 
 msgid "Interlingua"
-msgstr "Interlingua"
+msgstr "Interlíngua"
 
 msgid "Indonesian"
-msgstr "Indoneză"
+msgstr "Indonésio"
 
 msgid "Igbo"
-msgstr ""
+msgstr "Igbo"
 
 msgid "Ido"
 msgstr "Ido"
 
 msgid "Icelandic"
-msgstr "Islandeză"
+msgstr "Islandês"
 
 msgid "Italian"
-msgstr "Italiană"
+msgstr "Italiano"
 
 msgid "Japanese"
-msgstr "Japoneză"
+msgstr "Japonês"
 
 msgid "Georgian"
-msgstr "Georgiană"
+msgstr "Georgiano"
 
 msgid "Kabyle"
 msgstr "Kabyle"
 
 msgid "Kazakh"
-msgstr "Kazahă"
+msgstr "Cazaque"
 
 msgid "Khmer"
-msgstr "Khmeră"
+msgstr "Khmer"
 
 msgid "Kannada"
-msgstr "Limba kannada"
+msgstr "Canarês"
 
 msgid "Korean"
-msgstr "Koreană"
+msgstr "Coreano"
 
 msgid "Kyrgyz"
 msgstr ""
 
 msgid "Luxembourgish"
-msgstr "Luxemburgheză"
+msgstr "Luxemburguês"
 
 msgid "Lithuanian"
-msgstr "Lituaniană"
+msgstr "Lituano"
 
 msgid "Latvian"
-msgstr "Letonă"
+msgstr "Letão"
 
 msgid "Macedonian"
-msgstr "Macedoneană"
+msgstr "Macedónio"
 
 msgid "Malayalam"
-msgstr "Malayalam"
+msgstr "Malaiala"
 
 msgid "Mongolian"
-msgstr "Mongolă"
+msgstr "Mongol"
 
 msgid "Marathi"
 msgstr "Marathi"
@@ -222,183 +222,194 @@ msgid "Malay"
 msgstr ""
 
 msgid "Burmese"
-msgstr "Burmeză"
+msgstr "Birmanês"
 
 msgid "Norwegian Bokmål"
-msgstr "Norvegiana modernă"
+msgstr "Norueguês Bokmål"
 
 msgid "Nepali"
-msgstr "Nepaleză"
+msgstr "Nepali"
 
 msgid "Dutch"
-msgstr "Olandeză"
+msgstr "Holandês"
 
 msgid "Norwegian Nynorsk"
-msgstr "Norvegiană Nynorsk"
+msgstr "Norueguês (Nynors)"
 
 msgid "Ossetic"
-msgstr "Osețiană"
+msgstr "Ossetic"
 
 msgid "Punjabi"
-msgstr "Punjabi"
+msgstr "Panjabi"
 
 msgid "Polish"
-msgstr "Poloneză"
+msgstr "Polaco"
 
 msgid "Portuguese"
-msgstr "Portugheză"
+msgstr "Português"
 
 msgid "Brazilian Portuguese"
-msgstr "Portugheză braziliană"
+msgstr "Português Brasileiro"
 
 msgid "Romanian"
-msgstr "Română"
+msgstr "Romeno"
 
 msgid "Russian"
-msgstr "Rusă"
+msgstr "Russo"
 
 msgid "Slovak"
-msgstr "Slovacă"
+msgstr "Eslovaco"
 
 msgid "Slovenian"
-msgstr "Slovenă"
+msgstr "Esloveno"
 
 msgid "Albanian"
-msgstr "Albaneză"
+msgstr "Albanês"
 
 msgid "Serbian"
-msgstr "Sârbă"
+msgstr "Sérvio"
 
 msgid "Serbian Latin"
-msgstr "Sârbă latină"
+msgstr "Sérvio Latim"
 
 msgid "Swedish"
-msgstr "Suedeză"
+msgstr "Sueco"
 
 msgid "Swahili"
-msgstr "Swahili"
+msgstr "Suaíli"
 
 msgid "Tamil"
-msgstr "Limba tamila"
+msgstr "Tamil"
 
 msgid "Telugu"
-msgstr "Limba telugu"
+msgstr "Telugu"
 
 msgid "Tajik"
-msgstr ""
+msgstr "Tajique"
 
 msgid "Thai"
-msgstr "Tailandeză"
+msgstr "Thai"
 
 msgid "Turkmen"
 msgstr ""
 
 msgid "Turkish"
-msgstr "Turcă"
+msgstr "Turco"
 
 msgid "Tatar"
-msgstr "Tătară"
+msgstr "Tatar"
 
 msgid "Udmurt"
-msgstr "Udmurtă"
+msgstr "Udmurte"
+
+msgid "Uyghur"
+msgstr ""
 
 msgid "Ukrainian"
-msgstr "Ucraineană"
+msgstr "Ucraniano"
 
 msgid "Urdu"
 msgstr "Urdu"
 
 msgid "Uzbek"
-msgstr "Uzbecă"
+msgstr ""
 
 msgid "Vietnamese"
-msgstr "Vietnameză"
+msgstr "Vietnamita"
 
 msgid "Simplified Chinese"
-msgstr "Chineză simplificată"
+msgstr "Chinês Simplificado"
 
 msgid "Traditional Chinese"
-msgstr "Chineză tradițională"
+msgstr "Chinês Tradicional"
 
 msgid "Messages"
-msgstr "Mesaje"
+msgstr "Mensagens"
 
 msgid "Site Maps"
-msgstr "Harta sit-ului"
+msgstr "Mapas do Site"
 
 msgid "Static Files"
-msgstr "Fișiere statice"
+msgstr "Ficheiros Estáticos"
 
 msgid "Syndication"
-msgstr "Sindicalizare"
+msgstr "Syndication"
 
 #. Translators: String used to replace omitted page numbers in elided page
 #. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
 msgid "…"
-msgstr ""
+msgstr "…"
 
 msgid "That page number is not an integer"
-msgstr "Numărul de pagină nu este întreg"
+msgstr "Esse número de página não é um número inteiro"
 
 msgid "That page number is less than 1"
-msgstr "Numărul de pagină este mai mic decât 1"
+msgstr "Esse número de página é inferior a 1"
 
 msgid "That page contains no results"
-msgstr "Această pagină nu conține nici un rezultat"
+msgstr "Essa página não contém resultados"
 
 msgid "Enter a valid value."
-msgstr "Introduceți o valoare validă."
+msgstr "Introduza um valor válido."
+
+msgid "Enter a valid domain name."
+msgstr "Insira um nome de domínio válido."
 
 msgid "Enter a valid URL."
-msgstr "Introduceți un URL valid."
+msgstr "Introduza um URL válido."
 
 msgid "Enter a valid integer."
-msgstr "Introduceți un întreg valid."
+msgstr "Introduza um número inteiro válido."
 
 msgid "Enter a valid email address."
-msgstr "Introduceți o adresă de email validă."
+msgstr "Introduza um endereço de e-mail válido."
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Introduceți un “slug” valid care constă în litere, numere, underscore sau "
-"cratime."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
 
-msgid "Enter a valid IPv4 address."
-msgstr "Introduceţi o adresă IPv4 validă."
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr "Insira um endereço %(protocol)s válido."
 
-msgid "Enter a valid IPv6 address."
-msgstr "Intoduceți o adresă IPv6 validă."
+msgid "IPv4"
+msgstr "IPv4"
 
-msgid "Enter a valid IPv4 or IPv6 address."
-msgstr "Introduceți o adresă IPv4 sau IPv6 validă."
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 ou IPv6"
 
 msgid "Enter only digits separated by commas."
-msgstr "Introduceţi numai numere separate de virgule."
+msgstr "Introduza apenas números separados por vírgulas."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
-"Asiguraţi-vă că această valoare este %(limit_value)s  (este %(show_value)s )."
+msgstr "Garanta que este valor seja %(limit_value)s (tem %(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr ""
-"Asiguraţi-vă că această valoare este mai mică sau egală cu %(limit_value)s ."
+msgstr "Garanta que este valor seja menor ou igual a %(limit_value)s."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr ""
-"Asiguraţi-vă că această valoare este mai mare sau egală cu %(limit_value)s ."
+msgstr "Garanta que este valor seja maior ou igual a %(limit_value)s."
 
 #, python-format
 msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
 msgstr ""
 
 #, python-format
@@ -409,14 +420,14 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Asigurați-vă că această valoare are cel puțin %(limit_value)d caracter (are "
+"Garanta que este valor tenha pelo menos %(limit_value)d caractere (tem "
 "%(show_value)d)."
 msgstr[1] ""
-"Asigurați-vă că această valoare are cel puțin %(limit_value)d caractere (are "
+"Garanta que este valor tenha pelo menos %(limit_value)d caracteres (tem "
 "%(show_value)d)."
 msgstr[2] ""
-"Asigurați-vă că această valoare are cel puțin %(limit_value)d de caractere "
-"(are %(show_value)d)."
+"Garanta que este valor tenha pelo menos %(limit_value)d caracteres (tem "
+"%(show_value)d)."
 
 #, python-format
 msgid ""
@@ -426,60 +437,58 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Asigurați-vă că această valoare are cel mult %(limit_value)d caracter (are "
+"Garanta que este valor tenha no máximo %(limit_value)d caractere (tem "
 "%(show_value)d)."
 msgstr[1] ""
-"Asigurați-vă că această valoare are cel mult %(limit_value)d caractere (are "
+"Garanta que este valor tenha no máximo %(limit_value)d caracteres (tem "
 "%(show_value)d)."
 msgstr[2] ""
-"Asigurați-vă că această valoare are cel mult %(limit_value)d de caractere "
-"(are %(show_value)d)."
+"Garanta que este valor tenha no máximo %(limit_value)d caracteres (tem "
+"%(show_value)d)."
 
 msgid "Enter a number."
-msgstr "Introduceţi un număr."
+msgstr "Introduza um número."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "Asigurați-vă că nu este mai mult de %(max)s cifră în total."
-msgstr[1] "Asigurați-vă că nu sunt mai mult de %(max)s cifre în total."
-msgstr[2] "Asigurați-vă că nu sunt mai mult de %(max)s de cifre în total."
+msgstr[0] "Garanta que não tem mais de %(max)s dígito no total."
+msgstr[1] "Garanta que não tem mais de %(max)s dígitos no total."
+msgstr[2] "Garanta que não tem mais de %(max)s dígitos no total."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "Asigurați-vă că nu este mai mult de %(max)s zecimală în total."
-msgstr[1] "Asigurați-vă că nu sunt mai mult de %(max)s zecimale în total."
-msgstr[2] "Asigurați-vă că nu sunt mai mult de %(max)s de zecimale în total."
+msgstr[0] "Garanta que não tem mais %(max)s casa decimal."
+msgstr[1] "Garanta que não tem mais %(max)s casas decimais."
+msgstr[2] "Garanta que não tem mais %(max)s casas decimais."
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-"Asigurați-vă că nu este mai mult de %(max)s cifră înainte de punctul zecimal."
-msgstr[1] ""
-"Asigurați-vă că nu sunt mai mult de %(max)s cifre înainte de punctul zecimal."
-msgstr[2] ""
-"Asigurați-vă că nu sunt mai mult de %(max)s de cifre înainte de punctul "
-"zecimal."
+msgstr[0] "Garanta que não tem mais de %(max)s dígito antes do ponto decimal."
+msgstr[1] "Garanta que não tem mais de %(max)s dígitos antes do ponto decimal."
+msgstr[2] "Garanta que não tem mais de %(max)s dígitos antes do ponto decimal."
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
+"A extensão de ficheiro “%(extension)s” não é permitida. As extensões "
+"permitidas são: %(allowed_extensions)s."
 
 msgid "Null characters are not allowed."
-msgstr "Caracterele Null nu sunt permise."
+msgstr "Não são permitidos caracteres nulos."
 
 msgid "and"
-msgstr "și"
+msgstr "e"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "%(model_name)s cu acest %(field_labels)s există deja."
+msgstr "%(model_name)s com este %(field_labels)s já existe."
 
 #, python-format
 msgid "Constraint “%(name)s” is violated."
@@ -487,17 +496,17 @@ msgstr ""
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "Valoarea %(value)r nu este o opțiune validă."
+msgstr "O valor %(value)r não é uma escolha válida."
 
 msgid "This field cannot be null."
-msgstr "Acest câmp nu poate fi nul."
+msgstr "Este campo não pode ser nulo."
 
 msgid "This field cannot be blank."
-msgstr "Acest câmp nu poate fi gol."
+msgstr "Este campo não pode ser vazio."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "%(model_name)s cu %(field_label)s deja există."
+msgstr "%(model_name)s com este %(field_label)s já existe."
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or
 #. 'month'. Eg: "Title must be unique for pub_date year"
@@ -505,70 +514,77 @@ msgstr "%(model_name)s cu %(field_label)s deja există."
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
-"%(field_label)s trebuie să fie unic(e) pentru %(date_field_label)s "
-"%(lookup_type)s."
+"%(field_label)s tem de ser único para %(date_field_label)s %(lookup_type)s."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "Câmp de tip: %(field_type)s"
+msgstr "Campo do tipo: %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr ""
+msgstr "Valor “%(value)s” dever ser Verdadeiro ou Falso."
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
+msgstr "Valor “%(value)s” dever ser Verdadeiro ou Falso."
 
 msgid "Boolean (Either True or False)"
-msgstr "Boolean (adevărat sau fals)"
+msgstr "Boolean (Pode ser True ou False)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "Şir de caractere (cel mult %(max_length)s caractere)"
+msgstr "String (até %(max_length)s)"
 
 msgid "String (unlimited)"
-msgstr ""
+msgstr "String (ilimitado)"
 
 msgid "Comma-separated integers"
-msgstr "Numere întregi separate de virgule"
+msgstr "Inteiros separados por virgula"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
+"Valor “%(value)s” tem um formato de data errado. Este deve ter o formato "
+"AAAA-MM-DD."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
+"Valor \"%(value)s\" tem o formato correto AAAA-MM-DD mas tem uma data "
+"inválida."
 
 msgid "Date (without time)"
-msgstr "Dată (fară oră)"
+msgstr "Data (sem hora)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
+"Valor “%(value)s” tem um formato inválido. Este deve ter o formato AAAA-MM-"
+"DD HH:MM[:ss[.uuuuuu]][TZ]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
+"Valor “%(value)s” tem o formato correto (AAAA-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) "
+"mas tem uma data/hora inválida."
 
 msgid "Date (with time)"
-msgstr "Dată (cu oră)"
+msgstr "Data (com hora)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
 msgstr ""
 
 msgid "Decimal number"
-msgstr "Număr zecimal"
+msgstr "Número décimal"
 
 #, python-format
 msgid ""
@@ -577,62 +593,62 @@ msgid ""
 msgstr ""
 
 msgid "Duration"
-msgstr "Durată"
+msgstr "Duração"
 
 msgid "Email address"
-msgstr "Adresă e-mail"
+msgstr "Endereço de e-mail"
 
 msgid "File path"
-msgstr "Calea fisierului"
+msgstr "Caminho do ficheiro"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
 msgstr ""
 
 msgid "Floating point number"
-msgstr "Număr cu virgulă"
+msgstr "Número em vírgula flutuante"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
 msgstr ""
 
 msgid "Integer"
-msgstr "Întreg"
+msgstr "Inteiro"
 
 msgid "Big (8 byte) integer"
-msgstr "Întreg mare (8 octeți)"
+msgstr "Inteiro grande (8 byte)"
 
 msgid "Small integer"
-msgstr "Întreg mic"
+msgstr "Inteiro pequeno"
 
 msgid "IPv4 address"
-msgstr "Adresă IPv4"
+msgstr "Endereço IPv4"
 
 msgid "IP address"
-msgstr "Adresă IP"
+msgstr "Endereço IP"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
 msgstr ""
 
 msgid "Boolean (Either True, False or None)"
-msgstr "Boolean (adevărat, fals sau niciuna)"
+msgstr "Boolean (Pode ser True, False ou None)"
 
 msgid "Positive big integer"
 msgstr ""
 
 msgid "Positive integer"
-msgstr "Întreg pozitiv"
+msgstr "Inteiro positivo"
 
 msgid "Positive small integer"
-msgstr "Întreg pozitiv mic"
+msgstr "Pequeno número inteiro positivo"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "Slug (până la %(max_length)s)"
+msgstr "Slug (até %(max_length)s)"
 
 msgid "Text"
-msgstr "Text"
+msgstr "Texto"
 
 #, python-format
 msgid ""
@@ -647,53 +663,53 @@ msgid ""
 msgstr ""
 
 msgid "Time"
-msgstr "Timp"
+msgstr "Hora"
 
 msgid "URL"
 msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "Date binare brute"
+msgstr "Dados binários simples"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
 msgstr ""
 
 msgid "Universally unique identifier"
-msgstr "Identificator unic universal"
+msgstr "Identificador único universal"
 
 msgid "File"
-msgstr "Fișier"
+msgstr "Ficheiro"
 
 msgid "Image"
-msgstr "Imagine"
+msgstr "Imagem"
 
 msgid "A JSON object"
-msgstr ""
+msgstr "Um objeto JSON"
 
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "O valor deve ser JSON válido."
 
 #, python-format
-msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr "Instanța %(model)s cu %(field)s %(value)r inexistentă."
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr ""
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "Foreign Key (tip determinat de câmpul aferent)"
+msgstr "Chave Estrangeira (tipo determinado pelo campo relacionado)"
 
 msgid "One-to-one relationship"
-msgstr "Relaţie unul-la-unul"
+msgstr "Relação de um-para-um"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr "Relație %(from)s-%(to)s"
+msgstr "Relação de %(from)s-%(to)s"
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr "Relații %(from)s-%(to)s"
+msgstr "Relações de %(from)s-%(to)s"
 
 msgid "Many-to-many relationship"
-msgstr "Relație multe-la-multe"
+msgstr "Relação de muitos-para-muitos"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
@@ -702,77 +718,78 @@ msgid ":?.!"
 msgstr ":?.!"
 
 msgid "This field is required."
-msgstr "Acest câmp este obligatoriu."
+msgstr "Este campo é obrigatório."
 
 msgid "Enter a whole number."
-msgstr "Introduceţi un număr întreg."
+msgstr "Introduza um número inteiro."
 
 msgid "Enter a valid date."
-msgstr "Introduceți o dată validă."
+msgstr "Introduza uma data válida."
 
 msgid "Enter a valid time."
-msgstr "Introduceți o oră validă."
+msgstr "Introduza uma hora válida."
 
 msgid "Enter a valid date/time."
-msgstr "Introduceți o dată/oră validă."
+msgstr "Introduza uma data/hora válida."
 
 msgid "Enter a valid duration."
-msgstr "Introduceți o durată validă."
+msgstr "Introduza uma duração válida."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "Numărul de zile trebuie să fie cuprins între {min_days} și {max_days}."
+msgstr "O número de dias deve ser entre {min_days} e {max_days}."
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "Nici un fișier nu a fost trimis. Verificați tipul fișierului."
+msgstr ""
+"Nenhum ficheiro foi submetido. Verifique o tipo de codificação do formulário."
 
 msgid "No file was submitted."
-msgstr "Nici un fișier nu a fost trimis."
+msgstr "Nenhum ficheiro submetido."
 
 msgid "The submitted file is empty."
-msgstr "Fișierul încărcat este gol."
+msgstr "O ficheiro submetido encontra-se vazio."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
-"Asigurați-vă că numele fișierului are cel mult %(max)d caracter (are "
+"Garanta que o nome deste ficheiro tenha no máximo %(max)d caractere (tem "
 "%(length)d)."
 msgstr[1] ""
-"Asigurați-vă că numele fișierului are cel mult %(max)d caractere (are "
+"Garanta que o nome deste ficheiro tenha no máximo %(max)d caracteres (tem "
 "%(length)d)."
 msgstr[2] ""
-"Asigurați-vă că numele fișierului are cel mult %(max)d de caractere (are "
+"Garanta que o nome deste ficheiro tenha no máximo %(max)d caracteres (tem "
 "%(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "Fie indicați un fişier, fie bifaţi caseta de selectare, nu ambele."
+msgstr ""
+"Por favor, submeta um ficheiro ou remova a seleção da caixa, não ambos."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
-"Încărcaţi o imagine validă. Fişierul încărcat nu era o imagine sau era o "
-"imagine coruptă."
+"Introduza uma imagem válida. O ficheiro que introduziu ou não é uma imagem "
+"ou está corrompido."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
 msgstr ""
-"Selectați o opțiune validă. %(value)s nu face parte din opțiunile "
-"disponibile."
+"Selecione uma opção válida. %(value)s não se encontra nas opções disponíveis."
 
 msgid "Enter a list of values."
-msgstr "Introduceți o listă de valori."
+msgstr "Introduza uma lista de valores."
 
 msgid "Enter a complete value."
-msgstr "Introduceți o valoare completă."
+msgstr "Introduza um valor completo."
 
 msgid "Enter a valid UUID."
-msgstr "Introduceți un UUID valid."
+msgstr "Introduza um UUID válido."
 
 msgid "Enter a valid JSON."
-msgstr ""
+msgstr "Insira um JSON válido."
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
@@ -780,7 +797,7 @@ msgstr ":"
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(Câmp ascuns %(name)s) %(error)s"
+msgstr "(Campo oculto %(name)s) %(error)s"
 
 #, python-format
 msgid ""
@@ -803,37 +820,37 @@ msgstr[1] ""
 msgstr[2] ""
 
 msgid "Order"
-msgstr "Ordine"
+msgstr "Ordem"
 
 msgid "Delete"
-msgstr "Șterge"
+msgstr "Remover"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "Corectaţi datele duplicate pentru %(field)s."
+msgstr "Por favor corrija os dados duplicados em %(field)s."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr "Corectaţi datele duplicate pentru %(field)s , ce trebuie să fie unic."
+msgstr ""
+"Por favor corrija os dados duplicados em %(field)s, que deverá ser único."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"Corectaţi datele duplicate pentru %(field_name)s , care trebuie să fie unice "
-"pentru %(lookup)s  în %(date_field)s ."
+"Por favor corrija os dados duplicados em %(field_name)s que deverá ser único "
+"para o %(lookup)s em %(date_field)s.\""
 
 msgid "Please correct the duplicate values below."
-msgstr "Corectaţi valorile duplicate de mai jos."
+msgstr "Por favor corrija os valores duplicados abaixo."
 
 msgid "The inline value did not match the parent instance."
-msgstr "Valoarea în linie nu s-a potrivit cu instanța părinte."
+msgstr "O valor em linha não corresponde à instância pai."
 
 msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
-"Selectați o opțiune validă. Această opțiune nu face parte din opțiunile "
-"disponibile."
+"Selecione uma opção válida. Esse valor não se encontra opções disponíveis."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
@@ -846,53 +863,53 @@ msgid ""
 msgstr ""
 
 msgid "Clear"
-msgstr "Șterge"
+msgstr "Limpar"
 
 msgid "Currently"
-msgstr "În prezent"
+msgstr "Atualmente"
 
 msgid "Change"
-msgstr "Schimbă"
+msgstr "Modificar"
 
 msgid "Unknown"
-msgstr "Necunoscut"
+msgstr "Desconhecido"
 
 msgid "Yes"
-msgstr "Da"
+msgstr "Sim"
 
 msgid "No"
-msgstr "Nu"
+msgstr "Não"
 
 #. Translators: Please do not add spaces around commas.
 msgid "yes,no,maybe"
-msgstr "da,nu,poate"
+msgstr "sim,não,talvez"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d octet"
-msgstr[1] "%(size)d octeţi"
-msgstr[2] "%(size)d de octeţi"
+msgstr[0] "%(size)d byte"
+msgstr[1] "%(size)d bytes"
+msgstr[2] "%(size)d bytes"
 
 #, python-format
 msgid "%s KB"
-msgstr "%s KO"
+msgstr "%s KB"
 
 #, python-format
 msgid "%s MB"
-msgstr "%s MO"
+msgstr "%s MB"
 
 #, python-format
 msgid "%s GB"
-msgstr "%s GO"
+msgstr "%s GB"
 
 #, python-format
 msgid "%s TB"
-msgstr "%s TO"
+msgstr "%s TB"
 
 #, python-format
 msgid "%s PB"
-msgstr "%s PO"
+msgstr "%s PB"
 
 msgid "p.m."
 msgstr "p.m."
@@ -907,223 +924,223 @@ msgid "AM"
 msgstr "AM"
 
 msgid "midnight"
-msgstr "miezul nopții"
+msgstr "meia-noite"
 
 msgid "noon"
-msgstr "amiază"
+msgstr "meio-dia"
 
 msgid "Monday"
-msgstr "Luni"
+msgstr "Segunda-feira"
 
 msgid "Tuesday"
-msgstr "Marți"
+msgstr "Terça-feira"
 
 msgid "Wednesday"
-msgstr "Miercuri"
+msgstr "Quarta-feira"
 
 msgid "Thursday"
-msgstr "Joi"
+msgstr "Quinta-feira"
 
 msgid "Friday"
-msgstr "Vineri"
+msgstr "Sexta-feira"
 
 msgid "Saturday"
-msgstr "Sâmbătă"
+msgstr "Sábado"
 
 msgid "Sunday"
-msgstr "Duminică"
+msgstr "Domingo"
 
 msgid "Mon"
-msgstr "Lun"
+msgstr "Seg"
 
 msgid "Tue"
-msgstr "Mar"
+msgstr "Ter"
 
 msgid "Wed"
-msgstr "Mie"
+msgstr "Qua"
 
 msgid "Thu"
-msgstr "Joi"
+msgstr "Qui"
 
 msgid "Fri"
-msgstr "Vin"
+msgstr "Sex"
 
 msgid "Sat"
-msgstr "Sâm"
+msgstr "Sáb"
 
 msgid "Sun"
-msgstr "Dum"
+msgstr "Dom"
 
 msgid "January"
-msgstr "Ianuarie"
+msgstr "Janeiro"
 
 msgid "February"
-msgstr "Februarie"
+msgstr "Fevereiro"
 
 msgid "March"
-msgstr "Martie"
+msgstr "Março"
 
 msgid "April"
-msgstr "Aprilie"
+msgstr "Abril"
 
 msgid "May"
-msgstr "Mai"
+msgstr "Maio"
 
 msgid "June"
-msgstr "Iunie"
+msgstr "Junho"
 
 msgid "July"
-msgstr "Iulie"
+msgstr "Julho"
 
 msgid "August"
-msgstr "August"
+msgstr "Agosto"
 
 msgid "September"
-msgstr "Septembrie"
+msgstr "Setembro"
 
 msgid "October"
-msgstr "Octombrie"
+msgstr "Outubro"
 
 msgid "November"
-msgstr "Noiembrie"
+msgstr "Novembro"
 
 msgid "December"
-msgstr "Decembrie"
+msgstr "Dezembro"
 
 msgid "jan"
-msgstr "ian"
+msgstr "jan"
 
 msgid "feb"
-msgstr "feb"
+msgstr "fev"
 
 msgid "mar"
 msgstr "mar"
 
 msgid "apr"
-msgstr "apr"
+msgstr "abr"
 
 msgid "may"
 msgstr "mai"
 
 msgid "jun"
-msgstr "iun"
+msgstr "jun"
 
 msgid "jul"
-msgstr "iul"
+msgstr "jul"
 
 msgid "aug"
-msgstr "aug"
+msgstr "ago"
 
 msgid "sep"
-msgstr "sep"
+msgstr "set"
 
 msgid "oct"
-msgstr "oct"
+msgstr "out"
 
 msgid "nov"
-msgstr "noi"
+msgstr "nov"
 
 msgid "dec"
-msgstr "dec"
+msgstr "dez"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "Ian."
+msgstr "Jan."
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "Feb."
+msgstr "Fev."
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "Martie"
+msgstr "Março"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "Aprilie"
+msgstr "Abril"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "Mai"
+msgstr "Maio"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "Iunie"
+msgstr "Jun."
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "Iulie"
+msgstr "Jul."
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "Aug."
+msgstr "Ago."
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "Sept."
+msgstr "Set."
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "Oct."
+msgstr "Out."
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "Noie."
+msgstr "Nov."
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "Dec."
+msgstr "Dez."
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "Ianuarie"
+msgstr "Janeiro"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "Februarie"
+msgstr "Fevereiro"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "Martie"
+msgstr "Março"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "Aprilie"
+msgstr "Abril"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "Mai"
+msgstr "Maio"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "Iunie"
+msgstr "Junho"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "Iulie"
+msgstr "Julho"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "August"
+msgstr "Agosto"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "Septembrie"
+msgstr "Setembro"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "Octombrie"
+msgstr "Outubro"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "Noiembrie"
+msgstr "Novembro"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "Decembrie"
+msgstr "Dezembro"
 
 msgid "This is not a valid IPv6 address."
-msgstr "Aceasta nu este o adresă IPv6 validă."
+msgstr "Este não é um endereço IPv6 válido."
 
 #, python-format
 msgctxt "String to return when truncating text"
@@ -1131,7 +1148,7 @@ msgid "%(truncated_text)s…"
 msgstr "%(truncated_text)s…"
 
 msgid "or"
-msgstr "sau"
+msgstr "ou"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
@@ -1140,50 +1157,50 @@ msgstr ", "
 #, python-format
 msgid "%(num)d year"
 msgid_plural "%(num)d years"
-msgstr[0] "%(num)d an"
-msgstr[1] "%(num)d ani"
-msgstr[2] "%(num)d de ani"
+msgstr[0] "%(num)d ano"
+msgstr[1] "%(num)d anos"
+msgstr[2] "%(num)d anos"
 
 #, python-format
 msgid "%(num)d month"
 msgid_plural "%(num)d months"
-msgstr[0] "%(num)d lună"
-msgstr[1] "%(num)d luni"
-msgstr[2] "%(num)d de luni"
+msgstr[0] "%(num)d mês"
+msgstr[1] "%(num)d meses"
+msgstr[2] "%(num)d meses"
 
 #, python-format
 msgid "%(num)d week"
 msgid_plural "%(num)d weeks"
-msgstr[0] "%(num)d săptămână"
-msgstr[1] "%(num)d săptămâni"
-msgstr[2] "%(num)d de săptămâni"
+msgstr[0] "%(num)d semana"
+msgstr[1] "%(num)d semanas"
+msgstr[2] "%(num)d semanas"
 
 #, python-format
 msgid "%(num)d day"
 msgid_plural "%(num)d days"
-msgstr[0] "%(num)d zi"
-msgstr[1] "%(num)d zile"
-msgstr[2] "%(num)d de zile"
+msgstr[0] "%(num)d dia"
+msgstr[1] "%(num)d dias"
+msgstr[2] "%(num)d dias"
 
 #, python-format
 msgid "%(num)d hour"
 msgid_plural "%(num)d hours"
-msgstr[0] "%(num)d oră"
-msgstr[1] "%(num)d ore"
-msgstr[2] "%(num)d de ore"
+msgstr[0] "%(num)d hora"
+msgstr[1] "%(num)d horas"
+msgstr[2] "%(num)d horas"
 
 #, python-format
 msgid "%(num)d minute"
 msgid_plural "%(num)d minutes"
-msgstr[0] "%(num)d minut"
-msgstr[1] "%(num)d minute"
-msgstr[2] "%(num)d de minute"
+msgstr[0] "%(num)d minuto"
+msgstr[1] "%(num)d minutos"
+msgstr[2] "%(num)d minutos"
 
 msgid "Forbidden"
-msgstr "Interzis"
+msgstr "Proibido"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "Verificarea CSRF nereușită. Cerere eșuată."
+msgstr "A verificação de CSRF falhou. Pedido abortado."
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1211,9 +1228,9 @@ msgid ""
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"Vedeți acest mesaj deoarece această pagină web necesită un cookie CSRF la "
-"trimiterea formularelor. Acest cookie este necesar din motive de securitate, "
-"pentru a se asigura că browserul nu este deturnat de terți."
+"Está a ver esta mensagem porque este site requer um cookie CSRF quando "
+"submete formulários. Este cookie é requirido por razões de segurança, para "
+"garantir que o seu browser não está a ser \"raptado\" por terceiros."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
@@ -1221,34 +1238,34 @@ msgid ""
 msgstr ""
 
 msgid "More information is available with DEBUG=True."
-msgstr "Mai multe informații sunt disponibile pentru DEBUG=True."
+msgstr "Está disponível mais informação com DEBUG=True."
 
 msgid "No year specified"
-msgstr "Niciun an specificat"
+msgstr "Nenhum ano especificado"
 
 msgid "Date out of range"
-msgstr "Dată în afara intervalului"
+msgstr "Data fora do alcance"
 
 msgid "No month specified"
-msgstr "Nicio lună specificată"
+msgstr "Nenhum mês especificado"
 
 msgid "No day specified"
-msgstr "Nicio zi specificată"
+msgstr "Nenhum dia especificado"
 
 msgid "No week specified"
-msgstr "Nicio săptămîna specificată"
+msgstr "Nenhuma semana especificado"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "%(verbose_name_plural)s nu e disponibil"
+msgstr "Nenhum %(verbose_name_plural)s  disponível"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"Viitorul %(verbose_name_plural)s nu e disponibil deoarece %(class_name)s ."
-"allow_future este Fals."
+"%(verbose_name_plural)s futuros indisponíveis porque %(class_name)s."
+"allow_future é False."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
@@ -1256,40 +1273,40 @@ msgstr ""
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "Niciun rezultat pentru %(verbose_name)s care se potrivesc interogării"
+msgstr "Nenhum %(verbose_name)s de acordo com a procura."
 
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "Pagină invalidă (%(page_number)s): %(message)s"
+msgstr "Página inválida (%(page_number)s): %(message)s"
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
 msgstr ""
 
 msgid "Directory indexes are not allowed here."
-msgstr "Aici nu sunt permise indexuri la directoare"
+msgstr "Índices de diretório não são permitidas aqui."
 
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr ""
+msgstr "\"%(path)s\" não existe"
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "Index pentru %(directory)s"
+msgstr "Índice de %(directory)s"
 
 msgid "The install worked successfully! Congratulations!"
-msgstr "Instalarea a funcționat cu succes! Felicitări!"
+msgstr "A instalação funcionou com sucesso! Parabéns!"
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"Vezi <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">notele de lansare</a> pentru Django "
+"Visualizar <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/"
+"\" target=\"_blank\" rel=\"noopener\">notas de lançamento</a> do Django "
 "%(version)s"
 
 #, python-format
@@ -1299,25 +1316,25 @@ msgid ""
 "rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
 "configured any URLs."
 msgstr ""
-"Vedeți această pagină deoarece <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> este în fișierul de setări și nu ați "
-"configurat niciun URL."
+"Está a visualizar esta página porque tem <a href=\"https://docs."
+"djangoproject.com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> no seu ficheiro settings do Django e não "
+"configurou nenhum URLs."
 
 msgid "Django Documentation"
-msgstr "Documentația Django"
+msgstr "Documentação do Django"
 
 msgid "Topics, references, &amp; how-to’s"
-msgstr ""
+msgstr "Tópicos, referências, e como..."
 
 msgid "Tutorial: A Polling App"
-msgstr "Tutorial: O aplicație de votare"
+msgstr "Tutorial: A Polling App"
 
 msgid "Get started with Django"
-msgstr "Începeți cu Django"
+msgstr "Comece com o Django"
 
 msgid "Django Community"
-msgstr "Comunitatea Django"
+msgstr "Comunidade Django"
 
 msgid "Connect, get help, or contribute"
-msgstr "Conectați-vă, obțineți ajutor sau contribuiți"
+msgstr "Conecte-se, obtenha ajuda ou contribua"
