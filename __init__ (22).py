@@ -1,430 +1,439 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Ahmad Hosseini <ahmadly.com@gmail.com>, 2020
-# alirezamastery <alireza.mastery@gmail.com>, 2021
-# ali salehi, 2023
-# Ali Vakilzade <ali.vakilzade@gmail.com>, 2015
-# Arash Fazeli <a.fazeli@gmail.com>, 2012
-# Eric Hamiter <ehamiter@gmail.com>, 2019
-# Eshagh <ase.mugem@gmail.com>, 2022
-# Farshad Asadpour, 2021
+# BJ Jang <qgis.tr.kr@gmail.com>, 2014
+# JunGu Kang <chr0m3.kr@gmail.com>, 2017
+# Jiyoon, Ha <cryptography@konkuk.ac.kr>, 2016
+# KwonHan <darjeeling@gmail.com>, 2024
+# DONGHO JEONG <nearermg@gmail.com>, 2020
+# Park Hyunwoo <ez.amiryo@gmail.com>, 2017
+# Geonho Kim / Leo Kim <gh.leokim@gmail.com>, 2019
+# hoseung2 <ghyutjik123@gmail.com>, 2017
+# Ian Y. Choi <ianyrchoi@gmail.com>, 2015
+# Jaehong Kim <mixe@korea.com>, 2011
+# Jamie Seol, 2025
 # Jannis Leidel <jannis@leidel.info>, 2011
+# Jay Oh <theanswer.jay@gmail.com>, 2020
+# Le Tartuffe <magno79@gmail.com>, 2014,2016
+# Jonghwa Seo <dev@pincoin.co.kr>, 2019
+# Jubeen Lee <ljb7977@gmail.com>, 2020
+# JuneHyeon Bae <devunt@gmail.com>, 2014
+# JunGu Kang <chr0m3.kr@gmail.com>, 2015
+# JunGu Kang <chr0m3.kr@gmail.com>, 2019
+# Kagami Sascha Rosylight <saschanaz@outlook.com>, 2017
 # Mariusz Felisiak <felisiak.mariusz@gmail.com>, 2021
-# Mazdak Badakhshan <geraneum@gmail.com>, 2014
-# Milad Hazrati <miladhazrati75@gmail.com>, 2019
-# MJafar Mashhadi <raindigital2007@gmail.com>, 2018
-# Mohammad Hossein Mojtahedi <Mhm5000@gmail.com>, 2013,2019
-# Natalia, 2025
-# Pouya Abbassi, 2016
-# Pouya Abbassi, 2016
-# rahim agh <rahim.aghareb@gmail.com>, 2020-2021
-# Reza Mohammadi <reza@teeleh.ir>, 2013-2016
-# Saeed <sd.javadi@gmail.com>, 2011
-# Sina Cheraghi <sinacher@gmail.com>, 2011
+# Seho Noh <iam@sehonoh.kr>, 2018
+# Seoeun(Sun☀️) Hong, 2023
+# 최소영, 2024
+# Subin Choi <os1742@gmail.com>, 2016
+# Taesik Yoon <xotlr43@gmail.com>, 2015
+# 정훈 이, 2021
+# 김영빈, 2025
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 11:30-0500\n"
 "PO-Revision-Date: 2025-09-17 06:49+0000\n"
-"Last-Translator: Natalia, 2025\n"
-"Language-Team: Persian (http://app.transifex.com/django/django/language/"
-"fa/)\n"
+"Last-Translator: Jamie Seol, 2025\n"
+"Language-Team: Korean (http://app.transifex.com/django/django/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Afrikaans"
-msgstr "آفریکانس"
+msgstr "아프리칸스어"
 
 msgid "Arabic"
-msgstr "عربی"
+msgstr "아랍어"
 
 msgid "Algerian Arabic"
-msgstr "عربی الجزایری"
+msgstr "알제리 아랍어"
 
 msgid "Asturian"
-msgstr "آستوری"
+msgstr "호주어"
 
 msgid "Azerbaijani"
-msgstr "آذربایجانی"
+msgstr "아제르바이잔어"
 
 msgid "Bulgarian"
-msgstr "بلغاری"
+msgstr "불가리어"
 
 msgid "Belarusian"
-msgstr "بلاروس"
+msgstr "벨라루스어"
 
 msgid "Bengali"
-msgstr "بنگالی"
+msgstr "방글라데시어"
 
 msgid "Breton"
-msgstr "برتون"
+msgstr "브르타뉴어"
 
 msgid "Bosnian"
-msgstr "بوسنیایی"
+msgstr "보스니아어"
 
 msgid "Catalan"
-msgstr "کاتالونیایی"
+msgstr "카탈로니아어"
 
 msgid "Central Kurdish (Sorani)"
-msgstr ""
+msgstr "중부 쿠르드어 (소라니어)"
 
 msgid "Czech"
-msgstr "چکی"
+msgstr "체코어"
 
 msgid "Welsh"
-msgstr "ویلزی"
+msgstr "웨일즈어"
 
 msgid "Danish"
-msgstr "دانمارکی"
+msgstr "덴마크어"
 
 msgid "German"
-msgstr "آلمانی"
+msgstr "독일어"
 
 msgid "Lower Sorbian"
-msgstr "صربستانی پایین"
+msgstr "저지 소르브어"
 
 msgid "Greek"
-msgstr "یونانی"
+msgstr "그리스어"
 
 msgid "English"
-msgstr "انگلیسی"
+msgstr "영어"
 
 msgid "Australian English"
-msgstr "انگلیسی استرالیایی"
+msgstr "영어(호주)"
 
 msgid "British English"
-msgstr "انگلیسی بریتیش"
+msgstr "영어 (영국)"
 
 msgid "Esperanto"
-msgstr "اسپرانتو"
+msgstr "에스페란토어"
 
 msgid "Spanish"
-msgstr "اسپانیایی"
+msgstr "스페인어"
 
 msgid "Argentinian Spanish"
-msgstr "اسپانیایی آرژانتینی"
+msgstr "아르헨티나 스페인어"
 
 msgid "Colombian Spanish"
-msgstr "اسپانیایی کلمبیایی"
+msgstr "콜롬비아 스페인어"
 
 msgid "Mexican Spanish"
-msgstr "اسپانیولی مکزیکی"
+msgstr "멕시컨 스페인어"
 
 msgid "Nicaraguan Spanish"
-msgstr "نیکاراگوئه اسپانیایی"
+msgstr "니카과라 스페인어"
 
 msgid "Venezuelan Spanish"
-msgstr "ونزوئلا اسپانیایی"
+msgstr "베네수엘라 스페인어"
 
 msgid "Estonian"
-msgstr "استونی"
+msgstr "에스토니아어"
 
 msgid "Basque"
-msgstr "باسکی"
+msgstr "바스크어"
 
 msgid "Persian"
-msgstr "فارسی"
+msgstr "페르시아어"
 
 msgid "Finnish"
-msgstr "فنلاندی"
+msgstr "핀란드어"
 
 msgid "French"
-msgstr "فرانسوی"
+msgstr "프랑스어"
 
 msgid "Frisian"
-msgstr "فریزی"
+msgstr "프리슬란트어"
 
 msgid "Irish"
-msgstr "ایرلندی"
+msgstr "아일랜드어"
 
 msgid "Scottish Gaelic"
-msgstr "گیلیک اسکاتلندی"
+msgstr "스코틀랜드 게일어"
 
 msgid "Galician"
-msgstr "گالیسیایی"
+msgstr "갈리시아어"
 
 msgid "Hebrew"
-msgstr "عبری"
+msgstr "히브리어"
 
 msgid "Hindi"
-msgstr "هندی"
+msgstr "힌두어"
 
 msgid "Croatian"
-msgstr "کرواتی"
+msgstr "크로아티아어"
 
 msgid "Upper Sorbian"
-msgstr "صربستانی بالا"
+msgstr "고지 소르브어"
 
 msgid "Hungarian"
-msgstr "مجاری"
+msgstr "헝가리어"
 
 msgid "Armenian"
-msgstr "ارمنی"
+msgstr "아르메니아어"
 
 msgid "Interlingua"
-msgstr "اینترلینگوا"
+msgstr "인테르링구아어"
 
 msgid "Indonesian"
-msgstr "اندونزیایی"
+msgstr "인도네시아어"
 
 msgid "Igbo"
-msgstr "ایگبو"
+msgstr "이그보어"
 
 msgid "Ido"
-msgstr "ایدو"
+msgstr "이도어"
 
 msgid "Icelandic"
-msgstr "ایسلندی"
+msgstr "아이슬란드어"
 
 msgid "Italian"
-msgstr "ایتالیایی"
+msgstr "이탈리아어"
 
 msgid "Japanese"
-msgstr "ژاپنی"
+msgstr "일본어"
 
 msgid "Georgian"
-msgstr "گرجی"
+msgstr "조지아어"
 
 msgid "Kabyle"
-msgstr "قبایلی"
+msgstr "커바일어"
 
 msgid "Kazakh"
-msgstr "قزاقستان"
+msgstr "카자흐어"
 
 msgid "Khmer"
-msgstr "خمری"
+msgstr "크메르어"
 
 msgid "Kannada"
-msgstr "کناده‌ای"
+msgstr "칸나다어"
 
 msgid "Korean"
-msgstr "کره‌ای"
+msgstr "한국어"
 
 msgid "Kyrgyz"
-msgstr "قرقیزی"
+msgstr "키르키즈 공화국어"
 
 msgid "Luxembourgish"
-msgstr "لوگزامبورگی"
+msgstr "룩셈부르크"
 
 msgid "Lithuanian"
-msgstr "لیتوانی"
+msgstr "리투아니아어"
 
 msgid "Latvian"
-msgstr "لتونیایی"
+msgstr "라트비아어"
 
 msgid "Macedonian"
-msgstr "مقدونی"
+msgstr "마케도니아어"
 
 msgid "Malayalam"
-msgstr "مالایایی"
+msgstr "말라얄람어"
 
 msgid "Mongolian"
-msgstr "مغولی"
+msgstr "몽고어"
 
 msgid "Marathi"
-msgstr "مِراتی"
+msgstr "마라티어"
 
 msgid "Malay"
-msgstr "Malay"
+msgstr "말레이시아어"
 
 msgid "Burmese"
-msgstr "برمه‌ای"
+msgstr "미얀마어"
 
 msgid "Norwegian Bokmål"
-msgstr "نروژی"
+msgstr "노르웨이어(보크몰)"
 
 msgid "Nepali"
-msgstr "نپالی"
+msgstr "네팔어"
 
 msgid "Dutch"
-msgstr "هلندی"
+msgstr "네덜란드어"
 
 msgid "Norwegian Nynorsk"
-msgstr "نروژی Nynorsk"
+msgstr "노르웨이어 (뉘노르스크)"
 
 msgid "Ossetic"
-msgstr "آسی"
+msgstr "오세티아어"
 
 msgid "Punjabi"
-msgstr "پنجابی"
+msgstr "펀자브어"
 
 msgid "Polish"
-msgstr "لهستانی"
+msgstr "폴란드어"
 
 msgid "Portuguese"
-msgstr "پرتغالی"
+msgstr "포르투갈어"
 
 msgid "Brazilian Portuguese"
-msgstr "پرتغالیِ برزیل"
+msgstr "브라질 포르투갈어"
 
 msgid "Romanian"
-msgstr "رومانی"
+msgstr "루마니아어"
 
 msgid "Russian"
-msgstr "روسی"
+msgstr "러시아어"
 
 msgid "Slovak"
-msgstr "اسلواکی"
+msgstr "슬로바키아어"
 
 msgid "Slovenian"
-msgstr "اسلووِنی"
+msgstr "슬로베니아어"
 
 msgid "Albanian"
-msgstr "آلبانیایی"
+msgstr "알바니아어"
 
 msgid "Serbian"
-msgstr "صربی"
+msgstr "세르비아어"
 
 msgid "Serbian Latin"
-msgstr "صربی لاتین"
+msgstr "세르비아어"
 
 msgid "Swedish"
-msgstr "سوئدی"
+msgstr "스웨덴어"
 
 msgid "Swahili"
-msgstr "سواحیلی"
+msgstr "스와힐리어"
 
 msgid "Tamil"
-msgstr "تامیلی"
+msgstr "타밀어"
 
 msgid "Telugu"
-msgstr "تلوگویی"
+msgstr "텔루구어"
 
 msgid "Tajik"
-msgstr "تاجیک"
+msgstr "타지크어"
 
 msgid "Thai"
-msgstr "تایلندی"
+msgstr "태국어"
 
 msgid "Turkmen"
-msgstr "ترکمن"
+msgstr "튀르크멘어"
 
 msgid "Turkish"
-msgstr "ترکی"
+msgstr "터키어"
 
 msgid "Tatar"
-msgstr "تاتار"
+msgstr "타타르"
 
 msgid "Udmurt"
-msgstr "ادمورت"
+msgstr "이제프스크"
 
 msgid "Uyghur"
-msgstr ""
+msgstr "위구르"
 
 msgid "Ukrainian"
-msgstr "اکراینی"
+msgstr "우크라이나어"
 
 msgid "Urdu"
-msgstr "اردو"
+msgstr "우르드어"
 
 msgid "Uzbek"
-msgstr "ازبکی"
+msgstr "우즈베크어"
 
 msgid "Vietnamese"
-msgstr "ویتنامی"
+msgstr "베트남어"
 
 msgid "Simplified Chinese"
-msgstr "چینی ساده‌شده"
+msgstr "중국어 간체"
 
 msgid "Traditional Chinese"
-msgstr "چینی سنتی"
+msgstr "중국어 번체"
 
 msgid "Messages"
-msgstr "پیغام‌ها"
+msgstr "메시지"
 
 msgid "Site Maps"
-msgstr "نقشه‌های وب‌گاه"
+msgstr "사이트 맵"
 
 msgid "Static Files"
-msgstr "پرونده‌های استاتیک"
+msgstr "정적 파일"
 
 msgid "Syndication"
-msgstr "پیوند"
+msgstr "신디케이션"
 
 #. Translators: String used to replace omitted page numbers in elided page
 #. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
 msgid "…"
-msgstr "…"
+msgstr "..."
 
 msgid "That page number is not an integer"
-msgstr "شمارهٔ صفحه یک عدد طبیعی نیست"
+msgstr "페이지 번호가 정수가 아닙니다."
 
 msgid "That page number is less than 1"
-msgstr "شمارهٔ صفحه کوچکتر از ۱ است"
+msgstr "페이지 번호가 1보다 작습니다."
 
 msgid "That page contains no results"
-msgstr "این صفحه خالی از اطلاعات است"
+msgstr "해당 페이지에 결과가 없습니다."
 
 msgid "Enter a valid value."
-msgstr "یک مقدار معتبر وارد کنید."
+msgstr "올바른 값을 입력하세요."
 
 msgid "Enter a valid domain name."
-msgstr ""
+msgstr "유효한 도메인 이름을 입력하세요."
 
 msgid "Enter a valid URL."
-msgstr "یک نشانی اینترنتی معتبر وارد کنید."
+msgstr "올바른 URL을 입력하세요."
 
 msgid "Enter a valid integer."
-msgstr "یک عدد معتبر وارد کنید."
+msgstr "올바른 정수를 입력하세요."
 
 msgid "Enter a valid email address."
-msgstr "یک ایمیل آدرس معتبر وارد کنید."
+msgstr "올바른 이메일 주소를 입력하세요."
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
-msgstr ""
-"یک \"اسلاگ\" معتبر متشکل از حروف، اعداد، خط زیر یا خط فاصله، وارد کنید. "
+msgstr "문자, 숫자, '_', '-'만 가능합니다."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
-"یک \"اسلاگ\" معتبر وارد کنید که شامل حروف یونیکد، اعداد، خط زیر یا خط فاصله "
-"باشد."
+"유니코드 문자, 숫자, 언더스코어 또는 하이픈으로 구성된 올바른 내용을 입력하세"
+"요."
 
 #, python-format
 msgid "Enter a valid %(protocol)s address."
-msgstr ""
+msgstr "유효한 %(protocol)s의 주소를 입력하세요."
 
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 msgid "IPv4 or IPv6"
-msgstr ""
+msgstr "IPv4 혹은 IPv6"
 
 msgid "Enter only digits separated by commas."
-msgstr "فقط ارقام جدا شده با کاما وارد کنید."
+msgstr "콤마로 구분된 숫자만 입력하세요."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "مطمئن شوید مقدار  %(limit_value)s است. (اکنون %(show_value)s می باشد)."
+msgstr ""
+"%(limit_value)s 안의 값을 입력해 주세요. (입력하신 값은 %(show_value)s입니"
+"다.)"
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "مطمئن شوید این مقدار کوچکتر و یا مساوی %(limit_value)s است."
+msgstr "%(limit_value)s 이하의 값을 입력해 주세요."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "مطمئن شوید این مقدار بزرگتر و یا مساوی %(limit_value)s است."
+msgstr "%(limit_value)s 이상의 값을 입력해 주세요."
 
 #, python-format
 msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr ""
+msgstr "단계 크기 %(limit_value)s의 배수를 입력해 주세요."
 
 #, python-format
 msgid ""
 "Ensure this value is a multiple of step size %(limit_value)s, starting from "
 "%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
 msgstr ""
+"예를 들어 %(offset)s, %(valid_value1)s, %(valid_value2)s 등, %(offset)s에서 "
+"시작하는 %(limit_value)s의 배수를 입력해 주세요."
 
 #, python-format
 msgid ""
@@ -434,11 +443,8 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"طول این مقدار باید حداقل %(limit_value)d کاراکتر باشد (طولش %(show_value)d "
-"است)."
-msgstr[1] ""
-"طول این مقدار باید حداقل %(limit_value)d کاراکتر باشد (طولش %(show_value)d "
-"است)."
+"이 값이 최소 %(limit_value)d 개의 글자인지 확인하세요(입력값 %(show_value)d "
+"자)."
 
 #, python-format
 msgid ""
@@ -448,70 +454,64 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"طول این مقدار باید حداکثر %(limit_value)d کاراکتر باشد (طولش %(show_value)d "
-"است)."
-msgstr[1] ""
-"طول این مقدار باید حداکثر %(limit_value)d کاراکتر باشد (طولش %(show_value)d "
-"است)."
+"이 값이 최대 %(limit_value)d 개의 글자인지 확인하세요(입력값 %(show_value)d "
+"자)."
 
 msgid "Enter a number."
-msgstr "یک عدد وارد کنید."
+msgstr "숫자를 입력하세요."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "نباید در مجموع بیش از %(max)s رقم داشته باشد."
-msgstr[1] "نباید در مجموع بیش از %(max)s رقم داشته باشد."
+msgstr[0] "전체 자릿수가 %(max)s 개를 넘지 않도록 해주세요."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "نباید بیش از %(max)s رقم اعشار داشته باشد."
-msgstr[1] "نباید بیش از %(max)s رقم اعشار داشته باشد."
+msgstr[0] "전체 유효자리 개수가 %(max)s 개를 넘지 않도록 해주세요."
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] "نباید بیش از %(max)s رقم قبل ممیز داشته باشد."
-msgstr[1] "نباید بیش از %(max)s رقم قبل ممیز داشته باشد."
+msgstr[0] "전체 유효자리 개수가 %(max)s 개를 넘지 않도록 해주세요."
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
-"استفاده از پرونده با پسوند '%(extension)s' مجاز نیست. پسوند‌های مجاز عبارتند "
-"از: '%(allowed_extensions)s'"
+"파일 확장자 '%(extension)s'는 허용되지 않습니다. 허용된 확장자: "
+"'%(allowed_extensions)s'."
 
 msgid "Null characters are not allowed."
-msgstr "کاراکترهای تهی مجاز نیستند."
+msgstr "null 문자는 사용할 수 없습니다. "
 
 msgid "and"
-msgstr "و"
+msgstr "또한"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "‏%(model_name)s با این %(field_labels)s وجود دارد."
+msgstr "%(model_name)s의 %(field_labels)s 은/는 이미 존재합니다."
 
 #, python-format
 msgid "Constraint “%(name)s” is violated."
-msgstr ""
+msgstr "%(name)s을(를) 위반하였습니다."
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "مقدار %(value)r انتخاب معتبری نیست. "
+msgstr "%(value)r 은/는 올바른 선택사항이 아닙니다."
 
 msgid "This field cannot be null."
-msgstr "این فیلد نمی تواند پوچ باشد."
+msgstr "이 필드는 null 값을 사용할 수 없습니다. "
 
 msgid "This field cannot be blank."
-msgstr "این فیلد نمی تواند خالی باشد."
+msgstr "이 필드는 빈 칸으로 둘 수 없습니다."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "%(model_name)s با این %(field_label)s از قبل موجود است."
+msgstr "%(model_name)s의 %(field_label)s은/는 이미 존재합니다."
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or
 #. 'month'. Eg: "Title must be unique for pub_date year"
@@ -519,280 +519,278 @@ msgstr "%(model_name)s با این %(field_label)s از قبل موجود است
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
-"‏%(field_label)s باید برای %(lookup_type)s %(date_field_label)s یکتا باشد."
+"%(field_label)s은/는 반드시 %(date_field_label)s %(lookup_type)s에 대해 유일"
+"해야 합니다."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "فیلد با نوع: %(field_type)s"
+msgstr "%(field_type)s 형식 필드"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr "مقدار «%(value)s» باید True یا False باشد."
+msgstr "'%(value)s' 값은 반드시 True 또는 False 중 하나여야만 합니다."
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr "مقدار «%(value)s» باید True یا False یا None باشد."
+msgstr "'%(value)s'값은 반드시 True, False, None 중 하나여야만 합니다."
 
 msgid "Boolean (Either True or False)"
-msgstr "بولی (درست یا غلط)"
+msgstr "boolean(True 또는 False)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "رشته (تا %(max_length)s)"
+msgstr "문자열(%(max_length)s 글자까지)"
 
 msgid "String (unlimited)"
-msgstr "رشته (بی نهایت)"
+msgstr "문자열 (무제한의)"
 
 msgid "Comma-separated integers"
-msgstr "اعداد صحیح جدا-شده با ویلگول"
+msgstr "정수(콤마로 구분)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
-msgstr ""
-"مقدار «%(value)s» در قالب نادرستی وارد شده است. تاریخ باید در قالب YYYY-MM-"
-"DD باشد."
+msgstr "'%(value)s' 값은  날짜 형식이 아닙니다. YYYY-MM-DD 형식이어야 합니다."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
-"مقدار تاریخ «%(value)s» با اینکه در قالب درستی (YYYY-MM-DD) است ولی تاریخ "
-"ناممکنی را نشان می‌دهد."
+"'%(value)s' 값은 올바른 형식(YYYY-MM-DD)이지만 유효하지 않은 날짜입니다."
 
 msgid "Date (without time)"
-msgstr "تاریخ (بدون زمان)"
+msgstr "날짜(시간 제외)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
-"مقدار \"%(value)s\"  یک قالب نامعتبر دارد. باید در قالب YYYY-MM-DD HH:MM[:"
-"ss[.uuuuuu]][TZ] باشد."
+"'%(value)s' 값은 올바르지 않은 형식입니다. YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ] 형식이어야 합니다."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
-"مقدار \"%(value)s\" یک قالب معتبر دارد (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) "
-"اما یک تاریخ/زمان نامعتبر است."
+"'%(value)s' 값은 올바른 형식이지만 (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) 유효"
+"하지 않은 날짜/시간입니다."
 
 msgid "Date (with time)"
-msgstr "تاریخ (با زمان)"
+msgstr "날짜(시간 포함)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr "مقدار '%(value)s' باید عدد دسیمال باشد."
+msgstr "'%(value)s' 값은 10진수를 입력하여야 합니다."
 
 msgid "Decimal number"
-msgstr "عدد دهدهی"
+msgstr "10진수"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
-"مقدار «%(value)s» در قالب نادرستی وارد شده است. باید در قالب ‎[DD] [HH:"
-"[MM:]]ss[.uuuuuu]‎ باشد."
+"'%(value)s' 값은 올바르지 않은 형식입니다. [DD] [HH:[MM:]]ss[.uuuuuu] 형식이"
+"어야 합니다."
 
 msgid "Duration"
-msgstr "بازهٔ زمانی"
+msgstr "지속시간"
 
 msgid "Email address"
-msgstr "نشانی پست الکترونیکی"
+msgstr "이메일 주소"
 
 msgid "File path"
-msgstr "مسیر پرونده"
+msgstr "파일 경로"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr "مقدار «%(value)s» باید عدد اعشاری فلوت باشد."
+msgstr "\"%(value)s\" 값은 실수를 입력하여야 합니다."
 
 msgid "Floating point number"
-msgstr "عدد اعشاری"
+msgstr "부동소수점 숫자"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr "مقدار «%(value)s» باید عدد حقیقی باشد."
+msgstr "\"%(value)s\" 값은 정수를 입력하여야 합니다."
 
 msgid "Integer"
-msgstr "عدد صحیح"
+msgstr "정수"
 
 msgid "Big (8 byte) integer"
-msgstr "بزرگ (8 بایت) عدد صحیح"
+msgstr "큰 정수 (8 byte)"
 
 msgid "Small integer"
-msgstr "عدد صحیح کوچک"
+msgstr "작은 정수"
 
 msgid "IPv4 address"
-msgstr "IPv4 آدرس"
+msgstr "IPv4 주소"
 
 msgid "IP address"
-msgstr "نشانی IP"
+msgstr "IP 주소"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr "مقدار «%(value)s» باید True یا False یا None باشد."
+msgstr "\"%(value)s\" 값은 반드시 None, True 또는 False이어야 합니다."
 
 msgid "Boolean (Either True, False or None)"
-msgstr "‌بولی (درست، نادرست یا پوچ)"
+msgstr "boolean (True, False 또는 None)"
 
 msgid "Positive big integer"
-msgstr "عدد صحیح مثبت"
+msgstr "큰 양의 정수"
 
 msgid "Positive integer"
-msgstr "عدد صحیح مثبت"
+msgstr "양의 정수"
 
 msgid "Positive small integer"
-msgstr "مثبت عدد صحیح کوچک"
+msgstr "작은 양의 정수"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "تیتر (حداکثر %(max_length)s)"
+msgstr "슬러그(%(max_length)s 까지)"
 
 msgid "Text"
-msgstr "متن"
+msgstr "텍스트"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
-"مقدار «%(value)s» در قالب نادرستی وارد شده است. باید در قالب HH:MM[:ss[."
-"uuuuuu]]‎ باشد."
+"\"%(value)s\" 값의 형식이 올바르지 않습니다. HH:MM[:ss[.uuuuuu]] 형식이어야 "
+"합니다."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
-"مقدار «%(value)s» با اینکه در قالب درستی (HH:MM[:ss[.uuuuuu]]‎) است ولی زمان "
-"ناممکنی را نشان می‌دهد."
+"\"%(value)s\" 값이 올바른 형식(HH:MM[:ss[.uuuuuu]])이나, 유효하지 않은 시간 "
+"값입니다."
 
 msgid "Time"
-msgstr "زمان"
+msgstr "시각"
 
 msgid "URL"
-msgstr "نشانی اینترنتی"
+msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "دادهٔ دودویی خام"
+msgstr "Raw binary data"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr "\"%(value)s\" یک UUID معتبر نیست."
+msgstr "\"%(value)s\"은 유효하지 않은 UUID입니다."
 
 msgid "Universally unique identifier"
-msgstr "شناسه منحصر به فرد سراسری"
+msgstr "범용 고유 식별 수단(UUID)"
 
 msgid "File"
-msgstr "پرونده"
+msgstr "파일"
 
 msgid "Image"
-msgstr "تصویر"
+msgstr "이미지"
 
 msgid "A JSON object"
-msgstr "یک شیء JSON"
+msgstr "JSON 객체"
 
 msgid "Value must be valid JSON."
-msgstr "مقدار، باید یک JSON معتبر باشد."
+msgstr "올바른 JSON 형식이여야 합니다."
 
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
 msgstr ""
+"%(field)s 필드의 값이 %(value)r인 %(model)s 인스턴스는 유효한 선택이 아닙니"
+"다."
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "کلید خارجی ( نوع بر اساس فیلد رابط مشخص میشود )"
+msgstr "외래 키 (연관 필드에 의해 형식 결정)"
 
 msgid "One-to-one relationship"
-msgstr "رابطه یک به یک "
+msgstr "일대일 관계"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr "رابطه %(from)s به %(to)s"
+msgstr "%(from)s-%(to)s 관계"
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr "روابط %(from)s به %(to)s"
+msgstr "%(from)s-%(to)s 관계들"
 
 msgid "Many-to-many relationship"
-msgstr "رابطه چند به چند"
+msgstr "다대다 관계"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
 #. label
 msgid ":?.!"
-msgstr ":؟.!"
+msgstr ":?.!"
 
 msgid "This field is required."
-msgstr "این فیلد لازم است."
+msgstr "필수 항목입니다."
 
 msgid "Enter a whole number."
-msgstr "به طور کامل یک عدد وارد کنید."
+msgstr "정수를 입력하세요."
 
 msgid "Enter a valid date."
-msgstr "یک تاریخ معتبر وارد کنید."
+msgstr "올바른 날짜를 입력하세요."
 
 msgid "Enter a valid time."
-msgstr "یک زمان معتبر وارد کنید."
+msgstr "올바른 시각을 입력하세요."
 
 msgid "Enter a valid date/time."
-msgstr "یک تاریخ/زمان معتبر وارد کنید."
+msgstr "올바른 날짜/시각을 입력하세요."
 
 msgid "Enter a valid duration."
-msgstr "یک بازهٔ زمانی معتبر وارد کنید."
+msgstr "올바른 기간을 입력하세요."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "عدد روز باید بین {min_days} و {max_days}  باشد."
+msgstr "날짜는 {min_days}와 {max_days} 사이여야 합니다."
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "پرونده‌ای ارسال نشده است. نوع کدگذاری فرم را بررسی کنید."
+msgstr "등록된 파일이 없습니다. 인코딩 형식을 확인하세요."
 
 msgid "No file was submitted."
-msgstr "پرونده‌ای ارسال نشده است."
+msgstr "파일이 전송되지 않았습니다."
 
 msgid "The submitted file is empty."
-msgstr "پروندهٔ ارسال‌شده خالیست."
+msgstr "입력하신 파일은 빈 파일입니다."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] ""
-"طول عنوان پرونده باید حداقل %(max)d کاراکتر باشد (طولش %(length)d است)."
-msgstr[1] ""
-"طول عنوان پرونده باید حداقل %(max)d کاراکتر باشد (طولش %(length)d است)."
+msgstr[0] "파일이름의 길이가 최대 %(max)d 자인지 확인하세요(%(length)d 자)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "لطفا یا فایل ارسال کنید یا دکمه پاک کردن را علامت بزنید، نه هردو."
+msgstr ""
+"파일 업로드 또는 비우기 체크박스를 선택하세요. 동시에 둘 다 할 수는 없습니다."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
-"یک تصویر معتبر بارگذاری کنید. پرونده‌ای که بارگذاری کردید یا تصویر نبوده و یا "
-"تصویری مخدوش بوده است."
+"올바른 이미지를 업로드하세요. 업로드하신 파일은 이미지 파일이 아니거나 파일"
+"이 깨져 있습니다."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "یک گزینهٔ معتبر انتخاب کنید. %(value)s از گزینه‌های موجود نیست."
+msgstr "올바르게 선택해 주세요. %(value)s 이/가 선택가능항목에 없습니다."
 
 msgid "Enter a list of values."
-msgstr "فهرستی از مقادیر وارد کنید."
+msgstr "리스트를 입력하세요."
 
 msgid "Enter a complete value."
-msgstr "یک مقدار کامل وارد کنید."
+msgstr "완전한 값을 입력하세요."
 
 msgid "Enter a valid UUID."
-msgstr "یک UUID معتبر وارد کنید."
+msgstr "올바른 UUID를 입력하세요."
 
 msgid "Enter a valid JSON."
-msgstr "یک JSON معتبر وارد کنید"
+msgstr "올바른 JSON을 입력하세요."
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
@@ -800,98 +798,95 @@ msgstr ":"
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(فیلد پنهان %(name)s) %(error)s"
+msgstr "(%(name)s  hidden 필드) %(error)s"
 
 #, python-format
 msgid ""
 "ManagementForm data is missing or has been tampered with. Missing fields: "
 "%(field_names)s. You may need to file a bug report if the issue persists."
 msgstr ""
-"اطلاعات ManagementForm مفقود یا دستکاری شده است. ردیف های مفقود شده: "
-"%(field_names)s. اگر این مشکل ادامه داشت، آن را گزارش کنید."
+"ManagementForm 데이터가 없거나 변경되었습니다. 현재 없는 필드: "
+"%(field_names)s. 이런 이슈가 지속된다면 버그 리포트를 제출해주시기 바랍니다."
 
 #, python-format
 msgid "Please submit at most %(num)d form."
 msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "최대 %(num)d개의 양식을 제출하세요."
 
 #, python-format
 msgid "Please submit at least %(num)d form."
 msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "최소 %(num)d개의 양식을 제출하세요."
 
 msgid "Order"
-msgstr "ترتیب:"
+msgstr "순서:"
 
 msgid "Delete"
-msgstr "حذف"
+msgstr "삭제"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "لطفا محتوی تکراری برای %(field)s را اصلاح کنید."
+msgstr "%(field)s의 중복된 데이터를 고쳐주세요."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr "لطفا محتوی تکراری برای %(field)s را که باید یکتا باشد اصلاح کنید."
+msgstr "%(field)s의 중복된 데이터를 고쳐주세요. 유일한 값이어야 합니다."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"لطفا اطلاعات تکراری  %(field_name)s را اصلاح کنید که باید در  %(lookup)s "
-"یکتا باشد %(date_field)s."
+"%(field_name)s의 값은 %(date_field)s의 %(lookup)s에 대해 유일해야 합니다. 중"
+"복된 데이터를 고쳐주세요."
 
 msgid "Please correct the duplicate values below."
-msgstr "لطفا مقدار تکراری را اصلاح کنید."
+msgstr "아래의 중복된 값들을 고쳐주세요."
 
 msgid "The inline value did not match the parent instance."
-msgstr "مقدار درون خطی موجود با نمونه والد آن مطابقت ندارد."
+msgstr "Inline 값이 부모 인스턴스와 일치하지 않습니다."
 
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "یک گزینهٔ معتبر انتخاب کنید. آن گزینه از گزینه‌های موجود نیست."
+msgstr "올바르게 선택해 주세요. 선택하신 것이 선택가능항목에 없습니다."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr "\"%(pk)s\" یک مقدار معتبر نیست."
+msgstr "\"%(pk)s\" 은/는 유효한 값이 아닙니다."
 
 #, python-format
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
-"%(datetime)sدر محدوده زمانی %(current_timezone)s، قابل تفسیر نیست؛ ممکن است "
-"نامشخص باشد یا اصلاً وجود نداشته باشد."
+"%(datetime)s 은/는 %(current_timezone)s 시간대에서 해석될 수 없습니다; 정보"
+"가 모호하거나 존재하지 않을 수 있습니다."
 
 msgid "Clear"
-msgstr "پاک کردن"
+msgstr "비우기"
 
 msgid "Currently"
-msgstr "در حال حاضر"
+msgstr "현재"
 
 msgid "Change"
-msgstr "تغییر"
+msgstr "변경"
 
 msgid "Unknown"
-msgstr "ناشناخته"
+msgstr "알 수 없습니다."
 
 msgid "Yes"
-msgstr "بله"
+msgstr "예"
 
 msgid "No"
-msgstr "خیر"
+msgstr "아니오"
 
 #. Translators: Please do not add spaces around commas.
 msgid "yes,no,maybe"
-msgstr "بله,خیر,شاید"
+msgstr "예,아니오,아마도"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d بایت"
-msgstr[1] "%(size)d بایت"
+msgstr[0] "%(size)d 바이트"
 
 #, python-format
 msgid "%s KB"
@@ -914,235 +909,235 @@ msgid "%s PB"
 msgstr "%s PB"
 
 msgid "p.m."
-msgstr "ب.ظ."
+msgstr "오후"
 
 msgid "a.m."
-msgstr "صبح"
+msgstr "오전"
 
 msgid "PM"
-msgstr "بعد از ظهر"
+msgstr "오후"
 
 msgid "AM"
-msgstr "صبح"
+msgstr "오전"
 
 msgid "midnight"
-msgstr "نیمه شب"
+msgstr "자정"
 
 msgid "noon"
-msgstr "ظهر"
+msgstr "정오"
 
 msgid "Monday"
-msgstr "دوشنبه"
+msgstr "월요일"
 
 msgid "Tuesday"
-msgstr "سه شنبه"
+msgstr "화요일"
 
 msgid "Wednesday"
-msgstr "چهارشنبه"
+msgstr "수요일"
 
 msgid "Thursday"
-msgstr "پنجشنبه"
+msgstr "목요일"
 
 msgid "Friday"
-msgstr "جمعه"
+msgstr "금요일"
 
 msgid "Saturday"
-msgstr "شنبه"
+msgstr "토요일"
 
 msgid "Sunday"
-msgstr "یکشنبه"
+msgstr "일요일"
 
 msgid "Mon"
-msgstr "دوشنبه"
+msgstr "월요일"
 
 msgid "Tue"
-msgstr "سه‌شنبه"
+msgstr "화요일"
 
 msgid "Wed"
-msgstr "چهارشنبه"
+msgstr "수요일"
 
 msgid "Thu"
-msgstr "پنجشنبه"
+msgstr "목요일"
 
 msgid "Fri"
-msgstr "جمعه"
+msgstr "금요일"
 
 msgid "Sat"
-msgstr "شنبه"
+msgstr "토요일"
 
 msgid "Sun"
-msgstr "یکشنبه"
+msgstr "일요일"
 
 msgid "January"
-msgstr "ژانویه"
+msgstr "1월"
 
 msgid "February"
-msgstr "فوریه"
+msgstr "2월"
 
 msgid "March"
-msgstr "مارس"
+msgstr "3월"
 
 msgid "April"
-msgstr "آوریل"
+msgstr "4월"
 
 msgid "May"
-msgstr "مه"
+msgstr "5월"
 
 msgid "June"
-msgstr "ژوئن"
+msgstr "6월"
 
 msgid "July"
-msgstr "ژوئیه"
+msgstr "7월"
 
 msgid "August"
-msgstr "اوت"
+msgstr "8월"
 
 msgid "September"
-msgstr "سپتامبر"
+msgstr "9월"
 
 msgid "October"
-msgstr "اکتبر"
+msgstr "10월"
 
 msgid "November"
-msgstr "نوامبر"
+msgstr "11월"
 
 msgid "December"
-msgstr "دسامبر"
+msgstr "12월"
 
 msgid "jan"
-msgstr "ژانویه"
+msgstr "1월"
 
 msgid "feb"
-msgstr "فوریه"
+msgstr "2월"
 
 msgid "mar"
-msgstr "مارس"
+msgstr "3월"
 
 msgid "apr"
-msgstr "آوریل"
+msgstr "4월"
 
 msgid "may"
-msgstr "مه"
+msgstr "5월"
 
 msgid "jun"
-msgstr "ژوئن"
+msgstr "6월"
 
 msgid "jul"
-msgstr "ژوئیه"
+msgstr "7월"
 
 msgid "aug"
-msgstr "اوت"
+msgstr "8월"
 
 msgid "sep"
-msgstr "سپتامبر"
+msgstr "9월"
 
 msgid "oct"
-msgstr "اکتبر"
+msgstr "10월"
 
 msgid "nov"
-msgstr "نوامبر"
+msgstr "11월"
 
 msgid "dec"
-msgstr "دسامبر"
+msgstr "12월"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "ژانویه"
+msgstr "1월"
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "فوریه"
+msgstr "2월"
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "مارس"
+msgstr "3월"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "آوریل"
+msgstr "4월"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "مه"
+msgstr "5월"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "ژوئن"
+msgstr "6월"
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "جولای"
+msgstr "7월"
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "اوت"
+msgstr "8월"
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "سپتامبر"
+msgstr "9월"
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "اکتبر"
+msgstr "10월"
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "نوامبر"
+msgstr "11월"
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "دسامبر"
+msgstr "12월"
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "ژانویه"
+msgstr "1월"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "فوریه"
+msgstr "2월"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "مارس"
+msgstr "3월"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "آوریل"
+msgstr "4월"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "مه"
+msgstr "5월"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "ژوئن"
+msgstr "6월"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "جولای"
+msgstr "7월"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "اوت"
+msgstr "8월"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "سپتامبر"
+msgstr "9월"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "اکتبر"
+msgstr "10월"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "نوامبر"
+msgstr "11월"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "دسامبر"
+msgstr "12월"
 
 msgid "This is not a valid IPv6 address."
-msgstr "این مقدار آدرس IPv6 معتبری نیست."
+msgstr "올바른 IPv6 주소가 아닙니다."
 
 #, python-format
 msgctxt "String to return when truncating text"
@@ -1150,53 +1145,47 @@ msgid "%(truncated_text)s…"
 msgstr "%(truncated_text)s…"
 
 msgid "or"
-msgstr "یا"
+msgstr "또는"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
-msgstr "،"
+msgstr ", "
 
 #, python-format
 msgid "%(num)d year"
 msgid_plural "%(num)d years"
-msgstr[0] "%(num)d سال"
-msgstr[1] "%(num)d سال"
+msgstr[0] "%(num)d년"
 
 #, python-format
 msgid "%(num)d month"
 msgid_plural "%(num)d months"
-msgstr[0] "%(num)d ماه"
-msgstr[1] "%(num)d ماه"
+msgstr[0] "%(num)d개월"
 
 #, python-format
 msgid "%(num)d week"
 msgid_plural "%(num)d weeks"
-msgstr[0] "%(num)d هفته"
-msgstr[1] "%(num)d هفته"
+msgstr[0] "%(num)d주"
 
 #, python-format
 msgid "%(num)d day"
 msgid_plural "%(num)d days"
-msgstr[0] "%(num)d روز"
-msgstr[1] "%(num)d روز"
+msgstr[0] "%(num)d일"
 
 #, python-format
 msgid "%(num)d hour"
 msgid_plural "%(num)d hours"
-msgstr[0] "%(num)d ساعت"
-msgstr[1] "%(num)d ساعت"
+msgstr[0] "%(num)d시간"
 
 #, python-format
 msgid "%(num)d minute"
 msgid_plural "%(num)d minutes"
-msgstr[0] "%(num)d دقیقه"
-msgstr[1] "%(num)d دقیقه"
+msgstr[0] "%(num)d분"
 
 msgid "Forbidden"
-msgstr "ممنوع"
+msgstr "Forbidden"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "‏CSRF تأیید نشد. درخواست لغو شد."
+msgstr "CSRF 검증에 실패했습니다. 요청을 중단하였습니다."
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1204,19 +1193,18 @@ msgid ""
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
-"شما این پیغام را مشاهده میکنید برای اینکه این HTTPS site نیازمند یک "
-"\"Referer header\"  برای ارسال توسط مرورگر شما دارد،‌اما مقداری ارسال "
-"نمیشود . این هدر الزامی میباشد برای امنیت ، در واقع برای اینکه مرورگر شما "
-"مطمین شود hijack به عنوان نفر سوم (third parties) در میان نیست"
+"이 메세지가 보이는 이유는 이 HTTPS 사이트가 당신의 웹 브라우저로부터 \"참조 "
+"헤더\"를 요구하지만, 아무것도 받기 못하였기 때문입니다. 이 헤더는 보안상의 이"
+"유로 필요하며, 당신의 웹 브라우저가 제3자에 의해 해킹당하고 있지 않다는 것을 "
+"보장하기 위함입니다."
 
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
-"اگر در مرورگر خود سر تیتر \"Referer\" را غیرفعال کرده‌اید، لطفاً آن را فعال "
-"کنید، یا حداقل برای این وب‌گاه یا برای ارتباطات HTTPS و یا برای درخواست‌های "
-"\"Same-origin\" فعال کنید."
+"만약 브라우저 설정에서 '참조' 헤더를 비활성화 시켰을 경우, 적어도 이 사이트"
+"나 HTTPS 연결, '동일-출처' 요청에 대해서는 이를 다시 활성화 시키십시오. "
 
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
@@ -1225,100 +1213,98 @@ msgid ""
 "If you’re concerned about privacy, use alternatives like <a "
 "rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
-"اگر شما از تگ <meta name=\"referrer\" content=\"no-referrer\"> استفاده "
-"می‌کنید یا سر تیتر \"Referrer-Policy: no-referrer\"  را اضافه کرده‌اید، لطفاً "
-"آن را حذف کنید. محافظ CSRF به سرتیتر \"Referer\" نیاز دارد تا بتواند بررسی "
-"سخت‌گیرانه ارجاع دهنده را انجام دهد. اگر ملاحظاتی در مورد حریم خصوصی دارید از "
-"روش‎‌های جایگزین مانند <a rel=\"noreferrer\" …> برای ارجاع دادن به وب‌گاه‌های "
-"شخص ثالث استفاده کنید."
+"<meta name=\"referrer\" content=\"no-referrer\"> 태그나 \"Referrer-Policy: "
+"no-referrer\" 헤더를 포함하고 있다면, 삭제해주시기 바랍니다. CSRF 방지를 위"
+"한 리퍼러 검사를 위해 \"Referer\" 헤더가 필요합니다. 개인 정보에 대해 우려가 "
+"있는 경우, 서드 파티 사이트에 대한 링크에 <a rel=\"noreferrer\" …>와 같은 대"
+"안을 사용할 수 있습니다."
 
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"شما این پیام را میبینید چون این سایت نیازمند کوکی «جعل درخواست میان وبگاهی "
-"(CSRF)» است. این کوکی برای امنیت شما ضروری است. با این کوکی می‌توانیم از "
-"اینکه شخص ثالثی کنترل مرورگرتان را به دست نگرفته است اطمینان پیدا کنیم."
+"이 메세지가 보이는 이유는 사이트가 폼을 제출할 때 CSRF 쿠키를 필요로 하기 때"
+"문입니다. 이 쿠키는 보안상의 이유로 필요하며, 제3자에 의해 당신의 브라우저가 "
+"해킹당하고 있지 않다는 것을 보장합니다."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
-"اگر مرورگر خود را تنظیم کرده‌اید که کوکی غیرفعال باشد، لطفاً مجدداً آن را فعال "
-"کنید؛ حداقل برای این وب‌گاه یا برای درخواست‌های \"same-origin\"."
+"만약 브라우저 설정에서 쿠키를 비활성화 시켰을 경우, 적어도 이 사이트나 '동일-"
+"출처' 요청에 대해서는 활성화 시키십시오."
 
 msgid "More information is available with DEBUG=True."
-msgstr "اطلاعات بیشتر با DEBUG=True ارائه خواهد شد."
+msgstr "DEBUG=True 로 더 많은 정보를 확인할 수 있습니다."
 
 msgid "No year specified"
-msgstr "هیچ سالی مشخص نشده است"
+msgstr "년도가 없습니다."
 
 msgid "Date out of range"
-msgstr "تاریخ غیرمجاز است"
+msgstr "유효 범위 밖의 날짜"
 
 msgid "No month specified"
-msgstr "هیچ ماهی مشخص نشده است"
+msgstr "월이 없습니다."
 
 msgid "No day specified"
-msgstr "هیچ روزی مشخص نشده است"
+msgstr "날짜가 없습니다."
 
 msgid "No week specified"
-msgstr "هیچ هفته‌ای مشخص نشده است"
+msgstr "주가 없습니다."
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "هیچ %(verbose_name_plural)s موجود نیست"
+msgstr " %(verbose_name_plural)s를 사용할 수 없습니다."
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"آینده %(verbose_name_plural)s امکان پذیر نیست زیرا مقدار %(class_name)s."
-"allow_future برابر False تنظیم شده است."
+"Future 모듈 %(verbose_name_plural)s을 사용할 수 없습니다. %(class_name)s."
+"allow_future가 False 입니다."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr "نوشته تاریخ \"%(datestr)s\" در قالب \"%(format)s\" نامعتبر است"
+msgstr "날짜 문자열 '%(datestr)s'이 표준 형식 '%(format)s'과 다릅니다."
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "هیچ %(verbose_name)s ای مطابق جستجو پیدا نشد."
+msgstr "쿼리 결과에 %(verbose_name)s가 없습니다."
 
 msgid "Page is not “last”, nor can it be converted to an int."
-msgstr "صفحه \"آخرین\" نیست یا شماره صفحه قابل ترجمه به یک عدد صحیح نیست."
+msgstr "'마지막' 페이지가 아니거나, 정수형으로 변환할 수 없습니다."
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "صفحه‌ی اشتباه (%(page_number)s): %(message)s"
+msgstr "Invalid page (%(page_number)s): %(message)s"
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr "لیست خالی و \"%(class_name)s.allow_empty\" برابر False است."
+msgstr "빈 리스트이고 '%(class_name)s.allow_empty'가 False입니다."
 
 msgid "Directory indexes are not allowed here."
-msgstr "شاخص دایرکتوری اینجا قابل قبول نیست."
+msgstr "디렉토리 인덱스는 이곳에 사용할 수 없습니다."
 
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr "\"%(path)s\" وجود ندارد "
+msgstr "\"%(path)s\" 이/가 존재하지 않습니다."
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "فهرست %(directory)s"
+msgstr "Index of %(directory)s"
 
 msgid "The install worked successfully! Congratulations!"
-msgstr "نصب درست کار کرد. تبریک می گویم!"
+msgstr "성공적으로 설치되었습니다! 축하합니다!"
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"نمایش <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">release notes</a> برای نسخه %(version)s "
-"جنگو"
+"Django %(version)s<a href=\"https://docs.djangoproject.com/en/%(version)s/"
+"releases/\" target=\"_blank\" rel=\"noopener\">릴리스 노트</a> 보기"
 
 #, python-format
 msgid ""
@@ -1327,25 +1313,25 @@ msgid ""
 "rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
 "configured any URLs."
 msgstr ""
-"شما این صفحه را به این دلیل مشاهده می کنید که <a href=\"https://docs."
-"djangoproject.com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> در فایل تنظیمات شما وجود دارد و شما هیچ URL "
-"تنظیم نکرده اید."
+"이 페이지는 어떤 URL도 지정되지 않았고, settings 파일에 <a href=\"https://"
+"docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a>가 설정되어 있을 때 표시됩니"
+"다."
 
 msgid "Django Documentation"
-msgstr "مستندات جنگو"
+msgstr "Django 문서"
 
 msgid "Topics, references, &amp; how-to’s"
-msgstr "سرفصل‌ها، منابع و دستورالعمل‌ها"
+msgstr "주제, 레퍼런스, &amp; 입문참조하다"
 
 msgid "Tutorial: A Polling App"
-msgstr "آموزش گام به گام: برنامکی برای رأی‌گیری"
+msgstr "튜토리얼: 폴링 애플리케이션"
 
 msgid "Get started with Django"
-msgstr "شروع به کار با جنگو"
+msgstr "Django와 함께 시작하기"
 
 msgid "Django Community"
-msgstr "جامعهٔ جنگو"
+msgstr "Django 커뮤니티"
 
 msgid "Connect, get help, or contribute"
-msgstr "متصل شوید، کمک بگیرید یا مشارکت کنید"
+msgstr "연결하고, 도움을 받거나 기여하기"

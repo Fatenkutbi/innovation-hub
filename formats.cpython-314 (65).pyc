@@ -1,344 +1,331 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Akos Zsolt Hochrein <hoch.akos@gmail.com>, 2018
-# András Veres-Szentkirályi, 2016-2021,2023
-# Attila Nagy <>, 2012
-# Balázs Meskó <meskobalazs@mailbox.org>, 2024
-# Balázs R, 2023,2025
-# Dóra Szendrei <szendrgigi@gmail.com>, 2017
-# Istvan Farkas <istvan.farkas@gmail.com>, 2019
-# Jannis Leidel <jannis@leidel.info>, 2011
-# János R, 2011-2012,2014
-# János R, 2022
-# Máté Őry <orymate@iit.bme.hu>, 2013
-# Szilveszter Farkas <szilveszter.farkas@gmail.com>, 2011
+# Michael Wolf <milupo@sorbzilla.de>, 2016-2025
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-17 18:23-0300\n"
-"PO-Revision-Date: 2025-12-03 06:49+0000\n"
-"Last-Translator: Balázs R, 2023,2025\n"
-"Language-Team: Hungarian (http://app.transifex.com/django/django/language/"
-"hu/)\n"
+"POT-Creation-Date: 2025-03-19 11:30-0500\n"
+"PO-Revision-Date: 2025-04-01 15:04-0500\n"
+"Last-Translator: Michael Wolf <milupo@sorbzilla.de>, 2016-2025\n"
+"Language-Team: Upper Sorbian (http://app.transifex.com/django/django/"
+"language/hsb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: hsb\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
 
 msgid "Afrikaans"
-msgstr "Afrikaans"
+msgstr "Afrikaanšćina"
 
 msgid "Arabic"
-msgstr "Arab"
+msgstr "Arabšćina"
 
 msgid "Algerian Arabic"
-msgstr "algériai arab"
+msgstr "Algeriska arabšćina"
 
 msgid "Asturian"
-msgstr "Asztúriai"
+msgstr "Asturišćina"
 
 msgid "Azerbaijani"
-msgstr "azerbajdzsáni"
+msgstr "Azerbajdźanšćina"
 
 msgid "Bulgarian"
-msgstr "Bolgár"
+msgstr "Bołharšćina"
 
 msgid "Belarusian"
-msgstr "Belarusz"
+msgstr "Běłorušćina"
 
 msgid "Bengali"
-msgstr "Bengáli"
+msgstr "Bengalšćina"
 
 msgid "Breton"
-msgstr "Breton"
+msgstr "Bretonšćina"
 
 msgid "Bosnian"
-msgstr "Bosnyák"
+msgstr "Bosnišćina"
 
 msgid "Catalan"
-msgstr "Katalán"
+msgstr "Katalanšćina"
 
 msgid "Central Kurdish (Sorani)"
-msgstr "Közép-kurd (szoráni)"
+msgstr "Centralna kurdišćina (Sorani)"
 
 msgid "Czech"
-msgstr "Cseh"
+msgstr "Čěšćina"
 
 msgid "Welsh"
-msgstr "Walesi"
+msgstr "Walizišćina"
 
 msgid "Danish"
-msgstr "Dán"
+msgstr "Danšćina"
 
 msgid "German"
-msgstr "Német"
+msgstr "Němčina"
 
 msgid "Lower Sorbian"
-msgstr "Alsószorb"
+msgstr "Delnjoserbšćina"
 
 msgid "Greek"
-msgstr "Görög"
+msgstr "Grjekšćina"
 
 msgid "English"
-msgstr "Angol"
+msgstr "Jendźelšćina"
 
 msgid "Australian English"
-msgstr "Ausztráliai angol"
+msgstr "Awstralska jendźelšćina"
 
 msgid "British English"
-msgstr "Brit angol"
+msgstr "Britiska jendźelšćina"
 
 msgid "Esperanto"
-msgstr "Eszperantó"
+msgstr "Esperanto"
 
 msgid "Spanish"
-msgstr "Spanyol"
+msgstr "Španišćina"
 
 msgid "Argentinian Spanish"
-msgstr "Argentin spanyol"
+msgstr "Argentinska španišćina"
 
 msgid "Colombian Spanish"
-msgstr "Kolumbiai spanyol"
+msgstr "Kolumbiska španišćina"
 
 msgid "Mexican Spanish"
-msgstr "Mexikói spanyol"
+msgstr "Mexiska španišćina"
 
 msgid "Nicaraguan Spanish"
-msgstr "Nicaraguai spanyol"
+msgstr "Nikaraguaska španišćina"
 
 msgid "Venezuelan Spanish"
-msgstr "Venezuelai spanyol"
+msgstr "Venezuelska španišćina"
 
 msgid "Estonian"
-msgstr "Észt"
+msgstr "Estišćina"
 
 msgid "Basque"
-msgstr "Baszk "
+msgstr "Baskišćina"
 
 msgid "Persian"
-msgstr "Perzsa"
+msgstr "Persišćina"
 
 msgid "Finnish"
-msgstr "Finn"
+msgstr "Finšćina"
 
 msgid "French"
-msgstr "Francia"
+msgstr "Francošćina"
 
 msgid "Frisian"
-msgstr "Fríz"
+msgstr "Frizišćina"
 
 msgid "Irish"
-msgstr "Ír"
+msgstr "Irišćina"
 
 msgid "Scottish Gaelic"
-msgstr "Skót gael"
+msgstr "Šotiska gaelšćina"
 
 msgid "Galician"
-msgstr "Gall"
+msgstr "Galicišćina"
 
 msgid "Hebrew"
-msgstr "Héber"
+msgstr "Hebrejšćina"
 
 msgid "Hindi"
-msgstr "Hindi"
+msgstr "Hindišćina"
 
 msgid "Croatian"
-msgstr "Horvát"
+msgstr "Chorwatšćina"
 
 msgid "Upper Sorbian"
-msgstr "Felsőszorb"
-
-msgid "Haitian Creole"
-msgstr ""
+msgstr "Hornjoserbšćina"
 
 msgid "Hungarian"
-msgstr "Magyar"
+msgstr "Madźaršćina"
 
 msgid "Armenian"
-msgstr "Örmény"
+msgstr "Armenšćina"
 
 msgid "Interlingua"
 msgstr "Interlingua"
 
 msgid "Indonesian"
-msgstr "Indonéz"
+msgstr "Indonezišćina"
 
 msgid "Igbo"
-msgstr "igbo"
+msgstr "Igbo"
 
 msgid "Ido"
 msgstr "Ido"
 
 msgid "Icelandic"
-msgstr "Izlandi"
+msgstr "Islandšćina"
 
 msgid "Italian"
-msgstr "Olasz"
+msgstr "Italšćina"
 
 msgid "Japanese"
-msgstr "Japán"
+msgstr "Japanšćina"
 
 msgid "Georgian"
-msgstr "Grúz"
+msgstr "Georgišćina"
 
 msgid "Kabyle"
-msgstr "Kabil"
+msgstr "Kabylšćina"
 
 msgid "Kazakh"
-msgstr "Kazak"
+msgstr "Kazachšćina"
 
 msgid "Khmer"
-msgstr "Khmer"
+msgstr "Khmeršćina"
 
 msgid "Kannada"
-msgstr "Kannada"
+msgstr "Kannadšćina"
 
 msgid "Korean"
-msgstr "Koreai"
+msgstr "Korejšćina"
 
 msgid "Kyrgyz"
-msgstr "kirgiz"
+msgstr "Kirgišćina"
 
 msgid "Luxembourgish"
-msgstr "Luxemburgi"
+msgstr "Luxemburgšćina"
 
 msgid "Lithuanian"
-msgstr "Litván"
+msgstr "Litawšćina"
 
 msgid "Latvian"
-msgstr "Lett"
+msgstr "Letišćina"
 
 msgid "Macedonian"
-msgstr "Macedón"
+msgstr "Makedonšćina"
 
 msgid "Malayalam"
-msgstr "Malajálam"
+msgstr "Malajalam"
 
 msgid "Mongolian"
-msgstr "Mongol"
+msgstr "Mongolšćina"
 
 msgid "Marathi"
-msgstr "Maráthi"
+msgstr "Marathišćina"
 
 msgid "Malay"
-msgstr "Maláj"
+msgstr "Malajšćina"
 
 msgid "Burmese"
-msgstr "Burmai"
+msgstr "Myanmaršćina"
 
 msgid "Norwegian Bokmål"
-msgstr "Bokmål norvég"
+msgstr "Norwegski bokmål"
 
 msgid "Nepali"
-msgstr "Nepáli"
+msgstr "Nepalšćina"
 
 msgid "Dutch"
-msgstr "Holland"
+msgstr "Nižozemšćina"
 
 msgid "Norwegian Nynorsk"
-msgstr "Nynorsk norvég"
+msgstr "Norwegski nynorsk"
 
 msgid "Ossetic"
-msgstr "Oszét"
+msgstr "Osetšćina"
 
 msgid "Punjabi"
-msgstr "Punjabi"
+msgstr "Pundźabišćina"
 
 msgid "Polish"
-msgstr "Lengyel"
+msgstr "Pólšćina"
 
 msgid "Portuguese"
-msgstr "Portugál"
+msgstr "Portugalšćina"
 
 msgid "Brazilian Portuguese"
-msgstr "Brazíliai portugál"
+msgstr "Brazilska portugalšćina"
 
 msgid "Romanian"
-msgstr "Román"
+msgstr "Rumunšćina"
 
 msgid "Russian"
-msgstr "Orosz"
+msgstr "Rušćina"
 
 msgid "Slovak"
-msgstr "Szlovák"
+msgstr "Słowakšćina"
 
 msgid "Slovenian"
-msgstr "Szlovén"
+msgstr "Słowjenšćina"
 
 msgid "Albanian"
-msgstr "Albán"
+msgstr "Albanšćina"
 
 msgid "Serbian"
-msgstr "Szerb"
+msgstr "Serbišćina"
 
 msgid "Serbian Latin"
-msgstr "Latin betűs szerb"
+msgstr "Serbšćina, łaćonska"
 
 msgid "Swedish"
-msgstr "Svéd"
+msgstr "Šwedšćina"
 
 msgid "Swahili"
-msgstr "Szuahéli"
+msgstr "Suahelšćina"
 
 msgid "Tamil"
-msgstr "Tamil"
+msgstr "Tamilšćina"
 
 msgid "Telugu"
-msgstr "Telugu"
+msgstr "Telugušćina"
 
 msgid "Tajik"
-msgstr "Tádzsik"
+msgstr "Tadźikišćina"
 
 msgid "Thai"
-msgstr "Thai"
+msgstr "Thaišćina"
 
 msgid "Turkmen"
-msgstr "Türkmén"
+msgstr "Turkmenšćina"
 
 msgid "Turkish"
-msgstr "Török"
+msgstr "Turkowšćina"
 
 msgid "Tatar"
-msgstr "Tatár"
+msgstr "Tataršćina"
 
 msgid "Udmurt"
-msgstr "Udmurt"
+msgstr "Udmurtšćina"
 
 msgid "Uyghur"
-msgstr "Ujgur"
+msgstr "Ujguršćina"
 
 msgid "Ukrainian"
-msgstr "Ukrán"
+msgstr "Ukrainšćina"
 
 msgid "Urdu"
-msgstr "urdu"
+msgstr "Urdušćina"
 
 msgid "Uzbek"
-msgstr "Üzbég"
+msgstr "Uzbekšćina"
 
 msgid "Vietnamese"
-msgstr "Vietnámi"
+msgstr "Vietnamšćina"
 
 msgid "Simplified Chinese"
-msgstr "Egyszerű kínai"
+msgstr "Zjednorjene chinšćina"
 
 msgid "Traditional Chinese"
-msgstr "Hagyományos kínai"
+msgstr "Tradicionalna chinšćina"
 
 msgid "Messages"
-msgstr "Üzenetek"
+msgstr "Powěsće"
 
 msgid "Site Maps"
-msgstr "Oldaltérképek"
+msgstr "Přehlady sydła"
 
 msgid "Static Files"
-msgstr "Statikus fájlok"
+msgstr "Statiske dataje"
 
 msgid "Syndication"
-msgstr "Szindikáció"
+msgstr "Syndikacija"
 
 #. Translators: String used to replace omitted page numbers in elided page
 #. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
@@ -346,46 +333,46 @@ msgid "…"
 msgstr "…"
 
 msgid "That page number is not an integer"
-msgstr "Az oldalszám nem egész szám."
+msgstr "Tute čisko strony cyła ličba njeje."
 
 msgid "That page number is less than 1"
-msgstr "Az oldalszám kisebb, mint 1"
+msgstr "Tute čisło strony je mjeńše hač 1."
 
 msgid "That page contains no results"
-msgstr "Az oldal nem tartalmaz találatokat"
+msgstr "Tuta strona wuslědki njewobsahuje"
 
 msgid "Enter a valid value."
-msgstr "Adjon meg egy érvényes értéket."
+msgstr "Zapodajće płaćiwu hódnotu."
 
 msgid "Enter a valid domain name."
-msgstr "Adjon meg egy érvényes domain nevet."
+msgstr "Zapodajće płaćiwe domenowe mjeno."
 
 msgid "Enter a valid URL."
-msgstr "Adjon meg egy érvényes URL-t."
+msgstr "Zapodajće płaćiwy URL."
 
 msgid "Enter a valid integer."
-msgstr "Adjon meg egy érvényes számot."
+msgstr "Zapodajće płaćiwu cyłu ličbu."
 
 msgid "Enter a valid email address."
-msgstr "Írjon be egy érvényes e-mail címet."
+msgstr "Zapodajće płaćiwu e-mejlowu adresu."
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Kérjük adjon meg egy érvényes \"domain-darabkát\", amely csak ékezet nélküli "
-"betűkből, számokból, aláhúzásból és kötőjelből áll."
+"Zapodajće płaćiwe adresowe mjeno, kotrež jenož pismiki, ličby, podsmužki abo "
+"wjazawki wobsahuje."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
-"Kérjük adjon meg egy érvényes \"domain-darabkát\", amely csak betűkből, "
-"számokból, aláhúzásból és kötőjelből áll."
+"Zapodajće płaćiwe „adresowe mjeno“, kotrež jenož pismiki, ličby, podsmužki "
+"abo wjazawki wobsahuje."
 
 #, python-format
 msgid "Enter a valid %(protocol)s address."
-msgstr "Adjon meg egy érvényes %(protocol)s címet."
+msgstr "Zapodajće płaćiwu %(protocol)s-adresu."
 
 msgid "IPv4"
 msgstr "IPv4"
@@ -394,36 +381,36 @@ msgid "IPv6"
 msgstr "IPv6"
 
 msgid "IPv4 or IPv6"
-msgstr "IPv4 vagy IPv6"
+msgstr "IPv4 abo IPv6"
 
 msgid "Enter only digits separated by commas."
-msgstr "Csak számokat adjon meg, vesszővel elválasztva."
+msgstr "Zapodajće jenož přez komy dźělene cyfry,"
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
-"Bizonyosodjon meg arról, hogy az érték %(limit_value)s (jelenleg: "
-"%(show_value)s)."
+msgstr "Zawěsćće, zo tuta hódnota je %(limit_value)s (je %(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "Bizonyosodjon meg arról, hogy az érték %(limit_value)s, vagy kisebb."
+msgstr "Zawěsćće, zo hódnota je mjeńša hač abo runja %(limit_value)s."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "Bizonyosodjon meg arról, hogy az érték %(limit_value)s, vagy nagyobb."
+msgstr "Zawěsćće, zo tuta hódnota je wjetša hač abo runja %(limit_value)s."
 
 #, python-format
 msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr "Bizonyosodjon meg arról, hogy az érték %(limit_value)s többszöröse."
+msgstr ""
+"Zawěsćće, zo tuta hódnota je množina kročeloweje wulkosće %(limit_value)s."
 
 #, python-format
 msgid ""
 "Ensure this value is a multiple of step size %(limit_value)s, starting from "
 "%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
 msgstr ""
-"Az érték %(limit_value)s többszörösével kell hogy eltérjen %(offset)s-hoz "
-"képest, pl. %(offset)s, %(valid_value1)s, %(valid_value2)s, és így tovább.  "
+"Zawěsćće, zo tuta hódnota je mnoho króć kročeloweje wulkosće "
+"%(limit_value)s, započinajo z %(offset)s, na př. %(offset)s, "
+"%(valid_value1)s, %(valid_value2)s a tak dale."
 
 #, python-format
 msgid ""
@@ -433,11 +420,17 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Bizonyosodjon meg arról, hogy ez az érték legalább %(limit_value)d karaktert "
-"tartalmaz (jelenlegi hossza: %(show_value)d)."
+"Zawěsćće, zo tuta hódnota ma znajmjeńša %(limit_value)d znamješko (ma "
+"%(show_value)d)."
 msgstr[1] ""
-"Bizonyosodjon meg arról, hogy ez az érték legalább %(limit_value)d karaktert "
-"tartalmaz (jelenlegi hossza: %(show_value)d)."
+"Zawěsćće, zo tuta hódnota ma znajmjeńša %(limit_value)d znamješce (ma "
+"%(show_value)d)."
+msgstr[2] ""
+"Zawěsćće, zo tuta hódnota ma znajmjeńša %(limit_value)d znamješka (ma "
+"%(show_value)d)."
+msgstr[3] ""
+"Zawěsćće, zo tuta hódnota ma znajmjeńša %(limit_value)d znamješkow (ma "
+"%(show_value)d)."
 
 #, python-format
 msgid ""
@@ -447,76 +440,82 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Bizonyosodjon meg arról, hogy ez az érték legfeljebb %(limit_value)d "
-"karaktert tartalmaz (jelenlegi hossza: %(show_value)d)."
+"Zawěsćće, zo tuta hódnota ma maksimalnje %(limit_value)d znamješko (ima "
+"%(show_value)d)."
 msgstr[1] ""
-"Bizonyosodjon meg arról, hogy ez az érték legfeljebb %(limit_value)d "
-"karaktert tartalmaz (jelenlegi hossza: %(show_value)d)."
+"Zawěsćće, zo tuta hódnota ma maksimalnje %(limit_value)d znamješce (ima "
+"%(show_value)d)."
+msgstr[2] ""
+"Zawěsćće, zo tuta hódnota ma maksimalnje %(limit_value)d znamješka (ima "
+"%(show_value)d)."
+msgstr[3] ""
+"Zawěsćće, zo tuta hódnota ma maksimalnje %(limit_value)d znamješkow (ima "
+"%(show_value)d)."
 
 msgid "Enter a number."
-msgstr "Adj meg egy számot."
+msgstr "Zapodajće ličbu."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "Bizonyosodjon meg arról, hogy legfeljebb %(max)s számjegyből áll."
-msgstr[1] "Bizonyosodjon meg arról, hogy legfeljebb %(max)s számjegyből áll."
+msgstr[0] "Zawěsćće, zo njeje wjace hač %(max)s cyfry dohromady."
+msgstr[1] "Zawěsćće, zo njeje wjace hač %(max)s cyfrow dohromady."
+msgstr[2] "Zawěsćće, zo njeje wjace hač %(max)s cyfrow dohromady."
+msgstr[3] "Zawěsćće, zo njeje wjace hač %(max)s cyfrow dohromady."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] ""
-"Bizonyosodjon meg arról, hogy legfeljebb %(max)s tizedesjegyből áll."
-msgstr[1] ""
-"Bizonyosodjon meg arról, hogy legfeljebb %(max)s tizedesjegyből áll."
+msgstr[0] "Zawěsćće, zo njeje wjace hač %(max)s decimalneho městna."
+msgstr[1] "Zawěsćće, zo njeje wjace hač %(max)s decimalneju městnow."
+msgstr[2] "Zawěsćće, zo njeje wjace hač %(max)s decimalnych městnow."
+msgstr[3] "Zawěsćće, zo njeje wjace hač %(max)s decimalnych městnow."
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-"Bizonyosodjon meg arról, hogy legfeljebb %(max)s számjegy van a "
-"tizedesvessző előtt."
-msgstr[1] ""
-"Bizonyosodjon meg arról, hogy legfeljebb %(max)s számjegy van a "
-"tizedesvessző előtt."
+msgstr[0] "Zawěsćće, zo njeje wjace hač %(max)s cyfry před decimalnej komu."
+msgstr[1] "Zawěsćće, zo njeje wjace hač %(max)s cyfrow před decimalnej komu."
+msgstr[2] "Zawěsćće, zo njeje wjace hač %(max)s cyfrow před decimalnej komu."
+msgstr[3] "Zawěsćće, zo njeje wjace hač %(max)s cyfrow před decimalnej komu."
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
-"A(z) \"%(extension)s\" kiterjesztés nincs engedélyezve. Az engedélyezett "
-"fájltípusok: %(allowed_extensions)s."
+"Datajowy sufiks ' %(extension)s' dowoleny njeje. Dowolene sufiksy su: "
+"%(allowed_extensions)s."
 
 msgid "Null characters are not allowed."
-msgstr "Null karakterek használata nem megengedett."
+msgstr "Prózdne znamješka dowolene njejsu."
 
 msgid "and"
-msgstr "és"
+msgstr "a"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "Már létezik %(model_name)s ilyennel: %(field_labels)s."
+msgstr "%(model_name)s z tutym %(field_labels)s hižo eksistuje."
 
 #, python-format
 msgid "Constraint “%(name)s” is violated."
-msgstr "„%(name)s” megszorítás megsértve."
+msgstr "Wobmjezowanje \"%(name)s\" je překročene."
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "%(value)r érték érvénytelen."
+msgstr "Hódnota %(value)r płaćiwa wólba njeje."
 
 msgid "This field cannot be null."
-msgstr "Ez a mező nem lehet nulla."
+msgstr "Tute polo njesmě nul być."
 
 msgid "This field cannot be blank."
-msgstr "Ez a mező nem lehet üres."
+msgstr "Tute polo njesmě prózdne być."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "Már létezik %(model_name)s ilyennel: %(field_label)s."
+msgstr "%(model_name)s z tutym %(field_label)s hižo eksistuje."
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or
 #. 'month'. Eg: "Title must be unique for pub_date year"
@@ -524,286 +523,290 @@ msgstr "Már létezik %(model_name)s ilyennel: %(field_label)s."
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
-"%(field_label)s egyedi kell hogy legyen %(lookup_type)s alapján a(z) "
-"%(date_field_label)s mezőn."
+"%(field_label)s dyrbi za %(date_field_label)s %(lookup_type)s jónkróćne być."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "Mezőtípus: %(field_type)s"
+msgstr "Polo typa: %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr "A(z) \"%(value)s\" értéke csak True vagy False lehet."
+msgstr "Hódnota „%(value)s“ dyrbi pak True pak False być."
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr "A(z) \"%(value)s\" értéke csak True, False vagy üres lehet."
+msgstr "Hódnota „%(value)s“ dyrbi pak True, False pak None być."
 
 msgid "Boolean (Either True or False)"
-msgstr "Logikai (True vagy False)"
+msgstr "Boolean (pak True pak False)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "Karakterlánc (%(max_length)s hosszig)"
+msgstr "Znamješkowy rjećazk (hač  %(max_length)s)"
 
 msgid "String (unlimited)"
-msgstr "Karakterlánc (korlátlan hosszúságú)"
+msgstr "Znamješkowy rjećazk (njewobmjezowany)"
 
 msgid "Comma-separated integers"
-msgstr "Vesszővel elválasztott egészek"
+msgstr "Cyłe ličby dźělene přez komu"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
-"A(z) \"%(value)s\" érvénytelen dátumformátumot tartalmaz. A dátumnak ÉÉÉÉ-HH-"
-"NN formában kell lennie."
+"Hódnota „%(value)s“ ma njepłaćiwy datumowy format. Dyrbi we formaće DD.MM."
+"YYYY być."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
-"A(z) \"%(value)s\" értéke formára (ÉÉÉÉ-HH-NN) megfelel ugyan, de "
-"érvénytelen dátumot tartalmaz."
+"Hódnota „%(value)s“ ma korektny format (DD.MM.YYYY), ale je njepłaćiwy datum."
 
 msgid "Date (without time)"
-msgstr "Dátum (idő nélkül)"
+msgstr "Datum (bjez časa)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
-"A(z) \"%(value)s\" érvénytelen dátumformátumot tartalmaz. A dátumnak ÉÉÉÉ-HH-"
-"NN ÓÓ:PP[:mm[.uuuuuu]][TZ] formában kell lennie."
+"Hódnota „%(value)s“ ma njepłaćiwy format. Dyrbi we formaće DD.MM.YYYY HH:MM[:"
+"ss[.uuuuuu]][TZ] być."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
-"A(z) \"%(value)s\" értéke formára (ÉÉÉÉ-HH-NN ÓÓ:PP[:mm[:uuuuuu]][TZ]) "
-"megfelel ugyan, de érvénytelen dátumot vagy időt tartalmaz."
+"Hódnota „%(value)s“ ma korektny format (DD.MM.YYYY HH:MM[:ss[.uuuuuu]][TZ]), "
+"ale je njepłaćiwy datum/čas."
 
 msgid "Date (with time)"
-msgstr "Dátum (idővel)"
+msgstr "Datum (z časom)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr "A(z) \"%(value)s\" értékének tizes számrendszerű számnak kell lennie."
+msgstr "Hódnota „%(value)s“ dyrbi decimalna ličba być."
 
 msgid "Decimal number"
-msgstr "Tizes számrendszerű (decimális) szám"
+msgstr "Decimalna ličba"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
-"A(z) \"%(value)s\" érvénytelen idő formátumot tartalmaz. Az időnek ÓÓ:PP[:"
-"mm[.uuuuuu]] formában kell lennie."
+"Hódnota „%(value)s“ ma njepłaćiwy format. Dyrbi w formaće [DD] [HH:[MM:]]ss[."
+"uuuuuu] być."
 
 msgid "Duration"
-msgstr "Időtartam"
+msgstr "Traće"
 
 msgid "Email address"
-msgstr "E-mail cím"
+msgstr "E-mejlowa adresa"
 
 msgid "File path"
-msgstr "Elérési út"
+msgstr "Datajowa šćežka"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr "A(z) \"%(value)s\" értékének lebegőpontos számnak kell lennie."
+msgstr "Hódnota „%(value)s“ dyrbi decimalna ličba być."
 
 msgid "Floating point number"
-msgstr "Lebegőpontos szám"
+msgstr "Komowa ličba typa float"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr "A(z) \"%(value)s\" értékének egész számnak kell lennie."
+msgstr "Hódnota „%(value)s“ dyrbi integer być."
 
 msgid "Integer"
-msgstr "Egész"
+msgstr "Integer"
 
 msgid "Big (8 byte) integer"
-msgstr "Nagy egész szám (8 bájtos)"
+msgstr "Big (8 byte) integer"
 
 msgid "Small integer"
-msgstr "Kis egész"
+msgstr "Mała cyła ličba"
 
 msgid "IPv4 address"
-msgstr "IPv4 cím"
+msgstr "IPv4-adresa"
 
 msgid "IP address"
-msgstr "IP cím"
+msgstr "IP-adresa"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr "Az  \"%(value)s\" értéke csak üres, True, vagy False lehet."
+msgstr "Hódnota „%(value)s“ dyrbi pak None, True pak False być."
 
 msgid "Boolean (Either True, False or None)"
-msgstr "Logikai (True, False vagy None)"
+msgstr "Boolean (pak True, False pak None)"
 
 msgid "Positive big integer"
-msgstr "Pozitív nagy egész"
+msgstr "Pozitiwna wulka cyła ličba"
 
 msgid "Positive integer"
-msgstr "Pozitív egész"
+msgstr "Pozitiwna cyła ličba"
 
 msgid "Positive small integer"
-msgstr "Pozitív kis egész"
+msgstr "Pozitiwna mała cyła ličba"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "URL-barát cím (%(max_length)s hosszig)"
+msgstr "Adresowe mjeno (hač %(max_length)s)"
 
 msgid "Text"
-msgstr "Szöveg"
+msgstr "Tekst"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
-"A(z) \"%(value)s\" érvénytelen idő formátumot tartalmaz. Az időnek ÓÓ:PP[:"
-"mm[.uuuuuu]] formában kell lennie."
+"Hódnota „%(value)s“ ma njepłaćiwy format. Dyrbi we formaće HH:MM[:ss[."
+"uuuuuu]] być."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
-"A(z) \"%(value)s\" értéke formára (ÓÓ:PP[:mm[:uuuuuu]][TZ]) megfelel ugyan, "
-"de érvénytelen időt tartalmaz."
+"Hódnota „%(value)s“ ma korektny format (HH:MM[:ss[.uuuuuu]]), ale je "
+"njepłaćiwy čas."
 
 msgid "Time"
-msgstr "Idő"
+msgstr "Čas"
 
 msgid "URL"
 msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "Nyers bináris adat"
+msgstr "Hrube binarne daty"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr "A(z) \"%(value)s\" értéke nem érvényes UUID érték."
+msgstr "„%(value)s“ płaćiwy UUID njeje."
 
 msgid "Universally unique identifier"
-msgstr "Univerzálisan egyedi azonosító"
+msgstr "Uniwerselnje jónkróćny identifikator"
 
 msgid "File"
-msgstr "Fájl"
+msgstr "Dataja"
 
 msgid "Image"
-msgstr "Kép"
+msgstr "Wobraz"
 
 msgid "A JSON object"
-msgstr "Egy JSON objektum"
+msgstr "JSON-objekt"
 
 msgid "Value must be valid JSON."
-msgstr "Az érték érvényes JSON kell legyen."
+msgstr "Hódnota dyrbi płaćiwy JSON być."
 
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
-msgstr ""
+msgstr "Instanca %(model)s z %(field)s %(value)r płaćiwa wólba njeje."
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "Idegen kulcs (típusa a kapcsolódó mezőtől függ)"
+msgstr "Cuzy kluč (typ so přez wotpowědne polo postaja)"
 
 msgid "One-to-one relationship"
-msgstr "Egy-egy kapcsolat"
+msgstr "Poćah jedyn jedyn"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr "%(from)s-%(to)s kapcsolat"
+msgstr "Poćah %(from)s-%(to)s"
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr "%(from)s-%(to)s kapcsolatok"
+msgstr "Poćahi %(from)s-%(to)s"
 
 msgid "Many-to-many relationship"
-msgstr "Több-több kapcsolat"
+msgstr "Poćah wjele wjele"
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to
-#. the label
+#. characters will prevent the default label_suffix to be appended to the
+#. label
 msgid ":?.!"
 msgstr ":?.!"
 
 msgid "This field is required."
-msgstr "Ennek a mezőnek a megadása kötelező."
+msgstr "Tute polo je trěbne."
 
 msgid "Enter a whole number."
-msgstr "Adjon meg egy egész számot."
+msgstr "Zapodajće cyłu ličbu."
 
 msgid "Enter a valid date."
-msgstr "Adjon meg egy érvényes dátumot."
+msgstr "Zapodajće płaćiwy datum."
 
 msgid "Enter a valid time."
-msgstr "Adjon meg egy érvényes időt."
+msgstr "Zapodajće płaćiwy čas."
 
 msgid "Enter a valid date/time."
-msgstr "Adjon meg egy érvényes dátumot/időt."
+msgstr "Zapodajće płaćiwy datum/čas."
 
 msgid "Enter a valid duration."
-msgstr "Adjon meg egy érvényes időtartamot."
+msgstr "Zapodajće płaćiwe traće."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "A napok számának {min_days} és {max_days} közé kell esnie."
+msgstr "Ličba dnjow dyrbi mjez {min_days} a {max_days} być."
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "Nem küldött el fájlt. Ellenőrizze a kódolás típusát az űrlapon."
+msgstr "Žana dataja je so pósłała. Přepruwujće kodowanski typ we formularje."
 
 msgid "No file was submitted."
-msgstr "Semmilyen fájl sem került feltöltésre."
+msgstr "Žana dataja je so pósłała."
 
 msgid "The submitted file is empty."
-msgstr "A küldött fájl üres."
+msgstr "Pósłana dataja je prózdna."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
-"Bizonyosodjon meg arról, hogy a fájlnév legfeljebb %(max)d karakterből áll "
-"(jelenlegi hossza: %(length)d)."
+"Zawěsćće, zo tute datajowe mjeno ma maksimalnje %(max)d znamješko (ma "
+"%(length)d)."
 msgstr[1] ""
-"Bizonyosodjon meg arról, hogy a fájlnév legfeljebb %(max)d karakterből áll "
-"(jelenlegi hossza: %(length)d)."
+"Zawěsćće, zo tute datajowe mjeno ma maksimalnje %(max)d znamješce (ma "
+"%(length)d)."
+msgstr[2] ""
+"Zawěsćće, zo tute datajowe mjeno ma maksimalnje %(max)d znamješka (ma "
+"%(length)d)."
+msgstr[3] ""
+"Zawěsćće, zo tute datajowe mjeno ma maksimalnje %(max)d znamješkow (ma "
+"%(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
 msgstr ""
-"Küldjön egy új fájlt, vagy jelölje be a törlés négyzetet, de ne mindkettőt "
-"egyszerre."
+"Prošu zapodajće dataju abo stajće hóčku do kontrolneho kašćika, nic wobě."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
-"Töltsön fel egy érvényes képfájlt. A feltöltött fájl nem kép volt, vagy "
-"megsérült."
+"Nahrajće płaćiwy wobraz. Dataja, kotruž sće nahrał, pak njebě wobraz pak bě "
+"wobškodźeny wobraz. "
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
 msgstr ""
-"Válasszon érvényes elemet. '%(value)s' nincs az elérhető lehetőségek között."
+"Wubjerće płaćiwu wolensku móžnosć.  %(value)s žana k dispoziciji stejacych "
+"wolenskich móžnosćow njeje. "
 
 msgid "Enter a list of values."
-msgstr "Adja meg értékek egy listáját."
+msgstr "Zapodajće lisćinu hódnotow."
 
 msgid "Enter a complete value."
-msgstr "Adjon meg egy teljes értéket."
+msgstr "Zapodajće dospołnu hódnotu."
 
 msgid "Enter a valid UUID."
-msgstr "Adjon meg egy érvényes UUID-t."
+msgstr "Zapodajće płaćiwy UUID."
 
 msgid "Enter a valid JSON."
-msgstr "Adjon meg egy érvényes JSON-t."
+msgstr "Zapodajće płaćiwy JSON."
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
@@ -811,118 +814,106 @@ msgstr ":"
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(Rejtett mező: %(name)s) %(error)s"
+msgstr "(Schowane polo field %(name)s) %(error)s"
 
 #, python-format
 msgid ""
 "ManagementForm data is missing or has been tampered with. Missing fields: "
 "%(field_names)s. You may need to file a bug report if the issue persists."
 msgstr ""
-"ManagementForm adatok hiányoznak vagy hamisításra kerültek. A hiányzó mezők: "
-"%(field_names)s. Ha ez többször is előfordul, érdemes bejelenteni hibaként."
+"Daty ManagementForm faluja abo su skepsane. Falowace pola: %(field_names)s. "
+"Móžeće zmylkowu rozprawu spisać, jeli problem dale eksistuje."
 
 #, python-format
 msgid "Please submit at most %(num)d form."
 msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] "Legfeljebb %(num)d űrlapot küldjön be."
-msgstr[1] "Legfeljebb %(num)d űrlapot küldjön be."
+msgstr[0] "Prošu wotposćelće maksimalnje %(num)d formular."
+msgstr[1] "Prošu wotposćelće maksimalnje %(num)d formularaj."
+msgstr[2] "Prošu wotposćelće maksimalnje %(num)d formulary."
+msgstr[3] "Prošu wotposćelće maksimalnje %(num)d formularow."
 
 #, python-format
 msgid "Please submit at least %(num)d form."
 msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] "Legalább %(num)d űrlapot küldjön be."
-msgstr[1] "Legalább %(num)d űrlapot küldjön be."
+msgstr[0] "Prošu zapodajće znajmjeńša %(num)d formu."
+msgstr[1] "Prošu zapodajće znajmjeńša %(num)d formje."
+msgstr[2] "Prošu zapodajće znajmjeńša %(num)d formy."
+msgstr[3] "Prošu zapodajće znajmjeńša %(num)d formow."
 
 msgid "Order"
-msgstr "Sorrend"
+msgstr "Porjad"
 
 msgid "Delete"
-msgstr "Törlés"
+msgstr "Zhašeć"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "Javítsa a mezőhöz tartozó duplikált adatokat: %(field)s."
+msgstr "Prošu porjedźće dwójne daty za %(field)s."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
-"Javítsa a mezőhöz tartozó duplikált adatokat: %(field)s (egyedinek kell "
-"lenniük)."
+msgstr "Prošu porjedźće dwójne daty za %(field)s, kotrež dyrbja jónkróćne być."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"Javítsa a mezőhöz tartozó duplikált adatokat: %(field_name)s (egyedinek kell "
-"lenniük %(lookup)s alapján a dátum mezőn: %(date_field)s)."
+"Prošu porjedźće dwójne daty za %(field_name)s, kotrež dyrbja za %(lookup)s w "
+"%(date_field)s jónkróćne być."
 
 msgid "Please correct the duplicate values below."
-msgstr "Javítsa az alábbi duplikált értékeket."
+msgstr "Prošu porjedźće slědowace dwójne hódnoty."
 
 msgid "The inline value did not match the parent instance."
-msgstr "A beágyazott érték nem egyezik meg a szülő példányéval."
+msgstr "Hódnota inline nadrjadowanej instancy njewotpowěduje."
 
 msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
-"Válasszon érvényes elemet. Az Ön választása nincs az elérhető lehetőségek "
-"között."
+"Wubjerće płaćiwu wolensku móžnosć. Tuta wolenska móžnosć jedna z k "
+"dispoziciji stejacych wolenskich móžnosćow njeje."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr "Érvénytelen érték: \"%(pk)s\""
+msgstr "\"%(pk)s\" płaćiwa hódnota njeje."
 
 #, python-format
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
-"A(z) %(datetime)s nem értelmezhető a(z) %(current_timezone)s időzónában; "
-"vagy bizonytalan, vagy nem létezik."
+"%(datetime)s njeda so w časowym pasmje %(current_timezone)s interpretować; "
+"je snano dwuzmyslny abo njeeksistuje."
 
 msgid "Clear"
-msgstr "Törlés"
+msgstr "Zhašeć"
 
 msgid "Currently"
-msgstr "Jelenleg"
+msgstr "Tuchwilu"
 
 msgid "Change"
-msgstr "Módosítás"
+msgstr "Změnić"
 
 msgid "Unknown"
-msgstr "Ismeretlen"
+msgstr "Njeznaty"
 
 msgid "Yes"
-msgstr "Igen"
+msgstr "Haj"
 
 msgid "No"
-msgstr "Nem"
-
-msgctxt "Task"
-msgid "Ready"
-msgstr "Kész"
-
-msgctxt "Task"
-msgid "Running"
-msgstr "Fut"
-
-msgctxt "Task"
-msgid "Failed"
-msgstr "Sikertelen"
-
-msgctxt "Task"
-msgid "Successful"
-msgstr "Sikeres"
+msgstr "Ně"
 
 #. Translators: Please do not add spaces around commas.
 msgid "yes,no,maybe"
-msgstr "igen,nem,talán"
+msgstr "haj,ně,snano"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d bájt"
-msgstr[1] "%(size)d bájt"
+msgstr[0] "%(size)d bajt"
+msgstr[1] "%(size)d bajtaj"
+msgstr[2] "%(size)d bajty"
+msgstr[3] "%(size)d bajtow"
 
 #, python-format
 msgid "%s KB"
@@ -945,235 +936,235 @@ msgid "%s PB"
 msgstr "%s PB"
 
 msgid "p.m."
-msgstr "du"
+msgstr "popołdnju"
 
 msgid "a.m."
-msgstr "de"
+msgstr "dopołdnja"
 
 msgid "PM"
-msgstr "DU"
+msgstr "popołdnju"
 
 msgid "AM"
-msgstr "DE"
+msgstr "dopołdnja"
 
 msgid "midnight"
-msgstr "éjfél"
+msgstr "połnoc"
 
 msgid "noon"
-msgstr "dél"
+msgstr "připołdnjo"
 
 msgid "Monday"
-msgstr "hétfő"
+msgstr "Póndźela"
 
 msgid "Tuesday"
-msgstr "kedd"
+msgstr "Wutora"
 
 msgid "Wednesday"
-msgstr "szerda"
+msgstr "Srjeda"
 
 msgid "Thursday"
-msgstr "csütörtök"
+msgstr "Štwórtk"
 
 msgid "Friday"
-msgstr "péntek"
+msgstr "Pjatk"
 
 msgid "Saturday"
-msgstr "szombat"
+msgstr "Sobota"
 
 msgid "Sunday"
-msgstr "vasárnap"
+msgstr "Njedźela"
 
 msgid "Mon"
-msgstr "hét"
+msgstr "Pón"
 
 msgid "Tue"
-msgstr "kedd"
+msgstr "Wut"
 
 msgid "Wed"
-msgstr "sze"
+msgstr "Srj"
 
 msgid "Thu"
-msgstr "csüt"
+msgstr "Štw"
 
 msgid "Fri"
-msgstr "pén"
+msgstr "Pja"
 
 msgid "Sat"
-msgstr "szo"
+msgstr "Sob"
 
 msgid "Sun"
-msgstr "vas"
+msgstr "Nje"
 
 msgid "January"
-msgstr "január"
+msgstr "Januar"
 
 msgid "February"
-msgstr "február"
+msgstr "Februar"
 
 msgid "March"
-msgstr "március"
+msgstr "Měrc"
 
 msgid "April"
-msgstr "április"
+msgstr "Apryl"
 
 msgid "May"
-msgstr "május"
+msgstr "Meja"
 
 msgid "June"
-msgstr "június"
+msgstr "Junij"
 
 msgid "July"
-msgstr "július"
+msgstr "Julij"
 
 msgid "August"
-msgstr "augusztus"
+msgstr "Awgust"
 
 msgid "September"
-msgstr "szeptember"
+msgstr "September"
 
 msgid "October"
-msgstr "október"
+msgstr "Oktober"
 
 msgid "November"
-msgstr "november"
+msgstr "Nowember"
 
 msgid "December"
-msgstr "december"
+msgstr "December"
 
 msgid "jan"
-msgstr "jan"
+msgstr "jan."
 
 msgid "feb"
-msgstr "feb"
+msgstr "feb."
 
 msgid "mar"
-msgstr "már"
+msgstr "měr."
 
 msgid "apr"
-msgstr "ápr"
+msgstr "apr."
 
 msgid "may"
-msgstr "máj"
+msgstr "mej."
 
 msgid "jun"
-msgstr "jún"
+msgstr "jun."
 
 msgid "jul"
-msgstr "júl"
+msgstr "jul."
 
 msgid "aug"
-msgstr "aug"
+msgstr "awg."
 
 msgid "sep"
-msgstr "sze"
+msgstr "sep."
 
 msgid "oct"
-msgstr "okt"
+msgstr "okt."
 
 msgid "nov"
-msgstr "nov"
+msgstr "now."
 
 msgid "dec"
-msgstr "dec"
+msgstr "dec."
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "jan."
+msgstr "Jan."
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "febr."
+msgstr "Feb."
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "márc."
+msgstr "Měrc"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "ápr."
+msgstr "Apryl"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "máj."
+msgstr "Meja"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "jún."
+msgstr "Junij"
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "júl."
+msgstr "Julij"
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "aug."
+msgstr "Awg."
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "szept."
+msgstr "Sept."
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "okt."
+msgstr "Okt."
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "nov."
+msgstr "Now."
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "dec."
+msgstr "Dec."
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "január"
+msgstr "Januar"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "február"
+msgstr "Februar"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "március"
+msgstr "Měrc"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "április"
+msgstr "Apryl"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "május"
+msgstr "Meja"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "június"
+msgstr "Junij"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "július"
+msgstr "Julij"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "augusztus"
+msgstr "Awgust"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "szeptember"
+msgstr "September"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "október"
+msgstr "Oktober"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "november"
+msgstr "Nowember"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "december"
+msgstr "December"
 
 msgid "This is not a valid IPv6 address."
-msgstr "Ez nem egy érvényes IPv6 cím."
+msgstr "To płaćiwa IPv6-adresa njeje."
 
 #, python-format
 msgctxt "String to return when truncating text"
@@ -1181,7 +1172,7 @@ msgid "%(truncated_text)s…"
 msgstr "%(truncated_text)s…"
 
 msgid "or"
-msgstr "vagy"
+msgstr "abo"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
@@ -1190,44 +1181,56 @@ msgstr ", "
 #, python-format
 msgid "%(num)d year"
 msgid_plural "%(num)d years"
-msgstr[0] "%(num)d év"
-msgstr[1] "%(num)d év"
+msgstr[0] "%(num)d lěto"
+msgstr[1] "%(num)dlěće"
+msgstr[2] "%(num)d lěta"
+msgstr[3] "%(num)d lět"
 
 #, python-format
 msgid "%(num)d month"
 msgid_plural "%(num)d months"
-msgstr[0] "%(num)d hónap"
-msgstr[1] "%(num)d hónap"
+msgstr[0] "%(num)d měsac"
+msgstr[1] "%(num)d měsacaj"
+msgstr[2] "%(num)d měsacy"
+msgstr[3] "%(num)d měsacow"
 
 #, python-format
 msgid "%(num)d week"
 msgid_plural "%(num)d weeks"
-msgstr[0] "%(num)d hét"
-msgstr[1] "%(num)d hét"
+msgstr[0] "%(num)d tydźeń"
+msgstr[1] "%(num)d njedźeli"
+msgstr[2] "%(num)d njedźele"
+msgstr[3] "%(num)d njedźel"
 
 #, python-format
 msgid "%(num)d day"
 msgid_plural "%(num)d days"
-msgstr[0] "%(num)d nap"
-msgstr[1] "%(num)d nap"
+msgstr[0] "%(num)d dźeń"
+msgstr[1] "%(num)d dnjej"
+msgstr[2] "%(num)d dny"
+msgstr[3] "%(num)d dnjow"
 
 #, python-format
 msgid "%(num)d hour"
 msgid_plural "%(num)d hours"
-msgstr[0] "%(num)d óra"
-msgstr[1] "%(num)d óra"
+msgstr[0] "%(num)d hodźina"
+msgstr[1] "%(num)d hodźinje"
+msgstr[2] "%(num)d hodźiny"
+msgstr[3] "%(num)d hodźin"
 
 #, python-format
 msgid "%(num)d minute"
 msgid_plural "%(num)d minutes"
-msgstr[0] "%(num)d perc"
-msgstr[1] "%(num)d perc"
+msgstr[0] "%(num)d mjeńšina"
+msgstr[1] "%(num)d mjeńšinje"
+msgstr[2] "%(num)d mjeńšiny"
+msgstr[3] "%(num)d mjeńšin"
 
 msgid "Forbidden"
-msgstr "Hozzáférés megtagadva"
+msgstr "Zakazany"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "CSRF ellenőrzés sikertelen. Kérés kiszolgálása megszakítva."
+msgstr "CSRF-přepruwowanje je so nimokuliło.  Naprašowanje je so přetorhnyło."
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1235,19 +1238,19 @@ msgid ""
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
-"Ezt az üzenetet azért látja, mert ezen a HTTPS oldalon kötelező a \"Referer "
-"header\", amelyet a böngészőnek kellene küldenie, de nem tette. Ez az adat "
-"biztonsági okokból kötelező, ez biztosítja, hogy a böngészőt nem irányítja "
-"át egy harmadik fél."
+"Widźiće tutu zdźělenku, dokelž tute HTTPS-sydło \"Referer header\" trjeba, "
+"kotryž so ma na waš webwobhladowak pósłać, ale žadyn njeje so pósłał. Tutón "
+"header je z wěstotnych přičinow trěbny, zo by so zawěsćiło, zo waš "
+"wobhladowak so wot třećich njekapruje."
 
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
-"Ha a böngészője úgy van beállítva, hogy letilja a \"Referer\" adatokat, "
-"kérjük engedélyezze őket ehhez az oldalhoz, vagy a HTTPS kapcsolatokhoz, "
-"vagy a \"same-origin\" kérésekhez."
+"Jei sće swój wobhladowak tak konfigurował, zo su hłowy „Referer“ "
+"znjemóžnjene, zmóžńće je, znajmjeńša za tute sydło abo za HTTPS-zwiski abo "
+"za naprašowanja „sameorigin“."
 
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
@@ -1256,102 +1259,99 @@ msgid ""
 "If you’re concerned about privacy, use alternatives like <a "
 "rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
-"Ha a <meta name=\"referrer\" content=\"no-referrer\"> címkét használja, vagy "
-"a “Referrer-Policy: no-referrer” fejlécet, kérjük távolítsa el ezeket. A "
-"CSRF védelemnek szüksége van a \"Referer\" fejléc adatra a szigorú "
-"ellenőrzéshez. Ha aggódik az adatainak biztonsága miatt, használjon "
-"alternatívákat, mint például az <a rel=\"noreferrer\" …>, a külső oldalakra "
-"mutató linkek esetén. "
+"Jeli značku  wužiwaće abo hłowu „Referrer-Policy: no-referrer“ zapřijimaće, "
+"wotstrońće je prošu. CSRF-škit trjeba hłowu „Referer“ , zo by striktnu "
+"kontrolu referer přewjedźe. Jeli so wo priwatnosć staraće, wužiwajće "
+"alternatiwy kaž za wotkazy k sydłam třećich."
 
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"Azért látja ezt az üzenetet, mert ez a weboldal elvárja a CSRF cookie "
-"elküldését űrlapoknál. Erre a cookie-ra biztonsági okból van szükség annak "
-"kiszűrésére, hogy harmadik fél eltérítse az ön böngészőjét."
+"Widźiće tutu zdźělenku, dokelž tute sydło CSRF-plack trjeba, hdyž so "
+"formulary wotesyłaja. Tutón plack je z přičinow wěstoty trěbny, zo by so waš "
+"wobhladowak wot třećich njekapruje."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
-"Ha kikapcsolta a cookie-kat a böngészőjében, kérjük engedélyezze őket újra, "
-"legalább erre az oldalra, vagy a \"same-origin\" típusú kérésekre."
+"Jeli sće swój wobhladowak tak konfigurował, zo su placki znjemóžnjene, "
+"zmóžńće je zaso, znajmjeńša za tute sydło abo za naprašowanja „same-origin“."
 
 msgid "More information is available with DEBUG=True."
-msgstr "További információ DEBUG=True beállítással érhető el."
+msgstr "Z DEBUG=True su dalše informacije k dispoziciji."
 
 msgid "No year specified"
-msgstr "Nincs év megadva"
+msgstr "Žane lěto podate"
 
 msgid "Date out of range"
-msgstr "A dátum a megengedett tartományon kívül esik."
+msgstr "Datum zwonka wobłuka"
 
 msgid "No month specified"
-msgstr "Nincs hónap megadva"
+msgstr "Žadyn měsac podaty"
 
 msgid "No day specified"
-msgstr "Nincs nap megadva"
+msgstr "Žadyn dźeń podaty"
 
 msgid "No week specified"
-msgstr "Nincs hét megadva"
+msgstr "Žadyn tydźeń podaty"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "Nincsenek elérhető %(verbose_name_plural)s"
+msgstr "Žadyn %(verbose_name_plural)s k dispoziciji njeje"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"Jövőbeli %(verbose_name_plural)s nem elérhetők, mert %(class_name)s."
-"allow_future értéke False."
+"Přichodowe %(verbose_name_plural)s k dispoziciji njejsu, dokelž hódnota "
+"%(class_name)s.allow_future je False."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
 msgstr ""
-"A megadott dátum \"%(datestr)s\" érvénytelen a következő formátumban: "
-"\"%(format)s\"."
+"Njepłaćiwy „%(format)s“ za datumowy znamješkowy rjaćazk „%(datestr)s“ podaty"
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "Nincs a keresési feltételeknek megfelelő %(verbose_name)s"
+msgstr "Žane %(verbose_name)s namakane, kotrež naprašowanju wotpowěduje"
 
 msgid "Page is not “last”, nor can it be converted to an int."
-msgstr "Az oldalszám nem \"utolsó\", vagy nem lehet számmá alakítani."
+msgstr "Strona „last“ njeje, ani njeda so do int konwertować."
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "Érvénytelen oldal (%(page_number)s): %(message)s"
+msgstr "Njepłaćiwa strona (%(page_number)s): %(message)s"
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr "Üres lista, de a \"%(class_name)s.allow_empty\" értéke hamis."
+msgstr "Prózdna lisćina a „%(class_name)s.allow_empty“ je False."
 
 msgid "Directory indexes are not allowed here."
-msgstr "A könyvtárak listázása itt nincs engedélyezve."
+msgstr "Zapisowe indeksy tu dowolone njejsu."
 
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr "A(z) \"%(path)s\" útvonal nem létezik"
+msgstr "„%(path)s“ njeeksistuje"
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "A %(directory)s könyvtár tartalma"
+msgstr "Indeks %(directory)s"
 
 msgid "The install worked successfully! Congratulations!"
-msgstr "A telepítés sikeresen végződött! Gratulálunk!"
+msgstr "Instalacija bě wuspěšna! Zbožopřeće!"
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"A Django %(version)s <a href=\"https://docs.djangoproject.com/en/%(version)s/"
-"releases/\" target=\"_blank\" rel=\"noopener\">kiadási megjegyzéseinek</a> "
-"megtekintése"
+"Čitajće <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">wersijowe informacije</a> za Django "
+"%(version)s"
 
 #, python-format
 msgid ""
@@ -1360,25 +1360,25 @@ msgid ""
 "rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
 "configured any URLs."
 msgstr ""
-"Azért látod ezt az oldalt, mert a <a href=\"https://docs.djangoproject.com/"
-"en/%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> szerepel a settings fájlban, és még nem "
-"került beállításra egy URL sem."
+"Widźiće tutu stronu, dokelž <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> je we wašej dataji nastajenjow a njejsće URL "
+"skonfigurował."
 
 msgid "Django Documentation"
-msgstr "Django Dokumentáció"
+msgstr "Dokumentacija Django"
 
 msgid "Topics, references, &amp; how-to’s"
-msgstr "Témák, hivatkozások, &amp; leírások"
+msgstr "Temy, referency a nawody"
 
 msgid "Tutorial: A Polling App"
-msgstr "Gyakorlat: egy szavazó app"
+msgstr "Nawod: Naprašowanske nałoženje"
 
 msgid "Get started with Django"
-msgstr "Első lépések a Djangóval"
+msgstr "Prěnje kroki z Django"
 
 msgid "Django Community"
-msgstr "Django Közösség"
+msgstr "Zhromadźenstwo Django"
 
 msgid "Connect, get help, or contribute"
-msgstr "Lépj kapcsolatba, kérj segítséget, vagy járulj hozzá"
+msgstr "Zwjazać, pomoc wobstarać abo přinošować"

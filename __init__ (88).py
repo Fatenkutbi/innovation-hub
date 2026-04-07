@@ -1,407 +1,389 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Jannis Leidel <jannis@leidel.info>, 2011
-# Natalia, 2025
+# Martijn Dekker <mcdutchie@hotmail.com>, 2012,2014,2016,2021
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 11:30-0500\n"
-"PO-Revision-Date: 2025-09-17 06:49+0000\n"
-"Last-Translator: Natalia, 2025\n"
-"Language-Team: Khmer (http://app.transifex.com/django/django/language/km/)\n"
+"POT-Creation-Date: 2021-09-21 10:22+0200\n"
+"PO-Revision-Date: 2021-11-18 21:19+0000\n"
+"Last-Translator: Transifex Bot <>\n"
+"Language-Team: Interlingua (http://www.transifex.com/django/django/language/"
+"ia/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: km\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ia\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Afrikaans"
-msgstr ""
+msgstr "afrikaans"
 
 msgid "Arabic"
-msgstr "ភាសាអារ៉ាប់"
+msgstr "arabe"
 
 msgid "Algerian Arabic"
-msgstr ""
+msgstr "Arabe algerian"
 
 msgid "Asturian"
-msgstr ""
+msgstr "asturiano"
 
 msgid "Azerbaijani"
-msgstr ""
+msgstr "azeri"
 
 msgid "Bulgarian"
-msgstr ""
+msgstr "bulgaro"
 
 msgid "Belarusian"
-msgstr ""
+msgstr "bielorusso"
 
 msgid "Bengali"
-msgstr "ភាសាបេឡារុស្ស"
+msgstr "bengali"
 
 msgid "Breton"
-msgstr ""
+msgstr "breton"
 
 msgid "Bosnian"
-msgstr ""
+msgstr "bosniaco"
 
 msgid "Catalan"
-msgstr ""
-
-msgid "Central Kurdish (Sorani)"
-msgstr ""
+msgstr "catalano"
 
 msgid "Czech"
-msgstr "ភាសាឆេក"
+msgstr "tcheco"
 
 msgid "Welsh"
-msgstr "ភាសាអ៊ុយក្រែន"
+msgstr "gallese"
 
 msgid "Danish"
-msgstr "ភាសាដាណឺម៉ាក"
+msgstr "danese"
 
 msgid "German"
-msgstr "ភាសាអាល្លឺម៉ង់"
+msgstr "germano"
 
 msgid "Lower Sorbian"
-msgstr ""
+msgstr "sorabo inferior"
 
 msgid "Greek"
-msgstr "ភាសាហ្កែលិគ"
+msgstr "greco"
 
 msgid "English"
-msgstr "ភាសាអង់គ្លេស"
+msgstr "anglese"
 
 msgid "Australian English"
-msgstr ""
+msgstr "anglese australian"
 
 msgid "British English"
-msgstr ""
+msgstr "anglese britannic"
 
 msgid "Esperanto"
-msgstr ""
+msgstr "esperanto"
 
 msgid "Spanish"
-msgstr "ភាសាអេស្ប៉ាញ"
+msgstr "espaniol"
 
 msgid "Argentinian Spanish"
-msgstr ""
+msgstr "espaniol argentin"
 
 msgid "Colombian Spanish"
-msgstr ""
+msgstr "espaniol colombian"
 
 msgid "Mexican Spanish"
-msgstr ""
+msgstr "espaniol mexican"
 
 msgid "Nicaraguan Spanish"
-msgstr ""
+msgstr "espaniol nicaraguan"
 
 msgid "Venezuelan Spanish"
-msgstr ""
+msgstr "espaniol venzuelan"
 
 msgid "Estonian"
-msgstr ""
+msgstr "estoniano"
 
 msgid "Basque"
-msgstr ""
+msgstr "basco"
 
 msgid "Persian"
-msgstr ""
+msgstr "persiano"
 
 msgid "Finnish"
-msgstr "ភាសាហ្វាំងឡង់"
+msgstr "finnese"
 
 msgid "French"
-msgstr "ភាសាបារាំង"
+msgstr "francese"
 
 msgid "Frisian"
-msgstr ""
+msgstr "frison"
 
 msgid "Irish"
-msgstr ""
+msgstr "irlandese"
 
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "gaelico scotese"
 
 msgid "Galician"
-msgstr "ភាសាហ្កែលិគ"
+msgstr "galiciano"
 
 msgid "Hebrew"
-msgstr "ភាសាហេប្រិ"
+msgstr "hebreo"
 
 msgid "Hindi"
-msgstr ""
+msgstr "hindi"
 
 msgid "Croatian"
-msgstr ""
+msgstr "croato"
 
 msgid "Upper Sorbian"
-msgstr ""
+msgstr "sorabo superior"
 
 msgid "Hungarian"
-msgstr "ភាសាហុងគ្រី"
+msgstr "hungaro"
 
 msgid "Armenian"
-msgstr ""
+msgstr "Armenio"
 
 msgid "Interlingua"
-msgstr ""
+msgstr "interlingua"
 
 msgid "Indonesian"
-msgstr ""
+msgstr "indonesiano"
 
 msgid "Igbo"
-msgstr ""
+msgstr "Igbo"
 
 msgid "Ido"
-msgstr ""
+msgstr "ido"
 
 msgid "Icelandic"
-msgstr "ភាសាអ៉ីស្លង់"
+msgstr "islandese"
 
 msgid "Italian"
-msgstr "ភាសាអ៊ីតាលី"
+msgstr "italiano"
 
 msgid "Japanese"
-msgstr "ភាសាជប៉ុន"
+msgstr "japonese"
 
 msgid "Georgian"
-msgstr ""
+msgstr "georgiano"
 
 msgid "Kabyle"
-msgstr ""
+msgstr "Kabyle"
 
 msgid "Kazakh"
-msgstr ""
+msgstr "kazakh"
 
 msgid "Khmer"
-msgstr ""
+msgstr "khmer"
 
 msgid "Kannada"
-msgstr ""
+msgstr "kannada"
 
 msgid "Korean"
-msgstr ""
+msgstr "coreano"
 
 msgid "Kyrgyz"
-msgstr ""
+msgstr "Kyrgyz"
 
 msgid "Luxembourgish"
-msgstr ""
+msgstr "luxemburgese"
 
 msgid "Lithuanian"
-msgstr ""
+msgstr "lituano"
 
 msgid "Latvian"
-msgstr ""
+msgstr "letton"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "macedone"
 
 msgid "Malayalam"
-msgstr ""
+msgstr "malayalam"
 
 msgid "Mongolian"
-msgstr ""
+msgstr "mongolico"
 
 msgid "Marathi"
-msgstr ""
+msgstr "marathi"
 
 msgid "Malay"
 msgstr ""
 
 msgid "Burmese"
-msgstr ""
+msgstr "burmese"
 
 msgid "Norwegian Bokmål"
-msgstr ""
+msgstr "norvegianio bokmål"
 
 msgid "Nepali"
-msgstr ""
+msgstr "nepali"
 
 msgid "Dutch"
-msgstr "ភាសាហ្វាំងឡង់"
+msgstr "hollandese"
 
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "norvegiano, nynorsk"
 
 msgid "Ossetic"
-msgstr ""
+msgstr "ossetico"
 
 msgid "Punjabi"
-msgstr ""
+msgstr "punjabi"
 
 msgid "Polish"
-msgstr ""
+msgstr "polonese"
 
 msgid "Portuguese"
-msgstr ""
+msgstr "portugese"
 
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "portugese brasilian"
 
 msgid "Romanian"
-msgstr "ភាសារូម៉ានី"
+msgstr "romaniano"
 
 msgid "Russian"
-msgstr "ភាសាรัរូស្ស៉ី"
+msgstr "russo"
 
 msgid "Slovak"
-msgstr "ភាសាស្លូវ៉ាគី"
+msgstr "slovaco"
 
 msgid "Slovenian"
-msgstr "ភាសាស្លូវ៉ានី"
+msgstr "sloveno"
 
 msgid "Albanian"
-msgstr ""
+msgstr "albanese"
 
 msgid "Serbian"
-msgstr ""
+msgstr "serbo"
 
 msgid "Serbian Latin"
-msgstr ""
+msgstr "serbo latin"
 
 msgid "Swedish"
-msgstr "ភាសាស៊ុយអែដ"
+msgstr "svedese"
 
 msgid "Swahili"
-msgstr ""
+msgstr "swahili"
 
 msgid "Tamil"
-msgstr "ភាសាតាមីល"
+msgstr "tamil"
 
 msgid "Telugu"
-msgstr ""
+msgstr "telugu"
 
 msgid "Tajik"
-msgstr ""
+msgstr "Tadzhik"
 
 msgid "Thai"
-msgstr ""
+msgstr "thailandese"
 
 msgid "Turkmen"
-msgstr ""
+msgstr "Turkmen"
 
 msgid "Turkish"
-msgstr "ភាសាទួរគី"
+msgstr "turco"
 
 msgid "Tatar"
-msgstr ""
+msgstr "tartaro"
 
 msgid "Udmurt"
-msgstr ""
-
-msgid "Uyghur"
-msgstr ""
+msgstr "udmurto"
 
 msgid "Ukrainian"
-msgstr "ភាសាអ៊ុយក្រែន"
+msgstr "ukrainiano"
 
 msgid "Urdu"
-msgstr ""
+msgstr "urdu"
 
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbek"
 
 msgid "Vietnamese"
-msgstr ""
+msgstr "vietnamese"
 
 msgid "Simplified Chinese"
-msgstr "ភាសាចិនសាមញ្ញ"
+msgstr "chinese simplificate"
 
 msgid "Traditional Chinese"
-msgstr "ភាសាចិនបុរាណ"
+msgstr "chinese traditional"
 
 msgid "Messages"
-msgstr ""
+msgstr "Messages"
 
 msgid "Site Maps"
-msgstr ""
+msgstr "Mappas de sito"
 
 msgid "Static Files"
-msgstr ""
+msgstr "Files static"
 
 msgid "Syndication"
-msgstr ""
+msgstr "Syndication"
 
 #. Translators: String used to replace omitted page numbers in elided page
 #. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
 msgid "…"
-msgstr ""
+msgstr "…"
 
 msgid "That page number is not an integer"
-msgstr ""
+msgstr "Le numero de pagina non es un numero integre"
 
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "Le numero de pagina es minus de 1"
 
 msgid "That page contains no results"
-msgstr ""
+msgstr "Le pagina non contine resultatos"
 
 msgid "Enter a valid value."
-msgstr ""
-
-msgid "Enter a valid domain name."
-msgstr ""
+msgstr "Specifica un valor valide."
 
 msgid "Enter a valid URL."
-msgstr ""
+msgstr "Specifica un URL valide."
 
 msgid "Enter a valid integer."
-msgstr ""
+msgstr "Specifica un numero integre valide."
 
 msgid "Enter a valid email address."
-msgstr ""
+msgstr "Specifica un adresse de e-mail valide."
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
+"Scribe un denotation (\"slug\") valide, consistente de litteras, numeros, "
+"tractos de sublineamento o tractos de union."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
+"Scribe un denotation (\"slug\") valide, consistente de litteras Unicode, "
+"numeros, tractos de sublineamento o tractos de union."
 
-#, python-format
-msgid "Enter a valid %(protocol)s address."
-msgstr ""
+msgid "Enter a valid IPv4 address."
+msgstr "Specifica un adresse IPv4 valide."
 
-msgid "IPv4"
-msgstr ""
+msgid "Enter a valid IPv6 address."
+msgstr "Specifica un adresse IPv6 valide."
 
-msgid "IPv6"
-msgstr ""
-
-msgid "IPv4 or IPv6"
-msgstr ""
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr "Specifica un adresse IPv4 o IPv6 valide."
 
 msgid "Enter only digits separated by commas."
-msgstr "បំពេញតែលេខហើយផ្តាច់ចេញពីគ្នាដោយសញ្ញាក្បៀស។"
+msgstr "Scribe solmente digitos separate per commas."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
 msgstr ""
+"Assecura te que iste valor es %(limit_value)s (illo es %(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr ""
+msgstr "Assecura te que iste valor es inferior o equal a %(limit_value)s."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr ""
-
-#, python-format
-msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr ""
-
-#, python-format
-msgid ""
-"Ensure this value is a multiple of step size %(limit_value)s, starting from "
-"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
-msgstr ""
+msgstr "Assecura te que iste valor es superior o equal a %(limit_value)s."
 
 #, python-format
 msgid ""
@@ -411,6 +393,11 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
+"Assecura te que iste valor ha al minus %(limit_value)d character (illo ha "
+"%(show_value)d)."
+msgstr[1] ""
+"Assecura te que iste valor ha al minus %(limit_value)d characteres (illo ha "
+"%(show_value)d)."
 
 #, python-format
 msgid ""
@@ -420,19 +407,28 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
+"Assecura te que iste valor ha al plus %(limit_value)d character (illo ha "
+"%(show_value)d)."
+msgstr[1] ""
+"Assecura te que iste valor ha al plus %(limit_value)d characteres (illo ha "
+"%(show_value)d)."
 
 msgid "Enter a number."
-msgstr ""
+msgstr "Specifica un numero."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] ""
+msgstr[0] "Assecura te que il non ha plus de %(max)s digito in total."
+msgstr[1] "Assecura te que il non ha plus de %(max)s digitos in total."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
 msgstr[0] ""
+"Assecura te que il non ha plus de %(max)s cifra post le comma decimal."
+msgstr[1] ""
+"Assecura te que il non ha plus de %(max)s cifras post le comma decimal."
 
 #, python-format
 msgid ""
@@ -440,207 +436,220 @@ msgid ""
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
 msgstr[0] ""
+"Assecura te que il non ha plus de %(max)s cifra ante le comma decimal."
+msgstr[1] ""
+"Assecura te que il non ha plus de %(max)s cifras ante le comma decimal."
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
+"Le extension de nomine de file “%(extension)s” non es permittite. Le "
+"extensiones permittite es: %(allowed_extensions)s."
 
 msgid "Null characters are not allowed."
-msgstr ""
+msgstr "Characteres nulle non es permittite."
 
 msgid "and"
-msgstr "និង"
+msgstr "e"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr ""
-
-#, python-format
-msgid "Constraint “%(name)s” is violated."
-msgstr ""
+msgstr "Jam existe %(model_name)s con iste %(field_labels)s."
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr ""
+msgstr "Le valor %(value)r non es un option valide."
 
 msgid "This field cannot be null."
-msgstr "ចាំបាច់បំពេញទិន្នន័យកន្លែងនេះ។"
+msgstr "Iste campo non pote esser nulle."
 
 msgid "This field cannot be blank."
-msgstr ""
+msgstr "Iste campo non pote esser vacue."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
+msgstr "%(model_name)s con iste %(field_label)s jam existe."
 
-#. Translators: The 'lookup_type' is one of 'date', 'year' or
-#. 'month'. Eg: "Title must be unique for pub_date year"
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
+"%(field_label)s debe esser unic pro %(lookup_type)s de %(date_field_label)s."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr ""
+msgstr "Campo de typo: %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr ""
+msgstr "Le valor “%(value)s” debe esser o True/Ver o False."
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
+msgstr "Le valor “%(value)s” debe esser True/Ver, False o None/Necun."
 
 msgid "Boolean (Either True or False)"
-msgstr "Boolean (អាច​ជា True រឺ False)"
+msgstr "Booleano (ver o false)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr ""
-
-msgid "String (unlimited)"
-msgstr ""
+msgstr "Catena (longitude maxime: %(max_length)s)"
 
 msgid "Comma-separated integers"
-msgstr "ចំនួនពិត(Integer) ដែលផ្តាច់ចេញពីគ្នាដោយ​ក្បៀស"
+msgstr "Numeros integre separate per commas"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
+"Le valor “%(value)s” ha un formato de data invalide. Debe esser in formato "
+"AAAA-MM-DD."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
+"Le valor “%(value)s” ha le formato correcte (AAAA-MM-DD) ma es un data "
+"invalide."
 
 msgid "Date (without time)"
-msgstr "កាល​បរិច្ឆេទ (Date) (មិនមានសរសេរម៉ោង)"
+msgstr "Data (sin hora)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
+"Le valor “%(value)s” es in un formato invalide. Debe esser in formato AAAA-"
+"MM-DD HH:MM[:ss[.uuuuuu]][FH]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
+"Le valor “%(value)s” es in le formato correcte (YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][FH]) ma es un data/hora invalide."
 
 msgid "Date (with time)"
-msgstr "កាល​បរិច្ឆេទ (Date) (មានសរសេរម៉ោង)"
+msgstr "Data (con hora)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr ""
+msgstr "Le valor “%(value)s” debe esser un numero decimal."
 
 msgid "Decimal number"
-msgstr "ចំនួនទសភាគ (Decimal)"
+msgstr "Numero decimal"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
+"Le valor “%(value)s” es in un formato invalide. Debe esser in formato [DD] "
+"[HH:[MM:]]ss[.uuuuuu]."
 
 msgid "Duration"
-msgstr ""
+msgstr "Duration"
 
 msgid "Email address"
-msgstr ""
+msgstr "Adresse de e-mail"
 
 msgid "File path"
-msgstr "ផ្លូវទៅកាន់ឯកសារ"
+msgstr "Cammino de file"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr ""
+msgstr "Le valor “%(value)s” debe esser un numero a comma flottante."
 
 msgid "Floating point number"
-msgstr ""
+msgstr "Numero a comma flottante"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr ""
+msgstr "Le valor “%(value)s” debe esser un numero integre."
 
 msgid "Integer"
-msgstr "ចំនួនពិត(Integer)"
+msgstr "Numero integre"
 
 msgid "Big (8 byte) integer"
-msgstr ""
+msgstr "Numero integre grande (8 bytes)"
 
 msgid "Small integer"
-msgstr ""
+msgstr "Parve numero integre"
 
 msgid "IPv4 address"
-msgstr ""
+msgstr "Adresse IPv4"
 
 msgid "IP address"
-msgstr "លេខ IP"
+msgstr "Adresse IP"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr ""
+msgstr "Le valor “%(value)s” debe esser None/Nulle, True/Ver o False."
 
 msgid "Boolean (Either True, False or None)"
-msgstr "Boolean (អាចជា True​ រឺ False រឺ None)"
+msgstr "Booleano (ver, false o nulle)"
 
 msgid "Positive big integer"
-msgstr ""
+msgstr "Grande numero integre positive"
 
 msgid "Positive integer"
-msgstr ""
+msgstr "Numero integre positive"
 
 msgid "Positive small integer"
-msgstr ""
+msgstr "Parve numero integre positive"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr ""
+msgstr "Denotation (longitude maxime: %(max_length)s)"
 
 msgid "Text"
-msgstr "អត្ថបទ"
+msgstr "Texto"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
+"Le valor “%(value)s” es in un formato invalide. Debe esser in formato HH:MM[:"
+"ss[.uuuuuu]] ."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
+"Le valor “%(value)s” es in le formato correcte (HH:MM[:ss[.uuuuuu]]) ma es "
+"un hora invalide."
 
 msgid "Time"
-msgstr "ពេលវេលា"
+msgstr "Hora"
 
 msgid "URL"
-msgstr "អាស័យដ្ឋានគេហទំព័រ(URL)"
+msgstr "URL"
 
 msgid "Raw binary data"
-msgstr ""
+msgstr "Datos binari crude"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr ""
+msgstr "“%(value)s” non es un UUID valide."
 
 msgid "Universally unique identifier"
 msgstr ""
 
 msgid "File"
-msgstr ""
+msgstr "File"
 
 msgid "Image"
-msgstr ""
+msgstr "Imagine"
 
 msgid "A JSON object"
 msgstr ""
@@ -649,25 +658,25 @@ msgid "Value must be valid JSON."
 msgstr ""
 
 #, python-format
-msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
-msgstr ""
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr "Le instantia de %(model)s con %(field)s %(value)r non existe."
 
 msgid "Foreign Key (type determined by related field)"
-msgstr ""
+msgstr "Clave estranier (typo determinate per le campo associate)"
 
 msgid "One-to-one relationship"
-msgstr ""
+msgstr "Relation un a un"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr ""
+msgstr "Relation %(from)s a %(to)s"
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr ""
+msgstr "Relationes %(from)s a %(to)s"
 
 msgid "Many-to-many relationship"
-msgstr ""
+msgstr "Relation multes a multes"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
@@ -676,62 +685,71 @@ msgid ":?.!"
 msgstr ""
 
 msgid "This field is required."
-msgstr "ចាំបាច់បំពេញទិន្នន័យកន្លែងនេះ។"
+msgstr "Iste campo es obligatori."
 
 msgid "Enter a whole number."
-msgstr "បំពេញចំនួនទាំងអស់។"
+msgstr "Specifica un numero integre."
 
 msgid "Enter a valid date."
-msgstr ""
+msgstr "Specifica un data valide."
 
 msgid "Enter a valid time."
-msgstr ""
+msgstr "Specifica un hora valide."
 
 msgid "Enter a valid date/time."
-msgstr ""
+msgstr "Specifica un data e hora valide."
 
 msgid "Enter a valid duration."
-msgstr ""
+msgstr "Specifica un duration valide."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
 msgstr ""
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "មិនមានឯកសារត្រូវបានជ្រើសរើស។ សូមពិនិត្យប្រភេទឯកសារម្តងទៀត។"
+msgstr ""
+"Nulle file esseva submittite. Verifica le typo de codification in le "
+"formulario."
 
 msgid "No file was submitted."
-msgstr ""
+msgstr "Nulle file esseva submittite."
 
 msgid "The submitted file is empty."
-msgstr "ពុំមានឯកសារ។​"
+msgstr "Le file submittite es vacue."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
+"Assecura te que iste valor ha al plus %(max)d character (illo ha %(length)d)."
+msgstr[1] ""
+"Assecura te que iste valor ha al plus %(max)d characteres (illo ha "
+"%(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr ""
+msgstr "Per favor o submitte un file o marca le quadrato \"rader\", non ambes."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
-msgstr "រូបភាពដែលទាញយកមិនត្រឹមត្រូវ ប្រហែលជាមិនមែនជារូបភាព ឬក៏ជា រូបភាពខូច។"
+msgstr ""
+"Per favor incarga un imagine valide. Le file que tu incargava o non esseva "
+"un imagine o esseva un imagine corrumpite."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
 msgstr ""
+"Selige un option valide. %(value)s non es inter le optiones disponibile."
 
 msgid "Enter a list of values."
-msgstr ""
+msgstr "Scribe un lista de valores."
 
 msgid "Enter a complete value."
-msgstr ""
+msgstr "Specifica un valor complete."
 
 msgid "Enter a valid UUID."
-msgstr ""
+msgstr "Specifica un UUID valide."
 
 msgid "Enter a valid JSON."
 msgstr ""
@@ -742,7 +760,7 @@ msgstr ""
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr ""
+msgstr "(Campo celate %(name)s) %(error)s"
 
 #, python-format
 msgid ""
@@ -751,43 +769,50 @@ msgid ""
 msgstr ""
 
 #, python-format
-msgid "Please submit at most %(num)d form."
-msgid_plural "Please submit at most %(num)d forms."
+msgid "Please submit at most %d form."
+msgid_plural "Please submit at most %d forms."
 msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
-msgid "Please submit at least %(num)d form."
-msgid_plural "Please submit at least %(num)d forms."
+msgid "Please submit at least %d form."
+msgid_plural "Please submit at least %d forms."
 msgstr[0] ""
+msgstr[1] ""
 
 msgid "Order"
-msgstr ""
+msgstr "Ordine"
 
 msgid "Delete"
-msgstr "លប់"
+msgstr "Deler"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr ""
+msgstr "Per favor corrige le datos duplicate pro %(field)s."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
 msgstr ""
+"Per favor corrige le datos duplicate pro %(field)s, que debe esser unic."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
+"Per favor corrige le datos duplicate pro %(field_name)s, que debe esser unic "
+"pro le %(lookup)s in %(date_field)s."
 
 msgid "Please correct the duplicate values below."
-msgstr ""
+msgstr "Per favor corrige le sequente valores duplicate."
 
 msgid "The inline value did not match the parent instance."
 msgstr ""
 
 msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
+"Per favor selige un option valide. Iste option non es inter le optiones "
+"disponibile."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
@@ -800,282 +825,283 @@ msgid ""
 msgstr ""
 
 msgid "Clear"
-msgstr ""
+msgstr "Rader"
 
 msgid "Currently"
-msgstr ""
+msgstr "Actualmente"
 
 msgid "Change"
-msgstr "ផ្លាស់ប្តូរ"
+msgstr "Cambiar"
 
 msgid "Unknown"
-msgstr "មិន​ដឹង"
+msgstr "Incognite"
 
 msgid "Yes"
-msgstr "យល់ព្រម"
+msgstr "Si"
 
 msgid "No"
-msgstr "មិនយល់ព្រម"
+msgstr "No"
 
 #. Translators: Please do not add spaces around commas.
 msgid "yes,no,maybe"
-msgstr "យល់ព្រម,មិនយល់ព្រម,ប្រហែល"
+msgstr "si,no,forsan"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] ""
+msgstr[0] "%(size)d byte"
+msgstr[1] "%(size)d bytes"
 
 #, python-format
 msgid "%s KB"
-msgstr ""
+msgstr "%s KB"
 
 #, python-format
 msgid "%s MB"
-msgstr ""
+msgstr "%s MB"
 
 #, python-format
 msgid "%s GB"
-msgstr ""
+msgstr "%s GB"
 
 #, python-format
 msgid "%s TB"
-msgstr ""
+msgstr "%s TB"
 
 #, python-format
 msgid "%s PB"
-msgstr ""
+msgstr "%s PB"
 
 msgid "p.m."
-msgstr ""
+msgstr "pm."
 
 msgid "a.m."
-msgstr ""
+msgstr "am."
 
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 msgid "midnight"
-msgstr ""
+msgstr "medienocte"
 
 msgid "noon"
-msgstr ""
+msgstr "mediedie"
 
 msgid "Monday"
-msgstr "ច័ន្ទ"
+msgstr "lunedi"
 
 msgid "Tuesday"
-msgstr "អង្គារ"
+msgstr "martedi"
 
 msgid "Wednesday"
-msgstr "ពុធ"
+msgstr "mercuridi"
 
 msgid "Thursday"
-msgstr "ព្រហស្បតិ៍"
+msgstr "jovedi"
 
 msgid "Friday"
-msgstr "សុក្រ"
+msgstr "venerdi"
 
 msgid "Saturday"
-msgstr "សៅរ៍"
+msgstr "sabbato"
 
 msgid "Sunday"
-msgstr "អាទិត្យ"
+msgstr "dominica"
 
 msgid "Mon"
-msgstr ""
+msgstr "lun"
 
 msgid "Tue"
-msgstr ""
+msgstr "mar"
 
 msgid "Wed"
-msgstr ""
+msgstr "mer"
 
 msgid "Thu"
-msgstr ""
+msgstr "jov"
 
 msgid "Fri"
-msgstr ""
+msgstr "ven"
 
 msgid "Sat"
-msgstr ""
+msgstr "sab"
 
 msgid "Sun"
-msgstr ""
+msgstr "dom"
 
 msgid "January"
-msgstr "មករា"
+msgstr "januario"
 
 msgid "February"
-msgstr "កុម្ភៈ"
+msgstr "februario"
 
 msgid "March"
-msgstr "មិនា"
+msgstr "martio"
 
 msgid "April"
-msgstr "មេសា"
+msgstr "april"
 
 msgid "May"
-msgstr "ឧសភា"
+msgstr "maio"
 
 msgid "June"
-msgstr "មិថុនា"
+msgstr "junio"
 
 msgid "July"
-msgstr "កក្កដា"
+msgstr "julio"
 
 msgid "August"
-msgstr "សីហា"
+msgstr "augusto"
 
 msgid "September"
-msgstr "កញ្ញា"
+msgstr "septembre"
 
 msgid "October"
-msgstr "តុលា"
+msgstr "octobre"
 
 msgid "November"
-msgstr "វិច្ឆិកា"
+msgstr "novembre"
 
 msgid "December"
-msgstr "ធ្នូ"
+msgstr "decembre"
 
 msgid "jan"
-msgstr "មករា"
+msgstr "jan"
 
 msgid "feb"
-msgstr "កុម្ភះ"
+msgstr "feb"
 
 msgid "mar"
-msgstr "មិនា"
+msgstr "mar"
 
 msgid "apr"
-msgstr "មេសា"
+msgstr "apr"
 
 msgid "may"
-msgstr "ឧសភា"
+msgstr "mai"
 
 msgid "jun"
-msgstr "មិថុនា"
+msgstr "jun"
 
 msgid "jul"
-msgstr "កក្កដា"
+msgstr "jul"
 
 msgid "aug"
-msgstr "សីហា"
+msgstr "aug"
 
 msgid "sep"
-msgstr "កញ្ញា"
+msgstr "sep"
 
 msgid "oct"
-msgstr "តុលា"
+msgstr "oct"
 
 msgid "nov"
-msgstr "វិច្ឆិកា"
+msgstr "nov"
 
 msgid "dec"
-msgstr "ធ្នូ"
+msgstr "dec"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr ""
+msgstr "Jan."
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr ""
+msgstr "Feb."
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "មិនា"
+msgstr "Mar."
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "មេសា"
+msgstr "April"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "ឧសភា"
+msgstr "Maio"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "មិថុនា"
+msgstr "Junio"
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "កក្កដា"
+msgstr "Julio"
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr ""
+msgstr "Aug."
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr ""
+msgstr "Sept."
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr ""
+msgstr "Oct."
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr ""
+msgstr "Nov."
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr ""
+msgstr "Dec."
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "មករា"
+msgstr "Januario"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "កុម្ភៈ"
+msgstr "Februario"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "មិនា"
+msgstr "Martio"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "មេសា"
+msgstr "April"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "ឧសភា"
+msgstr "Maio"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "មិថុនា"
+msgstr "Junio"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "កក្កដា"
+msgstr "Julio"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "សីហា"
+msgstr "Augusto"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "កញ្ញា"
+msgstr "Septembre"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "តុលា"
+msgstr "Octobre"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "វិច្ឆិកា"
+msgstr "Novembre"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "ធ្នូ"
+msgstr "Decembre"
 
 msgid "This is not a valid IPv6 address."
-msgstr ""
+msgstr "Isto non es un adresse IPv6 valide."
 
 #, python-format
 msgctxt "String to return when truncating text"
@@ -1083,47 +1109,53 @@ msgid "%(truncated_text)s…"
 msgstr ""
 
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #, python-format
 msgid "%(num)d year"
 msgid_plural "%(num)d years"
 msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%(num)d month"
 msgid_plural "%(num)d months"
 msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%(num)d week"
 msgid_plural "%(num)d weeks"
 msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%(num)d day"
 msgid_plural "%(num)d days"
 msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%(num)d hour"
 msgid_plural "%(num)d hours"
 msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "%(num)d minute"
 msgid_plural "%(num)d minutes"
 msgstr[0] ""
+msgstr[1] ""
 
 msgid "Forbidden"
-msgstr ""
+msgstr "Prohibite"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr ""
+msgstr "Verification CSRF fallite. Requesta abortate."
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1142,8 +1174,8 @@ msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
 "including the “Referrer-Policy: no-referrer” header, please remove them. The "
 "CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
 msgstr ""
 
 msgid ""
@@ -1151,6 +1183,10 @@ msgid ""
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
+"Tu vide iste message perque iste sito require un cookie CSRF durante le "
+"submission de formularios. Iste cookie es requirite pro motivos de "
+"securitate, pro assecurar que tu navigator non es sequestrate per tertie "
+"personas."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
@@ -1158,32 +1194,34 @@ msgid ""
 msgstr ""
 
 msgid "More information is available with DEBUG=True."
-msgstr ""
+msgstr "Plus information es disponibile con DEBUG=True."
 
 msgid "No year specified"
-msgstr ""
+msgstr "Nulle anno specificate"
 
 msgid "Date out of range"
 msgstr ""
 
 msgid "No month specified"
-msgstr ""
+msgstr "Nulle mense specificate"
 
 msgid "No day specified"
-msgstr ""
+msgstr "Nulle die specificate"
 
 msgid "No week specified"
-msgstr ""
+msgstr "Nulle septimana specificate"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr ""
+msgstr "Il non ha %(verbose_name_plural)s disponibile"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
+"In le futuro, %(verbose_name_plural)s non essera disponibile perque "
+"%(class_name)s.allow_future es False."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
@@ -1191,21 +1229,21 @@ msgstr ""
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr ""
+msgstr "Nulle %(verbose_name)s trovate que corresponde al consulta"
 
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr ""
+msgstr "Pagina invalide (%(page_number)s): %(message)s"
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
 msgstr ""
 
 msgid "Directory indexes are not allowed here."
-msgstr ""
+msgstr "Le indices de directorio non es permittite hic."
 
 #, python-format
 msgid "“%(path)s” does not exist"
@@ -1213,7 +1251,7 @@ msgstr ""
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr ""
+msgstr "Indice de %(directory)s"
 
 msgid "The install worked successfully! Congratulations!"
 msgstr ""
@@ -1227,9 +1265,9 @@ msgstr ""
 #, python-format
 msgid ""
 "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
 msgstr ""
 
 msgid "Django Documentation"
