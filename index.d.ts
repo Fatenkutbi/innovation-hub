@@ -1,12 +1,11 @@
-function BrowserslistError(message) {
-  this.name = 'BrowserslistError'
-  this.message = message
-  this.browserslist = true
-  if (Error.captureStackTrace) {
-    Error.captureStackTrace(this, BrowserslistError)
-  }
-}
+type Promisable<T> = T | Promise<T>;
 
-BrowserslistError.prototype = Error.prototype
+export type Callback = (
+	directory: string,
+	files: string[],
+) => Promisable<string | false | void>;
 
-module.exports = BrowserslistError
+export default function (
+	directory: string,
+	callback: Callback,
+): Promise<string | void>;
