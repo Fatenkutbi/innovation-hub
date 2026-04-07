@@ -1,133 +1,95 @@
-'use strict'
+import { Plugin } from 'postcss'
+import { Stats } from 'browserslist'
 
-let pico = require('picocolors')
+declare function autoprefixer<T extends string[]>(
+  ...args: [...T, autoprefixer.Options]
+): Plugin & autoprefixer.ExportedAPI
 
-let terminalHighlight = require('./terminal-highlight')
+declare function autoprefixer(
+  browsers: string[],
+  options?: autoprefixer.Options
+): Plugin & autoprefixer.ExportedAPI
 
-class CssSyntaxError extends Error {
-  constructor(message, line, column, source, file, plugin) {
-    super(message)
-    this.name = 'CssSyntaxError'
-    this.reason = message
+declare function autoprefixer(
+  options?: autoprefixer.Options
+): Plugin & autoprefixer.ExportedAPI
 
-    if (file) {
-      this.file = file
-    }
-    if (source) {
-      this.source = source
-    }
-    if (plugin) {
-      this.plugin = plugin
-    }
-    if (typeof line !== 'undefined' && typeof column !== 'undefined') {
-      if (typeof line === 'number') {
-        this.line = line
-        this.column = column
-      } else {
-        this.line = line.line
-        this.column = line.column
-        this.endLine = column.line
-        this.endColumn = column.column
-      }
-    }
+declare namespace autoprefixer {
+  type GridValue = 'autoplace' | 'no-autoplace'
 
-    this.setMessage()
+  interface Options {
+    /** environment for `Browserslist` */
+    env?: string
 
-    if (Error.captureStackTrace) {
-      Error.captureStackTrace(this, CssSyntaxError)
-    }
+    /** should Autoprefixer use Visual Cascade, if CSS is uncompressed */
+    cascade?: boolean
+
+    /** should Autoprefixer add prefixes. */
+    add?: boolean
+
+    /** should Autoprefixer [remove outdated] prefixes */
+    remove?: boolean
+
+    /** should Autoprefixer add prefixes for @supports parameters. */
+    supports?: boolean
+
+    /** should Autoprefixer add prefixes for flexbox properties */
+    flexbox?: boolean | 'no-2009'
+
+    /** should Autoprefixer add IE 10-11 prefixes for Grid Layout properties */
+    grid?: boolean | GridValue
+
+    /** custom usage statistics for > 10% in my stats browsers query */
+    stats?: Stats
+
+    /**
+     * list of queries for target browsers.
+     * Try to not use it.
+     * The best practice is to use `.browserslistrc` config or `browserslist` key in `package.json`
+     * to share target browsers with Babel, ESLint and Stylelint
+     */
+    overrideBrowserslist?: string | string[]
+
+    /** do not raise error on unknown browser version in `Browserslist` config. */
+    ignoreUnknownVersions?: boolean
   }
 
-  setMessage() {
-    this.message = this.plugin ? this.plugin + ': ' : ''
-    this.message += this.file ? this.file : '<css input>'
-    if (typeof this.line !== 'undefined') {
-      this.message += ':' + this.line + ':' + this.column
+  interface ExportedAPI {
+    /** Autoprefixer data */
+    data: {
+      browsers: { [browser: string]: object | undefined }
+      prefixes: { [prefixName: string]: object | undefined }
     }
-    this.message += ': ' + this.reason
+
+    /** Autoprefixer default browsers */
+    defaults: string[]
+
+    /** Inspect with default Autoprefixer */
+    info(options?: { from?: string }): string
+
+    options: Options
+
+    browsers: string | string[]
   }
 
-  showSourceCode(color) {
-    if (!this.source) return ''
+  /** Autoprefixer data */
+  let data: ExportedAPI['data']
 
-    let css = this.source
-    if (color == null) color = pico.isColorSupported
+  /** Autoprefixer default browsers */
+  let defaults: ExportedAPI['defaults']
 
-    let aside = text => text
-    let mark = text => text
-    let highlight = text => text
-    if (color) {
-      let { bold, gray, red } = pico.createColors(true)
-      mark = text => bold(red(text))
-      aside = text => gray(text)
-      if (terminalHighlight) {
-        highlight = text => terminalHighlight(text)
-      }
+  /** Inspect with default Autoprefixer */
+  let info: ExportedAPI['info']
+
+  let postcss: true
+}
+
+declare global {
+  namespace NodeJS {
+    interface ProcessEnv {
+      AUTOPREFIXER_GRID?: autoprefixer.GridValue
     }
-
-    let lines = css.split(/\r?\n/)
-    let start = Math.max(this.line - 3, 0)
-    let end = Math.min(this.line + 2, lines.length)
-    let maxWidth = String(end).length
-
-    return lines
-      .slice(start, end)
-      .map((line, index) => {
-        let number = start + 1 + index
-        let gutter = ' ' + (' ' + number).slice(-maxWidth) + ' | '
-        if (number === this.line) {
-          if (line.length > 160) {
-            let padding = 20
-            let subLineStart = Math.max(0, this.column - padding)
-            let subLineEnd = Math.max(
-              this.column + padding,
-              this.endColumn + padding
-            )
-            let subLine = line.slice(subLineStart, subLineEnd)
-
-            let spacing =
-              aside(gutter.replace(/\d/g, ' ')) +
-              line
-                .slice(0, Math.min(this.column - 1, padding - 1))
-                .replace(/[^\t]/g, ' ')
-
-            return (
-              mark('>') +
-              aside(gutter) +
-              highlight(subLine) +
-              '\n ' +
-              spacing +
-              mark('^')
-            )
-          }
-
-          let spacing =
-            aside(gutter.replace(/\d/g, ' ')) +
-            line.slice(0, this.column - 1).replace(/[^\t]/g, ' ')
-
-          return (
-            mark('>') +
-            aside(gutter) +
-            highlight(line) +
-            '\n ' +
-            spacing +
-            mark('^')
-          )
-        }
-
-        return ' ' + aside(gutter) + highlight(line)
-      })
-      .join('\n')
-  }
-
-  toString() {
-    let code = this.showSourceCode()
-    if (code) {
-      code = '\n\n' + code + '\n'
-    }
-    return this.name + ': ' + this.message + code
   }
 }
 
-module.exports = CssSyntaxError
-CssSyntaxError.default = CssSyntaxError
+export = autoprefixer
