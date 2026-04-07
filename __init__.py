@@ -1,16 +1,30 @@
-"""
-WSGI config for {{ project_name }} project.
+import re
+from urllib.parse import urlsplit
 
-It exposes the WSGI callable as a module-level variable named ``application``.
+from django.conf import settings
+from django.core.exceptions import ImproperlyConfigured
+from django.urls import re_path
+from django.views.static import serve
 
-For more information on this file, see
-https://docs.djangoproject.com/en/{{ docs_version }}/howto/deployment/wsgi/
-"""
 
-import os
+def static(prefix, view=serve, **kwargs):
+    """
+    Return a URL pattern for serving files in debug mode.
 
-from django.core.wsgi import get_wsgi_application
+    from django.conf import settings
+    from django.conf.urls.static import static
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', '{{ project_name }}.settings')
-
-application = get_wsgi_application()
+    urlpatterns = [
+        # ... the rest of your URLconf goes here ...
+    ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    """
+    if not prefix:
+        raise ImproperlyConfigured("Empty static prefix not permitted")
+    elif not settings.DEBUG or urlsplit(prefix).netloc:
+        # No-op if not in debug mode or a non-local prefix.
+        return []
+    return [
+        re_path(
+            r"^%s(?P<path>.*)$" % re.escape(prefix.lstrip("/")), view, kwargs=kwargs
+        ),
+    ]
