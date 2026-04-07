@@ -1,1 +1,9 @@
-module.exports={A:"ie",B:"edge",C:"firefox",D:"chrome",E:"safari",F:"opera",G:"ios_saf",H:"op_mini",I:"android",J:"bb",K:"op_mob",L:"and_chr",M:"and_ff",N:"ie_mob",O:"and_uc",P:"samsung",Q:"and_qq",R:"baidu",S:"kaios"};
+module.exports = {
+  y: 1 << 0,
+  n: 1 << 1,
+  a: 1 << 2,
+  p: 1 << 3,
+  u: 1 << 4,
+  x: 1 << 5,
+  d: 1 << 6
+}
