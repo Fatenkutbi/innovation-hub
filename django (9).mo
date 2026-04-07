@@ -1,363 +1,430 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# Ahmet Emre Aladağ <emre.aladag@isik.edu.tr>, 2013
+# BouRock, 2015-2025
+# BouRock, 2014-2015
+# Caner Başaran <basaran.caner@gmail.com>, 2013
+# Cihad GÜNDOĞDU <cihadgundogdu@gmail.com>, 2012
+# Cihad GÜNDOĞDU <cihadgundogdu@gmail.com>, 2013-2014
+# Gökmen Görgen <gokmen@alageek.com>, 2013
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Maredudd ap Gwyndaf <maredudd@maredudd.com>, 2012,2014
+# Mesut Can Gürle <mesutcang@gmail.com>, 2013
+# Murat Çorlu <muratcorlu@me.com>, 2012
+# Murat Sahin <martinamca@gmail.com>, 2011-2012
+# Türker Sezer <dirigeant@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-27 22:40+0200\n"
-"PO-Revision-Date: 2019-11-05 00:38+0000\n"
-"Last-Translator: Ramiro Morales\n"
-"Language-Team: Welsh (http://www.transifex.com/django/django/language/cy/)\n"
+"POT-Creation-Date: 2025-09-17 18:23-0300\n"
+"PO-Revision-Date: 2025-12-03 06:49+0000\n"
+"Last-Translator: BouRock, 2015-2025\n"
+"Language-Team: Turkish (http://app.transifex.com/django/django/language/"
+"tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cy\n"
-"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
-"11) ? 2 : 3;\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "Afrikaans"
-msgstr "Affricaneg"
+msgstr "Afrikanca"
 
 msgid "Arabic"
-msgstr "Arabeg"
+msgstr "Arapça"
+
+msgid "Algerian Arabic"
+msgstr "Cezayir Arapçası"
 
 msgid "Asturian"
-msgstr "Astwrieg"
+msgstr "Asturyaca"
 
 msgid "Azerbaijani"
-msgstr "Azerbaijanaidd"
+msgstr "Azerice"
 
 msgid "Bulgarian"
-msgstr "Bwlgareg"
+msgstr "Bulgarca"
 
 msgid "Belarusian"
-msgstr "Belarwseg"
+msgstr "Beyaz Rusça"
 
 msgid "Bengali"
-msgstr "Bengaleg"
+msgstr "Bengalce"
 
 msgid "Breton"
-msgstr "Llydaweg"
+msgstr "Bretonca"
 
 msgid "Bosnian"
-msgstr "Bosnieg"
+msgstr "Boşnakça"
 
 msgid "Catalan"
-msgstr "Catalaneg"
+msgstr "Katalanca"
+
+msgid "Central Kurdish (Sorani)"
+msgstr "Orta Kürtçe (Sorani)"
 
 msgid "Czech"
-msgstr "Tsieceg"
+msgstr "Çekçe"
 
 msgid "Welsh"
-msgstr "Cymraeg"
+msgstr "Galce"
 
 msgid "Danish"
-msgstr "Daneg"
+msgstr "Danca"
 
 msgid "German"
-msgstr "Almaeneg"
+msgstr "Almanca"
 
 msgid "Lower Sorbian"
-msgstr ""
+msgstr "Aşağı Sorb dili"
 
 msgid "Greek"
-msgstr "Groegedd"
+msgstr "Yunanca"
 
 msgid "English"
-msgstr "Saesneg"
+msgstr "İngilizce"
 
 msgid "Australian English"
-msgstr "Saesneg Awstralia"
+msgstr "Avusturya İngilizcesi"
 
 msgid "British English"
-msgstr "Saesneg Prydain"
+msgstr "İngiliz İngilizcesi"
 
 msgid "Esperanto"
-msgstr "Esperanto"
+msgstr "Esperanto dili"
 
 msgid "Spanish"
-msgstr "Sbaeneg"
+msgstr "İspanyolca"
 
 msgid "Argentinian Spanish"
-msgstr "Sbaeneg Ariannin"
+msgstr "Arjantin İspanyolcası"
 
 msgid "Colombian Spanish"
-msgstr ""
+msgstr "Kolomiya İspanyolcası"
 
 msgid "Mexican Spanish"
-msgstr "Sbaeneg Mecsico"
+msgstr "Meksika İspanyolcası"
 
 msgid "Nicaraguan Spanish"
-msgstr "Sbaeneg Nicaragwa"
+msgstr "Nikaragua İspanyolcası"
 
 msgid "Venezuelan Spanish"
-msgstr "Sbaeneg Feneswela"
+msgstr "Venezüella İspanyolcası"
 
 msgid "Estonian"
-msgstr "Estoneg"
+msgstr "Estonca"
 
 msgid "Basque"
-msgstr "Basgeg"
+msgstr "Baskça"
 
 msgid "Persian"
-msgstr "Persieg"
+msgstr "Farsça"
 
 msgid "Finnish"
-msgstr "Ffinneg"
+msgstr "Fince"
 
 msgid "French"
-msgstr "Ffrangeg"
+msgstr "Fransızca"
 
 msgid "Frisian"
-msgstr "Ffrisieg"
+msgstr "Frizce"
 
 msgid "Irish"
-msgstr "Gwyddeleg"
+msgstr "İrlandaca"
 
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "İskoçça Galcesi"
 
 msgid "Galician"
-msgstr "Galisieg"
+msgstr "Galiçyaca"
 
 msgid "Hebrew"
-msgstr "Hebraeg"
+msgstr "İbranice"
 
 msgid "Hindi"
-msgstr "Hindi"
+msgstr "Hintçe"
 
 msgid "Croatian"
-msgstr "Croasieg"
+msgstr "Hırvatça"
 
 msgid "Upper Sorbian"
-msgstr ""
+msgstr "Yukarı Sorb dili"
+
+msgid "Haitian Creole"
+msgstr "Haiti Kreyolu"
 
 msgid "Hungarian"
-msgstr "Hwngareg"
+msgstr "Macarca"
 
 msgid "Armenian"
-msgstr ""
+msgstr "Ermenice"
 
 msgid "Interlingua"
 msgstr "Interlingua"
 
 msgid "Indonesian"
-msgstr "Indoneseg"
+msgstr "Endonezce"
+
+msgid "Igbo"
+msgstr "Igbo dili"
 
 msgid "Ido"
-msgstr "Ido"
+msgstr "Ido dili"
 
 msgid "Icelandic"
-msgstr "Islandeg"
+msgstr "İzlandaca"
 
 msgid "Italian"
-msgstr "Eidaleg"
+msgstr "İtalyanca"
 
 msgid "Japanese"
-msgstr "Siapanëeg"
+msgstr "Japonca"
 
 msgid "Georgian"
-msgstr "Georgeg"
+msgstr "Gürcüce"
 
 msgid "Kabyle"
-msgstr ""
+msgstr "Kabiliye dili"
 
 msgid "Kazakh"
-msgstr "Casacstanaidd"
+msgstr "Kazakça"
 
 msgid "Khmer"
-msgstr "Chmereg"
+msgstr "Kmerce"
 
 msgid "Kannada"
-msgstr "Canadeg"
+msgstr "Kannada dili"
 
 msgid "Korean"
-msgstr "Corëeg"
+msgstr "Korece"
+
+msgid "Kyrgyz"
+msgstr "Kırgızca"
 
 msgid "Luxembourgish"
-msgstr "Lwcsembergeg"
+msgstr "Lüksemburgca"
 
 msgid "Lithuanian"
-msgstr "Lithwaneg"
+msgstr "Litovca"
 
 msgid "Latvian"
-msgstr "Latfieg"
+msgstr "Letonca"
 
 msgid "Macedonian"
-msgstr "Macedoneg"
+msgstr "Makedonca"
 
 msgid "Malayalam"
-msgstr "Malaialam"
+msgstr "Malayamca"
 
 msgid "Mongolian"
-msgstr "Mongoleg"
+msgstr "Moğolca"
 
 msgid "Marathi"
-msgstr "Marathi"
+msgstr "Marathi dili"
+
+msgid "Malay"
+msgstr "Malayca"
 
 msgid "Burmese"
-msgstr "Byrmaneg"
+msgstr "Birmanca"
 
 msgid "Norwegian Bokmål"
-msgstr ""
+msgstr "Norveççe Bokmal"
 
 msgid "Nepali"
-msgstr "Nepaleg"
+msgstr "Nepalce"
 
 msgid "Dutch"
-msgstr "Iseldireg"
+msgstr "Flemenkçe"
 
 msgid "Norwegian Nynorsk"
-msgstr "Ninorsk Norwyeg"
+msgstr "Norveççe Nynorsk"
 
 msgid "Ossetic"
-msgstr "Osetieg"
+msgstr "Osetçe"
 
 msgid "Punjabi"
-msgstr "Pwnjabi"
+msgstr "Pencapça"
 
 msgid "Polish"
-msgstr "Pwyleg"
+msgstr "Lehçe"
 
 msgid "Portuguese"
-msgstr "Portiwgaleg"
+msgstr "Portekizce"
 
 msgid "Brazilian Portuguese"
-msgstr "Portiwgaleg Brasil"
+msgstr "Brezilya Portekizcesi"
 
 msgid "Romanian"
-msgstr "Romaneg"
+msgstr "Romence"
 
 msgid "Russian"
-msgstr "Rwsieg"
+msgstr "Rusça"
 
 msgid "Slovak"
-msgstr "Slofaceg"
+msgstr "Slovakça"
 
 msgid "Slovenian"
-msgstr "Slofeneg"
+msgstr "Slovence"
 
 msgid "Albanian"
-msgstr "Albaneg"
+msgstr "Arnavutça"
 
 msgid "Serbian"
-msgstr "Serbeg"
+msgstr "Sırpça"
 
 msgid "Serbian Latin"
-msgstr "Lladin Serbiaidd"
+msgstr "Sırpça Latin"
 
 msgid "Swedish"
-msgstr "Swedeg"
+msgstr "İsveççe"
 
 msgid "Swahili"
-msgstr "Swahili"
+msgstr "Savahilice"
 
 msgid "Tamil"
-msgstr "Tamil"
+msgstr "Tamilce"
 
 msgid "Telugu"
-msgstr "Telwgw"
+msgstr "Telugu dili"
+
+msgid "Tajik"
+msgstr "Tacikçe"
 
 msgid "Thai"
-msgstr "Tai"
+msgstr "Tayca"
+
+msgid "Turkmen"
+msgstr "Türkmence"
 
 msgid "Turkish"
-msgstr "Twrceg"
+msgstr "Türkçe"
 
 msgid "Tatar"
-msgstr "Tatareg"
+msgstr "Tatarca"
 
 msgid "Udmurt"
-msgstr "Wdmwrteg"
+msgstr "Udmurtça"
+
+msgid "Uyghur"
+msgstr "Uygur"
 
 msgid "Ukrainian"
-msgstr "Wcreineg"
+msgstr "Ukraynaca"
 
 msgid "Urdu"
-msgstr "Wrdw"
+msgstr "Urduca"
 
 msgid "Uzbek"
-msgstr ""
+msgstr "‎Özbekçe"
 
 msgid "Vietnamese"
-msgstr "Fietnameg"
+msgstr "Vietnamca"
 
 msgid "Simplified Chinese"
-msgstr "Tsieinëeg Syml"
+msgstr "Basitleştirilmiş Çince"
 
 msgid "Traditional Chinese"
-msgstr "Tseinëeg Traddodiadol"
+msgstr "Geleneksel Çince"
 
 msgid "Messages"
-msgstr ""
+msgstr "İletiler"
 
 msgid "Site Maps"
-msgstr "Mapiau Safle"
+msgstr "Site Haritaları"
 
 msgid "Static Files"
-msgstr "Ffeiliau Statig"
+msgstr "Sabit Dosyalar"
 
 msgid "Syndication"
-msgstr "Syndicetiad"
+msgstr "Dağıtım"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+msgid "…"
+msgstr "…"
 
 msgid "That page number is not an integer"
-msgstr ""
+msgstr "Bu sayfa numarası bir tamsayı değil"
 
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "Bu sayfa numarası 1’den az"
 
 msgid "That page contains no results"
-msgstr ""
+msgstr "Bu sayfa hiç sonuç içermiyor"
 
 msgid "Enter a valid value."
-msgstr "Rhowch werth dilys."
+msgstr "Geçerli bir değer girin."
+
+msgid "Enter a valid domain name."
+msgstr "Geçerli bir etki alanı adı girin."
 
 msgid "Enter a valid URL."
-msgstr "Rhowch URL dilys."
+msgstr "Geçerli bir URL girin."
 
 msgid "Enter a valid integer."
-msgstr "Rhowch gyfanrif dilys."
+msgstr "Geçerli bir tamsayı girin."
 
 msgid "Enter a valid email address."
-msgstr "Rhowch gyfeiriad ebost dilys."
+msgstr "Geçerli bir e-posta adresi girin."
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
+"Harflerden, sayılardan, altçizgilerden veya tirelerden oluşan geçerli bir "
+"“kısaltma” girin."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
+"Evrensel kod harflerden, sayılardan, altçizgilerden veya tirelerden oluşan "
+"geçerli bir “kısaltma” girin."
 
-msgid "Enter a valid IPv4 address."
-msgstr "Rhowch gyfeiriad IPv4 dilys."
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr "Geçerli bir %(protocol)s adresi girin."
 
-msgid "Enter a valid IPv6 address."
-msgstr "Rhowch gyfeiriad IPv6 dilys."
+msgid "IPv4"
+msgstr "IPv4"
 
-msgid "Enter a valid IPv4 or IPv6 address."
-msgstr "Rhowch gyfeiriad IPv4 neu IPv6 dilys."
+msgid "IPv6"
+msgstr "IPv6"
+
+msgid "IPv4 or IPv6"
+msgstr "IPv4 veya IPv6"
 
 msgid "Enter only digits separated by commas."
-msgstr "Rhowch ddigidau wedi'i gwahanu gan gomas yn unig."
+msgstr "Sadece virgülle ayrılmış rakamlar girin."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
-"Sicrhewch taw y gwerth yw %(limit_value)s (%(show_value)s yw ar hyn o bryd)."
+msgstr "Bu değerin %(limit_value)s olduğuna emin olun (şu an %(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "Sicrhewch fod y gwerth hwn yn fwy neu'n llai na %(limit_value)s."
+msgstr "Bu değerin %(limit_value)s değerinden az veya eşit olduğuna emin olun."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "Sicrhewch fod y gwerth yn fwy na neu'n gyfartal â %(limit_value)s."
+msgstr ""
+"Bu değerin %(limit_value)s değerinden büyük veya eşit olduğuna emin olun."
+
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+"Bu değerin %(limit_value)s adım boyutunun katları olduğundan emin olun."
+
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+"Bu değerin %(offset)s değerinden başlayarak %(limit_value)s adım boyutunun "
+"katı olduğundan emin olun, örn. %(offset)s, %(valid_value1)s, "
+"%(valid_value2)s, vb."
 
 #, python-format
 msgid ""
@@ -367,16 +434,10 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Sicrhewch fod gan y gwerth hwn oleiaf %(limit_value)d nod (mae ganddo "
+"Bu değerin en az %(limit_value)d karaktere sahip olduğuna emin olun (şu an "
 "%(show_value)d)."
 msgstr[1] ""
-"Sicrhewch fod gan y gwerth hwn oleiaf %(limit_value)d nod (mae ganddo "
-"%(show_value)d)."
-msgstr[2] ""
-"Sicrhewch fod gan y gwerth hwn oleiaf %(limit_value)d nod (mae ganddo "
-"%(show_value)d)."
-msgstr[3] ""
-"Sicrhewch fod gan y gwerth hwn oleiaf %(limit_value)d nod (mae ganddo "
+"Bu değerin en az %(limit_value)d karaktere sahip olduğuna emin olun (şu an "
 "%(show_value)d)."
 
 #, python-format
@@ -387,333 +448,358 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Sicrhewch fod gan y gwerth hwn ddim mwy na %(limit_value)d nod (mae ganddo "
-"%(show_value)d)."
+"Bu değerin en fazla %(limit_value)d karaktere sahip olduğuna emin olun (şu "
+"an %(show_value)d)."
 msgstr[1] ""
-"Sicrhewch fod gan y gwerth hwn ddim mwy na %(limit_value)d nod (mae ganddo "
-"%(show_value)d)."
-msgstr[2] ""
-"Sicrhewch fod gan y gwerth hwn ddim mwy na %(limit_value)d nod (mae ganddo "
-"%(show_value)d)."
-msgstr[3] ""
-"Sicrhewch fod gan y gwerth hwn ddim mwy na %(limit_value)d nod (mae ganddo "
-"%(show_value)d)."
+"Bu değerin en fazla %(limit_value)d karaktere sahip olduğuna emin olun (şu "
+"an %(show_value)d)."
 
 msgid "Enter a number."
-msgstr "Rhowch rif."
+msgstr "Bir sayı girin."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "Sicrhewch nad oes mwy nag %(max)s digid i gyd."
-msgstr[1] "Sicrhewch nad oes mwy na %(max)s ddigid i gyd."
-msgstr[2] "Sicrhewch nad oes mwy na %(max)s digid i gyd."
-msgstr[3] "Sicrhewch nad oes mwy na %(max)s digid i gyd."
+msgstr[0] "Toplamda %(max)s rakamdan daha fazla olmadığından emin olun."
+msgstr[1] "Toplamda %(max)s rakamdan daha fazla olmadığından emin olun."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "Sicrhewch nad oes mwy nag %(max)s lle degol."
-msgstr[1] "Sicrhewch nad oes mwy na %(max)s le degol."
-msgstr[2] "Sicrhewch nad oes mwy na %(max)s lle degol."
-msgstr[3] "Sicrhewch nad oes mwy na %(max)s lle degol."
+msgstr[0] "%(max)s ondalık basamaktan daha fazla olmadığından emin olun."
+msgstr[1] "%(max)s ondalık basamaktan daha fazla olmadığından emin olun."
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] "Sicrhewch nad oes mwy nag %(max)s digid cyn y pwynt degol."
-msgstr[1] "Sicrhewch nad oes mwy na %(max)s ddigid cyn y pwynt degol."
-msgstr[2] "Sicrhewch nad oes mwy na %(max)s digid cyn y pwynt degol."
-msgstr[3] "Sicrhewch nad oes mwy na %(max)s digid cyn y pwynt degol."
+msgstr[0] ""
+"Ondalık noktasından önce %(max)s rakamdan daha fazla olmadığından emin olun."
+msgstr[1] ""
+"Ondalık noktasından önce %(max)s rakamdan daha fazla olmadığından emin olun."
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
+"“%(extension)s” dosya uzantısına izin verilmiyor. İzin verilen uzantılar: "
+"%(allowed_extensions)s."
 
 msgid "Null characters are not allowed."
-msgstr ""
+msgstr "Boş karakterlere izin verilmiyor."
 
 msgid "and"
-msgstr "a"
+msgstr "ve"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "Mae %(model_name)s gyda'r %(field_labels)s hyn yn bodoli'n barod."
+msgstr "Bu %(field_labels)s alanına sahip %(model_name)s zaten mevcut."
+
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr "\"%(name)s\" kısıtlaması ihlal edildi."
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "Nid yw gwerth %(value)r yn ddewis dilys."
+msgstr "%(value)r değeri geçerli bir seçim değil."
 
 msgid "This field cannot be null."
-msgstr "Ni all y maes hwn fod yn 'null'."
+msgstr "Bu alan boş olamaz."
 
 msgid "This field cannot be blank."
-msgstr "Ni all y maes hwn fod yn wag."
+msgstr "Bu alan boş olamaz."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "Mae %(model_name)s gyda'r %(field_label)s hwn yn bodoli'n barod."
+msgstr "Bu %(field_label)s alanına sahip %(model_name)s zaten mevcut."
 
-#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
-#. Eg: "Title must be unique for pub_date year"
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
+"%(field_label)s,  %(date_field_label)s %(lookup_type)s için benzersiz olmak "
+"zorundadır."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "Maes o fath: %(field_type)s"
+msgstr "Alan türü: %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr ""
+msgstr "“%(value)s” değeri ya True ya da False olmak zorundadır."
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
+msgstr "“%(value)s” değeri ya True, False ya da None olmak zorundadır."
 
 msgid "Boolean (Either True or False)"
-msgstr "Boleaidd (Unai True neu False)"
+msgstr "Boolean (Ya True ya da False)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "String (hyd at %(max_length)s)"
+msgstr "Dizgi (%(max_length)s karaktere kadar)"
+
+msgid "String (unlimited)"
+msgstr "Dizgi (sınırsız)"
 
 msgid "Comma-separated integers"
-msgstr "Cyfanrifau wedi'u gwahanu gan gomas"
+msgstr "Virgülle ayrılmış tamsayılar"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
+"“%(value)s” değeri geçersiz bir tarih biçimine sahip. Bu YYYY-MM-DD "
+"biçiminde olmak zorundadır."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
+"“%(value)s” değeri doğru bir biçime (YYYY-MM-DD) sahip ancak bu geçersiz bir "
+"tarih."
 
 msgid "Date (without time)"
-msgstr "Dyddiad (heb amser)"
+msgstr "Tarih (saat olmadan)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
+"“%(value)s” değeri geçersiz bir biçime sahip. YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ] biçiminde olmak zorundadır."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
+"“%(value)s” değeri doğru bir biçime (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]) "
+"sahip ancak bu geçersiz bir tarih/saat."
 
 msgid "Date (with time)"
-msgstr "Dyddiad (gydag amser)"
+msgstr "Tarih (saat olan)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr ""
+msgstr "“%(value)s” değeri bir ondalık sayı olmak zorundadır."
 
 msgid "Decimal number"
-msgstr "Rhif degol"
+msgstr "Ondalık sayı"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
+"“%(value)s” değer geçersiz bir biçime sahip. [DD] [HH:[MM:]]ss[.uuuuuu] "
+"biçiminde olmak zorundadır."
 
 msgid "Duration"
-msgstr ""
+msgstr "Süre"
 
 msgid "Email address"
-msgstr "Cyfeiriad ebost"
+msgstr "E-posta adresi"
 
 msgid "File path"
-msgstr "Llwybr ffeil"
+msgstr "Dosya yolu"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr ""
+msgstr "“%(value)s” değeri kayan noktalı bir sayı olmak zorundadır."
 
 msgid "Floating point number"
-msgstr "Rhif pwynt symudol"
+msgstr "Kayan noktalı sayı"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr ""
+msgstr "“%(value)s” değeri bir tamsayı olmak zorundadır."
 
 msgid "Integer"
-msgstr "cyfanrif"
+msgstr "Tamsayı"
 
 msgid "Big (8 byte) integer"
-msgstr "Cyfanrif mawr (8 beit)"
+msgstr "Büyük (8 bayt) tamsayı"
+
+msgid "Small integer"
+msgstr "Küçük tamsayı"
 
 msgid "IPv4 address"
-msgstr "Cyfeiriad IPv4"
+msgstr "IPv4 adresi"
 
 msgid "IP address"
-msgstr "cyfeiriad IP"
+msgstr "IP adresi"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr ""
+msgstr "“%(value)s” değeri ya None, True ya da False olmak zorundadır."
 
 msgid "Boolean (Either True, False or None)"
-msgstr "Boleaidd (Naill ai True, False neu None)"
+msgstr "Booleanl (Ya True, False, ya da None)"
+
+msgid "Positive big integer"
+msgstr "Pozitif büyük tamsayı"
 
 msgid "Positive integer"
-msgstr "Cyfanrif positif"
+msgstr "Pozitif tamsayı"
 
 msgid "Positive small integer"
-msgstr "Cyfanrif bach positif"
+msgstr "Pozitif küçük tamsayı"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "Malwen (hyd at %(max_length)s)"
-
-msgid "Small integer"
-msgstr "Cyfanrif bach"
+msgstr "Kısaltma (%(max_length)s karaktere kadar)"
 
 msgid "Text"
-msgstr "Testun"
+msgstr "Metin"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
+"“%(value)s” değeri geçersiz bir biçime sahip. HH:MM[:ss[.uuuuuu]] biçiminde "
+"olmak zorundadır."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
+"“%(value)s” değeri doğru biçime (HH:MM[:ss[.uuuuuu]]) sahip ancak bu "
+"geçersiz bir saat."
 
 msgid "Time"
-msgstr "Amser"
+msgstr "Saat"
 
 msgid "URL"
 msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "Data deuol crai"
+msgstr "Ham ikili veri"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr ""
+msgstr "“%(value)s” geçerli bir UUID değil."
 
 msgid "Universally unique identifier"
-msgstr ""
+msgstr "Evrensel benzersiz tanımlayıcı"
 
 msgid "File"
-msgstr "Ffeil"
+msgstr "Dosya"
 
 msgid "Image"
-msgstr "Delwedd"
+msgstr "Resim"
+
+msgid "A JSON object"
+msgstr "JSON nesnesi"
+
+msgid "Value must be valid JSON."
+msgstr "Değer geçerli JSON olmak zorundadır."
 
 #, python-format
-msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr ""
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr "%(field)s %(value)r olan %(model)s benzeri geçerli bir seçim değil."
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "Allwedd Estron (math yn ddibynol ar y maes cysylltiedig)"
+msgstr "Dış Anahtar (türü ilgili alana göre belirlenir)"
 
 msgid "One-to-one relationship"
-msgstr "Perthynas un-i-un"
+msgstr "Bire-bir ilişki"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr ""
+msgstr "%(from)s-%(to)s ilişkisi"
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr ""
+msgstr "%(from)s-%(to)s ilişkileri"
 
 msgid "Many-to-many relationship"
-msgstr "Perthynas llawer-i-lawer"
+msgstr "Çoka-çok ilişki"
 
 #. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the
-#. label
+#. characters will prevent the default label_suffix to be appended to
+#. the label
 msgid ":?.!"
 msgstr ":?.!"
 
 msgid "This field is required."
-msgstr "Mae angen y maes hwn."
+msgstr "Bu alan zorunludur."
 
 msgid "Enter a whole number."
-msgstr "Rhowch cyfanrif."
+msgstr "Tam bir sayı girin."
 
 msgid "Enter a valid date."
-msgstr "Rhif ddyddiad dilys."
+msgstr "Geçerli bir tarih girin."
 
 msgid "Enter a valid time."
-msgstr "Rhowch amser dilys."
+msgstr "Geçerli bir saat girin."
 
 msgid "Enter a valid date/time."
-msgstr "Rhowch ddyddiad/amser dilys."
+msgstr "Geçerli bir tarih/saat girin."
 
 msgid "Enter a valid duration."
-msgstr ""
+msgstr "Geçerli bir süre girin."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr ""
+msgstr "Gün sayıları {min_days} ve {max_days} arasında olmak zorundadır."
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "Ni anfonwyd ffeil.  Gwiriwch math yr amgodiad ar y ffurflen."
+msgstr "Hiç dosya gönderilmedi. Formdaki kodlama türünü kontrol edin."
 
 msgid "No file was submitted."
-msgstr "Ni anfonwyd ffeil."
+msgstr "Hiç dosya gönderilmedi."
 
 msgid "The submitted file is empty."
-msgstr "Mae'r ffeil yn wag."
+msgstr "Gönderilen dosya boş."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
-"Sicrhewch fod gan enw'r ffeil ar y mwyaf %(max)d nod (mae ganddo %(length)d)."
+"Bu dosya adının en fazla %(max)d karaktere sahip olduğundan emin olun (şu an "
+"%(length)d)."
 msgstr[1] ""
-"Sicrhewch fod gan enw'r ffeil ar y mwyaf %(max)d nod (mae ganddo %(length)d)."
-msgstr[2] ""
-"Sicrhewch fod gan enw'r ffeil ar y mwyaf %(max)d nod (mae ganddo %(length)d)."
-msgstr[3] ""
-"Sicrhewch fod gan enw'r ffeil ar y mwyaf %(max)d nod (mae ganddo %(length)d)."
+"Bu dosya adının en fazla %(max)d karaktere sahip olduğundan emin olun (şu an "
+"%(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
 msgstr ""
-"Nail ai cyflwynwych ffeil neu dewisiwch y blwch gwiriad, ond nid y ddau."
+"Lütfen ya bir dosya gönderin ya da temizle işaretleme kutusunu işaretleyin, "
+"ikisini aynı anda işaretlemeyin."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
-"Llwythwch ddelwedd dilys. Doedd y ddelwedd a lwythwyd ddim yn ddelwedd "
-"dilys, neu roedd yn ddelwedd llygredig."
+"Geçerli bir resim gönderin. Gönderdiğiniz dosya ya bir resim değildi ya da "
+"bozulmuş bir resimdi."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr ""
-"Dewiswch ddewisiad dilys. Nid yw %(value)s yn un o'r dewisiadau sydd ar gael."
+msgstr "Geçerli bir seçenek seçin. %(value)s mevcut seçeneklerden biri değil."
 
 msgid "Enter a list of values."
-msgstr "Rhowch restr o werthoedd."
+msgstr "Değerlerin bir listesini girin."
 
 msgid "Enter a complete value."
-msgstr "Rhowch werth cyflawn."
+msgstr "Tam bir değer girin."
 
 msgid "Enter a valid UUID."
-msgstr ""
+msgstr "Geçerli bir UUID girin."
+
+msgid "Enter a valid JSON."
+msgstr "Geçerli bir JSON girin."
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
@@ -721,108 +807,116 @@ msgstr ":"
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(Maes cudd %(name)s) %(error)s"
-
-msgid "ManagementForm data is missing or has been tampered with"
-msgstr "Mae data ManagementForm ar goll neu mae rhywun wedi ymyrryd ynddo"
+msgstr "(Gizli alan %(name)s) %(error)s"
 
 #, python-format
-msgid "Please submit %d or fewer forms."
-msgid_plural "Please submit %d or fewer forms."
-msgstr[0] "Cyflwynwch %d neu lai o ffurflenni."
-msgstr[1] "Cyflwynwch %d neu lai o ffurflenni."
-msgstr[2] "Cyflwynwch %d neu lai o ffurflenni."
-msgstr[3] "Cyflwynwch %d neu lai o ffurflenni."
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+"ManagementForm verileri eksik veya değiştirilmiş. Eksik alanlar: "
+"%(field_names)s. Sorun devam ederse bir hata raporu dosyalamanız gerekebilir."
 
 #, python-format
-msgid "Please submit %d or more forms."
-msgid_plural "Please submit %d or more forms."
-msgstr[0] "Cyflwynwch %d neu fwy o ffurflenni."
-msgstr[1] "Cyflwynwch %d neu fwy o ffurflenni."
-msgstr[2] "Cyflwynwch %d neu fwy o ffurflenni."
-msgstr[3] "Cyflwynwch %d neu fwy o ffurflenni."
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] "Lütfen en fazla %(num)d form gönderin."
+msgstr[1] "Lütfen en fazla %(num)d form gönderin."
+
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] "Lütfen en az %(num)d form gönderin."
+msgstr[1] "Lütfen en az %(num)d form gönderin."
 
 msgid "Order"
-msgstr "Trefn"
+msgstr "Sıralama"
 
 msgid "Delete"
-msgstr "Dileu"
+msgstr "Sil"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "Cywirwch y data dyblyg ar gyfer %(field)s."
+msgstr "Lütfen %(field)s için kopya veriyi düzeltin."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
 msgstr ""
-"Cywirwch y data dyblyg ar gyfer %(field)s, sydd yn gorfod bod yn unigryw."
+"Lütfen %(field)s için benzersiz olmak zorunda olan, kopya veriyi düzeltin."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"Cywirwch y data dyblyg ar gyfer %(field_name)s sydd yn gorfod bod yn unigryw "
-"ar gyfer  %(lookup)s yn %(date_field)s."
+"Lütfen %(date_field)s içindeki %(lookup)s için benzersiz olmak zorunda olan "
+"%(field_name)s için kopya veriyi düzeltin."
 
 msgid "Please correct the duplicate values below."
-msgstr "Cywirwch y gwerthoedd dyblyg isod."
+msgstr "Lütfen aşağıdaki kopya değerleri düzeltin."
 
 msgid "The inline value did not match the parent instance."
-msgstr ""
+msgstr "Satıriçi değer ana örnek ile eşleşmedi."
 
 msgid "Select a valid choice. That choice is not one of the available choices."
 msgstr ""
-"Dewiswch ddewisiad dilys.  Nid yw'r dewisiad yn un o'r dewisiadau sydd ar "
-"gael."
+"Geçerli bir seçenek seçin. Bu seçenek, mevcut seçeneklerden biri değil."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr ""
+msgstr "“%(pk)s” geçerli bir değer değil."
 
 #, python-format
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
+"%(datetime)s, %(current_timezone)s saat dilimi olarak yorumlanamadı; bu "
+"belirsiz olabilir ya da mevcut olmayabilir."
 
 msgid "Clear"
-msgstr "Clirio"
+msgstr "Temizle"
 
 msgid "Currently"
-msgstr "Ar hyn o bryd"
+msgstr "Şu anki"
 
 msgid "Change"
-msgstr "Newid"
+msgstr "Değiştir"
 
 msgid "Unknown"
-msgstr "Anhysbys"
+msgstr "Bilinmiyor"
 
 msgid "Yes"
-msgstr "Ie"
+msgstr "Evet"
 
 msgid "No"
-msgstr "Na"
+msgstr "Hayır"
 
-msgid "Year"
-msgstr ""
+msgctxt "Task"
+msgid "Ready"
+msgstr "Hazır"
 
-msgid "Month"
-msgstr ""
+msgctxt "Task"
+msgid "Running"
+msgstr "Çalışıyor"
 
-msgid "Day"
-msgstr ""
+msgctxt "Task"
+msgid "Failed"
+msgstr "Başarısız oldu"
 
+msgctxt "Task"
+msgid "Successful"
+msgstr "Başarılı"
+
+#. Translators: Please do not add spaces around commas.
 msgid "yes,no,maybe"
-msgstr "ie,na,efallai"
+msgstr "evet,hayır,olabilir"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d beit"
-msgstr[1] "%(size)d beit"
-msgstr[2] "%(size)d beit"
-msgstr[3] "%(size)d beit"
+msgstr[0] "%(size)d bayt"
+msgstr[1] "%(size)d bayt"
 
 #, python-format
 msgid "%s KB"
@@ -845,434 +939,440 @@ msgid "%s PB"
 msgstr "%s PB"
 
 msgid "p.m."
-msgstr "y.h."
+msgstr "ö.s."
 
 msgid "a.m."
-msgstr "y.b."
+msgstr "ö.ö."
 
 msgid "PM"
-msgstr "YH"
+msgstr "ÖS"
 
 msgid "AM"
-msgstr "YB"
+msgstr "ÖÖ"
 
 msgid "midnight"
-msgstr "canol nos"
+msgstr "gece yarısı"
 
 msgid "noon"
-msgstr "canol dydd"
+msgstr "öğlen"
 
 msgid "Monday"
-msgstr "Dydd Llun"
+msgstr "Pazartesi"
 
 msgid "Tuesday"
-msgstr "Dydd Mawrth"
+msgstr "Salı"
 
 msgid "Wednesday"
-msgstr "Dydd Mercher"
+msgstr "Çarşamba"
 
 msgid "Thursday"
-msgstr "Dydd Iau"
+msgstr "Perşembe"
 
 msgid "Friday"
-msgstr "Dydd Gwener"
+msgstr "Cuma"
 
 msgid "Saturday"
-msgstr "Dydd Sadwrn"
+msgstr "Cumartesi"
 
 msgid "Sunday"
-msgstr "Dydd Sul"
+msgstr "Pazar"
 
 msgid "Mon"
-msgstr "Llu"
+msgstr "Pzt"
 
 msgid "Tue"
-msgstr "Maw"
+msgstr "Sal"
 
 msgid "Wed"
-msgstr "Mer"
+msgstr "Çrş"
 
 msgid "Thu"
-msgstr "Iau"
+msgstr "Prş"
 
 msgid "Fri"
-msgstr "Gwe"
+msgstr "Cum"
 
 msgid "Sat"
-msgstr "Sad"
+msgstr "Cmt"
 
 msgid "Sun"
-msgstr "Sul"
+msgstr "Paz"
 
 msgid "January"
-msgstr "Ionawr"
+msgstr "Ocak"
 
 msgid "February"
-msgstr "Chwefror"
+msgstr "Şubat"
 
 msgid "March"
-msgstr "Mawrth"
+msgstr "Mart"
 
 msgid "April"
-msgstr "Ebrill"
+msgstr "Nisan"
 
 msgid "May"
-msgstr "Mai"
+msgstr "Mayıs"
 
 msgid "June"
-msgstr "Mehefin"
+msgstr "Haziran"
 
 msgid "July"
-msgstr "Gorffenaf"
+msgstr "Temmuz"
 
 msgid "August"
-msgstr "Awst"
+msgstr "Ağustos"
 
 msgid "September"
-msgstr "Medi"
+msgstr "Eylül"
 
 msgid "October"
-msgstr "Hydref"
+msgstr "Ekim"
 
 msgid "November"
-msgstr "Tachwedd"
+msgstr "Kasım"
 
 msgid "December"
-msgstr "Rhagfyr"
+msgstr "Aralık"
 
 msgid "jan"
-msgstr "ion"
+msgstr "oca"
 
 msgid "feb"
-msgstr "chw"
+msgstr "şub"
 
 msgid "mar"
-msgstr "maw"
+msgstr "mar"
 
 msgid "apr"
-msgstr "ebr"
+msgstr "nis"
 
 msgid "may"
-msgstr "mai"
+msgstr "may"
 
 msgid "jun"
-msgstr "meh"
+msgstr "haz"
 
 msgid "jul"
-msgstr "gor"
+msgstr "tem"
 
 msgid "aug"
-msgstr "aws"
+msgstr "ağu"
 
 msgid "sep"
-msgstr "med"
+msgstr "eyl"
 
 msgid "oct"
-msgstr "hyd"
+msgstr "eki"
 
 msgid "nov"
-msgstr "tach"
+msgstr "kas"
 
 msgid "dec"
-msgstr "rhag"
+msgstr "ara"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "Ion."
+msgstr "Oca."
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "Chwe."
+msgstr "Şub."
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "Mawrth"
+msgstr "Mart"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "Ebrill"
+msgstr "Nisan"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "Mai"
+msgstr "Mayıs"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "Meh."
+msgstr "Haz."
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "Gorff."
+msgstr "Tem."
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "Awst"
+msgstr "Ağu."
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "Medi"
+msgstr "Eyl."
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "Hydr."
+msgstr "Eki."
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "Tach."
+msgstr "Kas."
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "Rhag."
+msgstr "Ara."
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "Ionawr"
+msgstr "Ocak"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "Chwefror"
+msgstr "Şubat"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "Mawrth"
+msgstr "Mart"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "Ebrill"
+msgstr "Nisan"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "Mai"
+msgstr "Mayıs"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "Mehefin"
+msgstr "Haziran"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "Gorffenaf"
+msgstr "Temmuz"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "Awst"
+msgstr "Ağustos"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "Medi"
+msgstr "Eylül"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "Hydref"
+msgstr "Ekim"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "Tachwedd"
+msgstr "Kasım"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "Rhagfyr"
+msgstr "Aralık"
 
 msgid "This is not a valid IPv6 address."
-msgstr "Nid yw hwn yn gyfeiriad IPv6 dilys."
+msgstr "Bu, geçerli bir IPv6 adresi değil."
 
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
-msgstr ""
+msgstr "%(truncated_text)s…"
 
 msgid "or"
-msgstr "neu"
+msgstr "ya da"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #, python-format
-msgid "%d year"
-msgid_plural "%d years"
-msgstr[0] "%d blwyddyn"
-msgstr[1] "%d flynedd"
-msgstr[2] "%d blwyddyn"
-msgstr[3] "%d blwyddyn"
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] "%(num)d yıl"
+msgstr[1] "%(num)d yıl"
 
 #, python-format
-msgid "%d month"
-msgid_plural "%d months"
-msgstr[0] "%d mis"
-msgstr[1] "%d  fis"
-msgstr[2] "%d mis"
-msgstr[3] "%d mis"
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] "%(num)d ay"
+msgstr[1] "%(num)d ay"
 
 #, python-format
-msgid "%d week"
-msgid_plural "%d weeks"
-msgstr[0] "%d wythnos"
-msgstr[1] "%d wythnos"
-msgstr[2] "%d wythnos"
-msgstr[3] "%d wythnos"
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] "%(num)d hafta"
+msgstr[1] "%(num)d hafta"
 
 #, python-format
-msgid "%d day"
-msgid_plural "%d days"
-msgstr[0] "%d diwrnod"
-msgstr[1] "%d ddiwrnod"
-msgstr[2] "%d diwrnod"
-msgstr[3] "%d diwrnod"
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] "%(num)d gün"
+msgstr[1] "%(num)d gün"
 
 #, python-format
-msgid "%d hour"
-msgid_plural "%d hours"
-msgstr[0] "%d awr"
-msgstr[1] "%d awr"
-msgstr[2] "%d awr"
-msgstr[3] "%d awr"
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] "%(num)d saat"
+msgstr[1] "%(num)d saat"
 
 #, python-format
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "%d munud"
-msgstr[1] "%d funud"
-msgstr[2] "%d munud"
-msgstr[3] "%d munud"
-
-msgid "0 minutes"
-msgstr "0 munud"
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] "%(num)d dakika"
+msgstr[1] "%(num)d dakika"
 
 msgid "Forbidden"
-msgstr "Gwaharddedig"
+msgstr "Yasak"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "Gwirio CSRF wedi methu.  Ataliwyd y cais."
+msgstr "CSRF doğrulaması başarısız oldu. İstek iptal edildi."
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your Web browser, but none was sent. This header is "
+"header” to be sent by your web browser, but none was sent. This header is "
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
+"Bu iletiyi görüyorsunuz çünkü bu HTTPS sitesi, web tarayıcınız tarafından "
+"gönderilen “Referer üstbilgisi”ni gerektirir, ancak hiçbir şey gönderilmedi. "
+"Bu üstbilgi güvenlik nedenleri için gerekir, tarayıcınızın üçüncü taraf "
+"uygulamalar tarafından ele geçirilmediğinden emin olun."
 
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
+"Eğer tarayıcınızı “Referer” üstbilgilerini etkisizleştirmek için "
+"yapılandırdıysanız, lütfen bunları, en azından bu site ya da HTTPS "
+"bağlantıları veya “aynı-kaynakta” olan istekler için yeniden etkinleştirin."
 
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
 "including the “Referrer-Policy: no-referrer” header, please remove them. The "
 "CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
-"\" …> for links to third-party sites."
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
+"Eğer <meta name=\"referrer\" content=\"no-referrer\"> etiketi "
+"kullanıyorsanız ya da “Referrer-Policy: no-referrer” üstbilgisini dahil "
+"ediyorsanız, lütfen bunları kaldırın. CSRF koruması, katı göndereni denetimi "
+"yapmak için “Referer” üstbilgisi gerektirir. Gizlilik konusunda endişeniz "
+"varsa, üçüncü taraf sitelere bağlantılar için <a rel=\"noreferrer\" …> gibi "
+"alternatifler kullanın."
 
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"Dangosir y neges hwn oherwydd bod angen cwci CSRF ar y safle hwn pan yn "
-"anfon ffurflenni.  Mae angen y cwci ar gyfer diogelwch er mwyn sicrhau nad "
-"oes trydydd parti yn herwgipio eich porwr."
+"Bu iletiyi görüyorsunuz çünkü bu site, formları gönderdiğinizde bir CSRF "
+"tanımlama bilgisini gerektirir. Bu tanımlama bilgisi güvenlik nedenleri için "
+"gerekir, tarayıcınızın üçüncü taraf uygulamalar tarafından ele "
+"geçirilmediğinden emin olun."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
+"Eğer tarayıcınızı tanımlama bilgilerini etkisizleştirmek için "
+"yapılandırdıysanız, lütfen bunları, en azından bu site ya da “aynı-kaynakta” "
+"olan istekler için yeniden etkinleştirin."
 
 msgid "More information is available with DEBUG=True."
-msgstr "Mae mwy o wybodaeth ar gael gyda DEBUG=True"
+msgstr "Daha fazla bilgi DEBUG=True ayarı ile mevcut olur."
 
 msgid "No year specified"
-msgstr "Dim blwyddyn wedi’i bennu"
+msgstr "Yıl bilgisi belirtilmedi"
 
 msgid "Date out of range"
-msgstr ""
+msgstr "Tarih aralık dışında"
 
 msgid "No month specified"
-msgstr "Dim mis wedi’i bennu"
+msgstr "Ay bilgisi belirtilmedi"
 
 msgid "No day specified"
-msgstr "Dim diwrnod wedi’i bennu"
+msgstr "Gün bilgisi belirtilmedi"
 
 msgid "No week specified"
-msgstr "Dim wythnos wedi’i bennu"
+msgstr "Hafta bilgisi belirtilmedi"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "Dim %(verbose_name_plural)s ar gael"
+msgstr "Mevcut %(verbose_name_plural)s yok"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"%(verbose_name_plural)s i'r dyfodol ddim ar gael oherwydd mae %(class_name)s."
-"allow_future yn 'False'. "
+"Gelecek %(verbose_name_plural)s mevcut değil, çünkü %(class_name)s."
+"allow_future değeri False olarak tanımlı."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr ""
+msgstr "Geçersiz tarih dizgisi “%(datestr)s” verilen biçim “%(format)s”"
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "Ni ganfuwyd %(verbose_name)s yn cydweddu â'r ymholiad"
+msgstr "Sorguyla eşleşen hiç %(verbose_name)s bulunamadı"
 
 msgid "Page is not “last”, nor can it be converted to an int."
-msgstr ""
+msgstr "Sayfa “sonuncu” değil, ya da bir tamsayıya dönüştürülemez."
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "Tudalen annilys (%(page_number)s): %(message)s"
+msgstr "Geçersiz sayfa (%(page_number)s): %(message)s"
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr ""
+msgstr "Liste boş ve “%(class_name)s.allow_empty” değeri False."
 
 msgid "Directory indexes are not allowed here."
-msgstr "Ni ganiateir mynegai cyfeiriaduron yma."
+msgstr "Dizin indekslerine burada izin verilmiyor."
 
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr ""
+msgstr "“%(path)s” mevcut değil"
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "Mynegai %(directory)s"
+msgstr "%(directory)s indeksi"
 
-msgid "Django: the Web framework for perfectionists with deadlines."
-msgstr ""
+msgid "The install worked successfully! Congratulations!"
+msgstr "Yükleme başarılı olarak çalıştı! Tebrikler!"
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-
-msgid "The install worked successfully! Congratulations!"
-msgstr ""
+"Django %(version)s sürümü için <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/releases/\" target=\"_blank\" rel=\"noopener\">yayım notlarını</"
+"a> göster"
 
 #, python-format
 msgid ""
 "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> is in your settings file and you have not configured any "
-"URLs."
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
 msgstr ""
+"Bu sayfayı görüyorsunuz çünkü <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> parametresi ayarlar dosyanızın içindedir ve "
+"herhangi bir URL yapılandırmadınız."
 
 msgid "Django Documentation"
-msgstr ""
+msgstr "Django Belgeleri"
 
 msgid "Topics, references, &amp; how-to’s"
-msgstr ""
+msgstr "Konular, kaynaklar ve nasıl yapılırlar"
 
 msgid "Tutorial: A Polling App"
-msgstr ""
+msgstr "Eğitim: Anket Uygulaması"
 
 msgid "Get started with Django"
-msgstr ""
+msgstr "Django ile başlayın"
 
 msgid "Django Community"
-msgstr ""
+msgstr "Django Topluluğu"
 
 msgid "Connect, get help, or contribute"
-msgstr ""
+msgstr "Bağlanın, yardım alın, ya da katkıda bulunun"

@@ -1,421 +1,360 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Viktar Palstsiuk <vipals@gmail.com>, 2014-2015
-# znotdead <zhirafchik@gmail.com>, 2016-2017,2019-2021,2023-2025
-# Bobsans <mr.bobsans@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 11:30-0500\n"
-"PO-Revision-Date: 2025-09-17 06:49+0000\n"
-"Last-Translator: znotdead <zhirafchik@gmail.com>, "
-"2016-2017,2019-2021,2023-2025\n"
-"Language-Team: Belarusian (http://app.transifex.com/django/django/language/"
-"be/)\n"
+"POT-Creation-Date: 2019-09-27 22:40+0200\n"
+"PO-Revision-Date: 2019-11-05 00:38+0000\n"
+"Last-Translator: Ramiro Morales\n"
+"Language-Team: Udmurt (http://www.transifex.com/django/django/language/"
+"udm/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: be\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Language: udm\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Afrikaans"
-msgstr "Афрыкаанс"
+msgstr "Африкаанс"
 
 msgid "Arabic"
-msgstr "Арабская"
-
-msgid "Algerian Arabic"
-msgstr "Алжырская арабская"
+msgstr "Араб"
 
 msgid "Asturian"
-msgstr "Астурыйская"
+msgstr ""
 
 msgid "Azerbaijani"
-msgstr "Азэрбайджанская"
+msgstr "Азербайджан"
 
 msgid "Bulgarian"
-msgstr "Баўгарская"
+msgstr "Болгар"
 
 msgid "Belarusian"
-msgstr "Беларуская"
+msgstr "Беларус"
 
 msgid "Bengali"
-msgstr "Бэнґальская"
+msgstr "Бенгал"
 
 msgid "Breton"
-msgstr "Брэтонская"
+msgstr "Бретон"
 
 msgid "Bosnian"
-msgstr "Басьнійская"
+msgstr "Босниец"
 
 msgid "Catalan"
-msgstr "Каталёнская"
-
-msgid "Central Kurdish (Sorani)"
-msgstr "Цэнтральнакурдская (сарані)"
+msgstr "Каталан"
 
 msgid "Czech"
-msgstr "Чэская"
+msgstr "Чех"
 
 msgid "Welsh"
-msgstr "Валійская"
+msgstr "Уэльс"
 
 msgid "Danish"
-msgstr "Дацкая"
+msgstr "Датчан"
 
 msgid "German"
-msgstr "Нямецкая"
+msgstr "Немец"
 
 msgid "Lower Sorbian"
-msgstr "Ніжнелужыцкая"
+msgstr ""
 
 msgid "Greek"
-msgstr "Грэцкая"
+msgstr "Грек"
 
 msgid "English"
-msgstr "Анґельская"
+msgstr "Англи"
 
 msgid "Australian English"
-msgstr "Анґельская (Аўстралія)"
+msgstr ""
 
 msgid "British English"
-msgstr "Анґельская (Брытанская)"
+msgstr "Британиысь англи"
 
 msgid "Esperanto"
-msgstr "Эспэранта"
+msgstr "Эсперанто"
 
 msgid "Spanish"
-msgstr "Гішпанская"
+msgstr "Испан"
 
 msgid "Argentinian Spanish"
-msgstr "Гішпанская (Арґентына)"
+msgstr "Аргентинаысь испан"
 
 msgid "Colombian Spanish"
-msgstr "Гішпанская (Калумбія)"
+msgstr ""
 
 msgid "Mexican Spanish"
-msgstr "Гішпанская (Мэксыка)"
+msgstr "Мексикаысь испан"
 
 msgid "Nicaraguan Spanish"
-msgstr "Гішпанская (Нікараґуа)"
+msgstr "Никарагуаысь испан"
 
 msgid "Venezuelan Spanish"
-msgstr "Іспанская (Вэнэсуэла)"
+msgstr "Венесуэлаысь испан"
 
 msgid "Estonian"
-msgstr "Эстонская"
+msgstr "Эстон"
 
 msgid "Basque"
-msgstr "Басконская"
+msgstr "Баск"
 
 msgid "Persian"
-msgstr "Фарсі"
+msgstr "Перс"
 
 msgid "Finnish"
-msgstr "Фінская"
+msgstr "Финн"
 
 msgid "French"
-msgstr "Француская"
+msgstr "Француз"
 
 msgid "Frisian"
-msgstr "Фрызкая"
+msgstr "Фриз"
 
 msgid "Irish"
-msgstr "Ірляндзкая"
+msgstr "Ирланд"
 
 msgid "Scottish Gaelic"
-msgstr "Гэльская шатляндзкая"
+msgstr ""
 
 msgid "Galician"
-msgstr "Ґальская"
+msgstr "Галисий"
 
 msgid "Hebrew"
-msgstr "Габрэйская"
+msgstr "Иврит"
 
 msgid "Hindi"
-msgstr "Гінды"
+msgstr "Хинди"
 
 msgid "Croatian"
-msgstr "Харвацкая"
+msgstr "Хорват"
 
 msgid "Upper Sorbian"
-msgstr "Верхнелужыцкая"
+msgstr ""
 
 msgid "Hungarian"
-msgstr "Вугорская"
+msgstr "Венгер"
 
 msgid "Armenian"
-msgstr "Армянскі"
+msgstr ""
 
 msgid "Interlingua"
-msgstr "Інтэрлінгва"
+msgstr "Интерлингва"
 
 msgid "Indonesian"
-msgstr "Інданэзійская"
-
-msgid "Igbo"
-msgstr "Ігба"
+msgstr "Индонези"
 
 msgid "Ido"
-msgstr "Іда"
+msgstr ""
 
 msgid "Icelandic"
-msgstr "Ісьляндзкая"
+msgstr "Исланд"
 
 msgid "Italian"
-msgstr "Італьянская"
+msgstr "Итальян"
 
 msgid "Japanese"
-msgstr "Японская"
+msgstr "Япон"
 
 msgid "Georgian"
-msgstr "Грузінская"
+msgstr "Грузин"
 
 msgid "Kabyle"
-msgstr "Кабільскі"
+msgstr ""
 
 msgid "Kazakh"
-msgstr "Казаская"
+msgstr "Казах"
 
 msgid "Khmer"
-msgstr "Кхмерская"
+msgstr "Кхмер"
 
 msgid "Kannada"
 msgstr "Каннада"
 
 msgid "Korean"
-msgstr "Карэйская"
-
-msgid "Kyrgyz"
-msgstr "Кіргізская"
+msgstr "Корей"
 
 msgid "Luxembourgish"
-msgstr "Люксэмбургская"
+msgstr "Люксембург"
 
 msgid "Lithuanian"
-msgstr "Літоўская"
+msgstr "Литва"
 
 msgid "Latvian"
-msgstr "Латыская"
+msgstr "Латвий"
 
 msgid "Macedonian"
-msgstr "Македонская"
+msgstr "Македон"
 
 msgid "Malayalam"
 msgstr "Малаялам"
 
 msgid "Mongolian"
-msgstr "Манґольская"
+msgstr "Монгол"
 
 msgid "Marathi"
-msgstr "Маратхі"
-
-msgid "Malay"
-msgstr "Малайская"
+msgstr ""
 
 msgid "Burmese"
-msgstr "Бірманская"
+msgstr ""
 
 msgid "Norwegian Bokmål"
-msgstr "Нарвэская букмал"
+msgstr ""
 
 msgid "Nepali"
-msgstr "Нэпальская"
+msgstr "Непал"
 
 msgid "Dutch"
-msgstr "Галяндзкая"
+msgstr "Голланд"
 
 msgid "Norwegian Nynorsk"
-msgstr "Нарвэская нюнорск"
+msgstr "Норвег (нюнорск)"
 
 msgid "Ossetic"
-msgstr "Асяцінская"
+msgstr ""
 
 msgid "Punjabi"
-msgstr "Панджабі"
+msgstr "Панджаби"
 
 msgid "Polish"
-msgstr "Польская"
+msgstr "Поляк"
 
 msgid "Portuguese"
-msgstr "Партуґальская"
+msgstr "Португал"
 
 msgid "Brazilian Portuguese"
-msgstr "Партуґальская (Бразылія)"
+msgstr "Бразилиысь португал"
 
 msgid "Romanian"
-msgstr "Румынская"
+msgstr "Румын"
 
 msgid "Russian"
-msgstr "Расейская"
+msgstr "Ӟуч"
 
 msgid "Slovak"
-msgstr "Славацкая"
+msgstr "Словак"
 
 msgid "Slovenian"
-msgstr "Славенская"
+msgstr "Словен"
 
 msgid "Albanian"
-msgstr "Альбанская"
+msgstr "Албан"
 
 msgid "Serbian"
-msgstr "Сэрбская"
+msgstr "Серб"
 
 msgid "Serbian Latin"
-msgstr "Сэрбская (лацінка)"
+msgstr "Серб (латиницаен)"
 
 msgid "Swedish"
-msgstr "Швэдзкая"
+msgstr "Швед"
 
 msgid "Swahili"
-msgstr "Суахілі"
+msgstr "Суахили"
 
 msgid "Tamil"
-msgstr "Тамільская"
+msgstr "Тамиль"
 
 msgid "Telugu"
-msgstr "Тэлуґу"
-
-msgid "Tajik"
-msgstr "Таджыкскі"
+msgstr "Телугу"
 
 msgid "Thai"
-msgstr "Тайская"
-
-msgid "Turkmen"
-msgstr "Туркменская"
+msgstr "Тай"
 
 msgid "Turkish"
-msgstr "Турэцкая"
+msgstr "Турок"
 
 msgid "Tatar"
-msgstr "Татарская"
+msgstr "Бигер"
 
 msgid "Udmurt"
-msgstr "Удмурцкая"
-
-msgid "Uyghur"
-msgstr "Уйгурскі"
+msgstr "Удмурт"
 
 msgid "Ukrainian"
-msgstr "Украінская"
+msgstr "Украин"
 
 msgid "Urdu"
 msgstr "Урду"
 
 msgid "Uzbek"
-msgstr "Узбецкі"
+msgstr ""
 
 msgid "Vietnamese"
-msgstr "Віетнамская"
+msgstr "Вьетнам"
 
 msgid "Simplified Chinese"
-msgstr "Кітайская (спрошчаная)"
+msgstr "Китай (капчиятэм)"
 
 msgid "Traditional Chinese"
-msgstr "Кітайская (звычайная)"
+msgstr "Китай (традици)"
 
 msgid "Messages"
-msgstr "Паведамленні"
+msgstr ""
 
 msgid "Site Maps"
-msgstr "Мапы сайту"
+msgstr ""
 
 msgid "Static Files"
-msgstr "Cтатычныя файлы"
+msgstr ""
 
 msgid "Syndication"
-msgstr "Сындыкацыя"
-
-#. Translators: String used to replace omitted page numbers in elided page
-#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
-msgid "…"
-msgstr "..."
+msgstr ""
 
 msgid "That page number is not an integer"
-msgstr "Лік гэтай старонкі не з'яўляецца цэлым лікам"
+msgstr ""
 
 msgid "That page number is less than 1"
-msgstr "Лік старонкі менш чым 1"
+msgstr ""
 
 msgid "That page contains no results"
-msgstr "Гэтая старонка не мае ніякіх вынікаў"
+msgstr ""
 
 msgid "Enter a valid value."
-msgstr "Пазначце правільнае значэньне."
-
-msgid "Enter a valid domain name."
-msgstr "Пазначце сапраўднае даменнае имя."
+msgstr "Тазэ шонер гожтэ."
 
 msgid "Enter a valid URL."
-msgstr "Пазначце чынную спасылку."
+msgstr "Шонер URL гожтэ."
 
 msgid "Enter a valid integer."
-msgstr "Увядзіце цэлы лік."
+msgstr ""
 
 msgid "Enter a valid email address."
-msgstr "Увядзіце сапраўдны адрас электроннай пошты."
+msgstr "Электорн почта адресэз шонер гожтэ"
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Значэнне павінна быць толькі з літараў, личбаў, знакаў падкрэслівання ці "
-"злучкі."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
-"Значэнне павінна быць толькі з літараў стандарту Unicode, личбаў, знакаў "
-"падкрэслівання ці злучкі."
 
-#, python-format
-msgid "Enter a valid %(protocol)s address."
-msgstr "Пазначце сапраўдны %(protocol)s адрас."
+msgid "Enter a valid IPv4 address."
+msgstr "Шонер IPv4-адрес гожтэ."
 
-msgid "IPv4"
-msgstr "IPv4"
+msgid "Enter a valid IPv6 address."
+msgstr "Шонер IPv6-адрес гожтэ."
 
-msgid "IPv6"
-msgstr "IPv6"
-
-msgid "IPv4 or IPv6"
-msgstr "IPv4 або IPv6"
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr "Шонер IPv4 яке IPv6 адрес гожтэ."
 
 msgid "Enter only digits separated by commas."
-msgstr "Набярыце лічбы, падзеленыя коскамі."
+msgstr "Запятойёсын висъям лыдпусъёсты гожтэ"
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
-"Упэўніцеся, што гэтае значэньне — %(limit_value)s (зараз яно — "
-"%(show_value)s)."
+msgstr "Эскере, та %(limit_value)s шуыса. Али татын %(show_value)s."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "Значэньне мусіць быць меншым або роўным %(limit_value)s."
+msgstr "Талы %(limit_value)s-лэсь бадӟымгес луыны уг яра."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "Значэньне мусіць быць большым або роўным %(limit_value)s."
-
-#, python-format
-msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr "Пераканайцеся, што гэта значэнне кратнае памеру кроку %(limit_value)s."
-
-#, python-format
-msgid ""
-"Ensure this value is a multiple of step size %(limit_value)s, starting from "
-"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
-msgstr ""
-"Пераканайцеся, што гэта значэнне кратнае памеру кроку %(limit_value)s, "
-"пачынаючы з %(offset)s, напрыклад.  %(offset)s, %(valid_value1)s, "
-"%(valid_value2)s, і гэтак далей."
+msgstr "Талы %(limit_value)s-лэсь ӧжытгес луыны уг яра."
 
 #, python-format
 msgid ""
@@ -425,17 +364,6 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Упэўніцеся, што гэтае значэнне мае не менш %(limit_value)d сімвал (зараз "
-"%(show_value)d)."
-msgstr[1] ""
-"Упэўніцеся, што гэтае значэнне мае не менш %(limit_value)d сімвала (зараз "
-"%(show_value)d)."
-msgstr[2] ""
-"Упэўніцеся, што гэтае значэнне мае не менш %(limit_value)d сімвалаў (зараз "
-"%(show_value)d)."
-msgstr[3] ""
-"Упэўніцеся, што гэтае значэнне мае не менш %(limit_value)d сімвалаў (зараз "
-"%(show_value)d)."
 
 #, python-format
 msgid ""
@@ -445,480 +373,398 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Упэўніцеся, што гэтае значэнне мае не болей %(limit_value)d сімвал (зараз "
-"%(show_value)d)."
-msgstr[1] ""
-"Упэўніцеся, што гэтае значэнне мае не болей %(limit_value)d сімвала (зараз "
-"%(show_value)d)."
-msgstr[2] ""
-"Упэўніцеся, што гэтае значэнне мае не болей %(limit_value)d сімвалаў (зараз "
-"%(show_value)d)."
-msgstr[3] ""
-"Упэўніцеся, што гэтае значэнне мае не болей %(limit_value)d сімвалаў (зараз "
-"%(show_value)d)."
 
 msgid "Enter a number."
-msgstr "Набярыце лік."
+msgstr "Лыд гожтэ."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "Упэўніцеся, што набралі ня болей за %(max)s лічбу."
-msgstr[1] "Упэўніцеся, што набралі ня болей за %(max)s лічбы."
-msgstr[2] "Упэўніцеся, што набралі ня болей за %(max)s лічбаў."
-msgstr[3] "Упэўніцеся, што набралі ня болей за %(max)s лічбаў."
+msgstr[0] ""
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "Упэўніцеся, што набралі ня болей за %(max)s лічбу пасьля коскі."
-msgstr[1] "Упэўніцеся, што набралі ня болей за %(max)s лічбы пасьля коскі."
-msgstr[2] "Упэўніцеся, што набралі ня болей за %(max)s лічбаў пасьля коскі."
-msgstr[3] "Упэўніцеся, што набралі ня болей за %(max)s лічбаў пасьля коскі."
+msgstr[0] ""
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] "Упэўніцеся, што набралі ня болей за %(max)s лічбу да коскі."
-msgstr[1] "Упэўніцеся, што набралі ня болей за %(max)s лічбы да коскі."
-msgstr[2] "Упэўніцеся, што набралі ня болей за %(max)s лічбаў да коскі."
-msgstr[3] "Упэўніцеся, што набралі ня болей за %(max)s лічбаў да коскі."
+msgstr[0] ""
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
-"Пашырэнне файла “%(extension)s” не дапускаецца. Дапушчальныя пашырэння: "
-"%(allowed_extensions)s."
 
 msgid "Null characters are not allowed."
-msgstr "Null сімвалы не дапускаюцца."
+msgstr ""
 
 msgid "and"
-msgstr "і"
+msgstr "но"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "%(model_name)s з такім %(field_labels)s ужо існуе."
-
-#, python-format
-msgid "Constraint “%(name)s” is violated."
-msgstr "Абмежаванне \"%(name)s\" парушана."
+msgstr ""
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "Значэнне %(value)r не з'яўляецца правільным выбарам."
+msgstr ""
 
 msgid "This field cannot be null."
-msgstr "Поле ня можа мець значэньне «null»."
+msgstr "Та NULL луыны уг яра."
 
 msgid "This field cannot be blank."
-msgstr "Трэба запоўніць поле."
+msgstr "Та буш луыны уг яра."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "%(model_name)s з такім %(field_label)s ужо існуе."
+msgstr "Таӵе %(field_label)s-ен %(model_name)s вань ини."
 
-#. Translators: The 'lookup_type' is one of 'date', 'year' or
-#. 'month'. Eg: "Title must be unique for pub_date year"
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
-"%(field_label)s павінна быць унікальна для %(date_field_label)s "
-"%(lookup_type)s."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "Палі віду: %(field_type)s"
+msgstr "%(field_type)s типъем бусы"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr "Значэньне “%(value)s”  павінна быць True альбо False."
+msgstr ""
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr "Значэньне “%(value)s” павінна быць True, False альбо None."
+msgstr ""
 
 msgid "Boolean (Either True or False)"
-msgstr "Ляґічнае («сапраўдна» або «не сапраўдна»)"
+msgstr "True яке False"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "Радок (ня болей за %(max_length)s)"
-
-msgid "String (unlimited)"
-msgstr "Радок (неабмежаваны)"
+msgstr "Чур (%(max_length)s пусозь кузьда)"
 
 msgid "Comma-separated integers"
-msgstr "Цэлыя лікі, падзеленыя коскаю"
+msgstr "Запятоен висъям быдэс лыдъёс"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
-"Значэнне “%(value)s” мае няправільны фармат. Яно павінна быць у фармаце ГГГГ-"
-"ММ-ДД."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
-"Значэнне “%(value)s” мае правільны фармат(ГГГГ-ММ-ДД) але гэта несапраўдная "
-"дата."
 
 msgid "Date (without time)"
-msgstr "Дата (бяз часу)"
+msgstr "Дата (час-минут пусйытэк)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
-"Значэнне “%(value)s” мае няправільны фармат. Яно павінна быць у фармаце ГГГГ-"
-"ММ-ДД ГГ:ХХ[:сс[.мммммм]][ЧА], дзе ЧА — часавы абсяг."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
-"Значэнне “%(value)s” мае правільны фармат (ГГГГ-ММ-ДД ГГ:ХХ[:сс[.мммммм]]"
-"[ЧА], дзе ЧА — часавы абсяг) але гэта несапраўдныя дата/час."
 
 msgid "Date (with time)"
-msgstr "Дата (разам з часам)"
+msgstr "Дата но час-минут"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr "Значэньне “%(value)s” павінна быць дзесятковым лікам."
+msgstr ""
 
 msgid "Decimal number"
-msgstr "Дзесятковы лік"
+msgstr "Десятичной лыд."
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
-"Значэньне “%(value)s” мае няправільны фармат. Яно павінна быць у фармаце "
-"[ДД] [ГГ:[ХХ:]]сс[.мммммм]."
 
 msgid "Duration"
-msgstr "Працягласць"
+msgstr ""
 
 msgid "Email address"
-msgstr "Адрас эл. пошты"
+msgstr "Электрон почта адрес"
 
 msgid "File path"
-msgstr "Шлях да файла"
+msgstr "Файллэн нимыз"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr "Значэньне “%(value)s” павінна быць дробным лікам."
+msgstr ""
 
 msgid "Floating point number"
-msgstr "Лік зь пераноснай коскаю"
+msgstr "Вещественной лыд"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr "Значэньне “%(value)s” павінна быць цэлым лікам."
+msgstr ""
 
 msgid "Integer"
-msgstr "Цэлы лік"
+msgstr "целой"
 
 msgid "Big (8 byte) integer"
-msgstr "Вялікі (8 байтаў) цэлы"
-
-msgid "Small integer"
-msgstr "Малы цэлы лік"
+msgstr "Бадӟым (8 байтъем) целой лыд"
 
 msgid "IPv4 address"
-msgstr "Адрас IPv4"
+msgstr "IPv4 адрес"
 
 msgid "IP address"
-msgstr "Адрас IP"
+msgstr "IP адрес"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr "Значэньне “%(value)s” павінна быць None, True альбо False."
+msgstr ""
 
 msgid "Boolean (Either True, False or None)"
-msgstr "Ляґічнае («сапраўдна», «не сапраўдна» ці «нічога»)"
-
-msgid "Positive big integer"
-msgstr "Дадатны вялікі цэлы лік"
+msgstr "True, False яке None"
 
 msgid "Positive integer"
-msgstr "Дадатны цэлы лік"
+msgstr "Целой, нольлэсь бадӟым лыд"
 
 msgid "Positive small integer"
-msgstr "Дадатны малы цэлы лік"
+msgstr "Нольлэсь бадӟым пичи целой лыд"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "Бірка (ня болей за %(max_length)s)"
+msgstr "Компьютерной ним (%(max_length)s пусозь кузьда)"
+
+msgid "Small integer"
+msgstr "Пичи целой лыд"
 
 msgid "Text"
-msgstr "Тэкст"
+msgstr "Текст"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
-"Значэньне “%(value)s” мае няправільны фармат. Яно павінна быць у фармаце ГГ:"
-"ХХ[:сс[.мммммм]]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
-"Значэнне “%(value)s” мае правільны фармат (ГГ:ХХ[:сс[.мммммм]]) але гэта "
-"несапраўдны час."
 
 msgid "Time"
-msgstr "Час"
+msgstr "Час-минут"
 
 msgid "URL"
-msgstr "Сеціўная спасылка"
+msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "Неапрацаваныя бінарныя зьвесткі"
+msgstr ""
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr "“%(value)s” не з'яўляецца дапушчальным UUID."
+msgstr ""
 
 msgid "Universally unique identifier"
-msgstr "Універсальны непаўторны ідэнтыфікатар"
+msgstr ""
 
 msgid "File"
 msgstr "Файл"
 
 msgid "Image"
-msgstr "Выява"
-
-msgid "A JSON object"
-msgstr "Аб'ект JSON"
-
-msgid "Value must be valid JSON."
-msgstr "Значэньне павінна быць сапраўдным JSON."
+msgstr "Суред"
 
 #, python-format
-msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
 msgstr ""
-"Экземпляр %(model)s з %(field)s %(value)r не з'яўляецца правільным выбарам."
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "Вонкавы ключ (від вызначаецца паводле зьвязанага поля)"
+msgstr "Мукет моделен герӟет (тип герӟано бусыя валамын)."
 
 msgid "One-to-one relationship"
-msgstr "Сувязь «адзін да аднаго»"
+msgstr "Одӥг-одӥг герӟет"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr "Сувязь %(from)s-%(to)s"
+msgstr ""
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr "Сувязi %(from)s-%(to)s"
+msgstr ""
 
 msgid "Many-to-many relationship"
-msgstr "Сувязь «некалькі да некалькіх»"
+msgstr "Трос-трос герӟет"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
 #. label
 msgid ":?.!"
-msgstr ":?.!"
+msgstr ""
 
 msgid "This field is required."
-msgstr "Поле трэба запоўніць."
+msgstr "Та клуэ."
 
 msgid "Enter a whole number."
-msgstr "Набярыце ўвесь лік."
+msgstr "Целой лыд гожтэ."
 
 msgid "Enter a valid date."
-msgstr "Пазначце чынную дату."
+msgstr "Шонер дата гожтэ."
 
 msgid "Enter a valid time."
-msgstr "Пазначце чынны час."
+msgstr "Шонер час-минут гожтэ."
 
 msgid "Enter a valid date/time."
-msgstr "Пазначце чынныя час і дату."
+msgstr "Шонер дата но час-минут гожтэ."
 
 msgid "Enter a valid duration."
-msgstr "Увядзіце сапраўдны тэрмін."
+msgstr ""
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "Колькасць дзён павінна быць паміж {min_days} i {max_days}."
+msgstr ""
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "Файл не даслалі. Зірніце кадоўку блянку."
+msgstr "Одӥг файл но лэзьымтэ. Формалэсь код."
 
 msgid "No file was submitted."
-msgstr "Файл не даслалі."
+msgstr "Файл лэземын ӧвӧл."
 
 msgid "The submitted file is empty."
-msgstr "Дасланы файл — парожні."
+msgstr "Лэзем файл буш."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
-"Упэўніцеся, што гэтае імя файлу мае не болей %(max)d сімвал (зараз "
-"%(length)d)."
-msgstr[1] ""
-"Упэўніцеся, што гэтае імя файлу мае не болей %(max)d сімвала (зараз "
-"%(length)d)."
-msgstr[2] ""
-"Упэўніцеся, што гэтае імя файлу мае не болей %(max)d сімвалаў (зараз "
-"%(length)d)."
-msgstr[3] ""
-"Упэўніцеся, што гэтае імя файлу мае не болей %(max)d сімвалаў (зараз "
-"%(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
 msgstr ""
-"Трэба або даслаць файл, або абраць «Ачысьціць», але нельга рабіць гэта "
-"адначасова."
+"Файл лэзе яке файл ӵушоно шуыса пусъе, огдыръя соиз но, таиз но уг яра."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
-msgstr ""
-"Запампаваць чынны малюнак. Запампавалі або не выяву, або пашкоджаную выяву."
+msgstr "Суред лэзе. Тӥляд файлды лэзьымтэ яке со суред ӧвӧл."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "Абярыце дазволенае. %(value)s няма ў даступных значэньнях."
+msgstr "Шонер вариант быръе. %(value)s вариантъёс пӧлын ӧвӧл."
 
 msgid "Enter a list of values."
-msgstr "Упішыце сьпіс значэньняў."
+msgstr "Список лэзе."
 
 msgid "Enter a complete value."
-msgstr "Калі ласка, увядзіце поўнае значэньне."
+msgstr ""
 
 msgid "Enter a valid UUID."
-msgstr "Увядзіце сапраўдны UUID."
-
-msgid "Enter a valid JSON."
-msgstr "Пазначце сапраўдны JSON."
+msgstr ""
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
-msgstr ":"
+msgstr ""
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(Схаванае поле %(name)s) %(error)s"
-
-#, python-format
-msgid ""
-"ManagementForm data is missing or has been tampered with. Missing fields: "
-"%(field_names)s. You may need to file a bug report if the issue persists."
 msgstr ""
-"Дадзеныя формы ManagementForm адсутнічаюць ці былі падменены. Адсутнічаюць "
-"палі: %(field_names)s. Магчыма, вам спатрэбіцца падаць справаздачу пра "
-"памылку, калі праблема захоўваецца."
+
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
 
 #, python-format
-msgid "Please submit at most %(num)d form."
-msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] "Калі ласка, адпраўце не болей чым %(num)d формаў."
-msgstr[1] "Калі ласка, адпраўце не болей чым %(num)d формаў."
-msgstr[2] "Калі ласка, адпраўце не болей чым %(num)d формаў."
-msgstr[3] "Калі ласка, адпраўце не болей чым %(num)d формаў."
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
 
 #, python-format
-msgid "Please submit at least %(num)d form."
-msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] "Калі ласка, адпраўце не менш чым %(num)d формаў."
-msgstr[1] "Калі ласка, адпраўце не менш чым %(num)d формаў."
-msgstr[2] "Калі ласка, адпраўце не менш чым %(num)d формаў."
-msgstr[3] "Калі ласка, адпраўце не менш чым %(num)d формаў."
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
 
 msgid "Order"
-msgstr "Парадак"
+msgstr "Рад"
 
 msgid "Delete"
-msgstr "Выдаліць"
+msgstr "Ӵушоно"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "У полі «%(field)s» выпраўце зьвесткі, якія паўтараюцца."
+msgstr ""
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr "Выпраўце зьвесткі ў полі «%(field)s»: нельга, каб яны паўтараліся."
+msgstr ""
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"Выпраўце зьвесткі ў полі «%(field_name)s»: нельга каб зьвесткі ў "
-"«%(date_field)s» для «%(lookup)s» паўтараліся."
 
 msgid "Please correct the duplicate values below."
-msgstr "Выпраўце зьвесткі, якія паўтараюцца (гл. ніжэй)."
+msgstr ""
 
 msgid "The inline value did not match the parent instance."
-msgstr "Убудаванае значэнне не супадае з бацькоўскім значэннем."
+msgstr ""
 
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "Абярыце дазволенае. Абранага няма ў даступных значэньнях."
+msgstr ""
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr "“%(pk)s” не сапраўднае значэнне."
+msgstr ""
 
 #, python-format
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
-"У часавым абсягу %(current_timezone)s нельга зразумець дату %(datetime)s: "
-"яна можа быць неадназначнаю або яе можа не існаваць."
 
 msgid "Clear"
-msgstr "Ачысьціць"
+msgstr "Буш кароно"
 
 msgid "Currently"
-msgstr "Зараз"
+msgstr "Али"
 
 msgid "Change"
-msgstr "Зьмяніць"
+msgstr "Тупатъяно"
 
 msgid "Unknown"
-msgstr "Невядома"
+msgstr "Тодымтэ"
 
 msgid "Yes"
-msgstr "Так"
+msgstr "Бен"
 
 msgid "No"
-msgstr "Не"
+msgstr "Ӧвӧл"
 
-#. Translators: Please do not add spaces around commas.
+msgid "Year"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
 msgid "yes,no,maybe"
-msgstr "так,не,магчыма"
+msgstr "бен,ӧвӧл,уг тодӥськы"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
 msgstr[0] "%(size)d байт"
-msgstr[1] "%(size)d байты"
-msgstr[2] "%(size)d байтаў"
-msgstr[3] "%(size)d байтаў"
 
 #, python-format
 msgid "%s KB"
@@ -930,7 +776,7 @@ msgstr "%s МБ"
 
 #, python-format
 msgid "%s GB"
-msgstr "%s ҐБ"
+msgstr "%s МБ"
 
 #, python-format
 msgid "%s TB"
@@ -941,452 +787,411 @@ msgid "%s PB"
 msgstr "%s ПБ"
 
 msgid "p.m."
-msgstr "папаўдні"
+msgstr "лымшор бере"
 
 msgid "a.m."
-msgstr "папоўначы"
+msgstr "лымшор азе"
 
 msgid "PM"
-msgstr "папаўдні"
+msgstr "лымшор бере"
 
 msgid "AM"
-msgstr "папоўначы"
+msgstr "лымшор азе"
 
 msgid "midnight"
-msgstr "поўнач"
+msgstr "уйшор"
 
 msgid "noon"
-msgstr "поўдзень"
+msgstr "лымшор"
 
 msgid "Monday"
-msgstr "Панядзелак"
+msgstr "Вордӥськон"
 
 msgid "Tuesday"
-msgstr "Аўторак"
+msgstr "Пуксён"
 
 msgid "Wednesday"
-msgstr "Серада"
+msgstr "Вирнунал"
 
 msgid "Thursday"
-msgstr "Чацьвер"
+msgstr "Покчиарня"
 
 msgid "Friday"
-msgstr "Пятніца"
+msgstr "Удмуртарня"
 
 msgid "Saturday"
-msgstr "Субота"
+msgstr "Кӧснунал"
 
 msgid "Sunday"
-msgstr "Нядзеля"
+msgstr "Арнянунал"
 
 msgid "Mon"
-msgstr "Пн"
+msgstr "врд"
 
 msgid "Tue"
-msgstr "Аў"
+msgstr "пкс"
 
 msgid "Wed"
-msgstr "Ср"
+msgstr "врн"
 
 msgid "Thu"
-msgstr "Чц"
+msgstr "пкч"
 
 msgid "Fri"
-msgstr "Пт"
+msgstr "удм"
 
 msgid "Sat"
-msgstr "Сб"
+msgstr "ксн"
 
 msgid "Sun"
-msgstr "Нд"
+msgstr "арн"
 
 msgid "January"
-msgstr "студзеня"
+msgstr "толшор"
 
 msgid "February"
-msgstr "лютага"
+msgstr "тулыспал"
 
 msgid "March"
-msgstr "сакавік"
+msgstr "южтолэзь"
 
 msgid "April"
-msgstr "красавіка"
+msgstr "оштолэзь"
 
 msgid "May"
-msgstr "траўня"
+msgstr "куартолэзь"
 
 msgid "June"
-msgstr "чэрвеня"
+msgstr "инвожо"
 
 msgid "July"
-msgstr "ліпеня"
+msgstr "пӧсьтолэзь"
 
 msgid "August"
-msgstr "жніўня"
+msgstr "гудырикошкон"
 
 msgid "September"
-msgstr "верасьня"
+msgstr "куарусён"
 
 msgid "October"
-msgstr "кастрычніка"
+msgstr "коньывуон"
 
 msgid "November"
-msgstr "лістапада"
+msgstr "шуркынмон"
 
 msgid "December"
-msgstr "сьнежня"
+msgstr "толсур"
 
 msgid "jan"
-msgstr "сту"
+msgstr "тшт"
 
 msgid "feb"
-msgstr "лют"
+msgstr "тпт"
 
 msgid "mar"
-msgstr "сак"
+msgstr "южт"
 
 msgid "apr"
-msgstr "кра"
+msgstr "ошт"
 
 msgid "may"
-msgstr "тра"
+msgstr "крт"
 
 msgid "jun"
-msgstr "чэр"
+msgstr "ивт"
 
 msgid "jul"
-msgstr "ліп"
+msgstr "пст"
 
 msgid "aug"
-msgstr "жні"
+msgstr "гкт"
 
 msgid "sep"
-msgstr "вер"
+msgstr "кут"
 
 msgid "oct"
-msgstr "кас"
+msgstr "квт"
 
 msgid "nov"
-msgstr "ліс"
+msgstr "шкт"
 
 msgid "dec"
-msgstr "сьн"
+msgstr "тст"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "Сту."
+msgstr "тшт"
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "Люты"
+msgstr "тпт"
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "сакавік"
+msgstr "южт"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "красавіка"
+msgstr "ошт"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "траўня"
+msgstr "крт"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "чэрвеня"
+msgstr "ивт"
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "ліпеня"
+msgstr "пст"
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "Жні."
+msgstr "гкт"
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "Вер."
+msgstr "кут"
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "Кас."
+msgstr "квт"
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "Ліс."
+msgstr "шкт"
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "Сьн."
+msgstr "тст"
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "студзеня"
+msgstr "толшоре"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "лютага"
+msgstr "тулыспалэ"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "сакавік"
+msgstr "южтолэзе"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "красавіка"
+msgstr "оштолэзе"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "траўня"
+msgstr "куартолэзе"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "чэрвеня"
+msgstr "инвожое"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "ліпеня"
+msgstr "пӧсьтолэзе"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "жніўня"
+msgstr "гудырикошконэ"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "верасьня"
+msgstr "куарусёнэ"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "кастрычніка"
+msgstr "коньывуонэ"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "лістапада"
+msgstr "шуркынмонэ"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "сьнежня"
+msgstr "толсуре"
 
 msgid "This is not a valid IPv6 address."
-msgstr "Гэта ня правільны адрас IPv6."
+msgstr ""
 
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
-msgstr "%(truncated_text)s…"
+msgstr ""
 
 msgid "or"
-msgstr "або"
+msgstr "яке"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
-msgstr ", "
+msgstr ","
 
 #, python-format
-msgid "%(num)d year"
-msgid_plural "%(num)d years"
-msgstr[0] "%(num)d год"
-msgstr[1] "%(num)d гадоў"
-msgstr[2] "%(num)d гадоў"
-msgstr[3] "%(num)d гадоў"
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
 
 #, python-format
-msgid "%(num)d month"
-msgid_plural "%(num)d months"
-msgstr[0] "%(num)d месяц"
-msgstr[1] "%(num)d месяцаў"
-msgstr[2] "%(num)d месяцаў"
-msgstr[3] "%(num)d месяцаў"
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
 
 #, python-format
-msgid "%(num)d week"
-msgid_plural "%(num)d weeks"
-msgstr[0] "%(num)d тыдзень"
-msgstr[1] "%(num)d тыдняў"
-msgstr[2] "%(num)d тыдняў"
-msgstr[3] "%(num)d тыдняў"
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
 
 #, python-format
-msgid "%(num)d day"
-msgid_plural "%(num)d days"
-msgstr[0] "%(num)d дзень"
-msgstr[1] "%(num)d  дзён"
-msgstr[2] "%(num)d  дзён"
-msgstr[3] "%(num)d дзён"
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
 
 #, python-format
-msgid "%(num)d hour"
-msgid_plural "%(num)d hours"
-msgstr[0] "%(num)d гадзіна"
-msgstr[1] "%(num)d гадзін"
-msgstr[2] "%(num)d гадзін"
-msgstr[3] "%(num)d гадзін"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
 
 #, python-format
-msgid "%(num)d minute"
-msgid_plural "%(num)d minutes"
-msgstr[0] "%(num)d хвіліна"
-msgstr[1] "%(num)d хвілін"
-msgstr[2] "%(num)d хвілін"
-msgstr[3] "%(num)d хвілін"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+
+msgid "0 minutes"
+msgstr ""
 
 msgid "Forbidden"
-msgstr "Забаронена"
+msgstr ""
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "CSRF-праверка не атрымалася. Запыт спынены."
+msgstr ""
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your web browser, but none was sent. This header is "
+"header” to be sent by your Web browser, but none was sent. This header is "
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
-"Вы бачыце гэта паведамленне, таму што гэты HTTPS-сайт патрабуе каб Referer "
-"загаловак быў адасланы вашым аглядальнікам, але гэтага не адбылося. Гэты "
-"загаловак неабходны для бяспекі, каб пераканацца, што ваш аглядальнік не "
-"ўзаламаны трэцімі асобамі."
 
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
-"Калі вы сканфігуравалі ваш браўзэр так, каб ён не працаваў з “Referer” "
-"загалоўкамі, калі ласка дазвольце іх хаця б для гэтага сайту, ці для HTTPS "
-"злучэнняў, ці для 'same-origin' запытаў."
 
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
 "including the “Referrer-Policy: no-referrer” header, please remove them. The "
 "CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
 msgstr ""
-"Калі вы выкарыстоўваеце <meta name=\"referrer\" content=\"no-referrer\"> тэг "
-"ці дадалі загаловак “Referrer-Policy: no-referrer”, калі ласка выдаліце іх. "
-"CSRF абароне неабходны “Referer” загаловак для строгай праверкі. Калі Вы "
-"турбуецеся аб прыватнасці, выкарыстоўвайце альтэрнатывы, напрыклад <a "
-"rel=\"noreferrer\" …>, для спасылкі на сайты трэціх асоб."
 
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"Вы бачыце гэта паведамленне, таму што гэты сайт патрабуе CSRF кукі для "
-"адсылкі формы. Гэтыя кукі неабходныя для бяспекі, каб пераканацца, што ваш "
-"браўзэр не ўзламаны трэцімі асобамі."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
-"Калі вы сканфігуравалі ваш браўзэр так, каб ён не працаваў з кукамі, калі "
-"ласка дазвольце іх хаця б для гэтага сайту ці для “same-origin” запытаў."
 
 msgid "More information is available with DEBUG=True."
-msgstr "Больш падрабязная інфармацыя даступная з DEBUG=True."
+msgstr ""
 
 msgid "No year specified"
-msgstr "Не пазначылі год"
+msgstr ""
 
 msgid "Date out of range"
-msgstr "Дата выходзіць за межы дыяпазону"
+msgstr ""
 
 msgid "No month specified"
-msgstr "Не пазначылі месяц"
+msgstr ""
 
 msgid "No day specified"
-msgstr "Не пазначылі дзень"
+msgstr ""
 
 msgid "No week specified"
-msgstr "Не пазначылі тыдзень"
+msgstr ""
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "Няма доступу да %(verbose_name_plural)s"
+msgstr ""
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"Няма доступу да %(verbose_name_plural)s, якія будуць, бо «%(class_name)s."
-"allow_future» мае значэньне «не сапраўдна»."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr "Радок даты “%(datestr)s” не адпавядае выгляду “%(format)s”"
+msgstr ""
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "Па запыце не знайшлі ніводнага %(verbose_name)s"
+msgstr ""
 
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
-"Нумар бачыны ня мае значэньня “last” і яго нельга ператварыць у цэлы лік."
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "Няправільная старонка (%(page_number)s): %(message)s"
+msgstr ""
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
 msgstr ""
-"Сьпіс парожні, але “%(class_name)s.allow_empty” мае значэньне «не "
-"сапраўдна», што забараняе паказваць парожнія сьпісы."
 
 msgid "Directory indexes are not allowed here."
-msgstr "Не дазваляецца глядзець сьпіс файлаў каталёґа."
+msgstr "Папкаослэсь пуштроссэс татын учкыны уг яра."
 
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr "“%(path)s” не існуе"
+msgstr ""
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "Файлы каталёґа «%(directory)s»"
+msgstr "%(directory)s папкалэн пушторсэз"
 
-msgid "The install worked successfully! Congratulations!"
-msgstr "Усталяванне прайшло паспяхова! Віншаванні!"
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"Паглядзець <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/"
-"\" target=\"_blank\" rel=\"noopener\">заўвагі да выпуску</a> для Джангі "
-"%(version)s"
+
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
 
 #, python-format
 msgid ""
 "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
 msgstr ""
-"Вы бачыце гэту старонку таму што <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True </a> у вашым файле налад і вы не "
-"сканфігурыравалі ніякіх URL."
 
 msgid "Django Documentation"
-msgstr "Дакументацыя Джангі"
+msgstr ""
 
 msgid "Topics, references, &amp; how-to’s"
-msgstr "Тэмы, спасылкі, &amp; як зрабіць"
+msgstr ""
 
 msgid "Tutorial: A Polling App"
-msgstr "Падручнік: Дадатак для галасавання"
+msgstr ""
 
 msgid "Get started with Django"
-msgstr "Пачніце з Джангаю"
+msgstr ""
 
 msgid "Django Community"
-msgstr "Джанга супольнасць"
+msgstr ""
 
 msgid "Connect, get help, or contribute"
-msgstr "Злучайцеся, атрымлівайце дапамогу, ці спрыяйце"
+msgstr ""
