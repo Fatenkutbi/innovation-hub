@@ -1,424 +1,363 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Claude Paroz <claude@2xlibre.net>, 2020
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Jan Papež <honyczek@centrum.cz>, 2012,2024
-# Jiří Podhorecký <jirka.p@volny.cz>, 2024
-# Jiří Podhorecký <jirka.p@volny.cz>, 2022
-# Jirka Vejrazka <Jirka.Vejrazka@gmail.com>, 2011
-# Jiří Podhorecký <jirka.p@volny.cz>, 2020
-# Tomáš Ehrlich <tomas.ehrlich@gmail.com>, 2015
-# Vláďa Macek <macek@sandbox.cz>, 2012-2014
-# Vláďa Macek <macek@sandbox.cz>, 2015-2022
+# jon_atkinson <jon@jonatkinson.co.uk>, 2011-2012
+# Ross Poulton <ross@rossp.org>, 2011-2012
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-22 11:46-0300\n"
-"PO-Revision-Date: 2024-10-07 06:49+0000\n"
-"Last-Translator: Jan Papež <honyczek@centrum.cz>, 2012,2024\n"
-"Language-Team: Czech (http://app.transifex.com/django/django/language/cs/)\n"
+"POT-Creation-Date: 2019-09-27 22:40+0200\n"
+"PO-Revision-Date: 2019-11-05 00:38+0000\n"
+"Last-Translator: Ramiro Morales\n"
+"Language-Team: English (United Kingdom) (http://www.transifex.com/django/"
+"django/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
-"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Afrikaans"
-msgstr "afrikánsky"
+msgstr ""
 
 msgid "Arabic"
-msgstr "arabsky"
-
-msgid "Algerian Arabic"
-msgstr "alžírskou arabštinou"
+msgstr "Arabic"
 
 msgid "Asturian"
-msgstr "asturštinou"
+msgstr ""
 
 msgid "Azerbaijani"
-msgstr "ázerbájdžánsky"
+msgstr "Azerbaijani"
 
 msgid "Bulgarian"
-msgstr "bulharsky"
+msgstr "Bulgarian"
 
 msgid "Belarusian"
-msgstr "bělorusky"
+msgstr ""
 
 msgid "Bengali"
-msgstr "bengálsky"
+msgstr "Bengali"
 
 msgid "Breton"
-msgstr "bretonsky"
+msgstr ""
 
 msgid "Bosnian"
-msgstr "bosensky"
+msgstr "Bosnian"
 
 msgid "Catalan"
-msgstr "katalánsky"
-
-msgid "Central Kurdish (Sorani)"
-msgstr "Střední kurdština (soranština)"
+msgstr "Catalan"
 
 msgid "Czech"
-msgstr "česky"
+msgstr "Czech"
 
 msgid "Welsh"
-msgstr "velšsky"
+msgstr "Welsh"
 
 msgid "Danish"
-msgstr "dánsky"
+msgstr "Danish"
 
 msgid "German"
-msgstr "německy"
+msgstr "German"
 
 msgid "Lower Sorbian"
-msgstr "dolnolužickou srbštinou"
+msgstr ""
 
 msgid "Greek"
-msgstr "řecky"
+msgstr "Greek"
 
 msgid "English"
-msgstr "anglicky"
+msgstr "English"
 
 msgid "Australian English"
-msgstr "australskou angličtinou"
+msgstr ""
 
 msgid "British English"
-msgstr "britskou angličtinou"
+msgstr "British English"
 
 msgid "Esperanto"
-msgstr "esperantsky"
+msgstr "Esperanto"
 
 msgid "Spanish"
-msgstr "španělsky"
+msgstr "Spanish"
 
 msgid "Argentinian Spanish"
-msgstr "argentinskou španělštinou"
+msgstr "Argentinian Spanish"
 
 msgid "Colombian Spanish"
-msgstr "kolumbijskou španělštinou"
+msgstr ""
 
 msgid "Mexican Spanish"
-msgstr "mexickou španělštinou"
+msgstr "Mexican Spanish"
 
 msgid "Nicaraguan Spanish"
-msgstr "nikaragujskou španělštinou"
+msgstr "Nicaraguan Spanish"
 
 msgid "Venezuelan Spanish"
-msgstr "venezuelskou španělštinou"
+msgstr ""
 
 msgid "Estonian"
-msgstr "estonsky"
+msgstr "Estonian"
 
 msgid "Basque"
-msgstr "baskicky"
+msgstr "Basque"
 
 msgid "Persian"
-msgstr "persky"
+msgstr "Persian"
 
 msgid "Finnish"
-msgstr "finsky"
+msgstr "Finnish"
 
 msgid "French"
-msgstr "francouzsky"
+msgstr "French"
 
 msgid "Frisian"
-msgstr "frísky"
+msgstr "Frisian"
 
 msgid "Irish"
-msgstr "irsky"
+msgstr "Irish"
 
 msgid "Scottish Gaelic"
-msgstr "skotskou keltštinou"
+msgstr ""
 
 msgid "Galician"
-msgstr "galicijsky"
+msgstr "Galician"
 
 msgid "Hebrew"
-msgstr "hebrejsky"
+msgstr "Hebrew"
 
 msgid "Hindi"
-msgstr "hindsky"
+msgstr "Hindi"
 
 msgid "Croatian"
-msgstr "chorvatsky"
+msgstr "Croatian"
 
 msgid "Upper Sorbian"
-msgstr "hornolužickou srbštinou"
+msgstr ""
 
 msgid "Hungarian"
-msgstr "maďarsky"
+msgstr "Hungarian"
 
 msgid "Armenian"
-msgstr "arménštinou"
+msgstr ""
 
 msgid "Interlingua"
-msgstr "interlingua"
+msgstr ""
 
 msgid "Indonesian"
-msgstr "indonésky"
-
-msgid "Igbo"
-msgstr "igboštinou"
+msgstr "Indonesian"
 
 msgid "Ido"
-msgstr "idem"
+msgstr ""
 
 msgid "Icelandic"
-msgstr "islandsky"
+msgstr "Icelandic"
 
 msgid "Italian"
-msgstr "italsky"
+msgstr "Italian"
 
 msgid "Japanese"
-msgstr "japonsky"
+msgstr "Japanese"
 
 msgid "Georgian"
-msgstr "gruzínštinou"
+msgstr "Georgian"
 
 msgid "Kabyle"
-msgstr "kabylštinou"
+msgstr ""
 
 msgid "Kazakh"
-msgstr "kazašsky"
+msgstr "Kazakh"
 
 msgid "Khmer"
-msgstr "khmersky"
+msgstr "Khmer"
 
 msgid "Kannada"
-msgstr "kannadsky"
+msgstr "Kannada"
 
 msgid "Korean"
-msgstr "korejsky"
-
-msgid "Kyrgyz"
-msgstr "kyrgyzštinou"
+msgstr "Korean"
 
 msgid "Luxembourgish"
-msgstr "lucembursky"
+msgstr ""
 
 msgid "Lithuanian"
-msgstr "litevsky"
+msgstr "Lithuanian"
 
 msgid "Latvian"
-msgstr "lotyšsky"
+msgstr "Latvian"
 
 msgid "Macedonian"
-msgstr "makedonsky"
+msgstr "Macedonian"
 
 msgid "Malayalam"
-msgstr "malajálamsky"
+msgstr "Malayalam"
 
 msgid "Mongolian"
-msgstr "mongolsky"
+msgstr "Mongolian"
 
 msgid "Marathi"
-msgstr "marathi"
-
-msgid "Malay"
-msgstr "malajštinou"
+msgstr ""
 
 msgid "Burmese"
-msgstr "barmštinou"
+msgstr ""
 
 msgid "Norwegian Bokmål"
-msgstr "bokmål norštinou"
+msgstr ""
 
 msgid "Nepali"
-msgstr "nepálsky"
+msgstr "Nepali"
 
 msgid "Dutch"
-msgstr "nizozemsky"
+msgstr "Dutch"
 
 msgid "Norwegian Nynorsk"
-msgstr "norsky (Nynorsk)"
+msgstr "Norwegian Nynorsk"
 
 msgid "Ossetic"
-msgstr "osetštinou"
+msgstr ""
 
 msgid "Punjabi"
-msgstr "paňdžábsky"
+msgstr "Punjabi"
 
 msgid "Polish"
-msgstr "polsky"
+msgstr "Polish"
 
 msgid "Portuguese"
-msgstr "portugalsky"
+msgstr "Portuguese"
 
 msgid "Brazilian Portuguese"
-msgstr "brazilskou portugalštinou"
+msgstr "Brazilian Portuguese"
 
 msgid "Romanian"
-msgstr "rumunsky"
+msgstr "Romanian"
 
 msgid "Russian"
-msgstr "rusky"
+msgstr "Russian"
 
 msgid "Slovak"
-msgstr "slovensky"
+msgstr "Slovak"
 
 msgid "Slovenian"
-msgstr "slovinsky"
+msgstr "Slovenian"
 
 msgid "Albanian"
-msgstr "albánsky"
+msgstr "Albanian"
 
 msgid "Serbian"
-msgstr "srbsky"
+msgstr "Serbian"
 
 msgid "Serbian Latin"
-msgstr "srbsky (latinkou)"
+msgstr "Serbian Latin"
 
 msgid "Swedish"
-msgstr "švédsky"
+msgstr "Swedish"
 
 msgid "Swahili"
-msgstr "svahilsky"
+msgstr "Swahili"
 
 msgid "Tamil"
-msgstr "tamilsky"
+msgstr "Tamil"
 
 msgid "Telugu"
-msgstr "telužsky"
-
-msgid "Tajik"
-msgstr "Tádžik"
+msgstr "Telugu"
 
 msgid "Thai"
-msgstr "thajsky"
-
-msgid "Turkmen"
-msgstr "turkmenštinou"
+msgstr "Thai"
 
 msgid "Turkish"
-msgstr "turecky"
+msgstr "Turkish"
 
 msgid "Tatar"
-msgstr "tatarsky"
+msgstr "Tatar"
 
 msgid "Udmurt"
-msgstr "udmurtsky"
-
-msgid "Uyghur"
-msgstr "Ujgurština"
+msgstr ""
 
 msgid "Ukrainian"
-msgstr "ukrajinsky"
+msgstr "Ukrainian"
 
 msgid "Urdu"
-msgstr "urdsky"
+msgstr "Urdu"
 
 msgid "Uzbek"
-msgstr "uzbecky"
+msgstr ""
 
 msgid "Vietnamese"
-msgstr "vietnamsky"
+msgstr "Vietnamese"
 
 msgid "Simplified Chinese"
-msgstr "čínsky (zjednodušeně)"
+msgstr "Simplified Chinese"
 
 msgid "Traditional Chinese"
-msgstr "čínsky (tradičně)"
+msgstr "Traditional Chinese"
 
 msgid "Messages"
-msgstr "Zprávy"
+msgstr ""
 
 msgid "Site Maps"
-msgstr "Mapy webu"
+msgstr ""
 
 msgid "Static Files"
-msgstr "Statické soubory"
+msgstr ""
 
 msgid "Syndication"
-msgstr "Syndikace"
-
-#. Translators: String used to replace omitted page numbers in elided page
-#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
-msgid "…"
-msgstr "…"
+msgstr ""
 
 msgid "That page number is not an integer"
-msgstr "Číslo stránky není celé číslo."
+msgstr ""
 
 msgid "That page number is less than 1"
-msgstr "Číslo stránky je menší než 1"
+msgstr ""
 
 msgid "That page contains no results"
-msgstr "Stránka je bez výsledků"
+msgstr ""
 
 msgid "Enter a valid value."
-msgstr "Zadejte platnou hodnotu."
-
-msgid "Enter a valid domain name."
-msgstr "Zadejte platný název domény."
+msgstr "Enter a valid value."
 
 msgid "Enter a valid URL."
-msgstr "Zadejte platnou adresu URL."
+msgstr "Enter a valid URL."
 
 msgid "Enter a valid integer."
-msgstr "Zadejte platné celé číslo."
+msgstr ""
 
 msgid "Enter a valid email address."
-msgstr "Zadejte platnou e-mailovou adresu."
+msgstr ""
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Vložte platný identifikátor složený pouze z písmen, čísel, podtržítek a "
-"pomlček."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
-"Zadejte platný identifikátor složený pouze z písmen, čísel, podtržítek a "
-"pomlček typu Unicode."
 
-#, python-format
-msgid "Enter a valid %(protocol)s address."
-msgstr "Zadejte platnou %(protocol)s adresu."
+msgid "Enter a valid IPv4 address."
+msgstr "Enter a valid IPv4 address."
 
-msgid "IPv4"
-msgstr "IPv4"
+msgid "Enter a valid IPv6 address."
+msgstr "Enter a valid IPv6 address."
 
-msgid "IPv6"
-msgstr "IPv6"
-
-msgid "IPv4 or IPv6"
-msgstr "IPv4 nebo IPv6"
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr "Enter a valid IPv4 or IPv6 address."
 
 msgid "Enter only digits separated by commas."
-msgstr "Zadejte pouze číslice oddělené čárkami."
+msgstr "Enter only digits separated by commas."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "Hodnota musí být %(limit_value)s (nyní je %(show_value)s)."
+msgstr "Ensure this value is %(limit_value)s (it is %(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "Hodnota musí být menší nebo rovna %(limit_value)s."
+msgstr "Ensure this value is less than or equal to %(limit_value)s."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "Hodnota musí být větší nebo rovna %(limit_value)s."
-
-#, python-format
-msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr ""
-"Ujistěte se, že tato hodnota je násobkem velikosti kroku %(limit_value)s."
-
-#, python-format
-msgid ""
-"Ensure this value is a multiple of step size %(limit_value)s, starting from "
-"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
-msgstr ""
-"Zajistěte, aby tato hodnota byla %(limit_value)s násobkem velikosti kroku , "
-"počínaje %(offset)s, např. %(offset)s, %(valid_value1)s, %(valid_value2)s, a "
-"tak dále."
+msgstr "Ensure this value is greater than or equal to %(limit_value)s."
 
 #, python-format
 msgid ""
@@ -428,13 +367,7 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Tato hodnota má mít nejméně %(limit_value)d znak (nyní má %(show_value)d)."
 msgstr[1] ""
-"Tato hodnota má mít nejméně %(limit_value)d znaky (nyní má %(show_value)d)."
-msgstr[2] ""
-"Tato hodnota má mít nejméně %(limit_value)d znaku (nyní má %(show_value)d)."
-msgstr[3] ""
-"Tato hodnota má mít nejméně %(limit_value)d znaků (nyní má %(show_value)d)."
 
 #, python-format
 msgid ""
@@ -444,32 +377,22 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Tato hodnota má mít nejvýše %(limit_value)d znak (nyní má %(show_value)d)."
 msgstr[1] ""
-"Tato hodnota má mít nejvýše %(limit_value)d znaky (nyní má %(show_value)d)."
-msgstr[2] ""
-"Tato hodnota má mít nejvýše %(limit_value)d znaků (nyní má %(show_value)d)."
-msgstr[3] ""
-"Tato hodnota má mít nejvýše %(limit_value)d znaků (nyní má %(show_value)d)."
 
 msgid "Enter a number."
-msgstr "Zadejte číslo."
+msgstr "Enter a number."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "Ujistěte se, že pole neobsahuje celkem více než %(max)s číslici."
-msgstr[1] "Ujistěte se, že pole neobsahuje celkem více než %(max)s číslice."
-msgstr[2] "Ujistěte se, že pole neobsahuje celkem více než %(max)s číslic."
-msgstr[3] "Ujistěte se, že pole neobsahuje celkem více než %(max)s číslic."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "Ujistěte se, že pole neobsahuje více než %(max)s desetinné místo."
-msgstr[1] "Ujistěte se, že pole neobsahuje více než %(max)s desetinná místa."
-msgstr[2] "Ujistěte se, že pole neobsahuje více než %(max)s desetinných míst."
-msgstr[3] "Ujistěte se, že pole neobsahuje více než %(max)s desetinných míst."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid ""
@@ -477,196 +400,161 @@ msgid ""
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
 msgstr[0] ""
-"Ujistěte se, že hodnota neobsahuje více než %(max)s místo před desetinnou "
-"čárkou (tečkou)."
 msgstr[1] ""
-"Ujistěte se, že hodnota neobsahuje více než %(max)s místa před desetinnou "
-"čárkou (tečkou)."
-msgstr[2] ""
-"Ujistěte se, že hodnota neobsahuje více než %(max)s míst před desetinnou "
-"čárkou (tečkou)."
-msgstr[3] ""
-"Ujistěte se, že hodnota neobsahuje více než %(max)s míst před desetinnou "
-"čárkou (tečkou)."
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
-"Přípona souboru \"%(extension)s\" není povolena. Povolené jsou tyto: "
-"%(allowed_extensions)s."
 
 msgid "Null characters are not allowed."
-msgstr "Nulové znaky nejsou povoleny."
+msgstr ""
 
 msgid "and"
-msgstr "a"
+msgstr "and"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
 msgstr ""
-"Položka %(model_name)s s touto kombinací hodnot v polích %(field_labels)s "
-"již existuje."
-
-#, python-format
-msgid "Constraint “%(name)s” is violated."
-msgstr "Omezení \"%(name)s\" je porušeno."
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "Hodnota %(value)r není platná možnost."
+msgstr ""
 
 msgid "This field cannot be null."
-msgstr "Pole nemůže být null."
+msgstr "This field cannot be null."
 
 msgid "This field cannot be blank."
-msgstr "Pole nemůže být prázdné."
+msgstr "This field cannot be blank."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
-"Položka %(model_name)s s touto hodnotou v poli %(field_label)s již existuje."
+msgstr "%(model_name)s with this %(field_label)s already exists."
 
-#. Translators: The 'lookup_type' is one of 'date', 'year' or
-#. 'month'. Eg: "Title must be unique for pub_date year"
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
-"Pole %(field_label)s musí být unikátní testem %(lookup_type)s pro pole "
-"%(date_field_label)s."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "Pole typu: %(field_type)s"
+msgstr "Field of type: %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr "Hodnota \"%(value)s\" musí být buď True nebo False."
+msgstr ""
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr "Hodnota \"%(value)s\" musí být buď True, False nebo None."
+msgstr ""
 
 msgid "Boolean (Either True or False)"
-msgstr "Pravdivost (buď Ano (True), nebo Ne (False))"
+msgstr "Boolean (Either True or False)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "Řetězec (max. %(max_length)s znaků)"
-
-msgid "String (unlimited)"
-msgstr "Řetězec (neomezený)"
+msgstr "String (up to %(max_length)s)"
 
 msgid "Comma-separated integers"
-msgstr "Celá čísla oddělená čárkou"
+msgstr "Comma-separated integers"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
-msgstr "Hodnota \"%(value)s\" není platné datum. Musí být ve tvaru RRRR-MM-DD."
+msgstr ""
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
-"Ačkoli hodnota \"%(value)s\" je ve správném tvaru (RRRR-MM-DD), jde o "
-"neplatné datum."
 
 msgid "Date (without time)"
-msgstr "Datum (bez času)"
+msgstr "Date (without time)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
-"Hodnota \"%(value)s\" je v neplatném tvaru, který má být RRRR-MM-DD HH:MM[:"
-"SS[.uuuuuu]][TZ]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
-"Ačkoli hodnota \"%(value)s\" je ve správném tvaru (RRRR-MM-DD HH:MM[:SS[."
-"uuuuuu]][TZ]), jde o neplatné datum a čas."
 
 msgid "Date (with time)"
-msgstr "Datum (s časem)"
+msgstr "Date (with time)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr "Hodnota \"%(value)s\" musí být desítkové číslo."
+msgstr ""
 
 msgid "Decimal number"
-msgstr "Desetinné číslo"
+msgstr "Decimal number"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
-"Hodnota \"%(value)s\" je v neplatném tvaru, který má být [DD] [HH:[MM:]]ss[."
-"uuuuuu]."
 
 msgid "Duration"
-msgstr "Doba trvání"
+msgstr ""
 
 msgid "Email address"
-msgstr "E-mailová adresa"
+msgstr "Email address"
 
 msgid "File path"
-msgstr "Cesta k souboru"
+msgstr "File path"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr "Hodnota \"%(value)s\" musí být reálné číslo."
+msgstr ""
 
 msgid "Floating point number"
-msgstr "Číslo s pohyblivou řádovou čárkou"
+msgstr "Floating point number"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr "Hodnota \"%(value)s\" musí být celé číslo."
+msgstr ""
 
 msgid "Integer"
-msgstr "Celé číslo"
+msgstr "Integer"
 
 msgid "Big (8 byte) integer"
-msgstr "Velké číslo (8 bajtů)"
-
-msgid "Small integer"
-msgstr "Malé celé číslo"
+msgstr "Big (8 byte) integer"
 
 msgid "IPv4 address"
-msgstr "Adresa IPv4"
+msgstr "IPv4 address"
 
 msgid "IP address"
-msgstr "Adresa IP"
+msgstr "IP address"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr "Hodnota \"%(value)s\" musí být buď None, True nebo False."
+msgstr ""
 
 msgid "Boolean (Either True, False or None)"
-msgstr "Pravdivost (buď Ano (True), Ne (False) nebo Nic (None))"
-
-msgid "Positive big integer"
-msgstr "Velké kladné celé číslo"
+msgstr "Boolean (Either True, False or None)"
 
 msgid "Positive integer"
-msgstr "Kladné celé číslo"
+msgstr "Positive integer"
 
 msgid "Positive small integer"
-msgstr "Kladné malé celé číslo"
+msgstr "Positive small integer"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "Identifikátor (nejvýše %(max_length)s znaků)"
+msgstr "Slug (up to %(max_length)s)"
+
+msgid "Small integer"
+msgstr "Small integer"
 
 msgid "Text"
 msgstr "Text"
@@ -676,247 +564,223 @@ msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
-"Hodnota \"%(value)s\" je v neplatném tvaru, který má být HH:MM[:ss[.uuuuuu]]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
-"Ačkoli hodnota \"%(value)s\" je ve správném tvaru (HH:MM[:ss[.uuuuuu]]), jde "
-"o neplatný čas."
 
 msgid "Time"
-msgstr "Čas"
+msgstr "Time"
 
 msgid "URL"
 msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "Přímá binární data"
+msgstr ""
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr "\"%(value)s\" není platná hodnota typu UUID."
+msgstr ""
 
 msgid "Universally unique identifier"
-msgstr "Všeobecně jedinečný identifikátor"
+msgstr ""
 
 msgid "File"
-msgstr "Soubor"
+msgstr "File"
 
 msgid "Image"
-msgstr "Obrázek"
-
-msgid "A JSON object"
-msgstr "Objekt typu JSON"
-
-msgid "Value must be valid JSON."
-msgstr "Hodnota musí být platná struktura typu JSON."
+msgstr "Image"
 
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
 msgstr ""
-"Položka typu %(model)s s hodnotou %(field)s rovnou %(value)r neexistuje."
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "Cizí klíč (typ určen pomocí souvisejícího pole)"
+msgstr "Foreign Key (type determined by related field)"
 
 msgid "One-to-one relationship"
-msgstr "Vazba jedna-jedna"
+msgstr "One-to-one relationship"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr "Vazba z %(from)s do %(to)s"
+msgstr ""
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr "Vazby z %(from)s do %(to)s"
+msgstr ""
 
 msgid "Many-to-many relationship"
-msgstr "Vazba mnoho-mnoho"
+msgstr "Many-to-many relationship"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
 #. label
 msgid ":?.!"
-msgstr ":?!"
+msgstr ""
 
 msgid "This field is required."
-msgstr "Toto pole je třeba vyplnit."
+msgstr "This field is required."
 
 msgid "Enter a whole number."
-msgstr "Zadejte celé číslo."
+msgstr "Enter a whole number."
 
 msgid "Enter a valid date."
-msgstr "Zadejte platné datum."
+msgstr "Enter a valid date."
 
 msgid "Enter a valid time."
-msgstr "Zadejte platný čas."
+msgstr "Enter a valid time."
 
 msgid "Enter a valid date/time."
-msgstr "Zadejte platné datum a čas."
+msgstr "Enter a valid date/time."
 
 msgid "Enter a valid duration."
-msgstr "Zadejte platnou délku trvání."
+msgstr ""
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "Počet dní musí být mezi {min_days} a {max_days}."
+msgstr ""
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr ""
-"Soubor nebyl odeslán. Zkontrolujte parametr \"encoding type\" formuláře."
+msgstr "No file was submitted. Check the encoding type on the form."
 
 msgid "No file was submitted."
-msgstr "Žádný soubor nebyl odeslán."
+msgstr "No file was submitted."
 
 msgid "The submitted file is empty."
-msgstr "Odeslaný soubor je prázdný."
+msgstr "The submitted file is empty."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
-"Tento název souboru má mít nejvýše %(max)d znak (nyní má %(length)d)."
 msgstr[1] ""
-"Tento název souboru má mít nejvýše %(max)d znaky (nyní má %(length)d)."
-msgstr[2] ""
-"Tento název souboru má mít nejvýše %(max)d znaku (nyní má %(length)d)."
-msgstr[3] ""
-"Tento název souboru má mít nejvýše %(max)d znaků (nyní má %(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "Musíte vybrat cestu k souboru nebo vymazat výběr, ne obojí."
+msgstr "Please either submit a file or check the clear checkbox, not both."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
-"Nahrajte platný obrázek. Odeslaný soubor buď nebyl obrázek nebo byl poškozen."
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "Vyberte platnou možnost, \"%(value)s\" není k dispozici."
+msgstr "Select a valid choice. %(value)s is not one of the available choices."
 
 msgid "Enter a list of values."
-msgstr "Zadejte seznam hodnot."
+msgstr "Enter a list of values."
 
 msgid "Enter a complete value."
-msgstr "Zadejte úplnou hodnotu."
+msgstr ""
 
 msgid "Enter a valid UUID."
-msgstr "Zadejte platné UUID."
-
-msgid "Enter a valid JSON."
-msgstr "Zadejte platnou strukturu typu JSON."
+msgstr ""
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
-msgstr ":"
+msgstr ""
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(Skryté pole %(name)s) %(error)s"
-
-#, python-format
-msgid ""
-"ManagementForm data is missing or has been tampered with. Missing fields: "
-"%(field_names)s. You may need to file a bug report if the issue persists."
 msgstr ""
-"Data objektu ManagementForm chybí nebo s nimi bylo nedovoleně manipulováno. "
-"Chybějící pole: %(field_names)s. Pokud problém přetrvává, budete možná muset "
-"problém ohlásit."
+
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
 
 #, python-format
-msgid "Please submit at most %(num)d form."
-msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] "Odešlete prosím nejvíce %(num)d formulář."
-msgstr[1] "Odešlete prosím nejvíce %(num)d formuláře."
-msgstr[2] "Odešlete prosím nejvíce %(num)d formulářů."
-msgstr[3] "Odešlete prosím nejvíce %(num)d formulářů."
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
-msgid "Please submit at least %(num)d form."
-msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] "Odešlete prosím alespoň %(num)d formulář."
-msgstr[1] "Odešlete prosím alespoň %(num)d formuláře."
-msgstr[2] "Odešlete prosím alespoň %(num)d formulářů."
-msgstr[3] "Odešlete prosím alespoň %(num)d formulářů."
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Order"
-msgstr "Pořadí"
+msgstr "Order"
 
 msgid "Delete"
-msgstr "Odstranit"
+msgstr "Delete"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "Opravte duplicitní data v poli %(field)s."
+msgstr "Please correct the duplicate data for %(field)s."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr "Opravte duplicitní data v poli %(field)s, které musí být unikátní."
+msgstr "Please correct the duplicate data for %(field)s, which must be unique."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"Opravte duplicitní data v poli %(field_name)s, které musí být unikátní "
-"testem %(lookup)s pole %(date_field)s."
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
 
 msgid "Please correct the duplicate values below."
-msgstr "Odstraňte duplicitní hodnoty níže."
+msgstr "Please correct the duplicate values below."
 
 msgid "The inline value did not match the parent instance."
-msgstr "Hodnota typu inline neodpovídá rodičovské položce."
+msgstr ""
 
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "Vyberte platnou možnost. Tato není k dispozici."
+msgstr ""
+"Select a valid choice. That choice is not one of the available choices."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr "\"%(pk)s\" není platná hodnota."
+msgstr ""
 
 #, python-format
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
-"Hodnotu %(datetime)s nelze interpretovat v časové zóně %(current_timezone)s; "
-"může být nejednoznačná nebo nemusí existovat."
 
 msgid "Clear"
-msgstr "Zrušit"
+msgstr "Clear"
 
 msgid "Currently"
-msgstr "Aktuálně"
+msgstr "Currently"
 
 msgid "Change"
-msgstr "Změnit"
+msgstr "Change"
 
 msgid "Unknown"
-msgstr "Neznámé"
+msgstr "Unknown"
 
 msgid "Yes"
-msgstr "Ano"
+msgstr "Yes"
 
 msgid "No"
-msgstr "Ne"
+msgstr "No"
 
-#. Translators: Please do not add spaces around commas.
+msgid "Year"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
 msgid "yes,no,maybe"
-msgstr "ano,ne,možná"
+msgstr "yes,no,maybe"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d bajt"
-msgstr[1] "%(size)d bajty"
-msgstr[2] "%(size)d bajtů"
-msgstr[3] "%(size)d bajtů"
+msgstr[0] "%(size)d byte"
+msgstr[1] "%(size)d bytes"
 
 #, python-format
 msgid "%s KB"
@@ -939,450 +803,419 @@ msgid "%s PB"
 msgstr "%s PB"
 
 msgid "p.m."
-msgstr "odp."
+msgstr "p.m."
 
 msgid "a.m."
-msgstr "dop."
+msgstr "a.m."
 
 msgid "PM"
-msgstr "odp."
+msgstr "PM"
 
 msgid "AM"
-msgstr "dop."
+msgstr "AM"
 
 msgid "midnight"
-msgstr "půlnoc"
+msgstr "midnight"
 
 msgid "noon"
-msgstr "poledne"
+msgstr "noon"
 
 msgid "Monday"
-msgstr "pondělí"
+msgstr "Monday"
 
 msgid "Tuesday"
-msgstr "úterý"
+msgstr "Tuesday"
 
 msgid "Wednesday"
-msgstr "středa"
+msgstr "Wednesday"
 
 msgid "Thursday"
-msgstr "čtvrtek"
+msgstr "Thursday"
 
 msgid "Friday"
-msgstr "pátek"
+msgstr "Friday"
 
 msgid "Saturday"
-msgstr "sobota"
+msgstr "Saturday"
 
 msgid "Sunday"
-msgstr "neděle"
+msgstr "Sunday"
 
 msgid "Mon"
-msgstr "po"
+msgstr "Mon"
 
 msgid "Tue"
-msgstr "út"
+msgstr "Tue"
 
 msgid "Wed"
-msgstr "st"
+msgstr "Wed"
 
 msgid "Thu"
-msgstr "čt"
+msgstr "Thu"
 
 msgid "Fri"
-msgstr "pá"
+msgstr "Fri"
 
 msgid "Sat"
-msgstr "so"
+msgstr "Sat"
 
 msgid "Sun"
-msgstr "ne"
+msgstr "Sun"
 
 msgid "January"
-msgstr "leden"
+msgstr "January"
 
 msgid "February"
-msgstr "únor"
+msgstr "February"
 
 msgid "March"
-msgstr "březen"
+msgstr "March"
 
 msgid "April"
-msgstr "duben"
+msgstr "April"
 
 msgid "May"
-msgstr "květen"
+msgstr "May"
 
 msgid "June"
-msgstr "červen"
+msgstr "June"
 
 msgid "July"
-msgstr "červenec"
+msgstr "July"
 
 msgid "August"
-msgstr "srpen"
+msgstr "August"
 
 msgid "September"
-msgstr "září"
+msgstr "September"
 
 msgid "October"
-msgstr "říjen"
+msgstr "October"
 
 msgid "November"
-msgstr "listopad"
+msgstr "November"
 
 msgid "December"
-msgstr "prosinec"
+msgstr "December"
 
 msgid "jan"
-msgstr "led"
+msgstr "jan"
 
 msgid "feb"
-msgstr "úno"
+msgstr "feb"
 
 msgid "mar"
-msgstr "bře"
+msgstr "mar"
 
 msgid "apr"
-msgstr "dub"
+msgstr "apr"
 
 msgid "may"
-msgstr "kvě"
+msgstr "may"
 
 msgid "jun"
-msgstr "čen"
+msgstr "jun"
 
 msgid "jul"
-msgstr "čec"
+msgstr "jul"
 
 msgid "aug"
-msgstr "srp"
+msgstr "aug"
 
 msgid "sep"
-msgstr "zář"
+msgstr "sep"
 
 msgid "oct"
-msgstr "říj"
+msgstr "oct"
 
 msgid "nov"
-msgstr "lis"
+msgstr "nov"
 
 msgid "dec"
-msgstr "pro"
+msgstr "dec"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "Led."
+msgstr "Jan."
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "Úno."
+msgstr "Feb."
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "Bře."
+msgstr "March"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "Dub."
+msgstr "April"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "Kvě."
+msgstr "May"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "Čer."
+msgstr "June"
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "Čec."
+msgstr "July"
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "Srp."
+msgstr "Aug."
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "Zář."
+msgstr "Sept."
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "Říj."
+msgstr "Oct."
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "Lis."
+msgstr "Nov."
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "Pro."
+msgstr "Dec."
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "ledna"
+msgstr "January"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "února"
+msgstr "February"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "března"
+msgstr "March"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "dubna"
+msgstr "April"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "května"
+msgstr "May"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "června"
+msgstr "June"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "července"
+msgstr "July"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "srpna"
+msgstr "August"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "září"
+msgstr "September"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "října"
+msgstr "October"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "listopadu"
+msgstr "November"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "prosince"
+msgstr "December"
 
 msgid "This is not a valid IPv6 address."
-msgstr "Toto není platná adresa typu IPv6."
+msgstr ""
 
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
-msgstr "%(truncated_text)s…"
+msgstr ""
 
 msgid "or"
-msgstr "nebo"
+msgstr "or"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
 msgstr ", "
 
 #, python-format
-msgid "%(num)d year"
-msgid_plural "%(num)d years"
-msgstr[0] "%(num)d rok"
-msgstr[1] "%(num)d roky"
-msgstr[2] "%(num)d roku"
-msgstr[3] "%(num)d let"
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
-msgid "%(num)d month"
-msgid_plural "%(num)d months"
-msgstr[0] "%(num)d měsíc"
-msgstr[1] "%(num)d měsíce"
-msgstr[2] "%(num)d měsíců"
-msgstr[3] "%(num)d měsíců"
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
-msgid "%(num)d week"
-msgid_plural "%(num)d weeks"
-msgstr[0] "%(num)d týden"
-msgstr[1] "%(num)d týdny"
-msgstr[2] "%(num)d týdne"
-msgstr[3] "%(num)d týdnů"
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
-msgid "%(num)d day"
-msgid_plural "%(num)d days"
-msgstr[0] "%(num)d den"
-msgstr[1] "%(num)d dny"
-msgstr[2] "%(num)d dní"
-msgstr[3] "%(num)d dní"
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
-msgid "%(num)d hour"
-msgid_plural "%(num)d hours"
-msgstr[0] "%(num)d hodina"
-msgstr[1] "%(num)d hodiny"
-msgstr[2] "%(num)d hodiny"
-msgstr[3] "%(num)d hodin"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
-msgid "%(num)d minute"
-msgid_plural "%(num)d minutes"
-msgstr[0] "%(num)d minuta"
-msgstr[1] "%(num)d minuty"
-msgstr[2] "%(num)d minut"
-msgstr[3] "%(num)d minut"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "0 minutes"
+msgstr ""
 
 msgid "Forbidden"
-msgstr "Nepřístupné (Forbidden)"
+msgstr ""
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "Selhalo ověření typu CSRF. Požadavek byl zadržen."
+msgstr ""
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your web browser, but none was sent. This header is "
+"header” to be sent by your Web browser, but none was sent. This header is "
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
-"Tuto zprávu vidíte, protože tento web na protokolu HTTPS vyžaduje, aby váš "
-"prohlížeč zaslal v požadavku záhlaví \"Referer\", k čemuž nedošlo. Záhlaví "
-"je požadováno z bezpečnostních důvodů pro kontrolu toho, že prohlížeče se "
-"nezmocnila třetí strana."
 
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
-"Pokud má váš prohlížeč záhlaví \"Referer\" vypnuté, žádáme vás o jeho "
-"zapnutí, alespoň pro tento web nebo pro spojení typu HTTPS nebo pro "
-"požadavky typu \"stejný původ\" (same origin)."
 
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
 "including the “Referrer-Policy: no-referrer” header, please remove them. The "
 "CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
 msgstr ""
-"Pokud používáte značku <meta name=\"referrer\" content=\"no-referrer\"> nebo "
-"záhlaví \"Referrer-Policy: no-referrer\", odeberte je. Ochrana typu CSRF "
-"vyžaduje, aby záhlaví zajišťovalo striktní hlídání refereru. Pokud je pro "
-"vás soukromí důležité, použijte k odkazům na cizí weby alternativní možnosti "
-"jako například <a rel=\"noreferrer\" ...>."
 
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"Tato zpráva se zobrazuje, protože tento web při odesílání formulářů požaduje "
-"v souboru cookie údaj CSRF, a to z bezpečnostních důvodů, aby se zajistilo, "
-"že se vašeho prohlížeče nezmocnil někdo další."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
-"Pokud má váš prohlížeč soubory cookie vypnuté, žádáme vás o jejich zapnutí, "
-"alespoň pro tento web nebo pro požadavky typu \"stejný původ\" (same origin)."
 
 msgid "More information is available with DEBUG=True."
-msgstr "V případě zapnutí volby DEBUG=True bude k dispozici více informací."
+msgstr ""
 
 msgid "No year specified"
-msgstr "Nebyl specifikován rok"
+msgstr "No year specified"
 
 msgid "Date out of range"
-msgstr "Datum je mimo rozsah"
+msgstr ""
 
 msgid "No month specified"
-msgstr "Nebyl specifikován měsíc"
+msgstr "No month specified"
 
 msgid "No day specified"
-msgstr "Nebyl specifikován den"
+msgstr "No day specified"
 
 msgid "No week specified"
-msgstr "Nebyl specifikován týden"
+msgstr "No week specified"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "%(verbose_name_plural)s nejsou k dispozici"
+msgstr "No %(verbose_name_plural)s available"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"%(verbose_name_plural)s s budoucím datem nejsou k dipozici protoze "
-"%(class_name)s.allow_future je False"
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr "Datum \"%(datestr)s\" neodpovídá formátu \"%(format)s\""
+msgstr ""
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "Nepodařilo se nalézt žádný objekt %(verbose_name)s"
+msgstr "No %(verbose_name)s found matching the query"
 
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
-"Požadavek na stránku nemohl být konvertován na celé číslo, ani není \"last\"."
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "Neplatná stránka (%(page_number)s): %(message)s"
+msgstr ""
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr "List je prázdný a \"%(class_name)s.allow_empty\" je nastaveno na False"
+msgstr ""
 
 msgid "Directory indexes are not allowed here."
-msgstr "Indexy adresářů zde nejsou povoleny."
+msgstr "Directory indexes are not allowed here."
 
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr "Cesta \"%(path)s\" neexistuje"
+msgstr ""
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "Index adresáře %(directory)s"
+msgstr "Index of %(directory)s"
 
-msgid "The install worked successfully! Congratulations!"
-msgstr "Instalace proběhla úspěšně, gratulujeme!"
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"Zobrazit <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">poznámky k vydání</a> frameworku Django "
-"%(version)s"
+
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
 
 #, python-format
 msgid ""
 "You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
 msgstr ""
-"Tuto zprávu vidíte, protože máte v nastavení Djanga zapnutý vývojový režim "
-"<a href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/"
-"#debug\" target=\"_blank\" rel=\"noopener\">DEBUG=True</a> a zatím nemáte "
-"nastavena žádná URL."
 
 msgid "Django Documentation"
-msgstr "Dokumentace frameworku Django"
+msgstr ""
 
 msgid "Topics, references, &amp; how-to’s"
-msgstr "Témata, odkazy &amp; how-to"
+msgstr ""
 
 msgid "Tutorial: A Polling App"
-msgstr "Tutoriál: Hlasovací aplikace"
+msgstr ""
 
 msgid "Get started with Django"
-msgstr "Začínáme s frameworkem Django"
+msgstr ""
 
 msgid "Django Community"
-msgstr "Komunita kolem frameworku Django"
+msgstr ""
 
 msgid "Connect, get help, or contribute"
-msgstr "Propojte se, získejte pomoc, podílejte se"
+msgstr ""
